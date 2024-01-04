@@ -1,0 +1,74 @@
+@use "sass:list";
+@use "sass:meta";
+@use "sass:map";
+
+$abbrs: (
+  a: auto,
+  _: spacing,
+  s: spacing,
+);
+
+@mixin gtr($args, $args2, $args3) {
+  $rows: ();
+  @each $label, $size in $args {
+    @if map.get($abbrs, $label) == null {
+      $rows: list.append($rows, [$label]);
+    } @else {
+      $rows: list.append($rows, [map.get($abbrs, $label)]);
+    }
+
+    @if map.get($abbrs, $size) == null {
+      $rows: list.append($rows, #{$size}px);
+    } @else {
+      $rows: list.append($rows, map.get($abbrs, $size));
+    }
+  }
+  $rows2: ();
+  @if $rows2 == $args2 {
+    $rows2: $rows;
+  } @else {
+    @each $label, $size in $args2 {
+      @if map.get($abbrs, $label) == null {
+        $rows2: list.append($rows2, [$label]);
+      } @else {
+        $rows2: list.append($rows2, [map.get($abbrs, $label)]);
+      }
+
+      @if map.get($abbrs, $size) == null {
+        $rows2: list.append($rows2, #{$size}px);
+      } @else {
+        $rows2: list.append($rows2, map.get($abbrs, $size));
+      }
+    }
+  }
+  $rows3: ();
+  @if $rows3 == $args3 {
+    $rows3: $rows2;
+  } @else {
+    @each $label, $size in $args3 {
+      @if map.get($abbrs, $label) == null {
+        $rows3: list.append($rows3, [$label]);
+      } @else {
+        $rows3: list.append($rows3, [map.get($abbrs, $label)]);
+      }
+      @if map.get($abbrs, $size) == null {
+        $rows3: list.append($rows3, #{$size}px);
+      } @else {
+        $rows3: list.append($rows3, map.get($abbrs, $size));
+      }
+    }
+  }
+  grid-template-rows: $rows;
+  @media screen and (max-width: 1199px) {
+    grid-template-rows: $rows2;
+  }
+  @media screen and (max-width: 767px) {
+    grid-template-rows: $rows3;
+  }
+}
+
+//  @include gtr(
+//   (title:a,_:80,paragraph:a),
+//   (),
+//   (title:a,s:20,paragraph:a)
+//   )

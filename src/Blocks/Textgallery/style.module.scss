@@ -1,0 +1,227 @@
+@import "src/styles/mixins";
+@import "src/styles/utils";
+
+.textgallery {
+  display: grid;
+  grid-column: 1/-1;
+  figcaption {
+    letter-spacing: 2px;
+    grid-area: caption;
+    @media screen and (max-width: 767px) {
+      padding: 0 20px;
+    }
+  }
+  & > div {
+    grid-area: images;
+    max-height: 400px;
+  }
+  &.images_1 {
+    grid-template-columns: 1fr [images caption] 6fr 1fr;
+  }
+  &.images_2 {
+    grid-template-columns:
+      1fr
+      [images caption-start] 4fr
+      50px
+      [images2] 4fr
+      [ caption-end] 1fr;
+    & > div {
+      grid-area: images;
+      &:nth-of-type(2) {
+        grid-row: images;
+        grid-column: images2;
+      }
+    }
+  }
+  &.images_3 {
+    grid-template-columns:
+      1fr
+      [images caption-start] 4fr
+      50px
+      [images2] 4fr
+      50px
+      [images3] 4fr
+      [ caption-end] 1fr;
+    & > div {
+      grid-area: images;
+      &:nth-of-type(2) {
+        grid-row: images;
+        grid-column: images2;
+      }
+      &:nth-of-type(3) {
+        grid-row: images;
+        grid-column: images3;
+      }
+    }
+  }
+  @include gtr(
+    (
+      images: a,
+    ),
+    (),
+    ()
+  );
+
+  &.withText {
+    @include gtr(
+      (
+        images: a,
+        _: 50,
+        caption: a,
+      ),
+      (),
+      (
+        images: a,
+        _: 50,
+        caption: a,
+      )
+    );
+    &.slider {
+      .active {
+        overflow: hidden;
+        height: 50vh;
+        grid-row: active;
+        place-self: center;
+        display: flex;
+        align-items: center;
+        img {
+          object-position: center;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      @include gtr(
+        (
+          active: a,
+          s: 50,
+          images: a,
+          _: 50,
+          caption: a,
+        ),
+        (),
+        ()
+      );
+    }
+  }
+  // .slider {
+  // 	display: grid;
+
+  // 	.active {
+  // 		grid-row: 1;
+  // 	}
+  // }
+  .mins {
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    & > div {
+      display: flex;
+      align-items: center;
+      max-height: 100px;
+      min-width: 50px;
+      max-width: 100px;
+      .image {
+        cursor: pointer;
+      }
+    }
+  }
+
+  position: relative;
+  // type
+  &.banner {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.1);
+    }
+    overflow: hidden;
+    grid-template-columns: 1fr;
+    grid-template-rows: [images caption] 1fr [ images];
+    figcaption {
+      transform: skew(-10deg, 0deg);
+
+      z-index: 10;
+      width: 90%;
+      text-align: center;
+      padding: 20px 0;
+      font-variant: small-caps;
+      font-size: clamp(20px, 5vw, 40px);
+      place-self: center;
+      //   border-bottom: 1px dotted var(--main-color);
+      border-top: 10px solid var(--main-color);
+
+      background: var(--main-bg-color);
+    }
+    max-height: 500px;
+    // transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  &.image-top {
+	position: relative;
+    overflow: hidden;
+	// &::before {
+    //     top: 0;
+    //     position: absolute;
+    //     height: 100%;
+    //     width: 100vw;
+    //     content: "";
+    //     display: block;
+
+    //     background-image: repeating-linear-gradient(
+    //       45deg,
+    //       var(--main-bg-color),
+    //       var(--main-bg-color) 10px,
+    //       yellow 10px,
+    //       yellow 20px,
+    //       var(--main-bg-color) 20px,
+    //       var(--main-bg-color) 30px,
+    //       blue 30px,
+    //       blue 40px
+    //     );
+    //   }
+    //   &::before {
+    //     left: 0;
+    //   }
+    & > div {
+    }
+    figcaption {
+      transform: translateY(-80px);
+      margin: 0 auto;
+      width: 80%;
+      padding: 20px;
+      // background: var(--cl-overlay);
+      background: var(--main-bg-color);
+      color: var(--main-color);
+      line-height: 1.8;
+      border: 5px solid var(--main-color);
+      border-color: transparent transparent var(--main-color) transparent;
+    //   border-radius: 10px 10px 0 0;
+	  &::before, &::after{
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 100%;
+		background: var(--main-bg-color);
+		z-index: -1;
+		top: 0;
+		left: 0;
+	  }
+    //   &::after,
+
+    //   &::after {
+    //     right: calc(-100% - 5px);
+    //   }
+    }
+  }
+}
+
+.modal,
+.modal * {
+  z-index: 100;
+}

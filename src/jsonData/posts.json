@@ -1,0 +1,875 @@
+{
+  "ua": [
+    {
+      "id": 5,
+      "locale": "ua",
+      "created_at": "2021-08-18T00:17:25.090Z",
+      "updated_at": "2021-08-18T00:23:49.829Z",
+      "comps": [
+        {
+          "__component": "molecules.text-gallery",
+          "id": 8,
+          "text": "Вот некоторые из моих первых творений",
+          "type": null,
+          "images": [
+            {
+              "id": 46,
+              "name": "Монтажная область 1.png",
+              "alternativeText": "",
+              "caption": "",
+              "width": 910,
+              "height": 902,
+              "formats": {
+                "small": {
+                  "ext": ".png",
+                  "url": "https://res.cloudinary.com/dimascf/image/upload/v1629246209/small_Montazhnaya_oblast_1_c1af4bf1f8.png",
+                  "hash": "small_Montazhnaya_oblast_1_c1af4bf1f8",
+                  "mime": "image/png",
+                  "name": "small_Монтажная область 1.png",
+                  "path": null,
+                  "size": 22.2,
+                  "width": 500,
+                  "height": 496,
+                  "provider_metadata": {
+                    "public_id": "small_Montazhnaya_oblast_1_c1af4bf1f8",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://res.cloudinary.com/dimascf/image/upload/v1629246209/medium_Montazhnaya_oblast_1_c1af4bf1f8.png",
+                  "hash": "medium_Montazhnaya_oblast_1_c1af4bf1f8",
+                  "mime": "image/png",
+                  "name": "medium_Монтажная область 1.png",
+                  "path": null,
+                  "size": 35.52,
+                  "width": 750,
+                  "height": 743,
+                  "provider_metadata": {
+                    "public_id": "medium_Montazhnaya_oblast_1_c1af4bf1f8",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://res.cloudinary.com/dimascf/image/upload/v1629246208/thumbnail_Montazhnaya_oblast_1_c1af4bf1f8.png",
+                  "hash": "thumbnail_Montazhnaya_oblast_1_c1af4bf1f8",
+                  "mime": "image/png",
+                  "name": "thumbnail_Монтажная область 1.png",
+                  "path": null,
+                  "size": 7.31,
+                  "width": 157,
+                  "height": 156,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_Montazhnaya_oblast_1_c1af4bf1f8",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "Montazhnaya_oblast_1_c1af4bf1f8",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 17.06,
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1629246208/Montazhnaya_oblast_1_c1af4bf1f8.png",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "Montazhnaya_oblast_1_c1af4bf1f8",
+                "resource_type": "image"
+              },
+              "created_at": "2021-08-18T00:23:30.198Z",
+              "updated_at": "2021-08-18T00:23:30.228Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 80,
+          "text": "Они кошмарны, не так ли?",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 68,
+        "project_name": "illustrator_1",
+        "description": "Начало иллюстратора",
+        "intro": "Я начал заниматься иллюстратором. Это просто кошмар)",
+        "types": null,
+        "image": {
+          "id": 45,
+          "name": "Ресурс 1.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 778,
+          "height": 517,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1629245637/small_Resurs_1_b98d4e6afa.png",
+              "hash": "small_Resurs_1_b98d4e6afa",
+              "mime": "image/png",
+              "name": "small_Ресурс 1.png",
+              "path": null,
+              "size": 31.7,
+              "width": 500,
+              "height": 332,
+              "provider_metadata": {
+                "public_id": "small_Resurs_1_b98d4e6afa",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1629245637/medium_Resurs_1_b98d4e6afa.png",
+              "hash": "medium_Resurs_1_b98d4e6afa",
+              "mime": "image/png",
+              "name": "medium_Ресурс 1.png",
+              "path": null,
+              "size": 50.75,
+              "width": 750,
+              "height": 498,
+              "provider_metadata": {
+                "public_id": "medium_Resurs_1_b98d4e6afa",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1629245636/thumbnail_Resurs_1_b98d4e6afa.png",
+              "hash": "thumbnail_Resurs_1_b98d4e6afa",
+              "mime": "image/png",
+              "name": "thumbnail_Ресурс 1.png",
+              "path": null,
+              "size": 13.64,
+              "width": 235,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_Resurs_1_b98d4e6afa",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Resurs_1_b98d4e6afa",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 16.71,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1629245635/Resurs_1_b98d4e6afa.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Resurs_1_b98d4e6afa",
+            "resource_type": "image"
+          },
+          "created_at": "2021-08-18T00:13:58.450Z",
+          "updated_at": "2021-08-18T00:13:58.475Z"
+        }
+      },
+      "custom_data": null,
+      "seo": null,
+      "categories": [],
+      "tags": [],
+      "localizations": [{ "id": 6, "locale": "en" }]
+    },
+    {
+      "id": 7,
+      "locale": "ua",
+      "created_at": "2021-11-21T02:06:12.205Z",
+      "updated_at": "2021-11-23T01:06:13.970Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 85,
+          "text": "Давно чёт бесило что анимация на главной конечно крутая, но сильно длинная если нужно вернуться чтобы контакты посмотреть. С этой целью решено было добавить стейт, который бы хранил флаг, посмотрели ли мы анимацию до конца.\nНа данный момент я знаю один нормальный стейт менеджер, который применил в паре проектов, и он меня полностью устраивает. Простой, без лишних наворотов, но всё же эффективный. В прочем, мне кажется, я его не использую на полную катушку, есть что ещё выучить, чтобы крутых фишек применить, но это лучшее решение на данный момент мне кажется.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 86,
+          "text": "Если бы технологии не менялись и всё что нам было доступно это пара узко специализированных решений, и вероятно было бы супер простое, которое вероятно лепят тулкитом, и супер сложное для олдскул ребят. Видимо мне просто больше нравится делать красивые штуки чем практичные, вот я и выбираю что попроще.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 89,
+          "text": "И вообще часто замечаю что люди выбирают инструменты которые им более понятны, вместо более подходящих.",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 74,
+        "project_name": "states",
+        "description": "Стейт менеджеры!",
+        "intro": "Я добавил на сайт наконец стейт-менеджер",
+        "types": null,
+        "image": {
+          "id": 48,
+          "name": "title-image.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 512,
+          "height": 341,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/small_title_image_a6e142c273.png",
+              "hash": "small_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "small_title-image.png",
+              "path": null,
+              "size": 114.55,
+              "width": 500,
+              "height": 333,
+              "provider_metadata": {
+                "public_id": "small_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/thumbnail_title_image_a6e142c273.png",
+              "hash": "thumbnail_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "thumbnail_title-image.png",
+              "path": null,
+              "size": 35.82,
+              "width": 234,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "title_image_a6e142c273",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 44.5,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459533/title_image_a6e142c273.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "title_image_a6e142c273",
+            "resource_type": "image"
+          },
+          "created_at": "2021-11-21T01:52:14.979Z",
+          "updated_at": "2021-11-21T01:52:14.996Z"
+        }
+      },
+      "custom_data": null,
+      "seo": null,
+      "categories": [],
+      "tags": [],
+      "localizations": [{ "id": 8, "locale": "en" }]
+    },
+    {
+      "id": 9,
+      "locale": "ua",
+      "created_at": "2021-11-27T14:41:11.445Z",
+      "updated_at": "2021-11-27T23:41:21.906Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 106,
+          "text": "\"Всё что с нами было, происходит сейчас или будет происходить предопределено именно таким вопросом, ведь мы знаем что в каждом логическом рассуждении над его постановкой присутствует большая часть ответа. Остальная часть зависит от опыта, импровизации и желания показаться уникальным.\n",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 107,
+          "text": "Но также верно и то, что каждый из нас на самом деле уникален. Мы неповторимы, каждое наше действие и даже бездействие - результат сложения огромного количества опыта, желаний, убеждений, сказанного вслух и осмысленного наедине.\"",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 91,
+          "text": "А как поступили бы Вы?",
+          "types": {
+            "id": 12,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 92,
+          "text": "После занятий я отправился за город, в небольшое здание на окраине, на подработку. Платили прилично, достаточно чтобы не нуждаться в стипендии. Мой одногруппник сказал что в прошлом году он ходил смотреть видосы и получал за это лёгкие деньги. После пар я угостил его пивком и он дал мне контакты, на следующий день я позвонил но мне сказали что в этом году они уже не ищут кандидатов. Первый месяц я еще пропускал пары, но на второй я понял что могу смотреть сколько угодно видосов на популярных сервисах, но оплату за этот труд я не получу. Потом однажды мне позвонили и сказали что место освободилось, и меня взяли на первом собесе, единственное требование было приходить минимум три раза в неделю, иначе всё закончится и я могу не возвращаться. Сперва было очень непривычно, но со временем я привык. ",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 93,
+          "text": "Я сидел там от двух часов и должен был наблюдать за мониторами с парнями и девушками. Некоторые из них были всегда одеты в светлую одежду, вторые чаще ходили в тёмном. Потолки у помещений в которых они содержались были высокие, так что можно было расслышать только если кто-то находился прямо под камерой. Иногда их голоса мне казались знакомыми, будто я их видел в сериале или в передаче. Странно было то что это были обычные ребята, как мои сверстники и я иногда задавался вопросом кто они такие и чем они занимаются. Может это была какая-то секта, или анонимный клуб или кучка неудачных актёров, которые вечно забывают где камера. Интереса особого не было, поэтому по тамеру я вставал и уходил. ",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 94,
+          "text": "Из их разговоров я услышал что хоть они не могут выйти, но они там не надолго и что это скоро закончится. Иногда было откровенно скучно, все со всеми ладят, парочки шепчутся слишком тихо о непристойностях, парни играют в баскетбол на специальной площадке (который меня откровенно говоря не интересует), девочки вяжут крючком и спицами или читают книги. Пару раз все собирались вместе чтобы смотреть фильм на проекторе. Спустя пару недель работодатель сообщил что надо стараться ходить чаще, и я был только рад, ведь теперь я мог зарабатывать каждый день!",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 95,
+          "text": "Когда я пришёл в следующий раз, всё занимались привычными делами, все выглядело как всегда. Я немного задремал и меня разбудил таймер, и я стал собираться домой но моё внимание привлёк один монитор, на котором что-то происходило. Несколько ребят стояли и медленно приходили ещё люди. В центре внимания были два парня, один в белой футболке, другой в чёрной. ",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 96,
+          "text": "Они явно что-то не поделили между собой и громко обсуждали, судя по разговору они уже переходили на личную неприязнь и ситуация усугублялась всё большим вниманием публики преимущественно состоявшей из белых (футболок). Они пытались успокоить парней, один подошёл, положил руку на плечо своего собрата по цвету, пытался его \"вытащить\", легонько разворачивал в сторону, убеждал что оно того не стоит, но в один момент парень в чёрной футболке рассвирепел, накинулся на белого и нанёс несколько ударов в лицо. ",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 97,
+          "text": "Повалившись на пол, они сцепились и в этот миг толпа их растащила и оскорблённые, извергая громкие по звуку и смыслу проклятия, удалились с экранов с помощью друзей, желавших прекратить вздор. Мне казалось что им обоим не стоило быть грубыми, и чего точно не стоило делать - это идти с кулаками и превращать недопонимание во вражду. Они явно могли прийти к соглашению что каждый в чём-то не прав и пожать друг другу руки. Я просидел ещё минут десять, наблюдая девичий совет разных цветов, которые пытались выглядеть будто ничего не произошло, но было видно что теперь они встревожены.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 98,
+          "text": "На следующий день всё Не выглядело так непринуждённо, между белыми и чёрными соблюдалась дистанция. Белые выглядели более беззаботными чем чёрные. В сущности они вели себя так же, только теперь они все носили затемнёные очки.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 99,
+          "text": "В помещениях чаще стало видно что парни и девчонки в чёрных футболках убирают, моют посуду, красят стены, сдирая отслоившуюся краску, собирают мусор и всё реже занимаются привычным бездельем. Проходившие мимо в белых футболках участливо давали рекомендации трудящимся по оптимизации рабочих процессов, за что их когда они уходили награждали немыми насмешками и возмутительным кривлянием. Каста рабочих негодовала и фитиль бомбы был зажжён. ",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 100,
+          "text": "Тем временем моя успеваемость в учёбе сильно ухудшилась,ведь денег было достаточно чтобы проводить беззаботные вечера в кругу друзей, а работодатель снова связался со мной и предложил заработать ещё больше, только на этот раз я буду находиться внутри. Мне многие говорили что в следующем году у меня будет больше шансов сдать предметы, зарплата на новой должности показалась приличной и я согласился.\n\n- Надзиратель. Я смогу убедить ребят вести себя сдержанно. - прилично задумавшись, ответил я. \n",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 101,
+          "text": "Таков был ответ на вопрос после краткого погружения в смысл происходящего. Мне рассказали что это это не постановка, а эксперимент с обычными студентами из другого города, и его участники разделены на две группы, одни наблюдают за другими, чтобы следить за порядком. Сказали не говорить вслух про эксперимент и попробовать вжиться в роль. Мне выдали очки, белую одежду и я спустился вниз, под обьективы камер.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 102,
+          "text": "Меня встретили мои белые коллеги, мы обменялись любезностями, познакомились, и тут меня начала пробирать дрожь: я никогда не видел их лиц и, долго вглядываясь в одного из охранников, заметил что если бы у меня был брат близнец то выглядел бы точно так же.\n -- А мы с тобой чем-то похожи - сказал я ему.\n -- Мы это ты.\n -- В смысле? - с улыбкой и чувством явного асбурда ситуации я пригляделся в лица других. Они все были на одно лицо. Все мои братья. \n -- Вы все мои братья?\n -- Мы все клоны. - откликнулись, стоявшие рядом.\n -- “Что тут происходит?” - проговорил я вслух, чувствуя явное ускользание реальности из сознания. Перед глазами темнело, я присел, чтобы прийти в себя. \n -- Мои клоны? Но почему?\n",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 103,
+          "text": "Ко мне ближе подошёл один из них и слегка улыбнувшись, пояснил: \n-- Мы все клоны друг друга, нас создали в один момент по слепку сознания одного человека примерно год назад. У него была одна жизнь, теперь её столько сколько нас. Мы не знаем какая цель, но конкретно наша задача - следить за остальными. \n-- А остальные... тоже?\n-- Да, заключённые это клоны того же человека. У нас одинаковые интересы и вкусы, но в разное время.\n -- Но если мы все одинаковые, почему вы ведёте себя с ними так, будто они чем-то хуже вас? Разве ты не хочешь жить с ними в мире? Разве привилегии что-то меняют? \n -- Нас назначили надзирать. Если будешь нам помогать, то всё будет хорошо. Если будешь их защищать - то присоединишься к ним. У нас тут своя тусовка, и новеньких мы не ждали.\n -- Как это я присоединюсь к ним, если меня назначили надзирателем, как тебя?\n-- Ты видишь кого-то здесь, кто тебе давал привилегию?\n",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 104,
+          "text": "Я не заметил, но недавно им раздали дубинки, а вот мне такой не выдали, видимо забыли. Они были воодушевлены властью, которая им теперь стала доступна. Небольшое различие, эффект бабочки, и всё может быть по-другому.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 105,
+          "text": "Димас, ноя 2021 г.",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 76,
+        "project_name": "story14",
+        "description": "story14",
+        "intro": "Я пробую писать рассказы.",
+        "types": null,
+        "image": {
+          "id": 50,
+          "name": "Frame 1.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 2781,
+          "height": 1611,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1638023702/large_Frame_1_1a1ebb04a7.png",
+              "hash": "large_Frame_1_1a1ebb04a7",
+              "mime": "image/png",
+              "name": "large_Frame 1.png",
+              "path": null,
+              "size": 610.19,
+              "width": 1000,
+              "height": 579,
+              "provider_metadata": {
+                "public_id": "large_Frame_1_1a1ebb04a7",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1638023704/small_Frame_1_1a1ebb04a7.png",
+              "hash": "small_Frame_1_1a1ebb04a7",
+              "mime": "image/png",
+              "name": "small_Frame 1.png",
+              "path": null,
+              "size": 173.47,
+              "width": 500,
+              "height": 290,
+              "provider_metadata": {
+                "public_id": "small_Frame_1_1a1ebb04a7",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1638023704/medium_Frame_1_1a1ebb04a7.png",
+              "hash": "medium_Frame_1_1a1ebb04a7",
+              "mime": "image/png",
+              "name": "medium_Frame 1.png",
+              "path": null,
+              "size": 347.42,
+              "width": 750,
+              "height": 434,
+              "provider_metadata": {
+                "public_id": "medium_Frame_1_1a1ebb04a7",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1638023700/thumbnail_Frame_1_1a1ebb04a7.png",
+              "hash": "thumbnail_Frame_1_1a1ebb04a7",
+              "mime": "image/png",
+              "name": "thumbnail_Frame 1.png",
+              "path": null,
+              "size": 62.4,
+              "width": 245,
+              "height": 142,
+              "provider_metadata": {
+                "public_id": "thumbnail_Frame_1_1a1ebb04a7",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Frame_1_1a1ebb04a7",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1428.43,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1638023696/Frame_1_1a1ebb04a7.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Frame_1_1a1ebb04a7",
+            "resource_type": "image"
+          },
+          "created_at": "2021-11-27T14:35:05.220Z",
+          "updated_at": "2021-11-27T14:35:05.240Z"
+        }
+      },
+      "custom_data": null,
+      "seo": {
+        "id": 58,
+        "title": "story14 | Dimas",
+        "description": "Я пробую писать рассказы.",
+        "keywords": "рассказы Димаса"
+      },
+      "categories": [],
+      "tags": [],
+      "localizations": [{ "id": 10, "locale": "en" }]
+    }
+  ],
+  "en": [
+    {
+      "id": 8,
+      "locale": "en",
+      "created_at": "2021-11-21T02:09:36.282Z",
+      "updated_at": "2021-11-23T01:07:21.563Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 87,
+          "text": "It has long been pissed off that the animation on the main page is, of course, cool, but very long if you need to return to see the contacts. To this end, it was decided to add a state that would keep the flag, whether we watched the animation to the end. At the moment, I know one normal state manager what I has applied in a couple of projects, and it completely suits me. Simple, no bells and whistles, but still effective. In other matters, it seems to me that I do not use it to its fullest, there is something else to learn in order to apply cool tricks, but this is the best solution at the moment it seems to me.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 88,
+          "text": "If the technologies did not change and all that was available to us was a couple of highly specialized solutions, and it would probably be super simple, which is probably sculpted with a toolkit, and super difficult for old school guys. Apparently I just like to make beautiful things more than practical ones, so I choose which is simpler.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 90,
+          "text": "In general, I often notice that people choose tools that are more understandable to them, instead of more suitable ones.",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 75,
+        "project_name": "states",
+        "description": "State managers!",
+        "intro": "I finally added a state manager to the site",
+        "types": null,
+        "image": {
+          "id": 48,
+          "name": "title-image.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 512,
+          "height": 341,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/small_title_image_a6e142c273.png",
+              "hash": "small_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "small_title-image.png",
+              "path": null,
+              "size": 114.55,
+              "width": 500,
+              "height": 333,
+              "provider_metadata": {
+                "public_id": "small_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/thumbnail_title_image_a6e142c273.png",
+              "hash": "thumbnail_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "thumbnail_title-image.png",
+              "path": null,
+              "size": 35.82,
+              "width": 234,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "title_image_a6e142c273",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 44.5,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459533/title_image_a6e142c273.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "title_image_a6e142c273",
+            "resource_type": "image"
+          },
+          "created_at": "2021-11-21T01:52:14.979Z",
+          "updated_at": "2021-11-21T01:52:14.996Z"
+        }
+      },
+      "custom_data": null,
+      "seo": null,
+      "categories": [],
+      "tags": [],
+      "localizations": [{ "id": 7, "locale": "ua" }]
+    },
+    {
+      "id": 10,
+      "locale": "en",
+      "created_at": "2021-11-27T15:30:45.637Z",
+      "updated_at": "2021-11-27T23:41:38.868Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 108,
+          "text": "'Everything that happened to us, is happening now or will happen is predetermined by just such a question, because we know that in every logical reasoning over its statement there is a large part of the answer. The rest depends on experience, improvisation and the desire to appear unique.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 109,
+          "text": "But it is also true that each of us is truly unique. We are unique, our every action and even inaction is the result of the addition of a huge amount of experience, desires, beliefs, spoken aloud and meaningful in private. '",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 110,
+          "text": "What would you do?",
+          "types": {
+            "id": 13,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 111,
+          "text": "After class, I went out of town, to a small building on the outskirts, for a part-time job. They paid decently, enough not to need a scholarship. My classmate said that last year he went to watch vidos and received easy money for it. After a couple, I treated him to a beer and he gave me contacts, the next day I called but they told me that this year they are no longer looking for candidates. The first month I still skipped pairs, but in the second I realized that I could watch as many vidos as I wanted on popular services, but I would not receive payment for this work. Then one day they called me and said that the place was vacated, and they took me at the first social security appointment, the only requirement was to come at least three times a week, otherwise everything would end and I might not come back. At first it was very unusual, but over time I got used to it.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 112,
+          "text": "I sat there from two hours and had to watch the monitors with guys and girls. Some of them were always dressed in light clothes, while others often wore dark clothes. The ceilings of the rooms in which they were kept were high, so that they could only be heard if someone was directly under the cell. Sometimes their voices sounded familiar to me, as if I had seen them on a TV show or program. The strange thing was that these were ordinary guys, like my peers and I sometimes wondered who they were and what they did. Maybe it was some kind of sect, or an anonymous club, or a bunch of unsuccessful actors who always forget where the camera is. There was no particular interest, so by tamer I got up and left.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 113,
+          "text": "From their conversations, I heard that although they cannot leave, they are not there for long and that it will end soon. Sometimes it was frankly boring, everyone gets along with everyone, couples whisper too quietly about obscenities, guys play basketball on a special court (which, frankly, does not interest me), girls knit crochet and knitting or read books. A couple of times everyone got together to watch a movie on a projector. A couple of weeks later, the employer said that we should try to walk more often, and I was only glad, because now I could earn every day!",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 114,
+          "text": "The next time I came, everyone was doing their usual business, everything looked the same. I dozed off a little and the timer woke me up, and I began to get ready to go home, but my attention was attracted by one monitor on which something was happening. Several guys stood and more people came slowly. There were two guys in the spotlight, one in a white T-shirt, the other in a black one.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 115,
+          "text": "They obviously did not share something with each other and discussed loudly, judging by the conversation, they were already switching to personal hostility and the situation was aggravated by the increasing attention of the public, which mainly consisted of white (T-shirts). They tried to calm down the guys, one came up, put his hand on the shoulder of his brother in color, tried to 'pull it out', slightly turned it to the side, convinced that it was not worth it, but at one point the guy in the black T-shirt got furious, pounced on the white one and applied several blows to the face.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 116,
+          "text": "Falling to the floor, they grappled and at that moment the crowd pulled them apart and the offended, spewing loud curses in sound and meaning, left the screens with the help of friends who wanted to stop the nonsense. It seemed to me that both of them shouldn't have been rude, and what definitely shouldn't have been done was to go with their fists and turn misunderstandings into enmity. They could clearly agree that everyone is wrong in something and shake hands. I sat for another ten minutes, watching the girlish advice of different colors, which tried to look like nothing had happened, but it was clear that now they were alarmed.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 117,
+          "text": "The next day, everything did not look so easy, there was a distance between white and black. Whites looked more carefree than blacks. In essence, they behaved the same way, only now they all wore tinted glasses.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 118,
+          "text": "In the premises, it became more often seen that guys and girls in black T-shirts were cleaning, washing dishes, painting walls, peeling off peeling paint, collecting garbage and less and less doing their usual idleness. Passers-by in white T-shirts sympathetically gave recommendations to workers on how to optimize work processes, for which they were rewarded with silent ridicule and outrageous antics when they left. The worker caste was indignant and the fuse of the bomb was lit.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 119,
+          "text": "In the meantime, my academic performance deteriorated greatly, because there was enough money to spend carefree evenings with friends, and the employer contacted me again and offered to earn even more, only this time I will be inside. Many people told me that next year I would have more chances to pass my subjects, the salary for the new position seemed decent and I agreed.\n\n- Overseer. I can convince the guys to behave with restraint. - Decently thoughtful, I answered.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 120,
+          "text": "This was the answer to the question after a brief immersion in the meaning of what was happening. I was told that this is not a performance, but an experiment with ordinary students from another city, and its participants are divided into two groups, one watching the other to keep order. They said not to speak out loud about the experiment and try to get used to the role. I was given glasses, white clothes, and I went downstairs, under the lenses of the cameras.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 121,
+          "text": "I was met by my white colleagues, we exchanged pleasantries, got to know each other, and then I started to tremble: I had never seen their faces and, looking at one of the guards for a long time, noticed that if I had a twin brother, I would look exactly the same.\n - And you and I are somewhat similar - I told him.\n - We are you.\n -- In terms of? - with a smile and a sense of the obvious asburd of the situation, I looked into the faces of others. They were all alike. All my brothers.\n - Are you all my brothers?\n - We are all clones. - responded, standing nearby.\n -- 'What's going on here?' - I said aloud, feeling the obvious slip of reality from consciousness. It was getting dark before my eyes, I sat down to recover.\n - My clones? But why?",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 122,
+          "text": "One of them came closer to me and, smiling slightly, explained:\n- We are all clones of each other, we were created at one moment on the mold of the consciousness of one person about a year ago. He had one life, now it is as much as we are. We do not know what the goal is, but specifically our task is to keep an eye on the others.\n- And the rest ... too?\n- Yes, the prisoners are clones of the same person. We have the same interests and tastes, but at different times.\n - But if we are all the same, why do you behave with them as if they are somehow worse than you? Don't you want to live in peace with them? Do privileges change anything?\n - We were appointed to supervise. If you help us, everything will be fine. If you defend them, you will join them. We have our own party here, and we were not expecting new ones.\n “How am I going to join them if I’ve been appointed an overseer like you?”\n- Do you see someone here who gave you the privilege?",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 123,
+          "text": "I didn’t notice, but recently they were given truncheons, but they didn’t give me one, apparently they forgot. They were inspired by the power now available to them. A little difference, a butterfly effect, and things could be different.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 124,
+          "text": "Dimas, november 2021 г.",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 77,
+        "project_name": "story14",
+        "description": "story14",
+        "intro": "I try to write stories.",
+        "types": null,
+        "image": {
+          "id": 50,
+          "name": "Frame 1.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 2781,
+          "height": 1611,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1638023702/large_Frame_1_1a1ebb04a7.png",
+              "hash": "large_Frame_1_1a1ebb04a7",
+              "mime": "image/png",
+              "name": "large_Frame 1.png",
+              "path": null,
+              "size": 610.19,
+              "width": 1000,
+              "height": 579,
+              "provider_metadata": {
+                "public_id": "large_Frame_1_1a1ebb04a7",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1638023704/small_Frame_1_1a1ebb04a7.png",
+              "hash": "small_Frame_1_1a1ebb04a7",
+              "mime": "image/png",
+              "name": "small_Frame 1.png",
+              "path": null,
+              "size": 173.47,
+              "width": 500,
+              "height": 290,
+              "provider_metadata": {
+                "public_id": "small_Frame_1_1a1ebb04a7",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1638023704/medium_Frame_1_1a1ebb04a7.png",
+              "hash": "medium_Frame_1_1a1ebb04a7",
+              "mime": "image/png",
+              "name": "medium_Frame 1.png",
+              "path": null,
+              "size": 347.42,
+              "width": 750,
+              "height": 434,
+              "provider_metadata": {
+                "public_id": "medium_Frame_1_1a1ebb04a7",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1638023700/thumbnail_Frame_1_1a1ebb04a7.png",
+              "hash": "thumbnail_Frame_1_1a1ebb04a7",
+              "mime": "image/png",
+              "name": "thumbnail_Frame 1.png",
+              "path": null,
+              "size": 62.4,
+              "width": 245,
+              "height": 142,
+              "provider_metadata": {
+                "public_id": "thumbnail_Frame_1_1a1ebb04a7",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Frame_1_1a1ebb04a7",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1428.43,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1638023696/Frame_1_1a1ebb04a7.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Frame_1_1a1ebb04a7",
+            "resource_type": "image"
+          },
+          "created_at": "2021-11-27T14:35:05.220Z",
+          "updated_at": "2021-11-27T14:35:05.240Z"
+        }
+      },
+      "custom_data": null,
+      "seo": {
+        "id": 59,
+        "title": "story14 | Dimas",
+        "description": "I try to write stories.",
+        "keywords": "Dimas's stories"
+      },
+      "categories": [],
+      "tags": [],
+      "localizations": [{ "id": 9, "locale": "ua" }]
+    },
+    {
+      "id": 6,
+      "locale": "en",
+      "created_at": "2021-08-18T00:17:40.545Z",
+      "updated_at": "2022-08-21T02:32:34.782Z",
+      "comps": [],
+      "intro": {
+        "id": 69,
+        "project_name": "illustrator_1",
+        "description": "Beginning of illustrator",
+        "intro": "I started out as an illustrator. It's just a nightmare)",
+        "types": null,
+        "image": {
+          "id": 45,
+          "name": "Ресурс 1.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 778,
+          "height": 517,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1629245637/small_Resurs_1_b98d4e6afa.png",
+              "hash": "small_Resurs_1_b98d4e6afa",
+              "mime": "image/png",
+              "name": "small_Ресурс 1.png",
+              "path": null,
+              "size": 31.7,
+              "width": 500,
+              "height": 332,
+              "provider_metadata": {
+                "public_id": "small_Resurs_1_b98d4e6afa",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1629245637/medium_Resurs_1_b98d4e6afa.png",
+              "hash": "medium_Resurs_1_b98d4e6afa",
+              "mime": "image/png",
+              "name": "medium_Ресурс 1.png",
+              "path": null,
+              "size": 50.75,
+              "width": 750,
+              "height": 498,
+              "provider_metadata": {
+                "public_id": "medium_Resurs_1_b98d4e6afa",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1629245636/thumbnail_Resurs_1_b98d4e6afa.png",
+              "hash": "thumbnail_Resurs_1_b98d4e6afa",
+              "mime": "image/png",
+              "name": "thumbnail_Ресурс 1.png",
+              "path": null,
+              "size": 13.64,
+              "width": 235,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_Resurs_1_b98d4e6afa",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Resurs_1_b98d4e6afa",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 16.71,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1629245635/Resurs_1_b98d4e6afa.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Resurs_1_b98d4e6afa",
+            "resource_type": "image"
+          },
+          "created_at": "2021-08-18T00:13:58.450Z",
+          "updated_at": "2021-08-18T00:13:58.475Z"
+        }
+      },
+      "custom_data": null,
+      "seo": null,
+      "categories": [],
+      "tags": [],
+      "localizations": [{ "id": 5, "locale": "ua" }]
+    }
+  ]
+}

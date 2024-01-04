@@ -1,0 +1,30 @@
+.error {
+	* {
+		grid-column: c1 / c11;
+	}
+	padding: 10px 20px;
+	margin: 10px 20px;
+	display: grid;
+	grid-template-rows: 1fr auto auto;
+	gap: 20px;
+	// &:hover {
+		// background: rgba(255, 255, 255, 0.376);
+		outline: 1px dashed orange;
+	// }
+
+	p {
+		grid-row: 1;
+	}
+	h1 {
+		grid-row: 2;
+	}
+	pre {
+		width: min-content;
+		grid-row: 3;
+		margin: 0 auto;
+	}
+	button {
+		grid-row: 2;
+		grid-column: c10;
+	}
+}

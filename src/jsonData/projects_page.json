@@ -1,0 +1,62 @@
+{
+  "ua": {
+    "id": 8,
+    "locale": "ua",
+    "created_at": "2021-07-25T18:42:57.662Z",
+    "updated_at": "2022-08-21T02:29:22.943Z",
+    "seo": {
+      "id": 6,
+      "title": "Проекты | Димас!",
+      "description": "Каталог моих проектов",
+      "keywords": "мои работы, мои проекты,  портфолио"
+    },
+    "types": null,
+    "intro": null,
+    "custom": null,
+    "comps": [
+      {
+        "__component": "molecules.paragraph",
+        "id": 32,
+        "text": "Этот сайт также является выставкой моих работ.",
+        "types": null
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 33,
+        "text": "Добро пожаловать сюда!)",
+        "types": null
+      }
+    ],
+    "localizations": [{ "id": 7, "locale": "en" }]
+  },
+  "en": {
+    "id": 7,
+    "locale": "en",
+    "created_at": "2021-07-25T18:42:46.700Z",
+    "updated_at": "2022-08-21T02:30:04.774Z",
+    "seo": {
+      "id": 7,
+      "title": "Projects | Dimas!",
+      "description": "My projects directory",
+      "keywords": "мои работы, мои проекты,  портфолио"
+    },
+    "types": null,
+    "intro": null,
+    "custom": null,
+    "comps": [
+      {
+        "__component": "molecules.paragraph",
+        "id": 31,
+        "text": "This site is also an exhibition of my work.",
+        "types": null
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 135,
+        "text": "Welcome here!)",
+        "types": null
+      }
+    ],
+    "localizations": [{ "id": 8, "locale": "ua" }]
+  }
+}

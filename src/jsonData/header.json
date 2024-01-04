@@ -1,0 +1,64 @@
+{
+  "ua": {
+    "id": 1,
+    "created_at": "2021-07-24T18:10:30.577Z",
+    "updated_at": "2021-08-14T09:14:23.216Z",
+    "locale": "ua",
+    "items": [
+      {
+        "__component": "atoms.link",
+        "id": 1,
+        "href": "/",
+        "label": "Главная",
+        "target": null
+      },
+      {
+        "__component": "atoms.link",
+        "id": 2,
+        "href": "/projects",
+        "label": "Проекты",
+        "target": null
+      },
+      {
+        "__component": "atoms.link",
+        "id": 11,
+        "href": "/blog",
+        "label": "Блог",
+        "target": null
+      }
+    ],
+    "projects": [],
+    "localizations": [{ "id": 2, "locale": "en" }]
+  },
+  "en": {
+    "id": 2,
+    "created_at": "2021-07-24T18:10:48.348Z",
+    "updated_at": "2021-08-14T09:14:37.547Z",
+    "locale": "en",
+    "items": [
+      {
+        "__component": "atoms.link",
+        "id": 3,
+        "href": "/",
+        "label": "Home",
+        "target": null
+      },
+      {
+        "__component": "atoms.link",
+        "id": 4,
+        "href": "/projects",
+        "label": "Projects",
+        "target": null
+      },
+      {
+        "__component": "atoms.link",
+        "id": 12,
+        "href": "/blog",
+        "label": "Blog",
+        "target": null
+      }
+    ],
+    "projects": [],
+    "localizations": [{ "id": 1, "locale": "ua" }]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "ua": {
+    "id": 1,
+    "locale": "ua",
+    "created_at": "2021-07-25T16:08:42.668Z",
+    "updated_at": "2022-08-21T02:01:27.934Z",
+    "comps": [],
+    "seo": {
+      "id": 3,
+      "title": "Главная",
+      "description": "Описание главной",
+      "keywords": "ключевые слова"
+    },
+    "types": null,
+    "intro": {
+      "id": 70,
+      "project_name": "Dimas",
+      "description": null,
+      "intro": null,
+      "types": null,
+      "image": null
+    },
+    "localizations": [{ "id": 2, "locale": "en" }]
+  },
+  "en": {
+    "id": 2,
+    "locale": "en",
+    "created_at": "2021-07-25T16:09:01.002Z",
+    "updated_at": "2021-08-23T04:54:33.517Z",
+    "comps": [
+      {
+        "__component": "molecules.paragraph",
+        "id": 81,
+        "text": "Galaktionov Dmitry: Crafting the Future of Web Development",
+        "types": {
+          "mobile": "title",
+          "tablet": "title",
+          "desktop": "title"
+        }
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 84,
+        "text": "Welcome to My Digital Realm!",
+        "types": {
+          "mobile": "freaky",
+          "tablet": "freaky",
+          "desktop": "freaky"
+        }
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 82,
+        "text": "As a passionate Full Stack Developer, I blend imagination and technology to shape exceptional web experiences. With over four years of professional experience, I've honed my skills in both front-end and back-end development, mastering technologies like React, Node.js, and Docker.",
+        "types": null
+      },
+      {
+        "__component": "molecules.text-gallery",
+        "id": 14,
+        "type": "banner",
+        "text": "Let's Build Something Amazing Together.",
+        "images": [
+          {
+            "alternativeText": "the photo of developer",
+            "id": 39,
+            "name": "IMG_20210724_182634.jpg",
+            "caption": "",
+            "width": 2761,
+            "height": 1574,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
+
+                "hash": "large_IMG_20210724_182634_af6c9a373a",
+                "mime": "image/jpeg",
+                "name": "large_IMG_20210724_182634.jpg",
+                "path": null,
+                "size": 229.75,
+                "width": 1000,
+                "height": 824,
+                "provider_metadata": {
+                  "public_id": "large_IMG_20210724_182634_af6c9a373a",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1627140479/thumbnail_IMG_20210724_182634_af6c9a373a.jpg",
+                "hash": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                "mime": "image/jpeg",
+                "name": "thumbnail_IMG_20210724_182634.jpg",
+                "path": null,
+                "size": 10.87,
+                "width": 189,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "IMG_20210724_182634_af6c9a373a",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 1271.97,
+            "url": "https://res.cloudinary.com/dimascf/image/upload/v1704336287/1168d2cf4ec0e365ea1a350f6876188457878e48_high_lrc6ey.webp",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "IMG_20210724_182634_af6c9a373a",
+              "resource_type": "image"
+            },
+            "created_at": "2021-07-24T15:28:02.218Z",
+            "updated_at": "2021-07-24T15:28:02.339Z"
+          }
+        ]
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 82,
+        "text": "My journey from a curious coder to a seasoned developer is fueled by my dedication to innovation and excellence. Dive into my portfolio to discover the creativity, precision, and technical prowess that define my work.",
+        "types": null
+      },
+      {
+        "__component": "molecules.text-gallery",
+        "id": 11231,
+        "type": "image-top",
+        "text": "Hello! I'm Galaktionov Dmitry, a Full Stack Developer from the vibrant city of Odessa, Ukraine. My adventure in web development began as a spark of curiosity and quickly ignited into a burning passion. What started as a hobby, coding simple scripts and exploring the basics of HTML and CSS during my teen years, has blossomed into a full-fledged career where I craft sophisticated and effective web solutions.",
+        "images": [
+          {
+            "alternativeText": "the photo of developer",
+            "id": 39,
+            "name": "IMG_20210724_182634.jpg",
+            "caption": "",
+            "width": 2761,
+            "height": 1574,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
+
+                "hash": "large_IMG_20210724_182634_af6c9a373a",
+                "mime": "image/jpeg",
+                "name": "large_IMG_20210724_182634.jpg",
+                "path": null,
+                "size": 229.75,
+                "width": 1000,
+                "height": 824,
+                "provider_metadata": {
+                  "public_id": "large_IMG_20210724_182634_af6c9a373a",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1627140479/thumbnail_IMG_20210724_182634_af6c9a373a.jpg",
+                "hash": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                "mime": "image/jpeg",
+                "name": "thumbnail_IMG_20210724_182634.jpg",
+                "path": null,
+                "size": 10.87,
+                "width": 189,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "IMG_20210724_182634_af6c9a373a",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 1271.97,
+            "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "IMG_20210724_182634_af6c9a373a",
+              "resource_type": "image"
+            },
+            "created_at": "2021-07-24T15:28:02.218Z",
+            "updated_at": "2021-07-24T15:28:02.339Z"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "id": 55,
+      "title": "Главная",
+      "description": "Описание главной",
+      "keywords": "ключевые слова"
+    },
+    "types": null,
+    "intro": {
+      "id": 71,
+      "project_name": "Dimas",
+      "description": null,
+      "intro": null,
+      "types": null,
+      "image": null
+    },
+    "localizations": [{ "id": 1, "locale": "ua" }]
+  }
+}

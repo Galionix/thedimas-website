@@ -1,0 +1,39 @@
+
+
+@mixin cols {
+ 
+    display: grid;
+    grid-template-columns: clamp(0.000001px,1.39%,20px) repeat(10, 1fr) clamp(0.000001px,1.39%,20px);
+    column-gap: clamp(20px,2.78%,40px);
+    /* grid-template-areas: ". c1 . c2 . c3 . c4 . c5 . c6 . c7 . c8 . с9 . с10 ." */
+ 
+@media screen and (max-width:1199px){
+
+ 
+    grid-template-columns: clamp(16px, 2.6%, 20px) repeat(7, 1fr 30px) 1fr clamp(16px, 2.6%, 20px); 
+    column-gap: 0;
+    grid-template-areas: ". c1 . c2 . c3 . c4 . c5 . c6 . c7 . c8 ."
+ 
+}
+
+@media screen and (max-width:767px){
+ 
+    grid-template-columns: 16px 1fr 20px 1fr 16px; 
+    grid-template-areas: ". c1 . c2 ."
+    /* column-gap: 0; */
+
+}
+
+}
+ 
+@mixin tape {
+    &::after{
+        transition: all 1s cubic-bezier(.57,.01,0,1.01);
+    content: "";
+    pointer-events: none;
+    inset: 0;
+position: absolute;
+background: var(--main-bg-color );
+opacity: 0.5;
+}
+}
