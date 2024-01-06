@@ -2,6 +2,7 @@
 @import "src/styles/vars";
 @import "src/styles/splitting";
 .paragraph {
+  // text-indent: 10px;
   text-wrap: balance;
   overflow: hidden;
   max-width: 900px;
@@ -58,29 +59,34 @@
   &.freaky {
     // overflow: hidden;
     max-width: 100%;
-	transform: rotate(15deg);
+	// transform: rotate(15deg);
     letter-spacing: 0.1em;
     // font-size: clamp(20px, 15vw, 12vw);
     font-size: 7vw;
 
     span:nth-child(10n + 1) {
+
       color: #ef5350;
+      transform: translateY(-10px);
     }
 
     span:nth-child(10n + 2) {
       color: #ab47bc;
+      transform: translateY(2px);
+      // transform: translateY(-10px) rotate(-15deg);
     }
 
     span:nth-child(10n + 3) {
       color: #651fff;
+      transform: translateY(15px) rotate(5deg)
     }
-
-    span:nth-child(10n + 5) {
-      color: #3949ab;
-    }
-
     span:nth-child(10n + 4) {
       color: #2196f3;
+    }
+    span:nth-child(10n + 5) {
+      color: #3949ab;
+      transform: translateY(5px) rotate(-10deg)
+
     }
 
     span:nth-child(10n + 6) {
