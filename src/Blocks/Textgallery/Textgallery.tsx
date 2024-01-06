@@ -93,11 +93,9 @@ export const Textgallery = ({
   const isIntersecting = intersection?.intersectionRatio
     ? intersection?.intersectionRatio > 0.2
     : false;
-  console.log("isIntersecting: ", isIntersecting);
 
   const figcaptionProps = getfigcaptionAnimation(type, isIntersecting);
 
-  console.log("figcaptionProps: ", figcaptionProps);
   return (
     <LayoutGroup
       // AnimatePresence
@@ -117,6 +115,7 @@ export const Textgallery = ({
 
         {images[wrap(0, images.length, active)]?.medium ? (
           <Image
+
             objectFit="cover"
             onClick={() => setModalOpen(false)}
             // className={` ${s.active}`}
@@ -179,8 +178,8 @@ export const Textgallery = ({
                 className={` ${s.image} ${images.length > 3 ? s.slide : ""}`}
                 key={i}
                 src={image.medium.url}
-                width={image.medium.width}
-                height={image.medium.height}
+                // width={image.medium.width}
+                // height={image.medium.height}
                 alt={image.alternativeText}
               />
             ) : (
@@ -193,21 +192,8 @@ export const Textgallery = ({
                   setModalOpen(true);
                 }}
                 alt={image.alternativeText}
-                // layout="fill"
-                /*
-						              blurDataURL={image.formats.thumbnail.url}
-            layout="intrinsic"
-            draggable={false}
-            placeholder="blur"
-            width={image.width}
-            height={image.height}
-            src={image.url}
-            loading="lazy"
-            alt={image.alternativeText}
-          />
-						  */
-                // layout="intrinsic"
                 objectFit="cover"
+
                 className={` ${s.image} ${s[type]}`}
                 key={i}
                 src={image.url}

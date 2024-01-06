@@ -161,19 +161,19 @@ export default function Project({
       <section className={` ${s.intro} ${index % 2 === 0 ? s.right : ""}`}>
         <h1>{project.intro.project_name}</h1>
         {/* <h3>{project.intro.description}</h3> */}
-        <div className={` ${s.image} `}>
-          <Image
-            blurDataURL={project.intro.image.formats.thumbnail.url}
-            placeholder="blur"
-            width={project.intro.image.width}
-            height={500}
-            src={project.intro.image.url}
-            loading="lazy"
-            objectFit="cover"
-            objectPosition="center"
-            alt={project.intro.image.alternativeText}
-          />
-        </div>
+        {/* <div className={` ${s.image} `}> */}
+        <Image
+          blurDataURL={project.intro.image.formats.thumbnail.url}
+          placeholder="blur"
+          width={project.intro.image.width}
+          height={500}
+          src={project.intro.image.url}
+          loading="lazy"
+          objectFit="cover"
+          objectPosition="center"
+          alt={project.intro.image.alternativeText}
+        />
+        {/* </div> */}
         <h3>{project.intro.intro}</h3>
       </section>
       <ProduceBlocks

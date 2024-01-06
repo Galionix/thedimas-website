@@ -11,7 +11,9 @@
       padding: 0 20px;
     }
   }
-  & > div {
+  img {
+    object-fit: cover;
+    max-width: 100%;
     grid-area: images;
     max-height: 400px;
   }
@@ -25,7 +27,9 @@
       50px
       [images2] 4fr
       [ caption-end] 1fr;
-    & > div {
+    img {
+      object-fit: cover;
+
       grid-area: images;
       &:nth-of-type(2) {
         grid-row: images;
@@ -115,7 +119,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    & > div {
+    img {
       display: flex;
       align-items: center;
       max-height: 100px;
@@ -163,9 +167,9 @@
     // transform: matrix(1, 0, 0, 1, 0, 0);
   }
   &.image-top {
-	position: relative;
+    position: relative;
     overflow: hidden;
-	// &::before {
+    // &::before {
     //     top: 0;
     //     position: absolute;
     //     height: 100%;
@@ -201,22 +205,23 @@
       line-height: 1.8;
       border: 5px solid var(--main-color);
       border-color: transparent transparent var(--main-color) transparent;
-    //   border-radius: 10px 10px 0 0;
-	  &::before, &::after{
-		position: absolute;
-		content: "";
-		width: 100%;
-		height: 100%;
-		background: var(--main-bg-color);
-		z-index: -1;
-		top: 0;
-		left: 0;
-	  }
-    //   &::after,
+      //   border-radius: 10px 10px 0 0;
+      &::before,
+      &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: var(--main-bg-color);
+        z-index: -1;
+        top: 0;
+        left: 0;
+      }
+      //   &::after,
 
-    //   &::after {
-    //     right: calc(-100% - 5px);
-    //   }
+      //   &::after {
+      //     right: calc(-100% - 5px);
+      //   }
     }
   }
 }

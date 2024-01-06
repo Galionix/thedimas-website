@@ -9,6 +9,7 @@
 }
 
 .intro{
+    margin-top: 64px;
     display: grid;
     grid-template-rows: repeat(3,auto);
     text-transform: none;
@@ -44,7 +45,9 @@
 
         }
     }
-   div{
+   img{
+    object-fit: cover;
+    width: 100%;
        grid-row: 3;
        grid-column: 1;
    }
