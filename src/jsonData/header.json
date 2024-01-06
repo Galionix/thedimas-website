@@ -9,14 +9,14 @@
         "__component": "atoms.link",
         "id": 1,
         "href": "/",
-        "label": "Главная",
+        "label": "Головна",
         "target": null
       },
       {
         "__component": "atoms.link",
         "id": 2,
         "href": "/projects",
-        "label": "Проекты",
+        "label": "Проекти",
         "target": null
       },
       {
