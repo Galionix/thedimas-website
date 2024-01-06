@@ -71,6 +71,8 @@ $nice-ease: cubic-bezier(0.57, 0.01, 0, 1.01);
     // background-clip: text;
     background-color: var(--main-bg-color);
     // background-color: transparent;
+    animation: reveal-text 1s 6s $nice-ease forwards;
+    opacity: 0;
 
     height: 65px;
     padding: 0;
@@ -107,6 +109,8 @@ $nice-ease: cubic-bezier(0.57, 0.01, 0, 1.01);
     //   animation: reveal-bg 1s 5s $nice-ease forwards;
     // }
     &.skip_intro {
+      animation: reveal-bg 1s $nice-ease forwards;
+
       &::after,
       a,
       button {
