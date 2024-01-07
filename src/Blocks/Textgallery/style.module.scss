@@ -2,9 +2,14 @@
 @import "src/styles/utils";
 
 .textgallery {
+  figure{
+    overflow: hidden;
+    max-height: 500px;
+  }
   display: grid;
   grid-column: 1/-1;
-  figcaption {
+  .figcaption {
+    position: relative;
     letter-spacing: 2px;
     grid-area: caption;
     @media screen and (max-width: 767px) {
@@ -15,7 +20,7 @@
     object-fit: cover;
     max-width: 100%;
     grid-area: images;
-    max-height: 400px;
+    // max-height: 500px;
   }
   &.images_1 {
     grid-template-columns: 1fr [images caption] 6fr 1fr;
@@ -134,21 +139,13 @@
   position: relative;
   // type
   &.banner {
-    position: relative;
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.1);
-    }
+
     overflow: hidden;
     grid-template-columns: 1fr;
     grid-template-rows: [images caption] 1fr [ images];
-    figcaption {
+    .figcaption {
+      position: absolute;
+      top: 10%;
       transform: skew(-10deg, 0deg);
 
       z-index: 10;
@@ -169,6 +166,11 @@
   &.image-top {
     position: relative;
     overflow: hidden;
+    img{
+
+      max-height: 500px;
+    }
+
     // &::before {
     //     top: 0;
     //     position: absolute;
@@ -194,7 +196,7 @@
     //   }
     & > div {
     }
-    figcaption {
+    .figcaption {
       transform: translateY(-80px);
       margin: 0 auto;
       width: 80%;

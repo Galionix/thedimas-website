@@ -1,57 +1,128 @@
-@import 'src/styles/mixins';
+@import "src/styles/mixins";
 
 .projectPage {
-	grid-column: 1/-1;
-	@include cols;
-	hr {
-		grid-column: 2/10;
-        @media screen and (max-width: 1199px) {
-		grid-column: 2/11;
+  grid-column: 1/-1;
+  @include cols;
+  span.line {
+	animation: move-arrow 1s infinite;
+    grid-column: 2/10;
+    @media screen and (max-width: 1199px) {
+      grid-column: 2/11;
+    }
+    @media screen and (max-width: 767px) {
+      grid-column: 2;
+    }
+    position: relative;
+    hr {
+      background-color: transparent;
+      align-self: center;
+      // height: 1px;
+      height: 100%;
+      position: relative;
+      &::after,
+      &::before {
+        content: "";
+        position: absolute;
+      }
+      &::before {
+        left: 0;
+        top: 55%;
+        width: 99.7%;
+        height: 1px;
+        background-color: rgba(255, 99, 71, 0.5);
+      }
+      &::after {
+        right: 0;
+        top: 50%;
 
-        }
-        @media screen and (max-width: 767px) {
-            grid-column: 2;
-        }
-		background-color: transparent;
-		align-self: center;
-		// height: 1px;
-		height: 100%;
-		position: relative;
-		&::after,
-		&::before {
-			content: '';position: absolute;
-		}
-		&::before {
+        border-top: 1px solid rgba(255, 99, 71, 0.5);
+        border-right: 1px solid rgba(255, 99, 71, 0.5);
+        width: 10px;
+        height: 10px;
+        transform: rotate(45deg) translateX(-50%);
+      }
+    }
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+    }
+    &::after,
+    &::before {
+      right: 0;
+      top: 50%;
 
-			left: 0;
-			top: 55%;
-			width: 99.7%;
-			height: 1px;
-			background-color: rgba(255, 99, 71, 0.5);
-		}
-		&::after {
-			right: 0;
-			top: 50%;
+      border-top: 1px solid rgba(255, 99, 71, 0.5);
+      border-right: 1px solid rgba(255, 99, 71, 0.5);
+      width: 10px;
+      height: 10px;
+      transform: rotate(45deg) translateX(-50%);
+    }
+    &::after {
+      margin-right: 5px;
+	  animation: move-pointer 1s ease-in-out infinite  1s;
+    }
+    &::before {
+      margin-right: 10px;
+	  animation: move-pointer 1s ease-in-out infinite .5s;
 
-			border-top: 1px solid rgba(255, 99, 71, 0.5);
-			border-right: 1px solid rgba(255, 99, 71, 0.5);
-			width: 10px;
-			height: 10px;
-			transform: rotate(45deg) translateX(-50%);
-		}
-	}
-	a {
-		grid-column: 10 / -2;
-        @media screen and (max-width: 1199px) {
-         grid-column: 12 / -2;
-        }
-        @media screen and (max-width: 767px) {
-            grid-column: 4;
-        }
-		//  border: 3px dashed rgba(255, 99, 71, 0.589);
-	}
+    }
+  }
+  a {
+	animation: shake 3s infinite 1s;
+    white-space: nowrap;
+    grid-column: 10 / -2;
+    @media screen and (max-width: 1199px) {
+      grid-column: 12 / -2;
+    }
+    @media screen and (max-width: 767px) {
+      grid-column: 4;
+    }
+    //  border: 3px dashed rgba(255, 99, 71, 0.589);
+  }
 }
-.general{
-	    max-width: 900px;
-		margin: 0 auto;
+.general {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@keyframes move-arrow {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes move-pointer {
+  0% {
+	opacity: 1;
+	margin-right: 0;
+  }
+  50% {
+	opacity: 0;
+	margin-right: 20px;
+  }
+  100% {
+	opacity: 1;
+	margin-right: 0;
+  }
+}
+@keyframes shake {
+  0% {
+	transform: translateY(0) scale(1);
+  }
+  5% {
+	transform: translateY(10px) scale(.8);
+  }
+  10% {
+	transform: translateY(0) scale(1);
+  }
+  100% {
+	transform: translateY(0);
+  }
 }

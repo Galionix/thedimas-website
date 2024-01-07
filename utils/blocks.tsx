@@ -3,6 +3,7 @@
 // @index('../src/Blocks/**/*.tsx', f => `import {${f.name} } from '${f.path}'`)
 import { Error } from "../src/Blocks/Error/Error";
 import { Link } from "../src/Blocks/Link/Link";
+import { List } from "../src/Blocks/List/List";
 import { Paragraph } from "../src/Blocks/Paragraph/Paragraph";
 import { Textgallery } from "../src/Blocks/Textgallery/Textgallery";
 //@endindex
@@ -34,25 +35,11 @@ export const ProduceBlocks = ({
         if (compName === "Error")
           return <Error {...comp} key={i} preset={preset} iterator={i} />;
         if (compName === "Link")
-          return (
-            <Link
-              {...comp}
-              legacyBehavior
-              key={i}
-              preset={preset}
-              iterator={i}
-            />
-          );
+          return <Link {...comp} key={i} preset={preset} iterator={i} />;
+        if (compName === "List")
+          return <List {...comp} key={i} preset={preset} iterator={i} />;
         if (compName === "Paragraph")
-          return (
-            <Paragraph
-              {...comp}
-              key={i}
-              preset={preset}
-              iterator={i}
-              // types={[types.mobile, types.tablet, types.desktop]}
-            />
-          );
+          return <Paragraph {...comp} key={i} preset={preset} iterator={i} />;
         if (compName === "Textgallery")
           return <Textgallery {...comp} key={i} preset={preset} iterator={i} />;
         //@endindex

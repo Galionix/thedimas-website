@@ -14,12 +14,11 @@ import { useEffect, useRef } from "react";
 import { SiteIcon } from '../SiteIcon';
 import { Tthemes, useStore } from '../../utils/state';
 import { useScrolled } from '../../utils/hooks/useScrolled';
-
+import { ParallaxProvider } from "react-scroll-parallax";
 function MyApp({ Component, pageProps }: AppProps) {
   const containerRef = useRef(null);
   const { theme, skip_intro, doSkipIntro, setScrollDirection } = useStore();
   const scrollDirection = useScrolled();
-  console.log("scrollDirection: ", scrollDirection);
 
   useEffect(() => {
     setScrollDirection(scrollDirection);
@@ -56,7 +55,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   // }, [])
 
   return (
-    <>
+    <ParallaxProvider>
       <SiteIcon />
       <Head>
         <meta
@@ -67,7 +66,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <Component {...pageProps} />
-    </>
+    </ParallaxProvider>
   );
 }
 export default MyApp;

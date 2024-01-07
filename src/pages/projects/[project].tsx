@@ -10,13 +10,16 @@ import {
 } from "react-icons/io5";
 import { motion, useTransform, useViewportScroll } from "framer-motion";
 import Head from "next/head";
+import { FaGithub } from "react-icons/fa";
 
 import Link from "next/link";
-import { get_endpoint_data } from '../../../utils/content_fetching';
-import { Projects } from '../../../ts/responses';
-import { Header } from '../../Header/Header';
-import { ProduceBlocks } from '../../../utils/blocks';
-import { Footer } from '../../Footer/Footer';
+import { get_endpoint_data } from "../../../utils/content_fetching";
+import { Projects } from "../../../ts/responses";
+import { Header } from "../../Header/Header";
+import { ProduceBlocks } from "../../../utils/blocks";
+import { Footer } from "../../Footer/Footer";
+import Sparkles from "react-sparkle";
+
 type GetServerSideProps = {
   myprop: string;
   say: string;
@@ -25,7 +28,7 @@ type GetServerSideProps = {
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   const newLocales = locales || ["ua"];
 
-  const projects :any= await get_endpoint_data({
+  const projects: any = await get_endpoint_data({
     endpoint: "projects",
     // locales: newLocales,
   });
@@ -85,7 +88,10 @@ const Pagination = ({ intros, current }: { intros: any; current: string }) => {
             </a>
           </Link>
         ) : (
-          <Link legacyBehavior href={`/projects/${intros[currentIndex - 1].project_name}`}>
+          <Link
+            legacyBehavior
+            href={`/projects/${intros[currentIndex - 1].project_name}`}
+          >
             <a>
               <IoReturnUpBackOutline />
               <span>{intros[currentIndex - 1].project_name}</span>
@@ -105,7 +111,10 @@ const Pagination = ({ intros, current }: { intros: any; current: string }) => {
           </>
         ) : (
           <>
-            <Link legacyBehavior href={`/projects/${intros[currentIndex + 1].project_name}`}>
+            <Link
+              legacyBehavior
+              href={`/projects/${intros[currentIndex + 1].project_name}`}
+            >
               <a>
                 <span>{intros[currentIndex + 1].project_name}</span>
                 <IoReturnDownForwardOutline />
@@ -181,6 +190,24 @@ export default function Project({
         preset={"project-page"}
         wrapperClass={s.blocks}
       />
+      <Link target="_blank" href={project.github}>
+        {/* <a > */}
+        <div className={` ${s.github} `}>
+          <div>
+            <FaGithub />
+
+            <Sparkles
+              minSize={2}
+              maxSize={10}
+              count={50}
+              color="yellow"
+              overflowPx={30}
+            />
+          </div>
+          <h3>View on github</h3>
+        </div>
+        {/* </a> */}
+      </Link>
       <Pagination current={project.intro.project_name} intros={intros} />
       <div className={s.comments}>
         {/* <Disqus.DiscussionEmbed

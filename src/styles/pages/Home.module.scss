@@ -142,7 +142,7 @@ $font-size: 30vw;
           content: attr(data-text);
           clip-path: polygon(80% 0, 100% 0, 100% 100%, 80% 100%, 20% 100%);
           animation: h2-after 3s $nice-ease forwards,
-          h2-after-infinite  7s  $nice-ease 3s infinite;
+          h2-after-infinite 7s  $nice-ease 3s infinite;
         }
       }
     }

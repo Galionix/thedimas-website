@@ -10,6 +10,9 @@ import {
 } from "framer-motion";
 import Modal from "react-modal";
 import { useIntersection } from "react-use";
+import Sparkles from "react-sparkle";
+import { Parallax, ParallaxBanner, useParallax } from "react-scroll-parallax";
+
 // import { useInView } from "framer-motion";
 
 const getAnimationConfig = (
@@ -95,12 +98,17 @@ export const Textgallery = ({
     : false;
 
   const figcaptionProps = getfigcaptionAnimation(type, isIntersecting);
-
+  const { ref: parallaxRef } = useParallax<HTMLDivElement>({
+    disabled: type !== "banner",
+    speed: 200,
+    rootMargin: { top: 9000, right: 0, bottom: 0, left: 0 },
+    easing: "easeInCubic",
+  });
   return (
     <LayoutGroup
-      // AnimatePresence
-      // exitBeforeEnter
-      // type="crossfade"
+    // AnimatePresence
+    // exitBeforeEnter
+    // type="crossfade"
     >
       {/* <Partics /> */}
       <Modal
@@ -115,7 +123,6 @@ export const Textgallery = ({
 
         {images[wrap(0, images.length, active)]?.medium ? (
           <Image
-
             objectFit="cover"
             onClick={() => setModalOpen(false)}
             // className={` ${s.active}`}
@@ -184,6 +191,7 @@ export const Textgallery = ({
               />
             ) : (
               <Image
+                ref={parallaxRef as any}
                 onClick={() => {
                   if (type === "banner") {
                     return;
@@ -193,7 +201,6 @@ export const Textgallery = ({
                 }}
                 alt={image.alternativeText}
                 objectFit="cover"
-
                 className={` ${s.image} ${s[type]}`}
                 key={i}
                 src={image.url}
@@ -272,7 +279,22 @@ export const Textgallery = ({
           </>
         )}
         {text && (
-          <motion.figcaption {...figcaptionProps}>{text}</motion.figcaption>
+          <motion.figcaption
+            className={` ${s.figcaption} `}
+            {...figcaptionProps}
+          >
+            <Parallax disabled>
+              {text}
+
+              <Sparkles
+                minSize={2}
+                maxSize={10}
+                count={50}
+                color="yellow"
+                overflowPx={30}
+              />
+            </Parallax>
+          </motion.figcaption>
         )}
       </figure>
     </LayoutGroup>

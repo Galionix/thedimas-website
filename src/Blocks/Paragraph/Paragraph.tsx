@@ -42,7 +42,7 @@ export const Paragraph = ({
       Splitting({ target: ref.current });
     }
     if (show_style === "from_bottom" || types?.mobile === "freaky") work();
-  }, [intersection?.intersectionRatio]);
+  }, [intersection?.intersectionRatio, text]);
 
   return (
     <div ref={ref} className={`${s.paragraph} ${s[types?.mobile]}`}>

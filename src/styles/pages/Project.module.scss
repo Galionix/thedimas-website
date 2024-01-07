@@ -90,3 +90,22 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+.github{
+
+  div{
+  position: relative;
+border-radius: 50%;
+overflow: hidden;
+  }
+  max-width: fit-content;
+  margin: 0 auto;
+  margin-bottom:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // gap: 20px;
+
+  &:hover{
+    opacity: 0.5;
+  }
+}

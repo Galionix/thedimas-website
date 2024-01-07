@@ -4,14 +4,21 @@
 // @import '/styles/_vars.scss';
 $nice-ease: cubic-bezier(0.57, 0.01, 0, 1.01);
 .footer {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
 	// margin-top: 50px;
 	overflow: hidden;
 	z-index: 1;
 	padding: 50px 20px;
 	display: flex;
-	border-top: 1px dashed currentColor;
+	border: 1px dashed currentColor;
+	border-bottom: none;
 	justify-content: space-around;
 	background: rgba(139, 139, 139, 0.507);
+	// background: linear-gradient(to right, var(--main-bg-color) 0%, rgba(139, 139, 139, 0.507) 2%,
+	// 	rgba(139, 139, 139, 0.507) 98%, var(--main-bg-color) 100%
+	// );
 	@media screen and (max-width: 767px) {
 		flex-flow: row wrap;
 		gap: 30px 100px;

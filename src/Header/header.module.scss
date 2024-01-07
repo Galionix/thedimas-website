@@ -1,9 +1,21 @@
 // @import "/styles/vars";
 $nice-ease: cubic-bezier(0.57, 0.01, 0, 1.01);
-.header {
-  z-index: 100;
+.headerWrapper{
   position: fixed;
   top:0px;
+  width: 100%;
+isolation: isolate;
+z-index: 1000;
+
+}
+.header {
+
+  left: 50%;
+  // transform: translateX(-50%);
+  margin: 0 auto;
+  max-width: 1440px;
+
+  z-index: 1000;
   width: 100%;
 
   padding: 20px 0;

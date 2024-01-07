@@ -40,10 +40,8 @@ export const Header = ({
   );
 
   return (
-    <motion.header
-      className={` ${s.header} ${s[preset || ""]} ${
-        skip_intro ? s.skip_intro : ""
-      }`}
+    <motion.div
+      className={s.headerWrapper}
       initial={{
         y: "0px",
         // opacity: 0,
@@ -57,46 +55,55 @@ export const Header = ({
           ease: [0.6, 0, 0, 1],
         },
       }}
-      // animate={controls}
     >
-      <ul>
-        {header_data[router.locale || 0].items.map(
-          (item: headerLink, i: number) => (
-            <li
-              key={item.id}
-              className={` ${selected === i ? s.selected : ""} `}
+      <header
+        className={` ${s.header} ${s[preset || ""]} ${
+          skip_intro ? s.skip_intro : ""
+        }`}
+
+        // animate={controls}
+      >
+        <ul>
+          {header_data[router.locale || 0].items.map(
+            (item: headerLink, i: number) => (
+              <li
+                key={item.id}
+                className={` ${selected === i ? s.selected : ""} `}
+              >
+                <Link legacyBehavior href={item.href}>
+                  <a>{item.label}</a>
+                </Link>
+              </li>
+            )
+          )}
+          <li>
+            <button
+              onClick={() => {
+                router.replace(router.asPath, undefined, {
+                  locale: router.locales!.find(
+                    (item) => item !== router.locale
+                  ),
+                  shallow: true,
+                });
+              }}
             >
-              <Link legacyBehavior href={item.href}>
-                <a>{item.label}</a>
-              </Link>
-            </li>
-          )
-        )}
-        <li>
-          <button
-            onClick={() => {
-              router.replace(router.asPath, undefined, {
-                locale: router.locales!.find((item) => item !== router.locale),
-                shallow: true,
-              });
-            }}
-          >
-            {
-              router
-                .locales!.find((item) => item !== router.locale)
-                ?.split("-")[0]
-            }
-          </button>
-        </li>
-        <li>
-          <button onClick={changeTheme}>
-            {theme !== "Light" ? "Dark" : "Light"}
-          </button>
-        </li>
-      </ul>
-      {/* <pre>{JSON.stringify(selected, null, 2)}</pre>
+              {
+                router
+                  .locales!.find((item) => item !== router.locale)
+                  ?.split("-")[0]
+              }
+            </button>
+          </li>
+          <li>
+            <button onClick={changeTheme}>
+              {theme !== "Light" ? "Dark" : "Light"}
+            </button>
+          </li>
+        </ul>
+        {/* <pre>{JSON.stringify(selected, null, 2)}</pre>
             <pre>{JSON.stringify(router.pathname.split('/')[1], null, 2)}</pre>
             <pre>{JSON.stringify(header_data, null, 2)}</pre> */}
-    </motion.header>
+      </header>
+    </motion.div>
   );
 };

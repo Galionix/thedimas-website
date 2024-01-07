@@ -4,12 +4,170 @@
     "locale": "ua",
     "created_at": "2021-07-25T16:08:42.668Z",
     "updated_at": "2022-08-21T02:01:27.934Z",
-    "comps": [],
+    "comps": [
+      {
+        "__component": "molecules.paragraph",
+        "id": 81,
+        "text": "Галактіонов Дмитро: створення майбутнього веб-розробки",
+        "types": {
+          "mobile": "title",
+          "tablet": "title",
+          "desktop": "title"
+        }
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 84,
+        "text": "Ласкаво просимо до мого цифрового царства!",
+        "types": {
+          "mobile": "freaky",
+          "tablet": "freaky",
+          "desktop": "freaky"
+        }
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 82,
+        "text": "Як пристрасний розробник Full Stack, я поєдную уяву та технології, щоб створювати виняткові веб-досвіди. Маючи понад чотири роки професійного досвіду, я відточив свої навички як у front-end, так і в back-end розробці, опановуючи технології як React, Node.js і Docker.",
+        "types": null
+      },
+      {
+        "__component": "molecules.text-gallery",
+        "id": 14,
+        "type": "banner",
+        "text": "Давайте Побудуємо Щось Дивовижне Разом.",
+        "images": [
+          {
+            "alternativeText": "видавати мене за чарівника",
+            "id": 39,
+            "name": "IMG_20210724_182634.jpg",
+            "caption": "",
+            "width": 2761,
+            "height": 1574,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
+
+                "hash": "large_IMG_20210724_182634_af6c9a373a",
+                "mime": "image/jpeg",
+                "name": "large_IMG_20210724_182634.jpg",
+                "path": null,
+                "size": 229.75,
+                "width": 1000,
+                "height": 824,
+                "provider_metadata": {
+                  "public_id": "large_IMG_20210724_182634_af6c9a373a",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1627140479/thumbnail_IMG_20210724_182634_af6c9a373a.jpg",
+                "hash": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                "mime": "image/jpeg",
+                "name": "thumbnail_IMG_20210724_182634.jpg",
+                "path": null,
+                "size": 10.87,
+                "width": 189,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "IMG_20210724_182634_af6c9a373a",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 1271.97,
+            "url": "https://res.cloudinary.com/dimascf/image/upload/v1704630787/resized_anime_style_banner_g5etuj.png",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "IMG_20210724_182634_af6c9a373a",
+              "resource_type": "image"
+            },
+            "created_at": "2021-07-24T15:28:02.218Z",
+            "updated_at": "2021-07-24T15:28:02.339Z"
+          }
+        ]
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 82,
+        "text": "Мій шлях від цікавого кодера до досвідченого розробника живиться моєю відданістю інноваціям і досконалості. Зануртеся в моє портфоліо, щоб відкрити для себе креативність, точність і технічну майстерність, які визначають мою роботу.",
+        "types": null
+      },
+      {
+        "__component": "molecules.text-gallery",
+        "id": 11231,
+        "type": "image-top",
+        "text": "Привіт! Я Галактіонов Дмитро, Full Stack Developer із жвавого міста Одеса, Україна. Моя пригода у веб-розробці почалася з іскри цікавості та швидко переросла в гарячу пристрасть. Те, що почалося як хобі , кодуючи прості сценарії та вивчаючи основи HTML і CSS у підлітковому віці, переріс у повноцінну кар’єру, де я створюю складні та ефективні веб-рішення.",
+        "images": [
+          {
+            "alternativeText": "me at work",
+            "id": 39,
+            "name": "IMG_20210724_182634.jpg",
+            "caption": "",
+            "width": 2761,
+            "height": 1574,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
+
+                "hash": "large_IMG_20210724_182634_af6c9a373a",
+                "mime": "image/jpeg",
+                "name": "large_IMG_20210724_182634.jpg",
+                "path": null,
+                "size": 229.75,
+                "width": 1000,
+                "height": 824,
+                "provider_metadata": {
+                  "public_id": "large_IMG_20210724_182634_af6c9a373a",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1627140479/thumbnail_IMG_20210724_182634_af6c9a373a.jpg",
+                "hash": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                "mime": "image/jpeg",
+                "name": "thumbnail_IMG_20210724_182634.jpg",
+                "path": null,
+                "size": 10.87,
+                "width": 189,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "IMG_20210724_182634_af6c9a373a",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 1271.97,
+            "url": "https://res.cloudinary.com/dimascf/image/upload/v1704336287/1168d2cf4ec0e365ea1a350f6876188457878e48_high_lrc6ey.webp",
+
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "IMG_20210724_182634_af6c9a373a",
+              "resource_type": "image"
+            },
+            "created_at": "2021-07-24T15:28:02.218Z",
+            "updated_at": "2021-07-24T15:28:02.339Z"
+          }
+        ]
+      }
+    ],
     "seo": {
       "id": 3,
-      "title": "Главная",
-      "description": "Описание главной",
-      "keywords": "ключевые слова"
+      "title": "Головна",
+      "description": "Опис головної",
+      "keywords": "ключові слова"
     },
     "types": null,
     "intro": {
@@ -61,7 +219,75 @@
         "text": "Let's Build Something Amazing Together.",
         "images": [
           {
-            "alternativeText": "the photo of developer",
+            "alternativeText": "pretending me as a magician",
+            "id": 39,
+            "name": "IMG_20210724_182634.jpg",
+            "caption": "",
+            "width": 2761,
+            "height": 1574,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
+
+                "hash": "large_IMG_20210724_182634_af6c9a373a",
+                "mime": "image/jpeg",
+                "name": "large_IMG_20210724_182634.jpg",
+                "path": null,
+                "size": 229.75,
+                "width": 1000,
+                "height": 824,
+                "provider_metadata": {
+                  "public_id": "large_IMG_20210724_182634_af6c9a373a",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1627140479/thumbnail_IMG_20210724_182634_af6c9a373a.jpg",
+                "hash": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                "mime": "image/jpeg",
+                "name": "thumbnail_IMG_20210724_182634.jpg",
+                "path": null,
+                "size": 10.87,
+                "width": 189,
+                "height": 156,
+                "provider_metadata": {
+                  "public_id": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "IMG_20210724_182634_af6c9a373a",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 1271.97,
+            "url": "https://res.cloudinary.com/dimascf/image/upload/v1704630787/resized_anime_style_banner_g5etuj.png",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "IMG_20210724_182634_af6c9a373a",
+              "resource_type": "image"
+            },
+            "created_at": "2021-07-24T15:28:02.218Z",
+            "updated_at": "2021-07-24T15:28:02.339Z"
+          }
+        ]
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 82,
+        "text": "My journey from a curious coder to a seasoned developer is fueled by my dedication to innovation and excellence. Dive into my portfolio to discover the creativity, precision, and technical prowess that define my work.",
+        "types": null
+      },
+      {
+        "__component": "molecules.text-gallery",
+        "id": 11231,
+        "type": "image-top",
+        "text": "Hello! I'm Galaktionov Dmitry, a Full Stack Developer from the vibrant city of Odessa, Ukraine. My adventure in web development began as a spark of curiosity and quickly ignited into a burning passion. What started as a hobby, coding simple scripts and exploring the basics of HTML and CSS during my teen years, has blossomed into a full-fledged career where I craft sophisticated and effective web solutions.",
+        "images": [
+          {
+            "alternativeText": "me at work",
             "id": 39,
             "name": "IMG_20210724_182634.jpg",
             "caption": "",
@@ -105,74 +331,7 @@
             "mime": "image/jpeg",
             "size": 1271.97,
             "url": "https://res.cloudinary.com/dimascf/image/upload/v1704336287/1168d2cf4ec0e365ea1a350f6876188457878e48_high_lrc6ey.webp",
-            "previewUrl": null,
-            "provider": "cloudinary",
-            "provider_metadata": {
-              "public_id": "IMG_20210724_182634_af6c9a373a",
-              "resource_type": "image"
-            },
-            "created_at": "2021-07-24T15:28:02.218Z",
-            "updated_at": "2021-07-24T15:28:02.339Z"
-          }
-        ]
-      },
-      {
-        "__component": "molecules.paragraph",
-        "id": 82,
-        "text": "My journey from a curious coder to a seasoned developer is fueled by my dedication to innovation and excellence. Dive into my portfolio to discover the creativity, precision, and technical prowess that define my work.",
-        "types": null
-      },
-      {
-        "__component": "molecules.text-gallery",
-        "id": 11231,
-        "type": "image-top",
-        "text": "Hello! I'm Galaktionov Dmitry, a Full Stack Developer from the vibrant city of Odessa, Ukraine. My adventure in web development began as a spark of curiosity and quickly ignited into a burning passion. What started as a hobby, coding simple scripts and exploring the basics of HTML and CSS during my teen years, has blossomed into a full-fledged career where I craft sophisticated and effective web solutions.",
-        "images": [
-          {
-            "alternativeText": "the photo of developer",
-            "id": 39,
-            "name": "IMG_20210724_182634.jpg",
-            "caption": "",
-            "width": 2761,
-            "height": 1574,
-            "formats": {
-              "large": {
-                "ext": ".jpg",
-                "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
 
-                "hash": "large_IMG_20210724_182634_af6c9a373a",
-                "mime": "image/jpeg",
-                "name": "large_IMG_20210724_182634.jpg",
-                "path": null,
-                "size": 229.75,
-                "width": 1000,
-                "height": 824,
-                "provider_metadata": {
-                  "public_id": "large_IMG_20210724_182634_af6c9a373a",
-                  "resource_type": "image"
-                }
-              },
-              "thumbnail": {
-                "ext": ".jpg",
-                "url": "https://res.cloudinary.com/dimascf/image/upload/v1627140479/thumbnail_IMG_20210724_182634_af6c9a373a.jpg",
-                "hash": "thumbnail_IMG_20210724_182634_af6c9a373a",
-                "mime": "image/jpeg",
-                "name": "thumbnail_IMG_20210724_182634.jpg",
-                "path": null,
-                "size": 10.87,
-                "width": 189,
-                "height": 156,
-                "provider_metadata": {
-                  "public_id": "thumbnail_IMG_20210724_182634_af6c9a373a",
-                  "resource_type": "image"
-                }
-              }
-            },
-            "hash": "IMG_20210724_182634_af6c9a373a",
-            "ext": ".jpg",
-            "mime": "image/jpeg",
-            "size": 1271.97,
-            "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
@@ -187,9 +346,9 @@
     ],
     "seo": {
       "id": 55,
-      "title": "Главная",
-      "description": "Описание главной",
-      "keywords": "ключевые слова"
+      "title": "Головна",
+      "description": "Опис головної",
+      "keywords": "ключові слова"
     },
     "types": null,
     "intro": {
