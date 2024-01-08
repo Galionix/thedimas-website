@@ -10,19 +10,19 @@
         {
           "__component": "molecules.paragraph",
           "id": 82,
-          "text": "I've been seek of yotube music dumping my scred albums into void, so I decided to create my own music website, where I can upload my music and share it with my friends and family.",
+          "text": "Мені набридло, що музика з YouTube знищує мої священні альбоми, тому я вирішив створити власний музичний веб-сайт, куди я можу завантажувати свою музику та ділитися нею з друзями та родиною.",
           "types": null
         },
         {
           "__component": "molecules.paragraph",
           "id": 83,
-          "text": "The website is built with Next.js and Google Firebase, and it's hosted on Vercel.",
+          "text": "Веб-сайт створено за допомогою Next.js і Google Firebase і розміщено на Vercel.",
           "types": null
         },
         {
           "__component": "molecules.paragraph",
           "id": 84,
-          "text": "Планувалося, що це буде простий веб-сайт, але я вирішив додати деякі функції, як-от попередній перегляд зображень, які я зібрав під час компонування доріжок, щоб завершити враження. Зверніть увагу на букву поруч із доріжкою, щоб переглянути галерею ",
+          "text": "Планувалося, що це буде простий веб-сайт, але я вирішив додати деякі функції, як-от попередній перегляд зображень, які я зібрав під час компонування доріжок, щоб завершити враження. Зверніть увагу на букву A поруч із доріжкою, щоб переглянути галерею ",
           "types": null
         },
         {
@@ -491,7 +491,8 @@
         {
           "__component": "molecules.paragraph",
           "id": 82,
-          "text": "I've been seek of yotube music dumping my scred albums into void, so I decided to create my own music website, where I can upload my music and share it with my friends and family.",
+          "text": "I've been seek of yotube music dumping my sacred albums into void, so I decided to create my own music website, where I can upload my music and share it with my friends and family.",
+
           "types": null
         },
         {
