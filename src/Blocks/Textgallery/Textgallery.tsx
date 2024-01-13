@@ -11,7 +11,7 @@ import {
 import Modal from "react-modal";
 import { useIntersection } from "react-use";
 import Sparkles from "react-sparkle";
-import { Parallax, ParallaxBanner, useParallax } from "react-scroll-parallax";
+// import { Parallax, ParallaxBanner, useParallax } from "react-scroll-parallax";
 
 // import { useInView } from "framer-motion";
 
@@ -98,12 +98,12 @@ export const Textgallery = ({
     : false;
 
   const figcaptionProps = getfigcaptionAnimation(type, isIntersecting);
-  const { ref: parallaxRef } = useParallax<HTMLDivElement>({
-    disabled: type !== "banner",
-    speed: 200,
-    rootMargin: { top: 9000, right: 0, bottom: 0, left: 0 },
-    easing: "easeInCubic",
-  });
+  // const { ref: parallaxRef } = useParallax<HTMLDivElement>({
+  //   disabled: type !== "banner",
+  //   speed: 200,
+  //   rootMargin: { top: 9000, right: 0, bottom: 0, left: 0 },
+  //   easing: "easeInCubic",
+  // });
   return (
     <LayoutGroup
     // AnimatePresence
@@ -191,7 +191,7 @@ export const Textgallery = ({
               />
             ) : (
               <Image
-                ref={parallaxRef as any}
+                // ref={parallaxRef as any}
                 onClick={() => {
                   if (type === "banner") {
                     return;
@@ -283,7 +283,7 @@ export const Textgallery = ({
             className={` ${s.figcaption} `}
             {...figcaptionProps}
           >
-            <Parallax disabled>
+            {/* <Parallax disabled> */}
               {text}
 
               <Sparkles
@@ -293,7 +293,7 @@ export const Textgallery = ({
                 color="yellow"
                 overflowPx={30}
               />
-            </Parallax>
+            {/* </Parallax> */}
           </motion.figcaption>
         )}
       </figure>

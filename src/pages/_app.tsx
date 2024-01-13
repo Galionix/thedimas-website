@@ -50,12 +50,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     applyTheme(theme);
   }, [theme]);
 
-  // useEffect(() => {
-  //   applyTheme(theme)
-  // }, [])
-
   return (
-    <ParallaxProvider>
+    <>
       <SiteIcon />
       <Head>
         <meta
@@ -66,7 +62,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <Component {...pageProps} />
-    </ParallaxProvider>
+    </>
   );
 }
 export default MyApp;

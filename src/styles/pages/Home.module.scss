@@ -1,6 +1,6 @@
 // @import "/styles/vars";
-// $nice-ease: cubic-bezier(0,1.67,0.88,0.88);
-$nice-ease: linear(0 0%, 0.86 24%, 0.79 28%, 0.96 67%, 1 100%);
+$nice-ease: cubic-bezier(0,1.67,0.88,0.88);
+// $nice-ease: linear(0 0%, 0.86 24%, 0.79 28%, 0.96 67%, 1 100%);
 $text-stroke: 1px rgba(0, 0, 0, 0.7);
 $off-text-stroke: 1px transparent;
 $font-size: 30vw;
@@ -157,8 +157,8 @@ $font-size: 30vw;
       mix-blend-mode: difference;
       border-bottom: 1vh solid rgb(0, 225, 255, 0.2);
       opacity: 0;
-      animation: reveal 2s $nice-ease 6s forwards,
-        border-color 10s $nice-ease 6s infinite;
+      animation: reveal 2s $nice-ease 1s forwards,
+        border-color 10s $nice-ease 3s infinite;
 
       svg {
         mix-blend-mode: difference;
@@ -166,7 +166,7 @@ $font-size: 30vw;
         opacity: 0;
         transition: transform 0.5s $nice-ease, opacity 0.5s $nice-ease,
           color 0.5s $nice-ease;
-        animation: reveal 2s $nice-ease 6s forwards;
+        animation: reveal 2s $nice-ease 3s forwards;
         &:hover {
           color: rgba(255, 255, 255, 0.924);
           transform: scale(1.5);
