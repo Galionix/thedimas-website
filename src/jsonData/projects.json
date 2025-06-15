@@ -1,6 +1,305 @@
 {
   "ua": [
     {
+      "github": "https://github.com/Galionix/focus-blocker",
+      "id": 99,
+      "locale": "ua",
+      "created_at": "2025-06-15T00:00:00.000Z",
+      "updated_at": "2025-06-15T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 6601,
+          "text": "Я створив це розширення, щоб підтримувати заплановані перерви, бо баланс між роботою та життям важливий.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 6602,
+          "text": "Коли я шукав спосіб візуально позначити перерву, не зміг знайти жодного хорошого рішення, тому вирішив створити власне. Отже, ось демонстрація:",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 6605,
+          "text": "Ось як виглядає блокування",
+          "types": null,
+          "images": [
+            {
+              "alternativeText": "основне блокування",
+              "medium": {
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1749988796/blocked_rqn1t5.png",
+                "width": 1119,
+                "height": 652
+              }
+            }
+          ]
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 6605,
+          "text": "А ось як виглядає в панелі завдань",
+          "types": null,
+          "images": [
+            {
+              "alternativeText": "панель завдань",
+              "medium": {
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1749988796/status_pocusg.png",
+                "width": 483,
+                "height": 39
+              }
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 201,
+          "text": "Focus Blocker — це ваш особистий наглядач за перервами в середині VS Code. Він підтримує вашу продуктивність і здоров'я, активно нагадуючи про відпочинок — за допомогою повноекранного накладення, яке неможливо проігнорувати.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 202,
+          "text": "Розширення має таймер у статус-барі, налаштовувані тривалості, підтримку локалізації (EN, UA) та надзвичайно простий інтерфейс. Воно автоматично запускається при старті VS Code — налаштував і забув.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 83,
+          "name": "Можливості Focus Blocker",
+          "items": [
+            {
+              "name": "Автоматичне нагадування про перерви",
+              "id": 1,
+              "description": "Автоматично запускає таймер після запуску VS Code і вмикає повноекранну перерву"
+            },
+            {
+              "name": "Налаштовувані інтервали",
+              "id": 2,
+              "description": "Задайте власну тривалість роботи та перерв через прості налаштування"
+            },
+            {
+              "name": "Повноекранне блокування, яке не можна пропустити",
+              "id": 3,
+              "description": "Відображає webview, який перекриває код — ігнорування неможливе"
+            },
+            {
+              "name": "Таймер у статус-барі",
+              "id": 4,
+              "description": "Бачте скільки часу залишилось до перерви прямо в статус-барі"
+            },
+            {
+              "name": "Підтримка декількох мов",
+              "id": 5,
+              "description": "Повна локалізація англійською, українською та російською мовами"
+            },
+            {
+              "name": "Ручний перезапуск таймера",
+              "id": 6,
+              "description": "Можна вручну перезапустити таймер через палетку команд"
+            },
+            {
+              "name": "Налаштування через webview",
+              "id": 7,
+              "description": "Налаштовуйте тривалість через зручне візуальне вікно"
+            },
+            {
+              "name": "Легкий та ненав'язливий",
+              "id": 8,
+              "description": "Без надмірностей — виконує свою задачу ефективно і без шуму"
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 203,
+          "text": "Створено як нагадування піклуватись про себе під час глибокої роботи. Простий, легкий і надзвичайно ефективний — ідеально підходить для соло-розробників і фанатів продуктивності.",
+          "types": {
+            "id": 15,
+            "mobile": "credits",
+            "tablet": "credits",
+            "desktop": "credits"
+          }
+        },
+        {
+          "__component": "atoms.link",
+          "id": 204,
+          "href": "https://marketplace.visualstudio.com/items?itemName=Galionix.focus-blocker",
+          "label": "Focus Blocker на VSCode Marketplace",
+          "target": "_blank"
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 120,
+        "project_name": "Focus Blocker",
+        "description": "Розширення VS Code для примусових циклів продуктивності з оповіщеннями про перерви на весь екран.",
+        "intro": "Працюйте. Робіть паузу. Повторюйте. Блокувальник фокусу забезпечує вашу концентрацію, забезпечуючи регулярні перерви за допомогою візуальних нагадувань у VS Code. Легкий, локалізований та стійкий до відволікань.",
+        "types": null,
+        "image": {
+          "id": 70,
+          "name": "focus-blocker-icon.png",
+          "alternativeText": "focus blocker logo",
+          "caption": "focus blocker logo",
+          "width": 512,
+          "height": 512,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1749988802/icon_jii8zx.png",
+              "hash": "thumbnail_25353013_designstyle_grunge_u_5e9f2c70db",
+              "mime": "image/png",
+              "name": "thumbnail_25353013-designstyle-grunge-u.png",
+              "path": null,
+              "size": 31.76,
+              "width": 234,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_25353013_designstyle_grunge_u_5e9f2c70db",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "focus_blocker_icon_hash",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 32.2,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1749988802/icon_jii8zx.png",
+          "provider_metadata": {
+            "public_id": "focus-blocker-icon",
+            "resource_type": "image"
+          },
+          "created_at": "2025-06-15T00:00:00.000Z",
+          "updated_at": "2025-06-15T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 90,
+        "title": "Dimas! | Focus Blocker for VSCode",
+        "description": "Enforced break extension for VS Code with overlay, timer and localization",
+        "keywords": "focus, vs code, break, productivity, vscode extension"
+      },
+      "localizations": [{ "id": 99, "locale": "ua" }]
+    },
+    {
+      "github": "https://github.com/Galionix/vscode-folder-templates",
+      "id": 100,
+      "locale": "ua",
+      "createdat": "2025-06-15T00:00:00.000Z",
+      "updatedat": "2025-06-15T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 6610,
+          "text": "Це значно покращений форк оригінального розширення для генерації структури папок. Він дозволяє швидко створювати папки та файли на основі настроюваних шаблонів із динамічною підстановкою змінних.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 6611,
+          "text": "Основна ідея: тепер шаблони можуть доповнювати існуючі файли замість того, щоб перезаписувати їх. Я додав новий синтаксис для вставки контенту до або після певного підрядка у файлі. Це дає змогу безпечно й точно доповнювати наявну логіку (наприклад, редьюсери Redux або оголошення маршрутів).",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 6612,
+          "text": "Також можна використовувати частини абсолютного шляху як змінні шаблону. Для цього вкажи <Path0> - <PathN> залежно від глибини шляху. Наприклад, для шляху \"P:/projects/contributing/vscode-folder-templates\" значеннями будуть: <Path0> = P, <Path1> = projects тощо. Можна також застосовувати фільтри до регістру.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 84,
+          "name": "Можливості Fast Folder Structure V2",
+          "items": [
+            {
+              "name": "Доповнення замість перезапису",
+              "id": 1,
+              "description": "Вставляє нові рядки в існуючі файли, використовуючи пошук підрядка замість повної заміни"
+            },
+            {
+              "name": "Синтаксис Before/After",
+              "id": 2,
+              "description": "Визначає, чи потрібно вставити вміст до або після знайденого підрядка у файлі"
+            },
+            {
+              "name": "Підтримка змінних з абсолютного шляху",
+              "id": 3,
+              "description": "Використовуй частини абсолютного шляху як динамічні значення через токени <Path0>, <Path1> тощо"
+            },
+            {
+              "name": "Система кількох шаблонів",
+              "id": 4,
+              "description": "Створюй і керуй кількома шаблонами для різних типів проектів"
+            },
+            {
+              "name": "Використовується в продакшені",
+              "id": 5,
+              "description": "Активно використовується командою в професійному середовищі для реальних завдань"
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 6613,
+          "text": "Якщо ти використовуєш Redux, структуру за фічами або інші повторювані патерни — це розширення заощадить тобі години щотижня.",
+          "types": {
+            "id": 15,
+            "mobile": "credits",
+            "tablet": "credits",
+            "desktop": "credits"
+          }
+        },
+        {
+          "__component": "atoms.link",
+          "id": 205,
+          "href": "https://marketplace.visualstudio.com/items?itemName=Galionix.vscode-fast-folder-structure-v2",
+          "label": "Fast Folder Structure V2 на VSCode Marketplace",
+          "target": "blank"
+        }
+      ],
+      "customdata": null,
+      "intro": {
+        "id": 121,
+        "project_name": "Folder Structure V2",
+        "description": "Покращений генератор файлів/папок з підтримкою доповнень та динамічних шляхів",
+        "intro": "Розширена версія оригінального розширення для генерації структури. Тепер з розумним доповненням, динамічними токенами шляху та повним контролем над структурою проєкту.",
+        "types": null,
+        "image": {
+          "id": 71,
+          "name": "fast-folder-structure-icon.png",
+          "alternativeText": "іконка fast folder structure",
+          "caption": "іконка fast folder structure",
+          "width": 512,
+          "height": 512,
+          "formats": {
+            "thumbnail": {
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1749991941/extension-icon_blle5y.png"
+            }
+          },
+          "hash": "fastfolderstructureiconhash",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 32.2,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1749991941/extension-icon_blle5y.png",
+          "providermetadata": {
+            "publicid": "fast-folder-structure-icon",
+            "resourcetype": "image"
+          },
+          "createdat": "2025-06-15T00:00:00.000Z",
+          "updatedat": "2025-06-15T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 91,
+        "title": "Dimas! | Fast Folder Structure V2 для VSCode",
+        "description": "Покращене розширення для структурування проєктів у VS Code з підтримкою доповнень",
+        "keywords": "vscode, scaffolding, file structure, patching, templates"
+      },
+      "localizations": [{ "id": 100, "locale": "en" }]
+    },
+    {
       "id": 50,
       "github": "https://github.com/Galionix/music-site",
       "locale": "en",
@@ -481,6 +780,305 @@
     }
   ],
   "en": [
+    {
+      "github": "https://github.com/Galionix/focus-blocker",
+      "id": 99,
+      "locale": "en",
+      "created_at": "2025-06-15T00:00:00.000Z",
+      "updated_at": "2025-06-15T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 6601,
+          "text": "I created this extension to maintain scheduled breaks, becouse work-life balance is important.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 6602,
+          "text": "When I searched how to visually indicate break, I couldnt find any good visual indication on those extensions, so I decided to create my own. Now, meet presentation: ",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 6605,
+          "text": "This is how blocking looks like",
+          "types": null,
+          "images": [
+            {
+              "alternativeText": "main blocker",
+              "medium": {
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1749988796/blocked_rqn1t5.png",
+                "width": 1119,
+                "height": 652
+              }
+            }
+          ]
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 6605,
+          "text": "And this is how in taskbar",
+          "types": null,
+          "images": [
+            {
+              "alternativeText": "main blocker",
+              "medium": {
+                "url": "https://res.cloudinary.com/dimascf/image/upload/v1749988796/status_pocusg.png",
+                "width": 483,
+                "height": 39
+              }
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 201,
+          "text": "Focus Blocker is your personal break enforcer inside VS Code. It keeps you productive and healthy by actively reminding you to rest — with a full-screen overlay you can't ignore.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 202,
+          "text": "It features a persistent status bar timer, customizable durations, localization (EN, UA), and an extremely simple interface. It automatically starts counting down on VS Code launch — set it and forget it.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 83,
+          "name": "Focus Blocker Features",
+          "items": [
+            {
+              "name": "Automatic break enforcement",
+              "id": 1,
+              "description": "Starts a countdown automatically when VS Code launches and enforces breaks with a fullscreen overlay"
+            },
+            {
+              "name": "Customizable intervals",
+              "id": 2,
+              "description": "Set your own work and break durations using a simple settings interface"
+            },
+            {
+              "name": "Unskippable fullscreen blocker",
+              "id": 3,
+              "description": "Displays a webview that overlays your code — can’t be ignored"
+            },
+            {
+              "name": "Status bar timer",
+              "id": 4,
+              "description": "See time left before the next break right in the status bar, updated live"
+            },
+            {
+              "name": "Multilingual support",
+              "id": 5,
+              "description": "Fully localized in English, Ukrainian, and Russian"
+            },
+            {
+              "name": "Restart timer manually",
+              "id": 6,
+              "description": "Use command palette to restart the timer if needed"
+            },
+            {
+              "name": "Webview-based settings panel",
+              "id": 7,
+              "description": "Customize durations in a visually clear and user-friendly settings window"
+            },
+            {
+              "name": "Lightweight & unobtrusive",
+              "id": 8,
+              "description": "No bloat, no distractions — does one job and does it well"
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 203,
+          "text": "Created as a reminder to take care of yourself while doing deep work. Simple, lightweight, and surprisingly effective — highly recommended for solo developers and productivity nerds.",
+          "types": {
+            "id": 15,
+            "mobile": "credits",
+            "tablet": "credits",
+            "desktop": "credits"
+          }
+        },
+        {
+          "__component": "atoms.link",
+          "id": 204,
+          "href": "https://marketplace.visualstudio.com/items?itemName=Galionix.focus-blocker",
+          "label": "Focus Blocker on VSCode Marketplace",
+          "target": "_blank"
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 120,
+        "project_name": "Focus Blocker",
+        "description": "VS Code extension for enforced productivity cycles with full-screen break alerts.",
+        "intro": "Work. Pause. Repeat. Focus Blocker ensures you stay sharp by enforcing regular breaks with visual reminders inside VS Code. Lightweight, localized, and distraction-proof.",
+        "types": null,
+        "image": {
+          "id": 70,
+          "name": "focus-blocker-icon.png",
+          "alternativeText": "focus blocker logo",
+          "caption": "focus blocker logo",
+          "width": 512,
+          "height": 512,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1749988802/icon_jii8zx.png",
+              "hash": "thumbnail_25353013_designstyle_grunge_u_5e9f2c70db",
+              "mime": "image/png",
+              "name": "thumbnail_25353013-designstyle-grunge-u.png",
+              "path": null,
+              "size": 31.76,
+              "width": 234,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_25353013_designstyle_grunge_u_5e9f2c70db",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "focus_blocker_icon_hash",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 32.2,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1749988802/icon_jii8zx.png",
+          "provider_metadata": {
+            "public_id": "focus-blocker-icon",
+            "resource_type": "image"
+          },
+          "created_at": "2025-06-15T00:00:00.000Z",
+          "updated_at": "2025-06-15T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 90,
+        "title": "Dimas! | Focus Blocker for VSCode",
+        "description": "Enforced break extension for VS Code with overlay, timer and localization",
+        "keywords": "focus, vs code, break, productivity, vscode extension"
+      },
+      "localizations": [{ "id": 99, "locale": "ua" }]
+    },
+    {
+      "github": "https://github.com/Galionix/vscode-folder-templates",
+      "id": 100,
+      "locale": "en",
+      "created_at": "2025-06-15T00:00:00.000Z",
+      "updated_at": "2025-06-15T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 6610,
+          "text": "This is a heavily improved fork of the original folder structure generator extension. It lets you quickly scaffold folders and files based on customizable templates, with dynamic variable substitution.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 6611,
+          "text": "The core idea: templates can now patch existing files instead of overwriting them. I introduced a new syntax to allow inserting content after or before specific substrings inside a file. This enables precise, safe augmentation of existing logic (like Redux reducers or route declarations).",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 6612,
+          "text": "You can also use parts of the current absolute path as template variables. To do that, specify <Path0> - <PathN> up to  depending on the folder depth. For example, if the path is \"P:/projects/contributing/vscode-folder-templates\", then <Path0> = P, <Path1> = projects, and so on. These can be transformed with casing filters too.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 84,
+          "name": "Fast Folder Structure V2 Features",
+          "items": [
+            {
+              "name": "Patch instead of overwrite",
+              "id": 1,
+              "description": "Insert new lines into existing files using substring-based search instead of full replacement"
+            },
+            {
+              "name": "Before/After substring syntax",
+              "id": 2,
+              "description": "Define whether the inserted content should go before or after the matched substring inside the file"
+            },
+            {
+              "name": "Absolute path variable support",
+              "id": 3,
+              "description": "Use parts of the absolute path as dynamic values via , , ... tokens"
+            },
+            {
+              "name": "Multi-template system",
+              "id": 4,
+              "description": "Create and manage multiple project scaffolding templates for various scenarios"
+            },
+            {
+              "name": "Used in production",
+              "id": 5,
+              "description": "Actively used by teammates in a professional environment for real-world work setups"
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 6613,
+          "text": "If you use Redux, feature folders, or any kind of repetitive setup — this extension can save you hours every week.",
+          "types": {
+            "id": 15,
+            "mobile": "credits",
+            "tablet": "credits",
+            "desktop": "credits"
+          }
+        },
+        {
+          "__component": "atoms.link",
+          "id": 205,
+          "href": "https://marketplace.visualstudio.com/items?itemName=Galionix.vscode-fast-folder-structure-v2",
+          "label": "Fast Folder Structure V2 on VSCode Marketplace",
+          "target": "_blank"
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 121,
+        "project_name": "Folder Structure V2",
+        "description": "Advanced file/folder generator with patch support and dynamic path variables",
+        "intro": "An extended version of the original folder scaffolding extension. Now with smart patching, dynamic path tokens, and absolute control over your project structure.",
+        "types": null,
+        "image": {
+          "id": 71,
+          "name": "fast-folder-structure-icon.png",
+          "alternativeText": "fast folder structure icon",
+          "caption": "fast folder structure icon",
+          "width": 512,
+          "height": 512,
+          "formats": {
+            "thumbnail": {
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1749991941/extension-icon_blle5y.png"
+            }
+          },
+          "hash": "fast_folder_structure_icon_hash",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 32.2,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1749991941/extension-icon_blle5y.png",
+          "provider_metadata": {
+            "public_id": "fast-folder-structure-icon",
+            "resource_type": "image"
+          },
+          "created_at": "2025-06-15T00:00:00.000Z",
+          "updated_at": "2025-06-15T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 91,
+        "title": "Dimas! | Fast Folder Structure V2 for VSCode",
+        "description": "Improved folder/file structure extension for VS Code with patching support",
+        "keywords": "vscode, scaffolding, file structure, patching, templates"
+      },
+      "localizations": [{ "id": 100, "locale": "ua" }]
+    },
     {
       "id": 50,
       "github": "https://github.com/Galionix/music-site",

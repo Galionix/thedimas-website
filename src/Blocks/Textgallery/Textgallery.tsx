@@ -177,16 +177,16 @@ export const Textgallery = ({
           images.map((image: any, i: number) =>
             image.medium ? (
               <Image
-                onClick={() => {
-                  setActive(i);
-                  setModalOpen(true);
-                }}
+                // onClick={() => {
+                //   setActive(i);
+                //   setModalOpen(true);
+                // }}
                 objectFit="cover"
                 className={` ${s.image} ${images.length > 3 ? s.slide : ""}`}
                 key={i}
                 src={image.medium.url}
-                // width={image.medium.width}
-                // height={image.medium.height}
+                width={image.medium.width}
+                height={image.medium.height}
                 alt={image.alternativeText}
               />
             ) : (
@@ -284,15 +284,15 @@ export const Textgallery = ({
             {...figcaptionProps}
           >
             {/* <Parallax disabled> */}
-              {text}
+            {text}
 
-              <Sparkles
-                minSize={2}
-                maxSize={10}
-                count={50}
-                color="yellow"
-                overflowPx={30}
-              />
+            <Sparkles
+              minSize={2}
+              maxSize={10}
+              count={50}
+              color="yellow"
+              overflowPx={30}
+            />
             {/* </Parallax> */}
           </motion.figcaption>
         )}
