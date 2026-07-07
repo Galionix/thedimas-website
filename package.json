@@ -4,11 +4,21 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:e2e": "next dev --hostname 127.0.0.1 --port 3001",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec 'cypress/e2e/discovery-files.cy.ts,cypress/e2e/home.cy.ts'",
+    "test:e2e": "start-server-and-test dev:e2e http://127.0.0.1:3001 cypress:run",
+    "visual:baseline": "CYPRESS_VISUAL_TARGET=baseline cypress run --spec cypress/e2e/visual.cy.ts",
+    "visual:current": "CYPRESS_VISUAL_TARGET=current cypress run --spec cypress/e2e/visual.cy.ts",
+    "visual:baseline:e2e": "start-server-and-test dev:e2e http://127.0.0.1:3001 visual:baseline",
+    "visual:current:e2e": "start-server-and-test dev:e2e http://127.0.0.1:3001 visual:current",
+    "visual:compare": "node scripts/compare-visual-snapshots.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "classnames": "^2.5.1",
     "framer-motion": "^10.17.4",
     "javascript-time-ago": "^2.5.9",
@@ -30,7 +40,11 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-modal": "^3.16.3",
+    "cypress": "^15.18.0",
+    "pixelmatch": "^7.2.0",
+    "pngjs": "^7.0.0",
     "sass": "^1.69.7",
+    "start-server-and-test": "^3.0.11",
     "typescript": "^5"
   }
 }

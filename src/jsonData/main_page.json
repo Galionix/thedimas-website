@@ -7,8 +7,8 @@
     "comps": [
       {
         "__component": "molecules.paragraph",
-        "id": 81,
-        "text": "Галактіонов Дмитро: створення майбутнього веб-розробки",
+        "id": 8201,
+        "text": "Галактіонов Дмитро: full-stack, backend та infrastructure developer",
         "types": {
           "mobile": "title",
           "tablet": "title",
@@ -17,168 +17,269 @@
       },
       {
         "__component": "molecules.paragraph",
-        "id": 84,
-        "text": "Ласкаво просимо до мого цифрового царства!",
+        "id": 8202,
+        "text": "Я корисний там, де проект заплутаний, дедлайн реальний, і потрібна людина, яка пройде шлях від бізнес-задачі до працюючого релізу.",
+        "types": null
+      },
+      {
+        "__component": "molecules.list",
+        "id": 8203,
+        "name": "Що можна замовити",
+        "items": [
+          {
+            "id": 820301,
+            "icon": "FaCheck",
+            "name": "MVP або feature sprint",
+            "description": "Перетворити ідею на робочий Next.js/React застосунок, backend API, модель даних, деплой і зрозумілий handoff."
+          },
+          {
+            "id": 820302,
+            "icon": "FaCheck",
+            "name": "Backend та інтеграції",
+            "description": "Спроєктувати API routes, data models, auth, third-party integrations, queues, webhooks і надійні межі сервісів."
+          },
+          {
+            "id": 820303,
+            "icon": "FaCheck",
+            "name": "Внутрішні інструменти та адмінки",
+            "description": "Зробити dashboards, role-based admin flows, таблиці, форми, звіти й операційні екрани для реальних команд."
+          },
+          {
+            "id": 820304,
+            "icon": "FaCheck",
+            "name": "Technical rescue sprint",
+            "description": "Зайти у нестабільну кодову базу, розкласти moving parts, прибрати блокери, додати тести/monitoring і зробити наступний реліз реалістичним."
+          }
+        ],
+        "types": null
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 8204,
+        "text": "Комерційний досвід",
         "types": {
-          "mobile": "freaky",
-          "tablet": "freaky",
-          "desktop": "freaky"
+          "mobile": "title",
+          "tablet": "title",
+          "desktop": "title"
         }
       },
       {
         "__component": "molecules.paragraph",
-        "id": 82,
-        "text": "Як пристрасний розробник Full Stack, я поєдную уяву та технології, щоб створювати виняткові веб-досвіди. Маючи понад чотири роки професійного досвіду, я відточив свої навички як у front-end, так і в back-end розробці, опановуючи технології як React, Node.js і Docker.",
+        "id": 8205,
+        "text": "У Bella AI я працював над production платформою для driving schools: multi-tenant administration, role-based access, student self-service, realtime kiosk check-in/check-out, attendance, photo capture та assessments.",
         "types": null
       },
       {
-        "__component": "molecules.text-gallery",
-        "id": 14,
-        "type": "banner",
-        "text": "Давайте Побудуємо Щось Дивовижне Разом.",
+        "__component": "molecules.list",
+        "id": 8206,
+        "name": "Чому це безпечна ставка",
+        "items": [
+          {
+            "id": 820601,
+            "icon": "FaCheck",
+            "name": "End-to-end ownership",
+            "description": "Можу закривати UI, API, базу даних, deployment, CI/CD, monitoring і документацію, а не лише один ізольований шматок."
+          },
+          {
+            "id": 820602,
+            "icon": "FaCheck",
+            "name": "Type-safe delivery",
+            "description": "Свіжий стек: Next.js, React, TypeScript, Supabase/PostgreSQL, Zod, RTK Query, Playwright, Sentry і PostHog."
+          },
+          {
+            "id": 820603,
+            "icon": "FaCheck",
+            "name": "Практична комунікація",
+            "description": "Перетворюю нечіткі вимоги на технічний план, рано називаю ризики і тримаю реалізацію привʼязаною до бізнес-цінності."
+          },
+          {
+            "id": 820604,
+            "icon": "FaCheck",
+            "name": "Швидкий перший крок",
+            "description": "Можна почати з короткого audit, rescue sprint або невеликого scoped build, а потім масштабувати співпрацю."
+          }
+        ],
+        "types": null
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 8207,
+        "text": "Особисті MVP та прототипи",
+        "types": {
+          "mobile": "title",
+          "tablet": "title",
+          "desktop": "title"
+        }
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 8208,
+        "text": "Це менші self-contained проекти. Вони показують product taste, UI states і технічний діапазон, але головний комерційний сигнал зараз вище.",
+        "types": null
+      },
+      {
+        "__component": "molecules.textgallery",
+        "id": 8209,
+        "text": "UseNotes: захищений dashboard для нотаток зі створенням записів і UI для AI-резюме.",
+        "type": "case-study",
+        "types": null,
         "images": [
           {
-            "alternativeText": "видавати мене за чарівника",
-            "id": 39,
-            "name": "IMG_20210724_182634.jpg",
+            "id": 640936,
+            "name": "usenotes-create-modal.png",
+            "alternativeText": "UseNotes create note modal",
             "caption": "",
-            "width": 2761,
-            "height": 1574,
+            "width": 2560,
+            "height": 1440,
             "formats": {
-              "large": {
-                "ext": ".jpg",
-                "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
-
-                "hash": "large_IMG_20210724_182634_af6c9a373a",
-                "mime": "image/jpeg",
-                "name": "large_IMG_20210724_182634.jpg",
-                "path": null,
-                "size": 229.75,
-                "width": 1000,
-                "height": 824,
-                "provider_metadata": {
-                  "public_id": "large_IMG_20210724_182634_af6c9a373a",
-                  "resource_type": "image"
-                }
-              },
               "thumbnail": {
-                "ext": ".jpg",
-                "url": "https://res.cloudinary.com/dimascf/image/upload/v1627140479/thumbnail_IMG_20210724_182634_af6c9a373a.jpg",
-                "hash": "thumbnail_IMG_20210724_182634_af6c9a373a",
-                "mime": "image/jpeg",
-                "name": "thumbnail_IMG_20210724_182634.jpg",
+                "ext": ".png",
+                "url": "/portfolio/usenotes-create-modal.png",
+                "hash": "usenotes_create_modal_png",
+                "mime": "image/png",
+                "name": "usenotes-create-modal.png",
                 "path": null,
-                "size": 10.87,
-                "width": 189,
-                "height": 156,
+                "size": 0,
+                "width": 2560,
+                "height": 1440,
                 "provider_metadata": {
-                  "public_id": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                  "public_id": "usenotes-create-modal.png",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "IMG_20210724_182634_af6c9a373a",
-            "ext": ".jpg",
-            "mime": "image/jpeg",
-            "size": 1271.97,
-            "url": "https://res.cloudinary.com/dimascf/image/upload/v1704630787/resized_anime_style_banner_g5etuj.png",
+            "hash": "usenotes_create_modal_png",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 0,
+            "url": "/portfolio/usenotes-create-modal.png",
             "previewUrl": null,
-            "provider": "cloudinary",
+            "provider": "local",
             "provider_metadata": {
-              "public_id": "IMG_20210724_182634_af6c9a373a",
+              "public_id": "usenotes-create-modal.png",
               "resource_type": "image"
             },
-            "created_at": "2021-07-24T15:28:02.218Z",
-            "updated_at": "2021-07-24T15:28:02.339Z"
+            "created_at": "2026-07-08T00:00:00.000Z",
+            "updated_at": "2026-07-08T00:00:00.000Z"
           }
         ]
       },
       {
-        "__component": "molecules.paragraph",
-        "id": 82,
-        "text": "Мій шлях від цікавого кодера до досвідченого розробника живиться моєю відданістю інноваціям і досконалості. Зануртеся в моє портфоліо, щоб відкрити для себе креативність, точність і технічну майстерність, які визначають мою роботу.",
-        "types": null
-      },
-      {
-        "__component": "molecules.text-gallery",
-        "id": 11231,
-        "type": "image-top",
-        "text": "Привіт! Я Галактіонов Дмитро, Full Stack Developer із жвавого міста Одеса, Україна. Моя пригода у веб-розробці почалася з іскри цікавості та швидко переросла в гарячу пристрасть. Те, що почалося як хобі , кодуючи прості сценарії та вивчаючи основи HTML і CSS у підлітковому віці, переріс у повноцінну кар’єру, де я створюю складні та ефективні веб-рішення.",
+        "__component": "molecules.textgallery",
+        "id": 8210,
+        "text": "Arcane Origins: інтерактивний story state з інвентарем, діями та перевірками навичок.",
+        "type": "case-study",
+        "types": null,
         "images": [
           {
-            "alternativeText": "me at work",
-            "id": 39,
-            "name": "IMG_20210724_182634.jpg",
+            "id": 606379,
+            "name": "arcane-origins-skill-check.png",
+            "alternativeText": "Arcane Origins game state",
             "caption": "",
-            "width": 2761,
-            "height": 1574,
+            "width": 2560,
+            "height": 1440,
             "formats": {
-              "large": {
-                "ext": ".jpg",
-                "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
-
-                "hash": "large_IMG_20210724_182634_af6c9a373a",
-                "mime": "image/jpeg",
-                "name": "large_IMG_20210724_182634.jpg",
-                "path": null,
-                "size": 229.75,
-                "width": 1000,
-                "height": 824,
-                "provider_metadata": {
-                  "public_id": "large_IMG_20210724_182634_af6c9a373a",
-                  "resource_type": "image"
-                }
-              },
               "thumbnail": {
-                "ext": ".jpg",
-                "url": "https://res.cloudinary.com/dimascf/image/upload/v1627140479/thumbnail_IMG_20210724_182634_af6c9a373a.jpg",
-                "hash": "thumbnail_IMG_20210724_182634_af6c9a373a",
-                "mime": "image/jpeg",
-                "name": "thumbnail_IMG_20210724_182634.jpg",
+                "ext": ".png",
+                "url": "/portfolio/arcane-origins-skill-check.png",
+                "hash": "arcane_origins_skill_check_png",
+                "mime": "image/png",
+                "name": "arcane-origins-skill-check.png",
                 "path": null,
-                "size": 10.87,
-                "width": 189,
-                "height": 156,
+                "size": 0,
+                "width": 2560,
+                "height": 1440,
                 "provider_metadata": {
-                  "public_id": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                  "public_id": "arcane-origins-skill-check.png",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "IMG_20210724_182634_af6c9a373a",
-            "ext": ".jpg",
-            "mime": "image/jpeg",
-            "size": 1271.97,
-            "url": "https://res.cloudinary.com/dimascf/image/upload/v1704336287/1168d2cf4ec0e365ea1a350f6876188457878e48_high_lrc6ey.webp",
-
+            "hash": "arcane_origins_skill_check_png",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 0,
+            "url": "/portfolio/arcane-origins-skill-check.png",
             "previewUrl": null,
-            "provider": "cloudinary",
+            "provider": "local",
             "provider_metadata": {
-              "public_id": "IMG_20210724_182634_af6c9a373a",
+              "public_id": "arcane-origins-skill-check.png",
               "resource_type": "image"
             },
-            "created_at": "2021-07-24T15:28:02.218Z",
-            "updated_at": "2021-07-24T15:28:02.339Z"
+            "created_at": "2026-07-08T00:00:00.000Z",
+            "updated_at": "2026-07-08T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "__component": "molecules.textgallery",
+        "id": 8211,
+        "text": "5-Hours Shop: компактний ecommerce cart flow з кількістю товарів і підрахунком total.",
+        "type": "case-study",
+        "types": null,
+        "images": [
+          {
+            "id": 539928,
+            "name": "shop-cart.png",
+            "alternativeText": "5-Hours Shop cart state",
+            "caption": "",
+            "width": 2560,
+            "height": 1440,
+            "formats": {
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/portfolio/shop-cart.png",
+                "hash": "shop_cart_png",
+                "mime": "image/png",
+                "name": "shop-cart.png",
+                "path": null,
+                "size": 0,
+                "width": 2560,
+                "height": 1440,
+                "provider_metadata": {
+                  "public_id": "shop-cart.png",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "shop_cart_png",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 0,
+            "url": "/portfolio/shop-cart.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": {
+              "public_id": "shop-cart.png",
+              "resource_type": "image"
+            },
+            "created_at": "2026-07-08T00:00:00.000Z",
+            "updated_at": "2026-07-08T00:00:00.000Z"
           }
         ]
       }
     ],
     "seo": {
       "id": 3,
-      "title": "Головна",
-      "description": "Опис головної",
-      "keywords": "ключові слова"
+      "title": "Dimas Galaktionov | Веб, бекенд та інфраструктурний розробник",
+      "description": "Full-stack розробник для MVP, backend-систем, адмінок, автоматизацій, інтеграцій та cleanup інфраструктури для засновників, агентств і невеликих команд.",
+      "keywords": "full-stack розробник, backend розробник, MVP, адмінки, внутрішні інструменти, автоматизація, інтеграції, React, Next.js, Node.js, Supabase, Docker"
     },
     "types": null,
     "intro": {
       "id": 70,
       "project_name": "Dimas",
-      "description": null,
-      "intro": null,
+      "description": "Full-stack розробник для продуктів, де фронт, бекенд та інфраструктура мають працювати разом.",
+      "intro": "Будую, ремонтую і доводжу до релізу веб-продукти, адмінки, API, автоматизації та інтеграції для засновників, агентств і невеликих команд.",
       "types": null,
       "image": null
     },
-    "localizations": [{ "id": 2, "locale": "en" }]
+    "localizations": [
+      {
+        "id": 2,
+        "locale": "en"
+      }
+    ]
   },
   "en": {
     "id": 2,
@@ -188,8 +289,8 @@
     "comps": [
       {
         "__component": "molecules.paragraph",
-        "id": 81,
-        "text": "Galaktionov Dmitry: Crafting the Future of Web Development",
+        "id": 8101,
+        "text": "Dmitry Galaktionov: full-stack, backend and infrastructure developer",
         "types": {
           "mobile": "title",
           "tablet": "title",
@@ -198,167 +299,268 @@
       },
       {
         "__component": "molecules.paragraph",
-        "id": 84,
-        "text": "Welcome to My Digital Realm!",
+        "id": 8102,
+        "text": "I am useful when the project is messy, the deadline is real, and somebody needs to own the path from product problem to shipped software.",
+        "types": null
+      },
+      {
+        "__component": "molecules.list",
+        "id": 8103,
+        "name": "What you can hire me for",
+        "items": [
+          {
+            "id": 810301,
+            "icon": "FaCheck",
+            "name": "MVP or feature sprint",
+            "description": "Turn a product idea into a working Next.js/React app, backend API, database model, deployment and a clear handoff."
+          },
+          {
+            "id": 810302,
+            "icon": "FaCheck",
+            "name": "Backend and integration work",
+            "description": "Design API routes, data models, auth, third-party integrations, queues, webhooks and reliable service boundaries."
+          },
+          {
+            "id": 810303,
+            "icon": "FaCheck",
+            "name": "Internal tools and admin panels",
+            "description": "Build operational dashboards, role-based admin flows, tables, forms, reports and moderation interfaces for real teams."
+          },
+          {
+            "id": 810304,
+            "icon": "FaCheck",
+            "name": "Technical rescue sprint",
+            "description": "Enter an unstable codebase, map the moving parts, fix blockers, add tests/monitoring and make the next release realistic."
+          }
+        ],
+        "types": null
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 8104,
+        "text": "Commercial proof",
         "types": {
-          "mobile": "freaky",
-          "tablet": "freaky",
-          "desktop": "freaky"
+          "mobile": "title",
+          "tablet": "title",
+          "desktop": "title"
         }
       },
       {
         "__component": "molecules.paragraph",
-        "id": 82,
-        "text": "As a passionate Full Stack Developer, I blend imagination and technology to shape exceptional web experiences. With over four years of professional experience, I've honed my skills in both front-end and back-end development, mastering technologies like React, Node.js, and Docker.",
+        "id": 8105,
+        "text": "At Bella AI I worked on a production driving-school management platform: multi-tenant administration, role-based access, student self-service, realtime kiosk check-in/check-out, attendance, photo capture and assessments.",
         "types": null
       },
       {
-        "__component": "molecules.text-gallery",
-        "id": 14,
-        "type": "banner",
-        "text": "Let's Build Something Amazing Together.",
+        "__component": "molecules.list",
+        "id": 8106,
+        "name": "Why this is a safe bet",
+        "items": [
+          {
+            "id": 810601,
+            "icon": "FaCheck",
+            "name": "End-to-end ownership",
+            "description": "I can work across UI, API, database, deployment, CI/CD, monitoring and documentation instead of dropping one isolated piece."
+          },
+          {
+            "id": 810602,
+            "icon": "FaCheck",
+            "name": "Type-safe delivery",
+            "description": "Recent work includes Next.js, React, TypeScript, Supabase/PostgreSQL, Zod, RTK Query, Playwright, Sentry and PostHog."
+          },
+          {
+            "id": 810603,
+            "icon": "FaCheck",
+            "name": "Practical communication",
+            "description": "I turn unclear requirements into a technical plan, name risks early and keep the implementation tied to business value."
+          },
+          {
+            "id": 810604,
+            "icon": "FaCheck",
+            "name": "Fast first step",
+            "description": "A useful engagement can start as a short audit, rescue sprint or scoped build before turning into larger work."
+          }
+        ],
+        "types": null
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 8107,
+        "text": "Personal MVPs and prototypes",
+        "types": {
+          "mobile": "title",
+          "tablet": "title",
+          "desktop": "title"
+        }
+      },
+      {
+        "__component": "molecules.paragraph",
+        "id": 8108,
+        "text": "These are smaller self-contained projects. They are here to show product taste, UI states and technical range, while the commercial work above is the stronger signal.",
+        "types": null
+      },
+      {
+        "__component": "molecules.textgallery",
+        "id": 8109,
+        "text": "UseNotes: protected notes dashboard with create-note flow and AI summarization UI.",
+        "type": "case-study",
+        "types": null,
         "images": [
           {
-            "alternativeText": "pretending me as a magician",
-            "id": 39,
-            "name": "IMG_20210724_182634.jpg",
+            "id": 640936,
+            "name": "usenotes-create-modal.png",
+            "alternativeText": "UseNotes create note modal",
             "caption": "",
-            "width": 2761,
-            "height": 1574,
+            "width": 2560,
+            "height": 1440,
             "formats": {
-              "large": {
-                "ext": ".jpg",
-                "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
-
-                "hash": "large_IMG_20210724_182634_af6c9a373a",
-                "mime": "image/jpeg",
-                "name": "large_IMG_20210724_182634.jpg",
-                "path": null,
-                "size": 229.75,
-                "width": 1000,
-                "height": 824,
-                "provider_metadata": {
-                  "public_id": "large_IMG_20210724_182634_af6c9a373a",
-                  "resource_type": "image"
-                }
-              },
               "thumbnail": {
-                "ext": ".jpg",
-                "url": "https://res.cloudinary.com/dimascf/image/upload/v1627140479/thumbnail_IMG_20210724_182634_af6c9a373a.jpg",
-                "hash": "thumbnail_IMG_20210724_182634_af6c9a373a",
-                "mime": "image/jpeg",
-                "name": "thumbnail_IMG_20210724_182634.jpg",
+                "ext": ".png",
+                "url": "/portfolio/usenotes-create-modal.png",
+                "hash": "usenotes_create_modal_png",
+                "mime": "image/png",
+                "name": "usenotes-create-modal.png",
                 "path": null,
-                "size": 10.87,
-                "width": 189,
-                "height": 156,
+                "size": 0,
+                "width": 2560,
+                "height": 1440,
                 "provider_metadata": {
-                  "public_id": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                  "public_id": "usenotes-create-modal.png",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "IMG_20210724_182634_af6c9a373a",
-            "ext": ".jpg",
-            "mime": "image/jpeg",
-            "size": 1271.97,
-            "url": "https://res.cloudinary.com/dimascf/image/upload/v1704630787/resized_anime_style_banner_g5etuj.png",
+            "hash": "usenotes_create_modal_png",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 0,
+            "url": "/portfolio/usenotes-create-modal.png",
             "previewUrl": null,
-            "provider": "cloudinary",
+            "provider": "local",
             "provider_metadata": {
-              "public_id": "IMG_20210724_182634_af6c9a373a",
+              "public_id": "usenotes-create-modal.png",
               "resource_type": "image"
             },
-            "created_at": "2021-07-24T15:28:02.218Z",
-            "updated_at": "2021-07-24T15:28:02.339Z"
+            "created_at": "2026-07-08T00:00:00.000Z",
+            "updated_at": "2026-07-08T00:00:00.000Z"
           }
         ]
       },
       {
-        "__component": "molecules.paragraph",
-        "id": 82,
-        "text": "My journey from a curious coder to a seasoned developer is fueled by my dedication to innovation and excellence. Dive into my portfolio to discover the creativity, precision, and technical prowess that define my work.",
-        "types": null
-      },
-      {
-        "__component": "molecules.text-gallery",
-        "id": 11231,
-        "type": "image-top",
-        "text": "Hello! I'm Galaktionov Dmitry, a Full Stack Developer from the vibrant city of Odessa, Ukraine. My adventure in web development began as a spark of curiosity and quickly ignited into a burning passion. What started as a hobby, coding simple scripts and exploring the basics of HTML and CSS during my teen years, has blossomed into a full-fledged career where I craft sophisticated and effective web solutions.",
+        "__component": "molecules.textgallery",
+        "id": 8110,
+        "text": "Arcane Origins: interactive story state with inventory, actions and skill checks.",
+        "type": "case-study",
+        "types": null,
         "images": [
           {
-            "alternativeText": "me at work",
-            "id": 39,
-            "name": "IMG_20210724_182634.jpg",
+            "id": 606379,
+            "name": "arcane-origins-skill-check.png",
+            "alternativeText": "Arcane Origins game state",
             "caption": "",
-            "width": 2761,
-            "height": 1574,
+            "width": 2560,
+            "height": 1440,
             "formats": {
-              "large": {
-                "ext": ".jpg",
-                "url": "https://res.cloudinary.com/dimascf/image/upload/v1704325353/photo_2023-03-07_02-48-58_o4lch5.jpg",
-
-                "hash": "large_IMG_20210724_182634_af6c9a373a",
-                "mime": "image/jpeg",
-                "name": "large_IMG_20210724_182634.jpg",
-                "path": null,
-                "size": 229.75,
-                "width": 1000,
-                "height": 824,
-                "provider_metadata": {
-                  "public_id": "large_IMG_20210724_182634_af6c9a373a",
-                  "resource_type": "image"
-                }
-              },
               "thumbnail": {
-                "ext": ".jpg",
-                "url": "https://res.cloudinary.com/dimascf/image/upload/v1627140479/thumbnail_IMG_20210724_182634_af6c9a373a.jpg",
-                "hash": "thumbnail_IMG_20210724_182634_af6c9a373a",
-                "mime": "image/jpeg",
-                "name": "thumbnail_IMG_20210724_182634.jpg",
+                "ext": ".png",
+                "url": "/portfolio/arcane-origins-skill-check.png",
+                "hash": "arcane_origins_skill_check_png",
+                "mime": "image/png",
+                "name": "arcane-origins-skill-check.png",
                 "path": null,
-                "size": 10.87,
-                "width": 189,
-                "height": 156,
+                "size": 0,
+                "width": 2560,
+                "height": 1440,
                 "provider_metadata": {
-                  "public_id": "thumbnail_IMG_20210724_182634_af6c9a373a",
+                  "public_id": "arcane-origins-skill-check.png",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "IMG_20210724_182634_af6c9a373a",
-            "ext": ".jpg",
-            "mime": "image/jpeg",
-            "size": 1271.97,
-            "url": "https://res.cloudinary.com/dimascf/image/upload/v1704336287/1168d2cf4ec0e365ea1a350f6876188457878e48_high_lrc6ey.webp",
-
+            "hash": "arcane_origins_skill_check_png",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 0,
+            "url": "/portfolio/arcane-origins-skill-check.png",
             "previewUrl": null,
-            "provider": "cloudinary",
+            "provider": "local",
             "provider_metadata": {
-              "public_id": "IMG_20210724_182634_af6c9a373a",
+              "public_id": "arcane-origins-skill-check.png",
               "resource_type": "image"
             },
-            "created_at": "2021-07-24T15:28:02.218Z",
-            "updated_at": "2021-07-24T15:28:02.339Z"
+            "created_at": "2026-07-08T00:00:00.000Z",
+            "updated_at": "2026-07-08T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "__component": "molecules.textgallery",
+        "id": 8111,
+        "text": "5-Hours Shop: compact ecommerce cart flow with quantity and total state.",
+        "type": "case-study",
+        "types": null,
+        "images": [
+          {
+            "id": 539928,
+            "name": "shop-cart.png",
+            "alternativeText": "5-Hours Shop cart state",
+            "caption": "",
+            "width": 2560,
+            "height": 1440,
+            "formats": {
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/portfolio/shop-cart.png",
+                "hash": "shop_cart_png",
+                "mime": "image/png",
+                "name": "shop-cart.png",
+                "path": null,
+                "size": 0,
+                "width": 2560,
+                "height": 1440,
+                "provider_metadata": {
+                  "public_id": "shop-cart.png",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "shop_cart_png",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 0,
+            "url": "/portfolio/shop-cart.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": {
+              "public_id": "shop-cart.png",
+              "resource_type": "image"
+            },
+            "created_at": "2026-07-08T00:00:00.000Z",
+            "updated_at": "2026-07-08T00:00:00.000Z"
           }
         ]
       }
     ],
     "seo": {
       "id": 55,
-      "title": "Головна",
-      "description": "Опис головної",
-      "keywords": "ключові слова"
+      "title": "Dimas Galaktionov | Full-stack, Backend & Infrastructure Developer",
+      "description": "Full-stack developer for MVPs, backend systems, admin panels, automations, integrations and infrastructure cleanup for founders, agencies and small teams.",
+      "keywords": "full-stack developer, backend developer, infrastructure developer, MVP development, admin panels, internal tools, automation, integrations, React, Next.js, Node.js, Supabase, Docker"
     },
     "types": null,
     "intro": {
       "id": 71,
       "project_name": "Dimas",
-      "description": null,
-      "intro": null,
+      "description": "Full-stack developer for products that need frontend, backend and infrastructure in one pair of hands.",
+      "intro": "I build, repair and ship web products, admin panels, APIs, automations and integrations for founders, agencies and small teams.",
       "types": null,
       "image": null
     },
-    "localizations": [{ "id": 1, "locale": "ua" }]
+    "localizations": [
+      {
+        "id": 1,
+        "locale": "ua"
+      }
+    ]
   }
 }

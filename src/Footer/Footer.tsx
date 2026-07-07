@@ -2,7 +2,7 @@ import s from './Footer.module.scss'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { motion } from 'framer-motion'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
 import { useStore } from '../../utils/state';
 
@@ -33,12 +33,15 @@ export const Footer = ({ data, preset }: {
 	const currentHref = data[
 		router.locale || 0
 	].comps[selected].href
+	const lightLabel = router.locale === 'en' ? 'Light' : 'Світла'
+	const darkLabel = router.locale === 'en' ? 'Dark' : 'Темна'
 
 	const {
 		theme,
 		switchTheme,
 		skip_intro
 	} = useStore();
+	const [isMounted, setIsMounted] = useState(false);
 
 	// const [darkTheme, setDarkTheme] =
 	// 	useState(false)
@@ -67,6 +70,10 @@ export const Footer = ({ data, preset }: {
 		// }
 
 	}
+
+	useEffect(() => {
+		setIsMounted(true)
+	}, [])
 
 	// const styles = cx({
 
@@ -130,8 +137,8 @@ export const Footer = ({ data, preset }: {
 				</button>
 			</li>
 			<li>
-				<button onClick={changeTheme}>
-					{theme !== "Light" ? 'Dark' : 'Light'}
+				<button onClick={changeTheme} suppressHydrationWarning>
+					{isMounted ? (theme !== "Light" ? darkLabel : lightLabel) : lightLabel}
 				</button>
 			</li>
 		</ul>

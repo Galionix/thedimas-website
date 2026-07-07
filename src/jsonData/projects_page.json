@@ -7,7 +7,7 @@
     "seo": {
       "id": 6,
       "title": "Проекти | Дімас!",
-      "description": "Каталог моїх проектів",
+      "description": "Комерційні та особисті кейси Дмитра Галактіонова: production адмінки, внутрішні інструменти, прототипи та developer utilities.",
       "keywords": "мої роботи, мої проекти, портфоліо"
     },
     "types": null,
@@ -16,18 +16,23 @@
     "comps": [
       {
         "__component": "molecules.paragraph",
-        "id": 32,
-        "text": "Цей сайт також є виставкою моїх робіт.",
+        "id": 7201,
+        "text": "Найсильніший сигнал тут — комерційна product робота: складні адмінки, backend/API ownership, інтеграції та production delivery.",
         "types": null
       },
       {
         "__component": "molecules.paragraph",
-        "id": 33,
-        "text": "Ласкаво просимо сюди!)",
+        "id": 7202,
+        "text": "Особисті проекти залишаються в каталозі як технічні приклади, але не як головний доказ seniority.",
         "types": null
       }
     ],
-    "localizations": [{ "id": 7, "locale": "en" }]
+    "localizations": [
+      {
+        "id": 7,
+        "locale": "en"
+      }
+    ]
   },
   "en": {
     "id": 7,
@@ -37,7 +42,7 @@
     "seo": {
       "id": 7,
       "title": "Projects | Dimas!",
-      "description": "My projects directory",
+      "description": "Commercial and personal project case studies by Dimas Galaktionov: production admin platforms, internal tools, prototypes and developer utilities.",
       "keywords": "мои работы, мои проекты,  портфолио"
     },
     "types": null,
@@ -46,17 +51,22 @@
     "comps": [
       {
         "__component": "molecules.paragraph",
-        "id": 31,
-        "text": "This site is also an exhibition of my personal projects.",
+        "id": 7101,
+        "text": "The strongest signal here is commercial product work: complex admin panels, backend/API ownership, integrations and production delivery.",
         "types": null
       },
       {
         "__component": "molecules.paragraph",
-        "id": 135,
-        "text": "Welcome here!)",
+        "id": 7102,
+        "text": "Personal projects stay in the catalog as technical samples, not as the main proof of seniority.",
         "types": null
       }
     ],
-    "localizations": [{ "id": 8, "locale": "ua" }]
+    "localizations": [
+      {
+        "id": 8,
+        "locale": "ua"
+      }
+    ]
   }
 }

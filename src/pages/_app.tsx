@@ -11,6 +11,7 @@ import type { AppProps } from "next/app";
 import { GetStaticProps } from "next";
 import Head from "next/head";
 import { useEffect, useRef } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { SiteIcon } from '../SiteIcon';
 import { Tthemes, useStore } from '../../utils/state';
 import { useScrolled } from '../../utils/hooks/useScrolled';
@@ -62,6 +63,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }

@@ -57,6 +57,7 @@ const ProjectCard = ({
   image: Projects.Image2;
 }) => {
   const ref = useRef(null);
+  const isPortfolioScreenshot = image.url.startsWith("/portfolio/");
   const intersection = useIntersection(ref, {
     root: null,
     rootMargin: "0px",
@@ -85,7 +86,7 @@ const ProjectCard = ({
     },
   };
   return (
-    <li ref={ref} className={` ${s.card} `}>
+    <li ref={ref} className={` ${s.card} ${isPortfolioScreenshot ? s.caseStudyCard : ""} `}>
       <motion.div className={` ${s.hider} `}>
         <motion.p
           initial={{
@@ -123,7 +124,7 @@ const ProjectCard = ({
               animate={
                 intersection && intersection.intersectionRatio > 0.3
                   ? {
-                      scale: 1.5,
+                      scale: isPortfolioScreenshot ? 1.02 : 1.5,
                       opacity: 1,
                       transition: {
                         duration: 1,

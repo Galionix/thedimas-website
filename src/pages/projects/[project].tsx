@@ -156,6 +156,7 @@ export default function Project({
   const index = projects[newLocale].findIndex(
     (project: any) => project.intro.project_name === query.project
   );
+  const isPortfolioScreenshot = project.intro.image.url.startsWith("/portfolio/");
 
   return (
     <div data-scroll-section>
@@ -172,13 +173,14 @@ export default function Project({
         {/* <h3>{project.intro.description}</h3> */}
         {/* <div className={` ${s.image} `}> */}
         <Image
+          className={isPortfolioScreenshot ? s.introScreenshot : ""}
           blurDataURL={project.intro.image.formats.thumbnail.url}
           placeholder="blur"
           width={project.intro.image.width}
           height={500}
           src={project.intro.image.url}
           loading="lazy"
-          objectFit="cover"
+          objectFit={isPortfolioScreenshot ? "contain" : "cover"}
           objectPosition="center"
           alt={project.intro.image.alternativeText}
         />
@@ -190,24 +192,24 @@ export default function Project({
         preset={"project-page"}
         wrapperClass={s.blocks}
       />
-      <Link target="_blank" href={project.github}>
-        {/* <a > */}
-        <div className={` ${s.github} `}>
-          <div>
-            <FaGithub />
+      {project.github ? (
+        <Link target="_blank" href={project.github}>
+          <div className={` ${s.github} `}>
+            <div>
+              <FaGithub />
 
-            <Sparkles
-              minSize={2}
-              maxSize={10}
-              count={50}
-              color="yellow"
-              overflowPx={30}
-            />
+              <Sparkles
+                minSize={2}
+                maxSize={10}
+                count={50}
+                color="yellow"
+                overflowPx={30}
+              />
+            </div>
+            <h3>View on github</h3>
           </div>
-          <h3>View on github</h3>
-        </div>
-        {/* </a> */}
-      </Link>
+        </Link>
+      ) : null}
       <Pagination current={project.intro.project_name} intros={intros} />
       <div className={s.comments}>
         {/* <Disqus.DiscussionEmbed

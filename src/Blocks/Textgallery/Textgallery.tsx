@@ -286,13 +286,15 @@ export const Textgallery = ({
             {/* <Parallax disabled> */}
             {text}
 
-            <Sparkles
-              minSize={2}
-              maxSize={10}
-              count={50}
-              color="yellow"
-              overflowPx={30}
-            />
+            {type === "banner" && (
+              <Sparkles
+                minSize={2}
+                maxSize={10}
+                count={50}
+                color="yellow"
+                overflowPx={30}
+              />
+            )}
             {/* </Parallax> */}
           </motion.figcaption>
         )}

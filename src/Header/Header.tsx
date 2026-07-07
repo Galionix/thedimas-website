@@ -2,7 +2,7 @@ import { useRouter } from "next/dist/client/router";
 import Link from "next/link";
 
 import s from "./header.module.scss";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { scrollDirections, useScrolled } from "../../utils/hooks/useScrolled";
 import { useStore } from '../../utils/state';
@@ -23,6 +23,7 @@ export const Header = ({
   preset?: string;
 }) => {
   const { theme, switchTheme, skip_intro, scrollDirection } = useStore();
+  const [isMounted, setIsMounted] = useState(false);
 
   const router = useRouter();
 
@@ -35,9 +36,15 @@ export const Header = ({
     switchTheme(theme === "Light" ? "Dark" : "Light");
   };
 
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   const selected = header_data[router.locale || 0].items.findIndex(
     (item: headerLink) => item.href === `/${router.pathname.split("/")[1]}`
   );
+  const lightLabel = router.locale === "en" ? "Light" : "Світла";
+  const darkLabel = router.locale === "en" ? "Dark" : "Темна";
 
   return (
     <motion.div
@@ -95,8 +102,8 @@ export const Header = ({
             </button>
           </li>
           <li>
-            <button onClick={changeTheme}>
-              {theme !== "Light" ? "Dark" : "Light"}
+            <button onClick={changeTheme} suppressHydrationWarning>
+              {isMounted ? (theme !== "Light" ? darkLabel : lightLabel) : lightLabel}
             </button>
           </li>
         </ul>

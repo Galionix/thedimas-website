@@ -1,6 +1,143 @@
 {
   "ua": [
     {
+      "github": "",
+      "id": 5002,
+      "locale": "ua",
+      "created_at": "2026-07-08T00:00:00.000Z",
+      "updated_at": "2026-07-08T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 500201,
+          "text": "Bella AI — production робота над student management system для driving schools: attendance, photo capture, academic/practical assessments, multi-tenant administration, role-based access і realtime kiosk check-in/check-out.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 500202,
+          "name": "Що я закривав",
+          "items": [
+            {
+              "id": 50020201,
+              "icon": "FaCheck",
+              "name": "Type-safe app architecture",
+              "description": "Проєктував flows через database, API routes і UI на Next.js, TypeScript, next-ts-api, RTK Query та Zod."
+            },
+            {
+              "id": 50020202,
+              "icon": "FaCheck",
+              "name": "Database та permissions",
+              "description": "Зробив 30+ PostgreSQL/Supabase migrations з Row-Level Security і role-aware access patterns."
+            },
+            {
+              "id": 50020203,
+              "icon": "FaCheck",
+              "name": "Auth та onboarding",
+              "description": "Будував role-based authorization, custom middleware та invitation-based registration через Supabase tokens."
+            },
+            {
+              "id": 50020204,
+              "icon": "FaCheck",
+              "name": "Production confidence",
+              "description": "Додав Playwright E2E покриття і налаштував Sentry monitoring для server, client, components та edge errors."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 500203,
+          "text": "Важливий portfolio point: це не декоративний прототип. Це реальна operational platform з admin controls, tenant boundaries, realtime flows, monitoring і вимогами до maintainability.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 500204,
+          "name": "Stack signals",
+          "items": [
+            {
+              "id": 50020401,
+              "icon": "FaCheck",
+              "name": "Frontend",
+              "description": "Next.js 15, React 19, TypeScript, Redux Toolkit, MobX, Tailwind CSS і Headless UI."
+            },
+            {
+              "id": 50020402,
+              "icon": "FaCheck",
+              "name": "Backend/API",
+              "description": "Next.js API Routes, next-ts-api, Zod, Supabase Auth і PostgreSQL."
+            },
+            {
+              "id": 50020403,
+              "icon": "FaCheck",
+              "name": "Quality",
+              "description": "Playwright, Vitest, Testing Library, Sentry, PostHog, ESLint, Husky і Vercel."
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 5011,
+        "project_name": "Bella AI",
+        "description": "Production платформа для driving schools з multi-tenant admin, RBAC і realtime kiosk flows.",
+        "intro": "Комерційна product робота через Next.js, API routes, Supabase/PostgreSQL, type-safe contracts, migrations, tests і monitoring.",
+        "types": null,
+        "image": {
+          "id": 172510,
+          "name": "bella-ai-cover.png",
+          "alternativeText": "Bella AI case study cover",
+          "caption": "",
+          "width": 1600,
+          "height": 1000,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/bella-ai-cover.png",
+              "hash": "bella_ai_cover_png",
+              "mime": "image/png",
+              "name": "bella-ai-cover.png",
+              "path": null,
+              "size": 0,
+              "width": 1600,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "bella-ai-cover.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "bella_ai_cover_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/bella-ai-cover.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "bella-ai-cover.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 5091,
+        "title": "Bella AI кейс | Dimas Galaktionov",
+        "description": "Комерційна Next.js/Supabase platform робота: multi-tenant admin, RBAC, realtime kiosk flows, API routes, migrations, tests і monitoring.",
+        "keywords": "Bella AI, Next.js, Supabase, PostgreSQL, admin panel, RBAC, realtime kiosk, TypeScript, Playwright, Sentry"
+      },
+      "localizations": [
+        {
+          "id": 5001,
+          "locale": "en"
+        }
+      ]
+    },
+    {
       "github": "https://github.com/Galionix/focus-blocker",
       "id": 99,
       "locale": "ua",
@@ -180,7 +317,12 @@
         "description": "Enforced break extension for VS Code with overlay, timer and localization",
         "keywords": "focus, vs code, break, productivity, vscode extension"
       },
-      "localizations": [{ "id": 99, "locale": "ua" }]
+      "localizations": [
+        {
+          "id": 99,
+          "locale": "ua"
+        }
+      ]
     },
     {
       "github": "https://github.com/Galionix/vscode-folder-templates",
@@ -297,7 +439,12 @@
         "description": "Покращене розширення для структурування проєктів у VS Code з підтримкою доповнень",
         "keywords": "vscode, scaffolding, file structure, patching, templates"
       },
-      "localizations": [{ "id": 100, "locale": "en" }]
+      "localizations": [
+        {
+          "id": 100,
+          "locale": "en"
+        }
+      ]
     },
     {
       "id": 50,
@@ -447,7 +594,12 @@
         "description": "Dimas - Planner app",
         "keywords": "dimas planner app, todo"
       },
-      "localizations": [{ "id": 53, "locale": "ua" }]
+      "localizations": [
+        {
+          "id": 53,
+          "locale": "ua"
+        }
+      ]
     },
     {
       "github": "https://github.com/Galionix/next-pwa",
@@ -471,7 +623,6 @@
         {
           "__component": "molecules.list",
           "id": 83,
-
           "name": "Функції Dimas Planner",
           "items": [
             {
@@ -525,7 +676,6 @@
               "description": "Створюйте та керуйте списками, якими можна ділитися з друзями, дозволяючи їм бачити та додавати завдання. Додавати друзів електронною поштою"
             }
           ],
-
           "types": null
         },
         {
@@ -639,7 +789,12 @@
         "description": "Dimas - Додаток Планувальник, додаток для планування завдань",
         "keywords": "dimas планувальник, todo"
       },
-      "localizations": [{ "id": 54, "locale": "en" }]
+      "localizations": [
+        {
+          "id": 54,
+          "locale": "en"
+        }
+      ]
     },
     {
       "id": 55,
@@ -776,10 +931,707 @@
         "description": "Github-explorer у моєму виконанні",
         "keywords": "Github, graphql, zustand, typescript"
       },
-      "localizations": [{ "id": 57, "locale": "en" }]
+      "localizations": [
+        {
+          "id": 57,
+          "locale": "en"
+        }
+      ]
+    },
+    {
+      "github": "https://github.com/Galionix/expo-nextjs-clerk-convex-monorepo",
+      "id": 3001,
+      "locale": "ua",
+      "created_at": "2026-07-07T00:00:00.000Z",
+      "updated_at": "2026-07-07T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 300101,
+          "text": "UseNotes показує full-stack workflow: публічна сторінка, захищена зона, Clerk auth, Convex backend, CRUD для нотаток і AI summary state.",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 300102,
+          "text": "Authenticated create-note modal with AI summarization enabled.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 483899,
+              "name": "usenotes-create-modal.png",
+              "alternativeText": "UseNotes create note modal",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/usenotes-create-modal.png",
+                  "hash": "usenotes_create_modal_png",
+                  "mime": "image/png",
+                  "name": "usenotes-create-modal.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "usenotes-create-modal.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "usenotes_create_modal_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/usenotes-create-modal.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "usenotes-create-modal.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 300103,
+          "text": "Detail view with generated AI summary state.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 584981,
+              "name": "usenotes-summary.png",
+              "alternativeText": "UseNotes AI summary detail",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/usenotes-summary.png",
+                  "hash": "usenotes_summary_png",
+                  "mime": "image/png",
+                  "name": "usenotes-summary.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "usenotes-summary.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "usenotes_summary_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/usenotes-summary.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "usenotes-summary.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.list",
+          "id": 300104,
+          "name": "Що демонструє кейс",
+          "items": [
+            {
+              "id": 1,
+              "name": "Authenticated product flow",
+              "description": "Clerk login, protected notes dashboard and user-scoped data."
+            },
+            {
+              "id": 2,
+              "name": "Realtime backend",
+              "description": "Convex queries, mutations and seeded demo data for repeatable screenshots."
+            },
+            {
+              "id": 3,
+              "name": "AI workflow surface",
+              "description": "Advanced summarization toggle and summary detail state."
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 4001,
+        "project_name": "UseNotes",
+        "description": "Full-stack notes app з auth, realtime backend і AI summary workflow.",
+        "intro": "Next.js + Convex + Clerk application для створення нотаток, пошуку та AI-резюме. Піднято локально, налаштовано auth/backend і знято внутрішні product states.",
+        "types": null,
+        "image": {
+          "id": 762794,
+          "name": "usenotes-create-modal.png",
+          "alternativeText": "UseNotes authenticated create note modal",
+          "caption": "",
+          "width": 2560,
+          "height": 1440,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/usenotes-create-modal.png",
+              "hash": "usenotes_create_modal_png",
+              "mime": "image/png",
+              "name": "usenotes-create-modal.png",
+              "path": null,
+              "size": 0,
+              "width": 2560,
+              "height": 1440,
+              "provider_metadata": {
+                "public_id": "usenotes-create-modal.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "usenotes_create_modal_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/usenotes-create-modal.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "usenotes-create-modal.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-07T00:00:00.000Z",
+          "updated_at": "2026-07-07T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 5001,
+        "title": "Dimas! | UseNotes full-stack notes app",
+        "description": "UseNotes full-stack notes application with Next.js, Convex, Clerk and AI summary workflow.",
+        "keywords": "Next.js, Convex, Clerk, AI summary, notes app, full-stack"
+      },
+      "localizations": []
+    },
+    {
+      "github": "https://github.com/Galionix/dndreact",
+      "id": 3002,
+      "locale": "ua",
+      "created_at": "2026-07-07T00:00:00.000Z",
+      "updated_at": "2026-07-07T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 300201,
+          "text": "Arcane Origins демонструє interactive UI: character stats, inventory, story timeline, suggested actions and skill checks.",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 300202,
+          "text": "Seeded internal game state with story, inventory and skill check result.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 640772,
+              "name": "arcane-origins-skill-check.png",
+              "alternativeText": "Arcane Origins game state",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/arcane-origins-skill-check.png",
+                  "hash": "arcane_origins_skill_check_png",
+                  "mime": "image/png",
+                  "name": "arcane-origins-skill-check.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "arcane-origins-skill-check.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "arcane_origins_skill_check_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/arcane-origins-skill-check.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "arcane-origins-skill-check.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.list",
+          "id": 300203,
+          "name": "Що демонструє кейс",
+          "items": [
+            {
+              "id": 1,
+              "name": "Stateful UI",
+              "description": "Persisted character and history stores for a continuous game session."
+            },
+            {
+              "id": 2,
+              "name": "AI-ready flow",
+              "description": "API routes for character/story generation and action continuation."
+            },
+            {
+              "id": 3,
+              "name": "Interactive mechanics",
+              "description": "Suggested actions, inventory interactions and skill checks."
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 4002,
+        "project_name": "Arcane Origins",
+        "description": "Interactive AI fantasy game prototype with character state, story actions and skill checks.",
+        "intro": "A dark interactive story/game prototype with persisted character state, inventory, story history, suggested actions and skill check UI.",
+        "types": null,
+        "image": {
+          "id": 43923,
+          "name": "arcane-origins-skill-check.png",
+          "alternativeText": "Arcane Origins internal game state with story and skill check",
+          "caption": "",
+          "width": 2560,
+          "height": 1440,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/arcane-origins-skill-check.png",
+              "hash": "arcane_origins_skill_check_png",
+              "mime": "image/png",
+              "name": "arcane-origins-skill-check.png",
+              "path": null,
+              "size": 0,
+              "width": 2560,
+              "height": 1440,
+              "provider_metadata": {
+                "public_id": "arcane-origins-skill-check.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "arcane_origins_skill_check_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/arcane-origins-skill-check.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "arcane-origins-skill-check.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-07T00:00:00.000Z",
+          "updated_at": "2026-07-07T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 5002,
+        "title": "Dimas! | Arcane Origins interactive AI game prototype",
+        "description": "Interactive AI fantasy game prototype with character state, story actions and skill checks.",
+        "keywords": "AI game, Next.js, Zustand, interactive UI, DnD, story generation"
+      },
+      "localizations": []
+    },
+    {
+      "github": "https://github.com/Galionix/5-hours-shop",
+      "id": 3003,
+      "locale": "ua",
+      "created_at": "2026-07-07T00:00:00.000Z",
+      "updated_at": "2026-07-07T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 300301,
+          "text": "5-Hours Shop — компактний ecommerce prototype з повним шляхом від категорії до product detail і cart state.",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 300302,
+          "text": "Category page: товарна сітка, фільтр категорії Electronics і базова навігація магазину.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 516770,
+              "name": "shop-category-electronics.png",
+              "alternativeText": "5-Hours Shop electronics category page",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/shop-category-electronics.png",
+                  "hash": "shop_category_electronics_png",
+                  "mime": "image/png",
+                  "name": "shop-category-electronics.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "shop-category-electronics.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "shop_category_electronics_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/shop-category-electronics.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "shop-category-electronics.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 300304,
+          "text": "Product detail: окрема сторінка товару з ціною, описом і quantity control.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 516771,
+              "name": "shop-product-detail.png",
+              "alternativeText": "5-Hours Shop product detail page",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/shop-product-detail.png",
+                  "hash": "shop_product_detail_png",
+                  "mime": "image/png",
+                  "name": "shop-product-detail.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "shop-product-detail.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "shop_product_detail_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/shop-product-detail.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "shop-product-detail.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 300305,
+          "text": "Cart state: доданий товар, кількість і підрахунок total.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 516769,
+              "name": "shop-cart.png",
+              "alternativeText": "5-Hours Shop cart state",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/shop-cart.png",
+                  "hash": "shop_cart_png",
+                  "mime": "image/png",
+                  "name": "shop-cart.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "shop-cart.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "shop_cart_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/shop-cart.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "shop-cart.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.list",
+          "id": 300303,
+          "name": "Що демонструє кейс",
+          "items": [
+            {
+              "id": 1,
+              "name": "Catalog flow",
+              "description": "Category pages and product cards."
+            },
+            {
+              "id": 2,
+              "name": "Product detail",
+              "description": "Dedicated product page with price and quantity control."
+            },
+            {
+              "id": 3,
+              "name": "Cart state",
+              "description": "Client-side cart with totals and item controls."
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 4003,
+        "project_name": "5-Hours Shop",
+        "description": "Small ecommerce prototype with category, product and cart flow.",
+        "intro": "A compact ecommerce prototype showing product categories, product detail pages, cart state, quantities and totals.",
+        "types": null,
+        "image": {
+          "id": 516770,
+          "name": "shop-category-electronics.png",
+          "alternativeText": "5-Hours Shop electronics category page",
+          "caption": "",
+          "width": 2560,
+          "height": 1440,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/shop-category-electronics.png",
+              "hash": "shop_category_electronics_png",
+              "mime": "image/png",
+              "name": "shop-category-electronics.png",
+              "path": null,
+              "size": 0,
+              "width": 2560,
+              "height": 1440,
+              "provider_metadata": {
+                "public_id": "shop-category-electronics.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "shop_category_electronics_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/shop-category-electronics.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "shop-category-electronics.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-07T00:00:00.000Z",
+          "updated_at": "2026-07-07T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 5003,
+        "title": "Dimas! | 5-Hours Shop ecommerce prototype",
+        "description": "Small ecommerce prototype with category, product and cart flow.",
+        "keywords": "ecommerce, Next.js, cart, prototype, product catalog"
+      },
+      "localizations": []
     }
   ],
   "en": [
+    {
+      "github": "",
+      "id": 5001,
+      "locale": "en",
+      "created_at": "2026-07-08T00:00:00.000Z",
+      "updated_at": "2026-07-08T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 500101,
+          "text": "Bella AI was production work on a driving-school student management system: attendance, photo capture, academic and practical assessments, multi-tenant administration, role-based access and realtime kiosk check-in/check-out.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 500102,
+          "name": "What I owned",
+          "items": [
+            {
+              "id": 50010201,
+              "icon": "FaCheck",
+              "name": "Type-safe app architecture",
+              "description": "Architected flows across database, API routes and UI using Next.js, TypeScript, next-ts-api, RTK Query and Zod."
+            },
+            {
+              "id": 50010202,
+              "icon": "FaCheck",
+              "name": "Database and permissions",
+              "description": "Designed and executed 30+ PostgreSQL/Supabase migrations with Row-Level Security and role-aware access patterns."
+            },
+            {
+              "id": 50010203,
+              "icon": "FaCheck",
+              "name": "Authentication and onboarding",
+              "description": "Built role-based authorization, custom middleware and invitation-based registration using Supabase tokens."
+            },
+            {
+              "id": 50010204,
+              "icon": "FaCheck",
+              "name": "Production confidence",
+              "description": "Added Playwright E2E coverage and configured Sentry monitoring across server, client, components and edge errors."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 500103,
+          "text": "The important portfolio point: this was not a decorative prototype. It was a real operational platform with admin controls, tenant boundaries, realtime flows, monitoring and maintainability concerns.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 500104,
+          "name": "Stack signals",
+          "items": [
+            {
+              "id": 50010401,
+              "icon": "FaCheck",
+              "name": "Frontend",
+              "description": "Next.js 15, React 19, TypeScript, Redux Toolkit, MobX, Tailwind CSS and Headless UI."
+            },
+            {
+              "id": 50010402,
+              "icon": "FaCheck",
+              "name": "Backend/API",
+              "description": "Next.js API Routes, next-ts-api, Zod, Supabase Auth and PostgreSQL."
+            },
+            {
+              "id": 50010403,
+              "icon": "FaCheck",
+              "name": "Quality",
+              "description": "Playwright, Vitest, Testing Library, Sentry, PostHog, ESLint, Husky and Vercel."
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 5010,
+        "project_name": "Bella AI",
+        "description": "Production driving-school management platform with multi-tenant admin, RBAC and realtime kiosk flows.",
+        "intro": "Commercial product work across Next.js, API routes, Supabase/PostgreSQL, type-safe contracts, migrations, tests and monitoring.",
+        "types": null,
+        "image": {
+          "id": 172510,
+          "name": "bella-ai-cover.png",
+          "alternativeText": "Bella AI case study cover",
+          "caption": "",
+          "width": 1600,
+          "height": 1000,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/bella-ai-cover.png",
+              "hash": "bella_ai_cover_png",
+              "mime": "image/png",
+              "name": "bella-ai-cover.png",
+              "path": null,
+              "size": 0,
+              "width": 1600,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "bella-ai-cover.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "bella_ai_cover_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/bella-ai-cover.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "bella-ai-cover.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 5090,
+        "title": "Bella AI Case Study | Dimas Galaktionov",
+        "description": "Commercial Next.js/Supabase platform work: multi-tenant admin, RBAC, realtime kiosk flows, API routes, migrations, tests and monitoring.",
+        "keywords": "Bella AI, Next.js, Supabase, PostgreSQL, admin panel, RBAC, realtime kiosk, TypeScript, Playwright, Sentry"
+      },
+      "localizations": [
+        {
+          "id": 5002,
+          "locale": "ua"
+        }
+      ]
+    },
     {
       "github": "https://github.com/Galionix/focus-blocker",
       "id": 99,
@@ -960,7 +1812,12 @@
         "description": "Enforced break extension for VS Code with overlay, timer and localization",
         "keywords": "focus, vs code, break, productivity, vscode extension"
       },
-      "localizations": [{ "id": 99, "locale": "ua" }]
+      "localizations": [
+        {
+          "id": 99,
+          "locale": "ua"
+        }
+      ]
     },
     {
       "github": "https://github.com/Galionix/vscode-folder-templates",
@@ -1077,7 +1934,12 @@
         "description": "Improved folder/file structure extension for VS Code with patching support",
         "keywords": "vscode, scaffolding, file structure, patching, templates"
       },
-      "localizations": [{ "id": 100, "locale": "ua" }]
+      "localizations": [
+        {
+          "id": 100,
+          "locale": "ua"
+        }
+      ]
     },
     {
       "id": 50,
@@ -1090,7 +1952,6 @@
           "__component": "molecules.paragraph",
           "id": 82,
           "text": "I've been seek of yotube music dumping my sacred albums into void, so I decided to create my own music website, where I can upload my music and share it with my friends and family.",
-
           "types": null
         },
         {
@@ -1228,7 +2089,12 @@
         "description": "Dimas - Planner app",
         "keywords": "dimas planner app, todo"
       },
-      "localizations": [{ "id": 53, "locale": "ua" }]
+      "localizations": [
+        {
+          "id": 53,
+          "locale": "ua"
+        }
+      ]
     },
     {
       "github": "https://github.com/Galionix/next-pwa",
@@ -1252,7 +2118,6 @@
         {
           "__component": "molecules.list",
           "id": 83,
-
           "name": "Dimas Planner features",
           "items": [
             {
@@ -1306,7 +2171,6 @@
               "description": "Create and manage lists that can be shared with friends, allowing them to see and add tasks. Add friends by email"
             }
           ],
-
           "types": null
         },
         {
@@ -1420,7 +2284,12 @@
         "description": "Dimas - Planner app, приложение для планирования задач",
         "keywords": "dimas planner app, todo"
       },
-      "localizations": [{ "id": 53, "locale": "ua" }]
+      "localizations": [
+        {
+          "id": 53,
+          "locale": "ua"
+        }
+      ]
     },
     {
       "github": "https://github.com/Galionix/github-explorer",
@@ -1557,7 +2426,567 @@
         "description": "Github-explorer by me",
         "keywords": "Github, graphql, zustand, typescript"
       },
-      "localizations": [{ "id": 55, "locale": "ua" }]
+      "localizations": [
+        {
+          "id": 55,
+          "locale": "ua"
+        }
+      ]
+    },
+    {
+      "github": "https://github.com/Galionix/expo-nextjs-clerk-convex-monorepo",
+      "id": 4001,
+      "locale": "en",
+      "created_at": "2026-07-07T00:00:00.000Z",
+      "updated_at": "2026-07-07T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 400101,
+          "text": "UseNotes demonstrates a full-stack product flow: public landing, protected area, Clerk auth, Convex backend, note CRUD and AI summary states.",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 400102,
+          "text": "Authenticated create-note modal with AI summarization enabled.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 854439,
+              "name": "usenotes-create-modal.png",
+              "alternativeText": "UseNotes create note modal",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/usenotes-create-modal.png",
+                  "hash": "usenotes_create_modal_png",
+                  "mime": "image/png",
+                  "name": "usenotes-create-modal.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "usenotes-create-modal.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "usenotes_create_modal_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/usenotes-create-modal.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "usenotes-create-modal.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 400103,
+          "text": "Detail view with generated AI summary state.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 108792,
+              "name": "usenotes-summary.png",
+              "alternativeText": "UseNotes AI summary detail",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/usenotes-summary.png",
+                  "hash": "usenotes_summary_png",
+                  "mime": "image/png",
+                  "name": "usenotes-summary.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "usenotes-summary.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "usenotes_summary_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/usenotes-summary.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "usenotes-summary.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.list",
+          "id": 400104,
+          "name": "What this shows",
+          "items": [
+            {
+              "id": 1,
+              "name": "Authenticated product flow",
+              "description": "Clerk login, protected notes dashboard and user-scoped data."
+            },
+            {
+              "id": 2,
+              "name": "Realtime backend",
+              "description": "Convex queries, mutations and seeded demo data for repeatable screenshots."
+            },
+            {
+              "id": 3,
+              "name": "AI workflow surface",
+              "description": "Advanced summarization toggle and summary detail state."
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 5001,
+        "project_name": "UseNotes",
+        "description": "Full-stack notes app with auth, realtime backend and AI summary workflow.",
+        "intro": "A Next.js + Convex + Clerk application for notes, search and AI summaries. I brought it up locally, configured auth/backend and captured internal product states.",
+        "types": null,
+        "image": {
+          "id": 838705,
+          "name": "usenotes-create-modal.png",
+          "alternativeText": "UseNotes authenticated create note modal",
+          "caption": "",
+          "width": 2560,
+          "height": 1440,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/usenotes-create-modal.png",
+              "hash": "usenotes_create_modal_png",
+              "mime": "image/png",
+              "name": "usenotes-create-modal.png",
+              "path": null,
+              "size": 0,
+              "width": 2560,
+              "height": 1440,
+              "provider_metadata": {
+                "public_id": "usenotes-create-modal.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "usenotes_create_modal_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/usenotes-create-modal.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "usenotes-create-modal.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-07T00:00:00.000Z",
+          "updated_at": "2026-07-07T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 6001,
+        "title": "Dimas! | UseNotes full-stack notes app",
+        "description": "UseNotes full-stack notes application with Next.js, Convex, Clerk and AI summary workflow.",
+        "keywords": "Next.js, Convex, Clerk, AI summary, notes app, full-stack"
+      },
+      "localizations": []
+    },
+    {
+      "github": "https://github.com/Galionix/dndreact",
+      "id": 4002,
+      "locale": "en",
+      "created_at": "2026-07-07T00:00:00.000Z",
+      "updated_at": "2026-07-07T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 400201,
+          "text": "Arcane Origins demonstrates interactive UI: character stats, inventory, story timeline, suggested actions and skill checks.",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 400202,
+          "text": "Seeded internal game state with story, inventory and skill check result.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 109194,
+              "name": "arcane-origins-skill-check.png",
+              "alternativeText": "Arcane Origins game state",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/arcane-origins-skill-check.png",
+                  "hash": "arcane_origins_skill_check_png",
+                  "mime": "image/png",
+                  "name": "arcane-origins-skill-check.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "arcane-origins-skill-check.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "arcane_origins_skill_check_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/arcane-origins-skill-check.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "arcane-origins-skill-check.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.list",
+          "id": 400203,
+          "name": "What this shows",
+          "items": [
+            {
+              "id": 1,
+              "name": "Stateful UI",
+              "description": "Persisted character and history stores for a continuous game session."
+            },
+            {
+              "id": 2,
+              "name": "AI-ready flow",
+              "description": "API routes for character/story generation and action continuation."
+            },
+            {
+              "id": 3,
+              "name": "Interactive mechanics",
+              "description": "Suggested actions, inventory interactions and skill checks."
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 5002,
+        "project_name": "Arcane Origins",
+        "description": "Interactive AI fantasy game prototype with character state, story actions and skill checks.",
+        "intro": "A dark interactive story/game prototype with persisted character state, inventory, story history, suggested actions and skill check UI.",
+        "types": null,
+        "image": {
+          "id": 149292,
+          "name": "arcane-origins-skill-check.png",
+          "alternativeText": "Arcane Origins internal game state with story and skill check",
+          "caption": "",
+          "width": 2560,
+          "height": 1440,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/arcane-origins-skill-check.png",
+              "hash": "arcane_origins_skill_check_png",
+              "mime": "image/png",
+              "name": "arcane-origins-skill-check.png",
+              "path": null,
+              "size": 0,
+              "width": 2560,
+              "height": 1440,
+              "provider_metadata": {
+                "public_id": "arcane-origins-skill-check.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "arcane_origins_skill_check_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/arcane-origins-skill-check.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "arcane-origins-skill-check.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-07T00:00:00.000Z",
+          "updated_at": "2026-07-07T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 6002,
+        "title": "Dimas! | Arcane Origins interactive AI game prototype",
+        "description": "Interactive AI fantasy game prototype with character state, story actions and skill checks.",
+        "keywords": "AI game, Next.js, Zustand, interactive UI, DnD, story generation"
+      },
+      "localizations": []
+    },
+    {
+      "github": "https://github.com/Galionix/5-hours-shop",
+      "id": 4003,
+      "locale": "en",
+      "created_at": "2026-07-07T00:00:00.000Z",
+      "updated_at": "2026-07-07T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 400301,
+          "text": "5-Hours Shop is a compact ecommerce prototype with a complete path from category browsing to product detail and cart state.",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 400302,
+          "text": "Category page: product grid, Electronics category context and basic shop navigation.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 516770,
+              "name": "shop-category-electronics.png",
+              "alternativeText": "5-Hours Shop electronics category page",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/shop-category-electronics.png",
+                  "hash": "shop_category_electronics_png",
+                  "mime": "image/png",
+                  "name": "shop-category-electronics.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "shop-category-electronics.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "shop_category_electronics_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/shop-category-electronics.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "shop-category-electronics.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 400304,
+          "text": "Product detail: dedicated product page with price, description and quantity control.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 516771,
+              "name": "shop-product-detail.png",
+              "alternativeText": "5-Hours Shop product detail page",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/shop-product-detail.png",
+                  "hash": "shop_product_detail_png",
+                  "mime": "image/png",
+                  "name": "shop-product-detail.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "shop-product-detail.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "shop_product_detail_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/shop-product-detail.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "shop-product-detail.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 400305,
+          "text": "Cart state: selected item, quantity and total calculation.",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 516769,
+              "name": "shop-cart.png",
+              "alternativeText": "5-Hours Shop cart state",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/shop-cart.png",
+                  "hash": "shop_cart_png",
+                  "mime": "image/png",
+                  "name": "shop-cart.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "shop-cart.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "shop_cart_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/shop-cart.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "shop-cart.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-07T00:00:00.000Z",
+              "updated_at": "2026-07-07T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.list",
+          "id": 400303,
+          "name": "What this shows",
+          "items": [
+            {
+              "id": 1,
+              "name": "Catalog flow",
+              "description": "Category pages and product cards."
+            },
+            {
+              "id": 2,
+              "name": "Product detail",
+              "description": "Dedicated product page with price and quantity control."
+            },
+            {
+              "id": 3,
+              "name": "Cart state",
+              "description": "Client-side cart with totals and item controls."
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 5003,
+        "project_name": "5-Hours Shop",
+        "description": "Small ecommerce prototype with category, product and cart flow.",
+        "intro": "A compact ecommerce prototype showing product categories, product detail pages, cart state, quantities and totals.",
+        "types": null,
+        "image": {
+          "id": 516770,
+          "name": "shop-category-electronics.png",
+          "alternativeText": "5-Hours Shop electronics category page",
+          "caption": "",
+          "width": 2560,
+          "height": 1440,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/shop-category-electronics.png",
+              "hash": "shop_category_electronics_png",
+              "mime": "image/png",
+              "name": "shop-category-electronics.png",
+              "path": null,
+              "size": 0,
+              "width": 2560,
+              "height": 1440,
+              "provider_metadata": {
+                "public_id": "shop-category-electronics.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "shop_category_electronics_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/shop-category-electronics.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "shop-category-electronics.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-07T00:00:00.000Z",
+          "updated_at": "2026-07-07T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 6003,
+        "title": "Dimas! | 5-Hours Shop ecommerce prototype",
+        "description": "Small ecommerce prototype with category, product and cart flow.",
+        "keywords": "ecommerce, Next.js, cart, prototype, product catalog"
+      },
+      "localizations": []
     }
   ]
 }

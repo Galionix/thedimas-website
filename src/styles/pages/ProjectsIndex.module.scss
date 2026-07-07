@@ -82,6 +82,20 @@
 			// max-height: 50%;
 
 		}
+		&.caseStudyCard {
+			.description {
+				font-size: clamp(20px, 3vw, 34px);
+				line-height: 1.15;
+			}
+			.image {
+				background: rgba(255, 255, 255, 0.03);
+				border: 1px solid rgba(255, 255, 255, 0.12);
+			}
+			.image img {
+				height: auto;
+				object-fit: contain;
+			}
+		}
 	}
 }
 .blocksWrapper {
