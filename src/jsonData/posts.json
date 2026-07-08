@@ -89,7 +89,12 @@
       "seo": null,
       "categories": [],
       "tags": [],
-      "localizations": [{ "id": 8, "locale": "en" }]
+      "localizations": [
+        {
+          "id": 8,
+          "locale": "en"
+        }
+      ]
     },
     {
       "id": 9,
@@ -113,7 +118,6 @@
           "__component": "molecules.paragraph",
           "id": 91,
           "text": "Як б ви поступили?",
-
           "types": {
             "id": 12,
             "mobile": "title",
@@ -155,7 +159,6 @@
           "__component": "molecules.paragraph",
           "id": 97,
           "text": "Впавши на підлогу, вони схопилися і в цей момент толпа їх розтягнула і образлені, викидаючи голосні за звуком і змістом прокляття, віддалилися з екранів за допомогою друзів, які бажали припинити дурнуватість. Мені здавалося, що обом не варто було бути грубими, і що точно не варто було робити - це йти з кулаками і перетворювати незрозуміння у ворожнечу. Вони явно могли б прийти до згоди, що кожен у чомусь не правий і пожати один одному руки. Я ще просидів десять хвилин, спостерігаючи дівчачий порадний різних кольорів, які намагалися виглядати наче нічого не сталося, але було видно, що тепер вони втурбовані.",
-
           "types": null
         },
         {
@@ -306,7 +309,12 @@
       },
       "categories": [],
       "tags": [],
-      "localizations": [{ "id": 10, "locale": "en" }]
+      "localizations": [
+        {
+          "id": 10,
+          "locale": "en"
+        }
+      ]
     },
     {
       "id": 125,
@@ -535,6 +543,639 @@
           "locale": "en"
         }
       ]
+    },
+    {
+      "id": 170,
+      "locale": "ua",
+      "created_at": "2026-07-08T00:00:00.000Z",
+      "updated_at": "2026-07-08T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 173,
+          "text": "Синій без імені: що людство досі не вміє розрізняти",
+          "types": {
+            "id": 174,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 175,
+          "text": "Живі нейрони на чипі",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 870277,
+              "name": "01-neurons-on-a-chip.png",
+              "alternativeText": "Живі нейрони на мікроелектродному чипі, підключені до зворотного зв’язку",
+              "caption": "",
+              "width": 1672,
+              "height": 941,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/blog/blue-without-a-name/01-neurons-on-a-chip.png",
+                  "hash": "01_neurons_on_a_chip",
+                  "mime": "image/png",
+                  "name": "01-neurons-on-a-chip.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 1672,
+                  "height": 941,
+                  "provider_metadata": {
+                    "public_id": "01-neurons-on-a-chip.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "01_neurons_on_a_chip",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/blog/blue-without-a-name/01-neurons-on-a-chip.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "01-neurons-on-a-chip.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-08T00:00:00.000Z",
+              "updated_at": "2026-07-08T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 176,
+          "text": "У 2022 році команда Cortical Labs показала дивний і трохи тривожний експеримент: живі нейрони людини й миші вирощували на мікроелектродній платі, підключали до простого середовища на кшталт Pong і навчали через зворотний зв'язок. Коли система діяла краще, вхідний сигнал ставав передбачуванішим. Коли гірше, сигнал ставав хаотичнішим.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 177,
+          "text": "Тут важливо не олюднювати клітини занадто швидко. Це не означає, що їм щось \"подобалося\" чи \"не подобалося\" у людському сенсі. Але сам факт вражає: навіть нервова тканина без тіла, біографії, мови й дофамінової мотиваційної системи не виглядає пасивною. Вона прагне стабільнішого контуру між входом і виходом.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 178,
+          "text": "І звідси виникає складне питання: де проходить межа між системою, яка просто адаптується, і системою, яка вже в якомусь примітивному сенсі переживає світ?",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 179,
+          "text": "Людина не є просто більшою версією нейронів на платі. Різниця не лише в кількості нейронів і, ймовірно, не лише в дофаміні. У людини є тіло, голод, біль, втома, пам'ять, соціальний тиск, мова, страх смерті, відчуття \"моє\" й \"не моє\", довгий горизонт майбутнього та потреба пояснювати себе іншим людям. Із цього поступово збирається \"я\": не містична іскра, а модель керування, за допомогою якої організм веде себе крізь час.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 180,
+          "text": "Є ще один шар. Ми не сприймаємо світ напряму. Ми сприймаємо його через категорії, які навчилися розділяти.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 181,
+          "text": "На кольорах це видно особливо добре. У різних мовах базові назви кольорів з'являлися не одночасно. Синій фізично був завжди, але окрема культурна категорія для нього часто виникала пізно. Люди не були сліпими до неба; радше їхня мова й увага не позначали цю межу як настільки важливу.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 182,
+          "text": "Тому цікаве питання не про сам синій. Воно таке:",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 183,
+          "text": "Що прямо зараз є навколо нас так само очевидно, як синій колір, але ми ще не вміємо це розрізняти?",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 184,
+          "text": "Неназвана ділянка кольору",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 870287,
+              "name": "02-unnamed-color.png",
+              "alternativeText": "Людина перед неназваною межею між кольорами й категоріями",
+              "caption": "",
+              "width": 1672,
+              "height": 941,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/blog/blue-without-a-name/02-unnamed-color.png",
+                  "hash": "02_unnamed_color",
+                  "mime": "image/png",
+                  "name": "02-unnamed-color.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 1672,
+                  "height": 941,
+                  "provider_metadata": {
+                    "public_id": "02-unnamed-color.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "02_unnamed_color",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/blog/blue-without-a-name/02-unnamed-color.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "02-unnamed-color.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-08T00:00:00.000Z",
+              "updated_at": "2026-07-08T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 185,
+          "text": "1. Якість уваги",
+          "types": {
+            "id": 186,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 187,
+          "text": "Ми досі дуже грубо розрізняємо види уваги. Кажемо: людина сфокусована, відволіклася, втомилася, залипла. Але цей словник майже напевно занадто бідний.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 188,
+          "text": "Можливо, через сто років у нас будуть десятки звичайних слів для станів уваги: увага, яка шукає загрозу; увага, яка будує модель; увага, яка імітує роботу; увага, яка чекає винагороди; увага, яка прив'язана до тіла; увага, яка тихо грає роль перед іншими.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 189,
+          "text": "Сьогодні ми часто називаємо все це одним словом: концентрація.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 190,
+          "text": "2. Соціальна реальність як фізичне середовище",
+          "types": {
+            "id": 191,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 192,
+          "text": "Ми звикли думати про соціальне як про щось м'яке: думки, стосунки, культура. Але для людського організму статус, сором, довіра, вигнання й визнання можуть бути майже такими ж реальними, як холод або біль.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 193,
+          "text": "Можливо, ми недооцінюємо, наскільки мозок використовує інших людей як частину власної регуляторної системи. \"Я\" може бути не закритим об'єктом, а вузлом у мережі взаємного передбачення.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 194,
+          "text": "3. Різні типи страждання",
+          "types": {
+            "id": 195,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 196,
+          "text": "У нас є слова: сум, тривога, депресія, стрес, вигорання. Вони корисні, але дуже великі. Наче багато відтінків синього, зеленого й сірого ми називали б одним словом: \"темне\".",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 197,
+          "text": "Деякі стани, які ми зараз кладемо в один кошик, можуть бути принципово різними: втрата майбутнього, соціальна невидимість, неможливість діяти, хронічно пригнічена злість, розпад сенсу, брак безпечного свідка, збій тілесного передбачення.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 198,
+          "text": "Ми користуємося схожими словами, бо ще не розрізняємо ці стани достатньо добре.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 199,
+          "text": "4. Колективний інтелект і колективна дурість",
+          "types": {
+            "id": 200,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 201,
+          "text": "Ми вміємо казати \"розумна людина\" або \"дурний натовп\", але погано бачимо інтелект групи як окреме явище.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 202,
+          "text": "Іноді група стає розумнішою за будь-якого окремого учасника. Іноді нормальні люди разом виробляють катастрофічну дурість. Різниця часто не всередині людей, а в структурі спілкування: які помилки дозволені, хто може заперечувати, як циркулює статус, де винагороджується правда, а де лояльність.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 203,
+          "text": "Нам бракує повсякденної оптики, щоб бачити: ця структура виробляє істину, а ця виробляє самообман.",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 204,
+          "text": "Колективна сліпа пляма",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 870309,
+              "name": "04-collective-blind-spot.png",
+              "alternativeText": "Група формує колективний патерн мислення, який не бачить повністю",
+              "caption": "",
+              "width": 1672,
+              "height": 941,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/blog/blue-without-a-name/04-collective-blind-spot.png",
+                  "hash": "04_collective_blind_spot",
+                  "mime": "image/png",
+                  "name": "04-collective-blind-spot.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 1672,
+                  "height": 941,
+                  "provider_metadata": {
+                    "public_id": "04-collective-blind-spot.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "04_collective_blind_spot",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/blog/blue-without-a-name/04-collective-blind-spot.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "04-collective-blind-spot.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-08T00:00:00.000Z",
+              "updated_at": "2026-07-08T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 205,
+          "text": "5. Невидимі форми залежності",
+          "types": {
+            "id": 206,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 207,
+          "text": "Ми розпізнаємо залежність від речовин, ігор, порно, їжі, соцмереж. Але можуть існувати тонші залежності: від правоти, від поясненості, від емоційної драми, від образи, від ролі рятівника, від постійної новизни, від певного образу себе.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 208,
+          "text": "Людина може бути залежною не лише від об'єкта, а й від режиму бути собою.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 209,
+          "text": "6. Внутрішні інтерфейси тіла",
+          "types": {
+            "id": 210,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 211,
+          "text": "Ми досі погано розуміємо, як тіло бере участь у мисленні. Не в очевидному сенсі \"тіло впливає на настрій\", а глибше: частина того, що ми називаємо думкою, інтуїцією, рішенням або бажанням, може бути способом, яким мозок читає органи, імунні сигнали, дихання, м'язовий тонус і мікрорухи.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 212,
+          "text": "Ми кажемо: \"я думаю\". Іноді точніше було б: \"мій організм запропонував інтерпретацію\".",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 213,
+          "text": "7. Ступені суб'єктності",
+          "types": {
+            "id": 214,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 215,
+          "text": "Наша шкала дуже груба: камінь не суб'єкт, людина суб'єкт, тварини десь посередині, ШІ під питанням, органоїди під питанням. Але суб'єктність може бути не бінарною.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 216,
+          "text": "Вона може мати виміри: біль, пам'ять, саморегуляція, модель світу, модель себе, здатність страждати, здатність хотіти, здатність бути порушеним.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 217,
+          "text": "Живі нейрони на платі прямо вказують на цю сліпу зону. Нам бракує слів між \"просто клітини\" й \"свідома істота\".",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 218,
+          "text": "8. Майбутні моральні категорії",
+          "types": {
+            "id": 219,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 220,
+          "text": "Історично люди часто не бачили того, що пізніше ставало морально очевидним, доки не з'являлася категорія: рабство, права дітей, домашнє насильство, психічне здоров'я, consent, вигорання.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 221,
+          "text": "Щось подібне може вже бути поруч із нами. Можливі кандидати: ставлення до тварин; старість; діти як власність батьків; людська увага як ресурс для видобування; цифрові сліди особистості; штучні або біологічні системи з ранніми формами переживання.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 222,
+          "text": "9. Екологія свідомості",
+          "types": {
+            "id": 223,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 224,
+          "text": "Ми говоримо про екологію природи, але майже не говоримо про екологію психіки. Середовище тепер масово проєктується так, щоб захоплювати увагу, підсилювати порівняння, тривогу, бажання, злість і нескінченне очікування наступного стимулу.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 225,
+          "text": "Можливо, майбутні люди вважатимуть інформаційне забруднення таким же реальним, як забруднення повітря.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 226,
+          "text": "Поки що ми кажемо: \"ти забагато сидиш у телефоні\". Це як назвати отруєне місто \"трохи запиленим\".",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 227,
+          "text": "Приховані стани уваги",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 870331,
+              "name": "03-hidden-attention-states.png",
+              "alternativeText": "Приховані стани уваги навколо людини з телефоном",
+              "caption": "",
+              "width": 1024,
+              "height": 1535,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/blog/blue-without-a-name/03-hidden-attention-states.png",
+                  "hash": "03_hidden_attention_states",
+                  "mime": "image/png",
+                  "name": "03-hidden-attention-states.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 1024,
+                  "height": 1535,
+                  "provider_metadata": {
+                    "public_id": "03-hidden-attention-states.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "03_hidden_attention_states",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/blog/blue-without-a-name/03-hidden-attention-states.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "03-hidden-attention-states.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-08T00:00:00.000Z",
+              "updated_at": "2026-07-08T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 228,
+          "text": "10. \"Я\" не є однією річчю",
+          "types": {
+            "id": 229,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 230,
+          "text": "Один із найбільших неназваних синіх може бути таким: людина не є єдиним агентом у тому сенсі, у якому їй це здається.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 231,
+          "text": "Ми вже знаємо про несвідоме, split-brain, конкуруючі мотивації, внутрішні частини. Але культура досі вимагає від людини поводитися як одне монолітне \"я\".",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 232,
+          "text": "Можливо, майбутня психологія казатиме не \"у людини є особистість\", а \"людина — це спосіб узгодження багатьох напівавтономних процесів\". Не метафорично. Буквально.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 233,
+          "text": "Коротко",
+          "types": {
+            "id": 234,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 235,
+          "text": "Найбільші провали в нашому знанні можуть бути не через брак інформації, а через брак розрізнень. Ми бачимо прояви, але називаємо їх занадто великими словами: стрес, мотивація, особистість, усвідомленість, розум, норма.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 236,
+          "text": "Можливо, найдивніший синій — це не зовнішній об'єкт.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 237,
+          "text": "Можливо, це те, що ми досі не маємо доброї мови для різних способів бути собою.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 238,
+          "text": "Примітки",
+          "types": {
+            "id": 239,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 240,
+          "text": "• Cortical Labs / DishBrain paper: Synthetic biological intelligence in a dish (https://www.cell.com/neuron/fulltext/S0896-6273%2822%2900806-6)",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 241,
+          "text": "• Про назви кольорів і мову: Basic Color Terms (https://en.wikipedia.org/wiki/Basic_Color_Terms) та MIT News про появу blue/green у мові (https://news.mit.edu/2023/how-blue-and-green-appeared-language-1102)",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 171,
+        "project_name": "blue-without-a-name",
+        "description": "Синій без імені",
+        "intro": "Що людство досі може не вміти розрізняти в увазі, суб’єктності, соціальній реальності та власному я.",
+        "types": null,
+        "image": {
+          "id": 870101,
+          "name": "01-neurons-on-a-chip.png",
+          "alternativeText": "Живі нейрони на мікроелектродному чипі, підключені до зворотного зв’язку",
+          "caption": "",
+          "width": 1672,
+          "height": 941,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/blog/blue-without-a-name/01-neurons-on-a-chip.png",
+              "hash": "01_neurons_on_a_chip",
+              "mime": "image/png",
+              "name": "01-neurons-on-a-chip.png",
+              "path": null,
+              "size": 0,
+              "width": 1672,
+              "height": 941,
+              "provider_metadata": {
+                "public_id": "01-neurons-on-a-chip.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "01_neurons_on_a_chip",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/blog/blue-without-a-name/01-neurons-on-a-chip.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "01-neurons-on-a-chip.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
+        }
+      },
+      "custom_data": null,
+      "seo": {
+        "id": 172,
+        "title": "Синій без імені",
+        "description": "Есе про неназвані категорії уваги, страждання, суб’єктності, колективного інтелекту та свідомості.",
+        "keywords": "увага, свідомість, суб’єктність, мислення, мова кольорів, колективний інтелект"
+      },
+      "categories": [],
+      "tags": [],
+      "localizations": [
+        {
+          "id": 180,
+          "locale": "en"
+        }
+      ]
     }
   ],
   "en": [
@@ -627,7 +1268,12 @@
       "seo": null,
       "categories": [],
       "tags": [],
-      "localizations": [{ "id": 7, "locale": "ua" }]
+      "localizations": [
+        {
+          "id": 7,
+          "locale": "ua"
+        }
+      ]
     },
     {
       "id": 10,
@@ -842,7 +1488,12 @@
       },
       "categories": [],
       "tags": [],
-      "localizations": [{ "id": 9, "locale": "ua" }]
+      "localizations": [
+        {
+          "id": 9,
+          "locale": "ua"
+        }
+      ]
     },
     {
       "id": 136,
@@ -1068,6 +1719,639 @@
       "localizations": [
         {
           "id": 143,
+          "locale": "ua"
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "locale": "en",
+      "created_at": "2026-07-08T00:00:00.000Z",
+      "updated_at": "2026-07-08T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 183,
+          "text": "Blue Without a Name: What Humanity Still Cannot Distinguish",
+          "types": {
+            "id": 184,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 185,
+          "text": "Living neurons on a chip",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 870287,
+              "name": "01-neurons-on-a-chip.png",
+              "alternativeText": "Living neurons on a microelectrode chip connected to a Pong-like feedback loop",
+              "caption": "",
+              "width": 1672,
+              "height": 941,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/blog/blue-without-a-name/01-neurons-on-a-chip.png",
+                  "hash": "01_neurons_on_a_chip",
+                  "mime": "image/png",
+                  "name": "01-neurons-on-a-chip.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 1672,
+                  "height": 941,
+                  "provider_metadata": {
+                    "public_id": "01-neurons-on-a-chip.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "01_neurons_on_a_chip",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/blog/blue-without-a-name/01-neurons-on-a-chip.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "01-neurons-on-a-chip.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-08T00:00:00.000Z",
+              "updated_at": "2026-07-08T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 186,
+          "text": "In 2022, the team behind Cortical Labs showed a strange and slightly unsettling experiment: living human and mouse neurons were grown on a microelectrode array, connected to a simple Pong-like environment, and trained through feedback. When the system performed better, the input became more predictable. When it performed worse, the signal became more chaotic.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 187,
+          "text": "We should be careful not to humanize this too quickly. It does not mean the cells \"liked\" or \"disliked\" anything in the human sense. But the fact itself is striking: even nervous tissue without a body, biography, language, or dopamine-driven motivational system does not look passive. It tends toward a more stable loop between input and output.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 188,
+          "text": "That raises a hard question: where is the line between a system that merely adapts and a system that, in some primitive way, experiences a world?",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 189,
+          "text": "A human is not just a larger version of neurons on a plate. The difference is not only the number of neurons, and probably not only dopamine. A human has a body, hunger, pain, fatigue, memory, social pressure, language, fear of death, a sense of \"mine\" and \"not mine\", a long future horizon, and the need to explain itself to other people. Out of this, the \"I\" may emerge: not as a mystical spark, but as a control model an organism uses to manage itself through time.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 190,
+          "text": "There is another layer. We do not perceive the world directly. We perceive it through categories we have learned to separate.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 191,
+          "text": "Color makes this unusually visible. Across languages, basic color terms did not always appear in the same order. Blue was physically there all along, but a separate cultural category for it often emerged late. People were not blind to the sky; rather, their language and attention did not mark that boundary as important in the same way.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 192,
+          "text": "So the more interesting question is not about blue itself. It is this:",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 193,
+          "text": "What is around us right now, as obvious as blue, that we still do not know how to distinguish?",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 194,
+          "text": "An unnamed region of color",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 870297,
+              "name": "02-unnamed-color.png",
+              "alternativeText": "A person facing an unnamed boundary between colors and categories",
+              "caption": "",
+              "width": 1672,
+              "height": 941,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/blog/blue-without-a-name/02-unnamed-color.png",
+                  "hash": "02_unnamed_color",
+                  "mime": "image/png",
+                  "name": "02-unnamed-color.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 1672,
+                  "height": 941,
+                  "provider_metadata": {
+                    "public_id": "02-unnamed-color.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "02_unnamed_color",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/blog/blue-without-a-name/02-unnamed-color.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "02-unnamed-color.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-08T00:00:00.000Z",
+              "updated_at": "2026-07-08T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 195,
+          "text": "1. The Quality of Attention",
+          "types": {
+            "id": 196,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 197,
+          "text": "We still distinguish kinds of attention very poorly. We say someone is focused, distracted, tired, or scrolling. That vocabulary is almost certainly too coarse.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 198,
+          "text": "Maybe a century from now, people will have dozens of ordinary words for attention states: attention that scans for threat; attention that builds a model; attention that performs the appearance of work; attention that waits for reward; attention that is anchored in the body; attention that is quietly performing for other people.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 199,
+          "text": "Today we often call all of it one thing: concentration.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 200,
+          "text": "2. Social Reality as a Physical Environment",
+          "types": {
+            "id": 201,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 202,
+          "text": "We tend to treat \"the social\" as soft: opinions, relationships, culture. But for a human organism, status, shame, trust, exclusion, and recognition can be almost as real as cold or pain.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 203,
+          "text": "We may be underestimating how much the brain uses other people as part of its own regulatory system. The \"I\" may not be a sealed object. It may be a node in a network of mutual prediction.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 204,
+          "text": "3. Different Kinds of Suffering",
+          "types": {
+            "id": 205,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 206,
+          "text": "We have words like sadness, anxiety, depression, stress, burnout. They are useful, but very large. It is as if many shades of blue, green, and gray were all called \"dark\".",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 207,
+          "text": "Some states we currently place in the same bucket may be fundamentally different: loss of future, social invisibility, inability to act, chronic suppressed anger, collapse of meaning, lack of a safe witness, disruption of bodily prediction.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 208,
+          "text": "We use similar words because we do not yet distinguish the states well enough.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 209,
+          "text": "4. Collective Intelligence and Collective Stupidity",
+          "types": {
+            "id": 210,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 211,
+          "text": "We know how to say \"a smart person\" or \"a stupid crowd\", but we do not yet see group intelligence clearly as its own phenomenon.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 212,
+          "text": "Sometimes a group becomes smarter than any single participant. Sometimes normal people together produce catastrophic stupidity. The difference is often not inside the people. It is in the structure of communication: which errors are allowed, who can object, how status circulates, whether truth or loyalty is rewarded.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 213,
+          "text": "We still lack everyday perception for this: this structure produces truth; that structure produces self-deception.",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 214,
+          "text": "Collective blind spot",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 870319,
+              "name": "04-collective-blind-spot.png",
+              "alternativeText": "A group forming a collective cognition pattern they cannot fully see",
+              "caption": "",
+              "width": 1672,
+              "height": 941,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/blog/blue-without-a-name/04-collective-blind-spot.png",
+                  "hash": "04_collective_blind_spot",
+                  "mime": "image/png",
+                  "name": "04-collective-blind-spot.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 1672,
+                  "height": 941,
+                  "provider_metadata": {
+                    "public_id": "04-collective-blind-spot.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "04_collective_blind_spot",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/blog/blue-without-a-name/04-collective-blind-spot.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "04-collective-blind-spot.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-08T00:00:00.000Z",
+              "updated_at": "2026-07-08T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 215,
+          "text": "5. Invisible Forms of Addiction",
+          "types": {
+            "id": 216,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 217,
+          "text": "We recognize addictions to substances, games, porn, food, social media. But there may be subtler addictions: to being right, to having an explanation, to emotional drama, to resentment, to the rescuer role, to constant novelty, to a particular image of oneself.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 218,
+          "text": "A person can be addicted not only to an object, but to a mode of being themselves.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 219,
+          "text": "6. The Body's Inner Interfaces",
+          "types": {
+            "id": 220,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 221,
+          "text": "We still understand poorly how the body participates in thought. Not in the obvious sense that \"the body affects mood\", but more deeply: part of what we call thought, intuition, decision, or desire may be the brain reading organs, immune signals, breathing, muscle tone, and micro-movements.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 222,
+          "text": "We say, \"I think.\" Sometimes a more accurate phrase would be: \"My organism proposed an interpretation.\"",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 223,
+          "text": "7. Degrees of Subjecthood",
+          "types": {
+            "id": 224,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 225,
+          "text": "Our ladder is very crude: a stone is not a subject, a human is, animals are somewhere in between, AI is debated, organoids are debated. But subjecthood may not be binary.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 226,
+          "text": "It may have dimensions: pain, memory, self-regulation, a model of the world, a model of oneself, the capacity to suffer, the capacity to want, the capacity to be disturbed.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 227,
+          "text": "Living neurons on a plate point directly at this blind spot. We do not have enough words between \"just cells\" and \"a conscious being\".",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 228,
+          "text": "8. Future Moral Categories",
+          "types": {
+            "id": 229,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 230,
+          "text": "Historically, people often failed to see what later became morally obvious until a category appeared: slavery, children's rights, domestic violence, mental health, consent, burnout.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 231,
+          "text": "Something similar may already be near us. Possible candidates: our treatment of animals; old age; children as parental property; human attention as an extractable resource; digital traces of personhood; artificial or biological systems with early forms of experience.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 232,
+          "text": "9. The Ecology of Consciousness",
+          "types": {
+            "id": 233,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 234,
+          "text": "We talk about the ecology of nature, but barely about the ecology of the mind. Our environment is now designed at scale to capture attention, intensify comparison, anxiety, desire, anger, and the endless expectation of another stimulus.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 235,
+          "text": "Future people may see information pollution as real as air pollution.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 236,
+          "text": "For now, we say: \"You spend too much time on your phone.\" That is like calling a poisoned city \"a little dusty.\"",
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 237,
+          "text": "Hidden attention states",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 870341,
+              "name": "03-hidden-attention-states.png",
+              "alternativeText": "Hidden states of attention flowing around a person holding a phone",
+              "caption": "",
+              "width": 1024,
+              "height": 1535,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/blog/blue-without-a-name/03-hidden-attention-states.png",
+                  "hash": "03_hidden_attention_states",
+                  "mime": "image/png",
+                  "name": "03-hidden-attention-states.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 1024,
+                  "height": 1535,
+                  "provider_metadata": {
+                    "public_id": "03-hidden-attention-states.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "03_hidden_attention_states",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/blog/blue-without-a-name/03-hidden-attention-states.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "03-hidden-attention-states.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-07-08T00:00:00.000Z",
+              "updated_at": "2026-07-08T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 238,
+          "text": "10. The Self Is Not One Thing",
+          "types": {
+            "id": 239,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 240,
+          "text": "One of the largest unnamed blues may be this: a human is not a single agent in the way it feels like one.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 241,
+          "text": "We already know about the unconscious, split-brain cases, competing motivations, internal parts. But culture still asks a person to behave like one solid \"I\".",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 242,
+          "text": "Future psychology may not say \"a person has a personality\". It may say: \"a person is a method for coordinating many semi-autonomous processes.\" Not metaphorically. Literally.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 243,
+          "text": "In Short",
+          "types": {
+            "id": 244,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 245,
+          "text": "The largest failures in our knowledge may not come from a lack of information. They may come from a lack of distinctions. We see the symptoms, but name them with words that are too large: stress, motivation, personality, mindfulness, intelligence, normality.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 246,
+          "text": "Maybe the strangest blue is not an external object at all.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 247,
+          "text": "Maybe it is the fact that we still do not have a good language for the different ways of being ourselves.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 248,
+          "text": "Notes",
+          "types": {
+            "id": 249,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 250,
+          "text": "• Cortical Labs / DishBrain paper: Synthetic biological intelligence in a dish (https://www.cell.com/neuron/fulltext/S0896-6273%2822%2900806-6)",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 251,
+          "text": "• On color terms and language: Basic Color Terms (https://en.wikipedia.org/wiki/Basic_Color_Terms) and MIT News on blue/green emergence in language (https://news.mit.edu/2023/how-blue-and-green-appeared-language-1102)",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 181,
+        "project_name": "blue-without-a-name",
+        "description": "Blue Without a Name",
+        "intro": "What humanity may still be unable to distinguish about attention, subjecthood, social reality and the self.",
+        "types": null,
+        "image": {
+          "id": 870101,
+          "name": "01-neurons-on-a-chip.png",
+          "alternativeText": "Living neurons on a microelectrode chip connected to a Pong-like feedback loop",
+          "caption": "",
+          "width": 1672,
+          "height": 941,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/blog/blue-without-a-name/01-neurons-on-a-chip.png",
+              "hash": "01_neurons_on_a_chip",
+              "mime": "image/png",
+              "name": "01-neurons-on-a-chip.png",
+              "path": null,
+              "size": 0,
+              "width": 1672,
+              "height": 941,
+              "provider_metadata": {
+                "public_id": "01-neurons-on-a-chip.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "01_neurons_on_a_chip",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/blog/blue-without-a-name/01-neurons-on-a-chip.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "01-neurons-on-a-chip.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
+        }
+      },
+      "custom_data": null,
+      "seo": {
+        "id": 182,
+        "title": "Blue Without a Name",
+        "description": "A reflective essay about unnamed categories in attention, suffering, subjecthood, collective intelligence and consciousness.",
+        "keywords": "attention, consciousness, subjecthood, cognition, color language, collective intelligence"
+      },
+      "categories": [],
+      "tags": [],
+      "localizations": [
+        {
+          "id": 170,
           "locale": "ua"
         }
       ]

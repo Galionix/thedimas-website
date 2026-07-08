@@ -34,6 +34,16 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/blog" />
   </url>
   <url>
+    <loc>https://thedimas.com/en/blog/blue-without-a-name</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/blog/blue-without-a-name" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/blog/blue-without-a-name" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/blog/blue-without-a-name</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/blog/blue-without-a-name" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/blog/blue-without-a-name" />
+  </url>
+  <url>
     <loc>https://thedimas.com/en/services/mvp-development</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/mvp-development" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/mvp-development" />

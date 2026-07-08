@@ -6,8 +6,10 @@ describe("blog content", () => {
 
     cy.contains("AI agents as working memory").should("be.visible");
     cy.contains("A portfolio should prove thinking").should("be.visible");
+    cy.contains("Blue Without a Name").should("be.visible");
     cy.get('img[src*="ai-agents-working-memory"]').should("be.visible");
     cy.get('img[src*="portfolio-proof-of-thinking"]').should("be.visible");
+    cy.get('img[src*="blue-without-a-name"]').should("be.visible");
 
     cy.visit("/en/blog/ai-agents-working-memory");
     cy.contains("Do not ask the model to be smart. Give it a system.").should(
@@ -18,6 +20,11 @@ describe("blog content", () => {
     cy.visit("/en/blog/portfolio-proof-of-thinking");
     cy.contains("A gallery is not a case study").should("be.visible");
     cy.get('img[src*="portfolio-proof-of-thinking"]').should("be.visible");
+
+    cy.visit("/en/blog/blue-without-a-name");
+    cy.contains("What Humanity Still Cannot Distinguish").should("be.visible");
+    cy.contains("The Quality of Attention").should("be.visible");
+    cy.get('img[src*="blue-without-a-name"]').should("be.visible");
   });
 
   it("shows the new Ukrainian posts on the blog index and serves their detail pages", () => {
@@ -25,8 +32,10 @@ describe("blog content", () => {
 
     cy.contains("AI-агенти як робоча пам'ять").should("be.visible");
     cy.contains("Портфоліо має доводити мислення").should("be.visible");
+    cy.contains("Синій без імені").should("be.visible");
     cy.get('img[src*="ai-agents-working-memory"]').should("be.visible");
     cy.get('img[src*="portfolio-proof-of-thinking"]').should("be.visible");
+    cy.get('img[src*="blue-without-a-name"]').should("be.visible");
 
     cy.visit("/ua/blog/ai-agents-working-memory");
     cy.contains("Не просити модель бути розумною, а давати їй систему").should(
@@ -37,5 +46,10 @@ describe("blog content", () => {
     cy.visit("/ua/blog/portfolio-proof-of-thinking");
     cy.contains("Галерея - це не кейс").should("be.visible");
     cy.get('img[src*="portfolio-proof-of-thinking"]').should("be.visible");
+
+    cy.visit("/ua/blog/blue-without-a-name");
+    cy.contains("що людство досі не вміє розрізняти").should("be.visible");
+    cy.contains("Якість уваги").should("be.visible");
+    cy.get('img[src*="blue-without-a-name"]').should("be.visible");
   });
 });
