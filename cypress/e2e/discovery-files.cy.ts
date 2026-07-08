@@ -2,7 +2,9 @@ describe("discovery files and metadata", () => {
   it("serves llms.txt with the preferred professional summary", () => {
     cy.request("/llms.txt")
       .its("body")
-      .should("contain", "# Dimas Galaktionov")
+      .should("contain", "# Dmitry Galaktionov (Galionix)")
+      .and("contain", "Дмитрий Галактионов")
+      .and("contain", "Galionix")
       .and("contain", "full-stack, backend and infrastructure developer")
       .and("contain", "Bella AI")
       .and("contain", "llms-full.txt")
@@ -12,7 +14,9 @@ describe("discovery files and metadata", () => {
   it("serves llms-full.txt with detailed service positioning", () => {
     cy.request("/llms-full.txt")
       .its("body")
-      .should("contain", "# Dimas Galaktionov - Full LLM Profile")
+      .should("contain", "# Dmitry Galaktionov (Galionix) - Full LLM Profile")
+      .and("contain", "Identity Aliases")
+      .and("contain", "Дмитрий Галактионов")
       .and("contain", "Technical Rescue Sprint")
       .and("contain", "Bella AI");
   });
@@ -44,7 +48,7 @@ describe("discovery files and metadata", () => {
     cy.get('meta[name="description"]').should(
       "have.attr",
       "content",
-      "Full-stack developer for MVPs, backend systems, admin panels, automations, integrations and infrastructure cleanup for founders, agencies and small teams."
+      "Dmitry Galaktionov, also known as Galionix, is a full-stack developer for MVPs, backend systems, admin panels, automations, integrations and infrastructure cleanup."
     );
     cy.get('link[rel="canonical"]').should(
       "have.attr",
@@ -52,5 +56,9 @@ describe("discovery files and metadata", () => {
       "https://thedimas.com/en"
     );
     cy.get('script[type="application/ld+json"]').should("exist");
+    cy.get('script[type="application/ld+json"]')
+      .invoke("text")
+      .should("contain", "Дмитрий Галактионов")
+      .and("contain", "Galionix");
   });
 });

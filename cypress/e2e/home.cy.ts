@@ -4,7 +4,7 @@ describe("home page", () => {
 
     cy.title().should(
       "eq",
-      "Dimas Galaktionov | Full-stack, Backend & Infrastructure Developer"
+      "Dmitry Galaktionov (Galionix) | Full-stack, Backend & Infrastructure Developer"
     );
 
     cy.contains("Full-stack developer for products").should("be.visible");
@@ -12,6 +12,9 @@ describe("home page", () => {
       "I build, repair and ship web products, admin panels"
     ).should("be.visible");
     cy.get("body").should("contain.text", "What you can hire me for");
+    cy.get("body").should("contain.text", "Dmitry Galaktionov");
+    cy.get("body").should("contain.text", "Дмитрий Галактионов");
+    cy.get("body").should("contain.text", "Galionix");
     cy.get("body").should("contain.text", "Bella AI");
     cy.contains("MVP or feature sprint")
       .should("have.attr", "href", "/en/services/mvp-development");
@@ -71,7 +74,9 @@ describe("home page", () => {
       "Full-stack developer for products",
       "I build, repair and ship web products",
       "Quick contact",
-      "Dmitry Galaktionov: full-stack",
+      "Dmitry Galaktionov (Galionix): full-stack",
+      "Search aliases: Dmitry Galaktionov",
+      "Дмитрий Галактионов",
       "I am useful when the project is messy",
       "What you can hire me for",
       "MVP or feature sprint",
