@@ -19,6 +19,7 @@ import { useStore } from '../../utils/state'
 import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
 import { ProduceBlocks } from '../../utils/blocks'
+import { gaEvent } from '../../utils/google_analytics'
 
 const contactCopy = {
   en: {
@@ -225,6 +226,11 @@ export default function Home({
         locale: currentLocale,
         page: typeof window === "undefined" ? "" : window.location.pathname,
       });
+      gaEvent("generate_lead", {
+        currency: "USD",
+        lead_source: "quick_contact_form",
+        locale: currentLocale,
+      });
       setContactForm({ email: "", company: "" });
     } catch (error) {
       setContactStatus("error");
@@ -271,7 +277,14 @@ export default function Home({
             <div className={s.heroActions}>
               <a
                 href={contactHref}
-                onClick={() => track("contact_mailto_click", { locale: currentLocale })}
+                onClick={() => {
+                  track("contact_mailto_click", { locale: currentLocale });
+                  gaEvent("contact_click", {
+                    contact_method: "email",
+                    placement: "hero",
+                    locale: currentLocale,
+                  });
+                }}
               >
                 {copy.action}
               </a>
@@ -281,21 +294,42 @@ export default function Home({
               <a
                 href="whatsapp://send?phone=380637637726"
                 aria-label="WhatsApp"
-                onClick={() => track("social_contact_click", { channel: "whatsapp", locale: currentLocale })}
+                onClick={() => {
+                  track("social_contact_click", { channel: "whatsapp", locale: currentLocale });
+                  gaEvent("contact_click", {
+                    contact_method: "whatsapp",
+                    placement: "hero_social",
+                    locale: currentLocale,
+                  });
+                }}
               >
                 <RiWhatsappFill />
               </a>
               <a
                 href="tg://resolve?domain=galionix"
                 aria-label="Telegram"
-                onClick={() => track("social_contact_click", { channel: "telegram", locale: currentLocale })}
+                onClick={() => {
+                  track("social_contact_click", { channel: "telegram", locale: currentLocale });
+                  gaEvent("contact_click", {
+                    contact_method: "telegram",
+                    placement: "hero_social",
+                    locale: currentLocale,
+                  });
+                }}
               >
                 <RiTelegramFill />
               </a>
               <a
                 href={contactHref}
                 aria-label="Email Dimas"
-                onClick={() => track("social_contact_click", { channel: "email", locale: currentLocale })}
+                onClick={() => {
+                  track("social_contact_click", { channel: "email", locale: currentLocale });
+                  gaEvent("contact_click", {
+                    contact_method: "email",
+                    placement: "hero_social",
+                    locale: currentLocale,
+                  });
+                }}
               >
                 <RiMailSendFill />
               </a>

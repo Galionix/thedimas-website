@@ -6,7 +6,8 @@ import { track } from "@vercel/analytics";
 import { Header } from "../../Header/Header";
 import { Footer } from "../../Footer/Footer";
 import { get_endpoint_data } from "../../../utils/content_fetching";
-import { getService, serviceSlugs, services } from "../../data/services";
+import { getService, serviceSlugs } from "../../data/services";
+import { gaEvent } from "../../../utils/google_analytics";
 import s from "../../styles/pages/Service.module.scss";
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
@@ -128,12 +129,17 @@ export default function ServicePage({
           <div className={s.actions}>
             <Link
               href={contactHref}
-              onClick={() =>
+              onClick={() => {
                 track("service_contact_click", {
                   locale: currentLocale,
                   service: service!.slug,
-                })
-              }
+                });
+                gaEvent("select_content", {
+                  content_type: "service_contact_cta",
+                  item_id: service!.slug,
+                  locale: currentLocale,
+                });
+              }}
             >
               {contactLabel}
             </Link>

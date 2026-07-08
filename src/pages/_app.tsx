@@ -16,6 +16,7 @@ import { SiteIcon } from '../SiteIcon';
 import { Tthemes, useStore } from '../../utils/state';
 import { useScrolled } from '../../utils/hooks/useScrolled';
 import { ParallaxProvider } from "react-scroll-parallax";
+import { GoogleAnalytics } from "../GoogleAnalytics";
 function MyApp({ Component, pageProps }: AppProps) {
   const containerRef = useRef(null);
   const { theme, skip_intro, doSkipIntro, setScrollDirection } = useStore();
@@ -62,6 +63,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta charSet="UTF-8" />
       </Head>
 
+      <GoogleAnalytics />
       <Component {...pageProps} />
       <Analytics />
     </>
