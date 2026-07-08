@@ -70,10 +70,15 @@ describe("content visibility after scroll", () => {
 
   it("keeps Bella AI proof sections visible after repeated scrolls", () => {
     const requiredCopy = [
+      "Delivery context",
+      "NDA-aware case",
+      "Direct client work",
+      "payment integration",
       "What I owned",
       "Type-safe app architecture",
       "Database and permissions",
       "Authentication and onboarding",
+      "Built RBAC",
       "The important portfolio point",
       "Stack signals",
       "Next.js",
