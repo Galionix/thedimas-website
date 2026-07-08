@@ -368,57 +368,42 @@
         "intro": "Не магія, а спосіб тримати контекст, рішення і наступні кроки в одному місці.",
         "types": null,
         "image": {
-          "id": 48,
-          "name": "title-image.png",
-          "alternativeText": "",
+          "id": 860101,
+          "name": "ai-agents-working-memory.svg",
+          "alternativeText": "AI agent working memory system illustration",
           "caption": "",
-          "width": 512,
-          "height": 341,
+          "width": 1200,
+          "height": 760,
           "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/small_title_image_a6e142c273.png",
-              "hash": "small_title_image_a6e142c273",
-              "mime": "image/png",
-              "name": "small_title-image.png",
-              "path": null,
-              "size": 114.55,
-              "width": 500,
-              "height": 333,
-              "provider_metadata": {
-                "public_id": "small_title_image_a6e142c273",
-                "resource_type": "image"
-              }
-            },
             "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/thumbnail_title_image_a6e142c273.png",
-              "hash": "thumbnail_title_image_a6e142c273",
-              "mime": "image/png",
-              "name": "thumbnail_title-image.png",
+              "ext": ".svg",
+              "url": "/blog/ai-agents-working-memory.svg",
+              "hash": "ai_agents_working_memory_svg",
+              "mime": "image/svg+xml",
+              "name": "ai-agents-working-memory.svg",
               "path": null,
-              "size": 35.82,
-              "width": 234,
-              "height": 156,
+              "size": 0,
+              "width": 1200,
+              "height": 760,
               "provider_metadata": {
-                "public_id": "thumbnail_title_image_a6e142c273",
+                "public_id": "ai-agents-working-memory.svg",
                 "resource_type": "image"
               }
             }
           },
-          "hash": "title_image_a6e142c273",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 44.5,
-          "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459533/title_image_a6e142c273.png",
+          "hash": "ai_agents_working_memory_svg",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 0,
+          "url": "/blog/ai-agents-working-memory.svg",
           "previewUrl": null,
-          "provider": "cloudinary",
+          "provider": "local",
           "provider_metadata": {
-            "public_id": "title_image_a6e142c273",
+            "public_id": "ai-agents-working-memory.svg",
             "resource_type": "image"
           },
-          "created_at": "2021-11-21T01:52:14.979Z",
-          "updated_at": "2021-11-21T01:52:14.996Z"
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
         }
       },
       "custom_data": null,
@@ -497,57 +482,42 @@
         "intro": "Скріншоти показують, що щось існує. Хороший кейс показує, як ти приймаєш рішення.",
         "types": null,
         "image": {
-          "id": 48,
-          "name": "title-image.png",
-          "alternativeText": "",
+          "id": 860102,
+          "name": "portfolio-proof-of-thinking.svg",
+          "alternativeText": "Portfolio case study proof of thinking illustration",
           "caption": "",
-          "width": 512,
-          "height": 341,
+          "width": 1200,
+          "height": 760,
           "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/small_title_image_a6e142c273.png",
-              "hash": "small_title_image_a6e142c273",
-              "mime": "image/png",
-              "name": "small_title-image.png",
-              "path": null,
-              "size": 114.55,
-              "width": 500,
-              "height": 333,
-              "provider_metadata": {
-                "public_id": "small_title_image_a6e142c273",
-                "resource_type": "image"
-              }
-            },
             "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/thumbnail_title_image_a6e142c273.png",
-              "hash": "thumbnail_title_image_a6e142c273",
-              "mime": "image/png",
-              "name": "thumbnail_title-image.png",
+              "ext": ".svg",
+              "url": "/blog/portfolio-proof-of-thinking.svg",
+              "hash": "portfolio_proof_of_thinking_svg",
+              "mime": "image/svg+xml",
+              "name": "portfolio-proof-of-thinking.svg",
               "path": null,
-              "size": 35.82,
-              "width": 234,
-              "height": 156,
+              "size": 0,
+              "width": 1200,
+              "height": 760,
               "provider_metadata": {
-                "public_id": "thumbnail_title_image_a6e142c273",
+                "public_id": "portfolio-proof-of-thinking.svg",
                 "resource_type": "image"
               }
             }
           },
-          "hash": "title_image_a6e142c273",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 44.5,
-          "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459533/title_image_a6e142c273.png",
+          "hash": "portfolio_proof_of_thinking_svg",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 0,
+          "url": "/blog/portfolio-proof-of-thinking.svg",
           "previewUrl": null,
-          "provider": "cloudinary",
+          "provider": "local",
           "provider_metadata": {
-            "public_id": "title_image_a6e142c273",
+            "public_id": "portfolio-proof-of-thinking.svg",
             "resource_type": "image"
           },
-          "created_at": "2021-11-21T01:52:14.979Z",
-          "updated_at": "2021-11-21T01:52:14.996Z"
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
         }
       },
       "custom_data": null,
@@ -934,57 +904,42 @@
         "intro": "Not magic, but a practical way to keep context, decisions and next steps in one place.",
         "types": null,
         "image": {
-          "id": 48,
-          "name": "title-image.png",
-          "alternativeText": "",
+          "id": 860101,
+          "name": "ai-agents-working-memory.svg",
+          "alternativeText": "AI agent working memory system illustration",
           "caption": "",
-          "width": 512,
-          "height": 341,
+          "width": 1200,
+          "height": 760,
           "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/small_title_image_a6e142c273.png",
-              "hash": "small_title_image_a6e142c273",
-              "mime": "image/png",
-              "name": "small_title-image.png",
-              "path": null,
-              "size": 114.55,
-              "width": 500,
-              "height": 333,
-              "provider_metadata": {
-                "public_id": "small_title_image_a6e142c273",
-                "resource_type": "image"
-              }
-            },
             "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/thumbnail_title_image_a6e142c273.png",
-              "hash": "thumbnail_title_image_a6e142c273",
-              "mime": "image/png",
-              "name": "thumbnail_title-image.png",
+              "ext": ".svg",
+              "url": "/blog/ai-agents-working-memory.svg",
+              "hash": "ai_agents_working_memory_svg",
+              "mime": "image/svg+xml",
+              "name": "ai-agents-working-memory.svg",
               "path": null,
-              "size": 35.82,
-              "width": 234,
-              "height": 156,
+              "size": 0,
+              "width": 1200,
+              "height": 760,
               "provider_metadata": {
-                "public_id": "thumbnail_title_image_a6e142c273",
+                "public_id": "ai-agents-working-memory.svg",
                 "resource_type": "image"
               }
             }
           },
-          "hash": "title_image_a6e142c273",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 44.5,
-          "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459533/title_image_a6e142c273.png",
+          "hash": "ai_agents_working_memory_svg",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 0,
+          "url": "/blog/ai-agents-working-memory.svg",
           "previewUrl": null,
-          "provider": "cloudinary",
+          "provider": "local",
           "provider_metadata": {
-            "public_id": "title_image_a6e142c273",
+            "public_id": "ai-agents-working-memory.svg",
             "resource_type": "image"
           },
-          "created_at": "2021-11-21T01:52:14.979Z",
-          "updated_at": "2021-11-21T01:52:14.996Z"
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
         }
       },
       "custom_data": null,
@@ -1063,57 +1018,42 @@
         "intro": "Screenshots show that something exists. A good case study shows how you make decisions.",
         "types": null,
         "image": {
-          "id": 48,
-          "name": "title-image.png",
-          "alternativeText": "",
+          "id": 860102,
+          "name": "portfolio-proof-of-thinking.svg",
+          "alternativeText": "Portfolio case study proof of thinking illustration",
           "caption": "",
-          "width": 512,
-          "height": 341,
+          "width": 1200,
+          "height": 760,
           "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/small_title_image_a6e142c273.png",
-              "hash": "small_title_image_a6e142c273",
-              "mime": "image/png",
-              "name": "small_title-image.png",
-              "path": null,
-              "size": 114.55,
-              "width": 500,
-              "height": 333,
-              "provider_metadata": {
-                "public_id": "small_title_image_a6e142c273",
-                "resource_type": "image"
-              }
-            },
             "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/thumbnail_title_image_a6e142c273.png",
-              "hash": "thumbnail_title_image_a6e142c273",
-              "mime": "image/png",
-              "name": "thumbnail_title-image.png",
+              "ext": ".svg",
+              "url": "/blog/portfolio-proof-of-thinking.svg",
+              "hash": "portfolio_proof_of_thinking_svg",
+              "mime": "image/svg+xml",
+              "name": "portfolio-proof-of-thinking.svg",
               "path": null,
-              "size": 35.82,
-              "width": 234,
-              "height": 156,
+              "size": 0,
+              "width": 1200,
+              "height": 760,
               "provider_metadata": {
-                "public_id": "thumbnail_title_image_a6e142c273",
+                "public_id": "portfolio-proof-of-thinking.svg",
                 "resource_type": "image"
               }
             }
           },
-          "hash": "title_image_a6e142c273",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 44.5,
-          "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459533/title_image_a6e142c273.png",
+          "hash": "portfolio_proof_of_thinking_svg",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 0,
+          "url": "/blog/portfolio-proof-of-thinking.svg",
           "previewUrl": null,
-          "provider": "cloudinary",
+          "provider": "local",
           "provider_metadata": {
-            "public_id": "title_image_a6e142c273",
+            "public_id": "portfolio-proof-of-thinking.svg",
             "resource_type": "image"
           },
-          "created_at": "2021-11-21T01:52:14.979Z",
-          "updated_at": "2021-11-21T01:52:14.996Z"
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
         }
       },
       "custom_data": null,
