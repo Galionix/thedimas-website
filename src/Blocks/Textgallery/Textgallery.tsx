@@ -5,27 +5,16 @@ import { useState, useEffect, useRef } from "react";
 import {
   LayoutGroup,
   motion,
-  AnimatePresence,
   MotionProps,
 } from "framer-motion";
 import Modal from "react-modal";
-import { useIntersection } from "react-use";
 import Sparkles from "react-sparkle";
 // import { Parallax, ParallaxBanner, useParallax } from "react-scroll-parallax";
 
 // import { useInView } from "framer-motion";
 
-const getAnimationConfig = (
-  animate: MotionProps["animate"],
-  intersecting: boolean
-) => {
-  if (!intersecting) return {};
-  return animate;
-};
-
 const getfigcaptionAnimation = (
-  type: string,
-  intersecting: boolean
+  type: string
 ): {
   initial: MotionProps["initial"];
   animate: MotionProps["animate"];
@@ -35,38 +24,18 @@ const getfigcaptionAnimation = (
   switch (type) {
     case "banner":
       return {
-        initial: {
-          //   x: "100vw",
-          skewX: "5deg",
-          opacity: 0,
-          scale: 3,
+        initial: false,
+        animate: {
+          opacity: 1,
+          scale: 1,
+          skewX: "-10deg",
         },
-        animate: getAnimationConfig(
-          {
-            transition: {
-              //   delay: 0.2,
-              duration: 3.6,
-              ease: [0.57, 0.01, 0, 1.01],
-            },
-            // x: "0px",
-            opacity: 1,
-            scale: 1,
-            skewX: "-10deg",
-          },
-          intersecting
-        ),
       };
     default:
       return {
-        initial: {
-          opacity: 0,
-        },
+        initial: false,
         animate: {
           opacity: 1,
-          transition: {
-            duration: 0.6,
-            ease: [0.6, 0, 0, 1],
-          },
         },
       };
   }
@@ -87,17 +56,7 @@ export const Textgallery = ({
   const [active, setActive] = useState(0);
   const [modalOpen, setModalOpen] = useState(false);
   const ref = useRef(null);
-  const intersection = useIntersection(ref, {
-    root: null,
-    rootMargin: "0px",
-    threshold: 1,
-  });
-
-  const isIntersecting = intersection?.intersectionRatio
-    ? intersection?.intersectionRatio > 0.2
-    : false;
-
-  const figcaptionProps = getfigcaptionAnimation(type, isIntersecting);
+  const figcaptionProps = getfigcaptionAnimation(type);
   // const { ref: parallaxRef } = useParallax<HTMLDivElement>({
   //   disabled: type !== "banner",
   //   speed: 200,
@@ -281,6 +240,7 @@ export const Textgallery = ({
         {text && (
           <motion.figcaption
             className={` ${s.figcaption} `}
+            data-testid="content-gallery-caption"
             {...figcaptionProps}
           >
             {/* <Parallax disabled> */}

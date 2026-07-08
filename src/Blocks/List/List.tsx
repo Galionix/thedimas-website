@@ -1,8 +1,5 @@
-import { useEffect, useRef, useState } from "react";
 import s from "./List.module.scss";
 import { getIcon } from "./getIcon";
-import { useIntersection } from "react-use";
-import { motion } from "framer-motion";
 import "splitting/dist/splitting.css";
 import "splitting/dist/splitting-cells.css";
 export type List = {
@@ -21,7 +18,7 @@ export type ListItem = {
 
 export const List = ({ name, items }: List) => {
   return (
-    <div className={s.list}>
+    <div className={s.list} data-testid="content-list">
       <h2>{name}</h2>
       <ul>
         {items.map((item, index) => {
@@ -42,43 +39,8 @@ const ListItem = ({
 }: ListItem & {
   index: number;
 }) => {
-  const ref = useRef(null);
-  const splittingRef = useRef(null);
-  const intersection = useIntersection(ref, {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.15,
-  });
-  const [hasEnteredView, setHasEnteredView] = useState(false);
-
-  useEffect(() => {
-    if (intersection && intersection.intersectionRatio > 0.2) {
-      setHasEnteredView(true);
-    }
-  }, [intersection?.intersectionRatio]);
-
   return (
-    <motion.li
-      ref={ref}
-      key={id}
-      initial={{
-        opacity: 0,
-        x: index % 2 !== 0 ? "-28px" : "28px",
-      }}
-      animate={
-        hasEnteredView
-          ? {
-              transition: {
-                duration: 0.6,
-                ease: [0.6, 0, 0, 1],
-                staggerChildren: 0.5,
-              },
-              x: "0px",
-              opacity: 1,
-            }
-          : {}
-      }
-    >
+    <li key={id} data-testid="content-list-item">
       <div>
         {getIcon(icon as any, index)}
 
@@ -90,7 +52,7 @@ const ListItem = ({
           <h3>{name}</h3>
         )}
       </div>
-      <p ref={splittingRef}>{description}</p>
-    </motion.li>
+      <p>{description}</p>
+    </li>
   );
 };

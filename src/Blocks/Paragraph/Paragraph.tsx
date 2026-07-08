@@ -1,7 +1,5 @@
 import s from './style.module.scss'
-import { motion } from 'framer-motion';
-import { useRef, useEffect, useState } from 'react';
-import { useIntersection } from 'react-use';
+import { useRef, useEffect } from 'react';
 // import Splitting from "splitting";
 // import dynamic from 'next/dynamic'
 import "splitting/dist/splitting.css";
@@ -11,7 +9,6 @@ import Sparkles from "react-sparkle";
 export const Paragraph = ({
   text,
   error,
-  iterator,
   types,
 }: {
   text: string;
@@ -25,21 +22,7 @@ export const Paragraph = ({
 }) => {
   // console.log("%c 🛐: preset ", "font-size:16px;background-color:#c9affa;color:white;", types)
   const ref = useRef(null);
-  const intersection = useIntersection(ref, {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.15,
-  });
-  const [hasEnteredView, setHasEnteredView] = useState(false);
   // const [lines, setLines] = useState([])
-
-  const show_style = iterator % 3 === 0 ? "from_bottom" : "from_side";
-
-  useEffect(() => {
-    if (intersection && intersection.intersectionRatio > 0.2) {
-      setHasEnteredView(true);
-    }
-  }, [intersection?.intersectionRatio]);
 
   useEffect(() => {
     async function work() {
@@ -48,43 +31,18 @@ export const Paragraph = ({
       );
       Splitting({ target: ref.current });
     }
-    if (show_style === "from_bottom" || types?.mobile === "freaky") work();
-  }, [intersection?.intersectionRatio, text]);
+    if (types?.mobile === "freaky") work();
+  }, [text, types?.mobile]);
 
   return (
-    <div ref={ref} className={`${s.paragraph} ${s[types?.mobile]}`}>
-      {/** @ts-ignore */}
-      <motion.p
-        data-splitting
-        className={`${
-          hasEnteredView && show_style === "from_bottom"
-            ? s.showLines
-            : ""
-        } `}
-        initial={
-          show_style === "from_side"
-            ? {
-                opacity: 0,
-                x: iterator % 2 !== 0 ? "-28px" : "28px",
-              }
-            : {}
-        }
-        animate={
-          hasEnteredView && show_style === "from_side"
-            ? {
-                transition: {
-                  duration: 0.6,
-                  ease: [0.6, 0, 0, 1],
-                  staggerChildren: 0.5,
-                },
-                x: "0px",
-                opacity: 1,
-              }
-            : {}
-        }
-      >
+    <div
+      ref={ref}
+      className={`${s.paragraph} ${s[types?.mobile]}`}
+      data-testid="content-paragraph"
+    >
+      <p data-splitting>
         {text}
-      </motion.p>
+      </p>
       {types?.mobile === "freaky" && (
         <Sparkles
           minSize={5}

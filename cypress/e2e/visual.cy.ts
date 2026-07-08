@@ -1,3 +1,5 @@
+export {};
+
 const routes = [
   { name: "en-home", path: "/en" },
   { name: "en-projects", path: "/en/projects" },

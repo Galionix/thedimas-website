@@ -122,7 +122,7 @@ export default function ServicePage({
       </Head>
       <Header header_data={header_data} preset="main_page" />
       <main className={s.main}>
-        <section className={s.hero}>
+        <section className={s.hero} data-testid="content-section">
           <p className={s.eyebrow}>{service!.eyebrow}</p>
           <h1>{service!.title}</h1>
           <p>{service!.description}</p>
@@ -147,12 +147,12 @@ export default function ServicePage({
           </div>
         </section>
         <section className={s.contentBand}>
-          <div className={s.statement}>
+          <div className={s.statement} data-testid="content-section">
             <h2>{currentLocale === "en" ? "When this helps" : "Коли це допомагає"}</h2>
             <p>{service!.intro}</p>
           </div>
           <div className={s.grid}>
-            <section>
+            <section data-testid="content-section">
               <h2>{currentLocale === "en" ? "Outcomes" : "Результати"}</h2>
               <ul>
                 {service!.outcomes.map((item) => (
@@ -160,7 +160,7 @@ export default function ServicePage({
                 ))}
               </ul>
             </section>
-            <section>
+            <section data-testid="content-section">
               <h2>{currentLocale === "en" ? "Process" : "Процес"}</h2>
               <ol>
                 {service!.process.map((item) => (
@@ -169,20 +169,20 @@ export default function ServicePage({
               </ol>
             </section>
           </div>
-          <section className={s.proof}>
+          <section className={s.proof} data-testid="content-section">
             <h2>{currentLocale === "en" ? "Relevant proof" : "Релевантний доказ"}</h2>
             <p>{service!.proof}</p>
           </section>
-          <section className={s.faq}>
+          <section className={s.faq} data-testid="content-section">
             <h2>FAQ</h2>
             {service!.faq.map((item) => (
-              <article key={item.question}>
+              <article key={item.question} data-testid="content-section">
                 <h3>{item.question}</h3>
                 <p>{item.answer}</p>
               </article>
             ))}
           </section>
-          <section className={s.next}>
+          <section className={s.next} data-testid="content-section">
             <h2>{currentLocale === "en" ? "Start with one email" : "Почнемо з одного email"}</h2>
             <p>
               {currentLocale === "en"

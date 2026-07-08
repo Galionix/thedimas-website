@@ -35,7 +35,7 @@
     }
   }
   p {
-    opacity: 0;
+    opacity: 1;
     overflow: hidden;
     white-space: pre-line;
     line-height: 1.8;
@@ -49,11 +49,9 @@
       & > span {
         overflow: hidden;
         span {
-          transform: translateY(100%);
-          opacity: 0;
+          transform: translateY(0);
+          opacity: 1;
           --word-index: 1;
-          animation: show-up var(--word-index) 1000ms $nice-ease;
-          animation-fill-mode: forwards;
         }
       }
     }
