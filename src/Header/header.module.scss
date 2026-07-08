@@ -4,10 +4,16 @@ $nice-ease: cubic-bezier(0.57, 0.01, 0, 1.01);
   position: fixed;
   top:0px;
   width: 100%;
-isolation: isolate;
-z-index: 1000;
-
+  min-height: var(--site-header-height);
+  isolation: isolate;
+  z-index: 1000;
+  background-color: var(--main-color);
 }
+
+.main_pageWrapper {
+  background-color: var(--main-bg-color);
+}
+
 .header {
 
   left: 50%;
@@ -18,6 +24,7 @@ z-index: 1000;
   z-index: 1000;
   width: 100%;
 
+  min-height: var(--site-header-height);
   padding: 20px 0;
   background-color: var(--main-color);
 
@@ -87,6 +94,7 @@ z-index: 1000;
     opacity: 0;
 
     height: 65px;
+    min-height: var(--site-header-height);
     padding: 0;
     display: flex;
     align-items: center;

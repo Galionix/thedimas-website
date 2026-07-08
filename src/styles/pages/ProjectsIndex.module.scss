@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(5, 1fr);
 	max-width: 1440px;
 	margin: 0 auto;
-	margin-top: 64px;
+	margin-top: calc(var(--site-header-height) + var(--site-header-gap));
 
 	gap: 25px;
 	.card {

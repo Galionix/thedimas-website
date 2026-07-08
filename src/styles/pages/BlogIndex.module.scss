@@ -3,7 +3,7 @@
 $space: 20px;
 
 .intro {
-  margin-top:64px;
+  margin-top: calc(var(--site-header-height) + var(--site-header-gap));
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto min(30vh, 300px) auto;

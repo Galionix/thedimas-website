@@ -5,7 +5,8 @@
 }
 
 .main {
-  padding: 74px clamp(18px, 4vw, 56px) 48px;
+  padding: calc(var(--site-header-height) + var(--site-header-gap))
+    clamp(18px, 4vw, 56px) 48px;
 }
 
 .hero {
@@ -172,7 +173,7 @@
 
 @media screen and (max-width: 760px) {
   .main {
-    padding: 64px 16px 36px;
+    padding: calc(var(--site-header-height) + 14px) 16px 36px;
   }
 
   .grid {

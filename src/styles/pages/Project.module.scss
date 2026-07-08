@@ -7,7 +7,7 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 50px 0px;
-  margin-top: 64px;
+  margin-top: calc(var(--site-header-height) + var(--site-header-gap));
 
   h1 {
     // font-family: 'Coffekan';

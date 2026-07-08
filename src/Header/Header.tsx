@@ -49,7 +49,7 @@ export const Header = ({
 
   return (
     <motion.div
-      className={s.headerWrapper}
+      className={`${s.headerWrapper} ${s[preset ? `${preset}Wrapper` : ""]}`}
       initial={{
         y: "0px",
         // opacity: 0,

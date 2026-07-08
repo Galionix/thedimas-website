@@ -265,12 +265,15 @@ export default function Home({
         />
       </Head>
       <Header header_data={header_data} preset="main_page" />
-      <div className={`${s.wrapper_wrapper} ${skip_intro ? s.skip_intro : ""}`}>
-        <div className={s.wrapper}>
+      <div
+        className={`${s.wrapper_wrapper} ${skip_intro ? s.skip_intro : ""}`}
+        data-testid="home-hero"
+      >
+        <div className={s.wrapper} data-testid="home-hero-media">
           <h1>{content.intro.project_name}</h1>
           <h2 data-text={content.intro.project_name} />
         </div>
-        <div className={s.heroPanel}>
+        <div className={s.heroPanel} data-testid="home-hero-panel">
           <div className={s.heroCopy}>
             <p>{content.intro.description}</p>
             <p>{content.intro.intro}</p>
