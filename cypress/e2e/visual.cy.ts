@@ -2,6 +2,10 @@ const routes = [
   { name: "en-home", path: "/en" },
   { name: "en-projects", path: "/en/projects" },
   { name: "en-blog", path: "/en/blog" },
+  { name: "en-service-mvp-development", path: "/en/services/mvp-development" },
+  { name: "en-service-backend-development", path: "/en/services/backend-development" },
+  { name: "en-service-admin-panels", path: "/en/services/admin-panels" },
+  { name: "en-service-technical-rescue", path: "/en/services/technical-rescue" },
   { name: "en-project-focus-blocker", path: "/en/projects/Focus%20Blocker" },
   {
     name: "en-project-folder-structure",
@@ -15,6 +19,10 @@ const routes = [
   { name: "ua-home", path: "/ua" },
   { name: "ua-projects", path: "/ua/projects" },
   { name: "ua-blog", path: "/ua/blog" },
+  { name: "ua-service-mvp-development", path: "/ua/services/mvp-development" },
+  { name: "ua-service-backend-development", path: "/ua/services/backend-development" },
+  { name: "ua-service-admin-panels", path: "/ua/services/admin-panels" },
+  { name: "ua-service-technical-rescue", path: "/ua/services/technical-rescue" },
   { name: "ua-project-focus-blocker", path: "/ua/projects/Focus%20Blocker" },
   {
     name: "ua-project-folder-structure",

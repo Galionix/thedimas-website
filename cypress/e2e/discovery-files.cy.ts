@@ -30,6 +30,10 @@ describe("discovery files and metadata", () => {
       .should("contain", "https://thedimas.com/en")
       .and("contain", "https://thedimas.com/en/projects")
       .and("contain", "https://thedimas.com/en/blog")
+      .and("contain", "https://thedimas.com/en/services/mvp-development")
+      .and("contain", "https://thedimas.com/en/services/backend-development")
+      .and("contain", "https://thedimas.com/en/services/admin-panels")
+      .and("contain", "https://thedimas.com/en/services/technical-rescue")
       .and("contain", "https://thedimas.com/en/projects/Bella%20AI")
       .and("contain", "https://thedimas.com/llms-full.txt");
   });

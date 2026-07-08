@@ -16,6 +16,7 @@ export type ListItem = {
   id: number;
   icon: string;
   description: string;
+  href?: string;
 };
 
 export const List = ({ name, items }: List) => {
@@ -36,6 +37,7 @@ const ListItem = ({
   name,
   icon,
   description,
+  href,
   index,
 }: ListItem & {
   index: number;
@@ -80,7 +82,13 @@ const ListItem = ({
       <div>
         {getIcon(icon as any, index)}
 
-        <h3>{name}</h3>
+        {href ? (
+          <a href={href}>
+            <h3>{name}</h3>
+          </a>
+        ) : (
+          <h3>{name}</h3>
+        )}
       </div>
       <p ref={splittingRef}>{description}</p>
     </motion.li>

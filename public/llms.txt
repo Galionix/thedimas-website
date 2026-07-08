@@ -30,6 +30,10 @@ Bella AI: production driving-school student management platform with attendance,
 ## Key Pages
 
 - [Home](https://thedimas.com/en): professional overview and contact
+- [MVP Development](https://thedimas.com/en/services/mvp-development): MVP and feature sprint offer
+- [Backend Development](https://thedimas.com/en/services/backend-development): API, auth and integrations offer
+- [Admin Panels](https://thedimas.com/en/services/admin-panels): internal tools and operational admin UI offer
+- [Technical Rescue](https://thedimas.com/en/services/technical-rescue): messy project rescue and codebase audit offer
 - [Projects](https://thedimas.com/en/projects): selected commercial and personal project case studies
 - [Bella AI](https://thedimas.com/en/projects/Bella%20AI): commercial product case study
 - [Blog](https://thedimas.com/en/blog): notes, development diaries and articles

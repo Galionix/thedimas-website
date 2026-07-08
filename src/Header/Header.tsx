@@ -40,8 +40,9 @@ export const Header = ({
     setIsMounted(true);
   }, []);
 
+  const routeRoot = `/${router.pathname.split("/")[1] || ""}`;
   const selected = header_data[router.locale || 0].items.findIndex(
-    (item: headerLink) => item.href === `/${router.pathname.split("/")[1]}`
+    (item: headerLink) => item.href === routeRoot
   );
   const lightLabel = router.locale === "en" ? "Light" : "Світла";
   const darkLabel = router.locale === "en" ? "Dark" : "Темна";

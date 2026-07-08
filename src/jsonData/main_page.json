@@ -30,24 +30,28 @@
             "id": 820301,
             "icon": "FaCheck",
             "name": "MVP або feature sprint",
+            "href": "/ua/services/mvp-development",
             "description": "Перетворити ідею на робочий Next.js/React застосунок, backend API, модель даних, деплой і зрозумілий handoff."
           },
           {
             "id": 820302,
             "icon": "FaCheck",
             "name": "Backend та інтеграції",
+            "href": "/ua/services/backend-development",
             "description": "Спроєктувати API routes, data models, auth, third-party integrations, queues, webhooks і надійні межі сервісів."
           },
           {
             "id": 820303,
             "icon": "FaCheck",
             "name": "Внутрішні інструменти та адмінки",
+            "href": "/ua/services/admin-panels",
             "description": "Зробити dashboards, role-based admin flows, таблиці, форми, звіти й операційні екрани для реальних команд."
           },
           {
             "id": 820304,
             "icon": "FaCheck",
             "name": "Technical rescue sprint",
+            "href": "/ua/services/technical-rescue",
             "description": "Зайти у нестабільну кодову базу, розкласти moving parts, прибрати блокери, додати тести/monitoring і зробити наступний реліз реалістичним."
           }
         ],
@@ -312,24 +316,28 @@
             "id": 810301,
             "icon": "FaCheck",
             "name": "MVP or feature sprint",
+            "href": "/en/services/mvp-development",
             "description": "Turn a product idea into a working Next.js/React app, backend API, database model, deployment and a clear handoff."
           },
           {
             "id": 810302,
             "icon": "FaCheck",
             "name": "Backend and integration work",
+            "href": "/en/services/backend-development",
             "description": "Design API routes, data models, auth, third-party integrations, queues, webhooks and reliable service boundaries."
           },
           {
             "id": 810303,
             "icon": "FaCheck",
             "name": "Internal tools and admin panels",
+            "href": "/en/services/admin-panels",
             "description": "Build operational dashboards, role-based admin flows, tables, forms, reports and moderation interfaces for real teams."
           },
           {
             "id": 810304,
             "icon": "FaCheck",
             "name": "Technical rescue sprint",
+            "href": "/en/services/technical-rescue",
             "description": "Enter an unstable codebase, map the moving parts, fix blockers, add tests/monitoring and make the next release realistic."
           }
         ],

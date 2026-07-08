@@ -13,6 +13,14 @@ describe("home page", () => {
     ).should("be.visible");
     cy.get("body").should("contain.text", "What you can hire me for");
     cy.get("body").should("contain.text", "Bella AI");
+    cy.contains("MVP or feature sprint")
+      .should("have.attr", "href", "/en/services/mvp-development");
+    cy.contains("Backend and integration work")
+      .should("have.attr", "href", "/en/services/backend-development");
+    cy.contains("Internal tools and admin panels")
+      .should("have.attr", "href", "/en/services/admin-panels");
+    cy.contains("Technical rescue sprint")
+      .should("have.attr", "href", "/en/services/technical-rescue");
     cy.contains("Discuss a project")
       .should("be.visible")
       .invoke("attr", "href")
@@ -33,6 +41,29 @@ describe("home page", () => {
     cy.visit("/en/blog");
     cy.location("pathname").should("eq", "/en/blog");
     cy.get("body").should("contain.text", "My blog");
+  });
+
+  it("sends lead source metadata with quick contact submissions", () => {
+    cy.intercept("POST", "/api/contact", (req) => {
+      expect(req.body.email).to.equal("lead@example.com");
+      expect(req.body.source.cta).to.equal("quick_contact_form");
+      expect(req.body.source.locale).to.equal("en");
+      expect(req.body.source.page).to.contain("/en?utm_source=google");
+      expect(req.body.source.utmSource).to.equal("google");
+      expect(req.body.source.utmMedium).to.equal("organic");
+      expect(req.body.source.utmCampaign).to.equal("service-pages");
+
+      req.reply({
+        statusCode: 200,
+        body: { ok: true },
+      });
+    }).as("contactRequest");
+
+    cy.visit("/en?utm_source=google&utm_medium=organic&utm_campaign=service-pages");
+    cy.get('input[name="email"]').type("lead@example.com");
+    cy.contains("button", "Contact me").click();
+    cy.wait("@contactRequest");
+    cy.contains("Sent. I will reply by email.").should("be.visible");
   });
 
   it("keeps homepage section copy visible after slow scrolling down and back up", () => {

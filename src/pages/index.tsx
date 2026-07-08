@@ -55,6 +55,35 @@ const contactCopy = {
   },
 };
 
+const buildLeadSource = ({
+  cta,
+  locale,
+}: {
+  cta: string;
+  locale: string;
+}) => {
+  if (typeof window === "undefined") {
+    return {
+      cta,
+      locale,
+    };
+  }
+
+  const params = new URLSearchParams(window.location.search);
+
+  return {
+    cta,
+    locale,
+    page: window.location.href,
+    referrer: document.referrer,
+    utmSource: params.get("utm_source") || "",
+    utmMedium: params.get("utm_medium") || "",
+    utmCampaign: params.get("utm_campaign") || "",
+    utmTerm: params.get("utm_term") || "",
+    utmContent: params.get("utm_content") || "",
+  };
+};
+
 
 export const getStaticProps: GetStaticProps = async ({ locales }) => {
   // const newLocales = locales || ['ua']
@@ -177,7 +206,13 @@ export default function Home({
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(contactForm),
+        body: JSON.stringify({
+          ...contactForm,
+          source: buildLeadSource({
+            cta: "quick_contact_form",
+            locale: currentLocale,
+          }),
+        }),
       });
       const result = await response.json();
 
@@ -186,7 +221,10 @@ export default function Home({
       }
 
       setContactStatus("sent");
-      track("contact_email_submit", { locale: currentLocale });
+      track("contact_email_submit", {
+        locale: currentLocale,
+        page: typeof window === "undefined" ? "" : window.location.pathname,
+      });
       setContactForm({ email: "", company: "" });
     } catch (error) {
       setContactStatus("error");
@@ -263,7 +301,7 @@ export default function Home({
               </a>
             </section>
           </div>
-          <form className={s.contactForm} onSubmit={submitContactForm}>
+          <form id="contact" className={s.contactForm} onSubmit={submitContactForm}>
             <div className={s.contactLead}>
               <strong>{copy.formTitle}</strong>
               <span>{copy.formHint}</span>

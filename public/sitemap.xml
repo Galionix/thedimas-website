@@ -34,6 +34,46 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/blog" />
   </url>
   <url>
+    <loc>https://thedimas.com/en/services/mvp-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/mvp-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/mvp-development" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/services/mvp-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/mvp-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/mvp-development" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/en/services/backend-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/backend-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/backend-development" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/services/backend-development</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/backend-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/backend-development" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/en/services/admin-panels</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/admin-panels" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/admin-panels" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/services/admin-panels</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/admin-panels" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/admin-panels" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/en/services/technical-rescue</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/technical-rescue" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/technical-rescue" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/services/technical-rescue</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/technical-rescue" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/technical-rescue" />
+  </url>
+  <url>
     <loc>https://thedimas.com/en/projects/Bella%20AI</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/projects/Bella%20AI" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/projects/Bella%20AI" />

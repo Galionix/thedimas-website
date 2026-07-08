@@ -22,17 +22,17 @@ export const Footer = ({ data, preset }: {
 }) => {
 	const router = useRouter()
 
+	const routeRoot = `/${router.pathname.split('/')[1] || ''}`
 	const selected = data[
 		router.locale || 0
 	].comps.findIndex(
 		(item: headerLink) =>
-			item.href ===
-			`/${router.pathname.split('/')[1]}`
+			item.href === routeRoot
 	)
 
-	const currentHref = data[
-		router.locale || 0
-	].comps[selected].href
+	const currentHref = selected >= 0
+		? data[router.locale || 0].comps[selected].href
+		: ''
 	const lightLabel = router.locale === 'en' ? 'Light' : 'Світла'
 	const darkLabel = router.locale === 'en' ? 'Dark' : 'Темна'
 

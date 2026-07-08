@@ -28,6 +28,12 @@
               font-weight: 700;
               font-size: clamp(19px, 2vw, 26px);
             }
+            a {
+                color: currentColor;
+                text-decoration: underline;
+                text-decoration-thickness: 1px;
+                text-underline-offset: 4px;
+            }
             div {
                 display: flex;
                 // flex-direction: column;

@@ -5,6 +5,7 @@ type ContactRequest = {
   email?: string;
   message?: string;
   company?: string;
+  source?: LeadSource;
 };
 
 type ContactResponse = {
@@ -12,10 +13,42 @@ type ContactResponse = {
   error?: string;
 };
 
+type LeadSource = {
+  cta?: string;
+  page?: string;
+  locale?: string;
+  referrer?: string;
+  utmSource?: string;
+  utmMedium?: string;
+  utmCampaign?: string;
+  utmTerm?: string;
+  utmContent?: string;
+};
+
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const normalize = (value: unknown) =>
   typeof value === "string" ? value.trim() : "";
+
+const normalizeSource = (source: unknown): LeadSource => {
+  if (!source || typeof source !== "object") {
+    return {};
+  }
+
+  const raw = source as Record<string, unknown>;
+
+  return {
+    cta: normalize(raw.cta).slice(0, 120),
+    page: normalize(raw.page).slice(0, 500),
+    locale: normalize(raw.locale).slice(0, 20),
+    referrer: normalize(raw.referrer).slice(0, 500),
+    utmSource: normalize(raw.utmSource).slice(0, 160),
+    utmMedium: normalize(raw.utmMedium).slice(0, 160),
+    utmCampaign: normalize(raw.utmCampaign).slice(0, 160),
+    utmTerm: normalize(raw.utmTerm).slice(0, 160),
+    utmContent: normalize(raw.utmContent).slice(0, 160),
+  };
+};
 
 const escapeHtml = (value: string) =>
   value
@@ -28,16 +61,32 @@ const buildMessage = ({
   name,
   email,
   message,
+  source,
 }: {
   name: string;
   email: string;
   message: string;
+  source: LeadSource;
 }) => {
+  const sourceLines = [
+    `CTA: ${source.cta || "Not provided"}`,
+    `Page: ${source.page || "Not provided"}`,
+    `Locale: ${source.locale || "Not provided"}`,
+    `Referrer: ${source.referrer || "Direct / not provided"}`,
+    `UTM source: ${source.utmSource || "Not provided"}`,
+    `UTM medium: ${source.utmMedium || "Not provided"}`,
+    `UTM campaign: ${source.utmCampaign || "Not provided"}`,
+    `UTM term: ${source.utmTerm || "Not provided"}`,
+    `UTM content: ${source.utmContent || "Not provided"}`,
+  ];
   const lines = [
     "New project inquiry from thedimas.com",
     "",
     `Name: ${name || "Not provided"}`,
     `Email: ${email}`,
+    "",
+    "Lead source:",
+    ...sourceLines,
     "",
     "Message:",
     message || "Not provided",
@@ -136,6 +185,7 @@ export default async function handler(
   const email = normalize(body.email).slice(0, 160);
   const message = normalize(body.message).slice(0, 4000);
   const company = normalize(body.company);
+  const source = normalizeSource(body.source);
 
   if (company) {
     return res.status(200).json({ ok: true });
@@ -146,7 +196,7 @@ export default async function handler(
   }
 
   const subject = `Project inquiry from ${name || email}`;
-  const text = buildMessage({ name, email, message });
+  const text = buildMessage({ name, email, message, source });
 
   try {
     const [emailSent, telegramSent] = await Promise.all([

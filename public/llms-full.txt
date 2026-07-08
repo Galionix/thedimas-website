@@ -35,17 +35,25 @@ Responsibilities and signals:
 
 For founders or agencies that need a product idea shipped quickly as a working web application, backend API, data model, deployment and handoff.
 
+Service page: https://thedimas.com/en/services/mvp-development
+
 ### Technical Rescue Sprint
 
 For teams with a messy or unstable codebase. The goal is to map the moving parts, identify blockers, fix the highest-risk issues, add tests/monitoring where useful and make the next release realistic.
+
+Service page: https://thedimas.com/en/services/technical-rescue
 
 ### Admin Panel / Internal Tool Build
 
 For teams that need operational dashboards, role-based admin flows, tables, forms, reports, moderation interfaces or team workflows.
 
+Service page: https://thedimas.com/en/services/admin-panels
+
 ### Backend and Integration Work
 
 For projects needing API routes, typed service contracts, database design, auth, third-party integrations, webhooks, automation or infrastructure cleanup.
+
+Service page: https://thedimas.com/en/services/backend-development
 
 ## Technologies
 
