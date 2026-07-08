@@ -1,0 +1,40 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" fill="#0B0D0F"/>
+  <rect x="64" y="64" width="1472" height="872" stroke="#2D4147" stroke-width="8"/>
+  <rect x="104" y="104" width="1392" height="792" stroke="#151C20" stroke-width="2"/>
+
+  <circle cx="800" cy="430" r="280" fill="#111A1D"/>
+  <circle cx="800" cy="430" r="230" stroke="#23363C" stroke-width="8"/>
+
+  <path d="M740 292C714 242 664 214 610 206C650 250 662 298 650 342C610 315 562 306 512 318C560 350 588 386 594 430C556 420 512 426 474 448C524 462 560 492 582 530C536 535 500 556 474 592C526 586 570 598 604 628C627 648 650 662 676 670L740 292Z" fill="#245942"/>
+  <path d="M860 292C886 242 936 214 990 206C950 250 938 298 950 342C990 315 1038 306 1088 318C1040 350 1012 386 1006 430C1044 420 1088 426 1126 448C1076 462 1040 492 1018 530C1064 535 1100 556 1126 592C1074 586 1030 598 996 628C973 648 950 662 924 670L860 292Z" fill="#245942"/>
+  <path d="M800 168C844 236 862 304 852 372H748C738 304 756 236 800 168Z" fill="#2E7D55"/>
+
+  <path d="M800 338C690 338 610 430 626 548C642 662 716 742 800 742C884 742 958 662 974 548C990 430 910 338 800 338Z" fill="#F7B733"/>
+  <path d="M800 338C690 338 610 430 626 548C642 662 716 742 800 742C884 742 958 662 974 548C990 430 910 338 800 338Z" stroke="#081014" stroke-width="16"/>
+
+  <path d="M650 440C720 484 824 568 930 690" stroke="#D87E21" stroke-width="12"/>
+  <path d="M710 372C778 434 860 520 954 636" stroke="#D87E21" stroke-width="12"/>
+  <path d="M894 372C826 434 744 520 650 636" stroke="#D87E21" stroke-width="12"/>
+  <path d="M950 440C880 484 776 568 670 690" stroke="#D87E21" stroke-width="12"/>
+
+  <circle cx="718" cy="480" r="16" fill="#111A1D"/>
+  <circle cx="800" cy="456" r="16" fill="#111A1D"/>
+  <circle cx="882" cy="480" r="16" fill="#111A1D"/>
+  <circle cx="704" cy="570" r="16" fill="#111A1D"/>
+  <circle cx="800" cy="548" r="16" fill="#111A1D"/>
+  <circle cx="896" cy="570" r="16" fill="#111A1D"/>
+  <circle cx="748" cy="646" r="16" fill="#111A1D"/>
+  <circle cx="852" cy="646" r="16" fill="#111A1D"/>
+
+  <path d="M402 358V536" stroke="#E9F1F2" stroke-width="28" stroke-linecap="round"/>
+  <path d="M402 358H490" stroke="#E9F1F2" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="358" cy="552" r="48" fill="#E9F1F2"/>
+  <path d="M1198 358V536" stroke="#E9F1F2" stroke-width="28" stroke-linecap="round"/>
+  <path d="M1198 358C1252 368 1290 402 1304 454" stroke="#E9F1F2" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="1154" cy="552" r="48" fill="#E9F1F2"/>
+
+  <path d="M314 792H1286" stroke="#2D4147" stroke-width="4"/>
+  <text x="800" y="844" text-anchor="middle" fill="#E9F1F2" font-family="Arial Black, Impact, sans-serif" font-size="98" font-weight="900" letter-spacing="10">DIMAS</text>
+  <text x="800" y="902" text-anchor="middle" fill="#47C7D6" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="12">MUSIC WEBSITE</text>
+</svg>

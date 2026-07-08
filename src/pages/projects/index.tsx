@@ -5,9 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 import s from "/src/styles/pages/ProjectsIndex.module.scss";
-import { motion } from "framer-motion";
-import { useIntersection } from "react-use";
-import { useRef } from "react";
 import { get_endpoint_data } from '../../../utils/content_fetching';
 import { Projects } from '../../../ts/responses';
 import { Header } from '../../Header/Header';
@@ -56,116 +53,49 @@ const ProjectCard = ({
   iterator: number;
   image: Projects.Image2;
 }) => {
-  const ref = useRef(null);
   const isPortfolioScreenshot = image.url.startsWith("/portfolio/");
-  const intersection = useIntersection(ref, {
-    root: null,
-    rootMargin: "0px",
-    threshold: 1,
-  });
+  const isSvg = image.url.endsWith(".svg");
+  const thumbnail = isSvg ? undefined : image.formats?.thumbnail?.url;
 
-  const container = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        ease: [0.6, 0, 0, 1],
-        staggerChildren: 0.031,
-      },
-    },
-  };
-  const listItem = {
-    hidden: { opacity: 0, y: 0, scale: 0 },
-    show: {
-      transition: {
-        duration: 0.3,
-      },
-      opacity: 1,
-      scale: 1,
-      y: ["100px", "0px"],
-    },
-  };
   return (
-    <li ref={ref} className={` ${s.card} ${isPortfolioScreenshot ? s.caseStudyCard : ""} `}>
-      <motion.div className={` ${s.hider} `}>
-        <motion.p
-          initial={{
-            opacity: 0,
-            scale: 3,
-            x: iterator % 2 !== 0 ? "-1500px" : "1500px",
-          }}
-          animate={
-            intersection && intersection.intersectionRatio > 0.3
-              ? {
-                  transition: {
-                    duration: 0.6,
-                    ease: [0.6, 0, 0, 1],
-                  },
-                  x: "0px",
-                  opacity: 1,
-                  scale: 1,
-                }
-              : {}
-          }
-          className={` ${s.description} `}
-        >
-          {description}
-        </motion.p>
-      </motion.div>
-      <p className={` ${s.intro} `}>{intro}</p>
+    <li
+      className={`${s.card} ${iterator % 2 !== 0 ? s.reversed : ""} ${
+        isPortfolioScreenshot ? s.screenshotCard : s.iconCard
+      }`}
+      data-testid="project-card"
+    >
       <Link legacyBehavior href={`/projects/${project_name}`}>
-        <a>
-          <div className={` ${s.image} `}>
-            <motion.div
-              initial={{
-                scale: 1.1,
-                opacity: 0.5,
-              }}
-              animate={
-                intersection && intersection.intersectionRatio > 0.3
-                  ? {
-                      scale: isPortfolioScreenshot ? 1.02 : 1.5,
-                      opacity: 1,
-                      transition: {
-                        duration: 1,
-                        ease: [0.6, 0, 0, 1],
-                      },
-                    }
-                  : {}
-              }
-              whileHover={{ scale: 1 }}
-              transition={{
-                ease: [0.6, 0, 0, 1],
-              }}
-            >
-              <Image
-                blurDataURL={image.formats.thumbnail.url}
-                placeholder="blur"
+        <a className={s.cardLink}>
+          <div className={s.copy}>
+            <p className={s.label}>{isPortfolioScreenshot ? "Case study" : "Project"}</p>
+            <h2>{project_name}</h2>
+            <p className={s.description}>{description}</p>
+            {intro ? <p className={s.intro}>{intro}</p> : null}
+          </div>
+          <div className={s.media} data-testid="project-card-media">
+            {isSvg ? (
+              <img
                 width={image.width}
-                // layout="fixed"
-                objectFit="contain"
-                objectPosition="center"
-                // height={image.height}
-                height={500}
+                height={image.height}
                 src={image.url}
                 loading="lazy"
-                alt={image.alternativeText}
+                alt={image.alternativeText || `${project_name} preview`}
+                className={s.image}
               />
-            </motion.div>
+            ) : (
+              <Image
+                blurDataURL={thumbnail}
+                placeholder={thumbnail ? "blur" : "empty"}
+                width={image.width}
+                height={image.height}
+                src={image.url}
+                loading="lazy"
+                alt={image.alternativeText || `${project_name} preview`}
+                sizes="(max-width: 767px) 100vw, 45vw"
+                className={s.image}
+              />
+            )}
           </div>
-          <motion.h2
-            variants={container}
-            initial="hidden"
-            animate={
-              intersection && intersection.intersectionRatio > 0.3 ? "show" : ""
-            }
-          >
-            {project_name.split("").map((letter, key) => (
-              <motion.span key={letter + "_" + key} variants={listItem}>
-                {letter}
-              </motion.span>
-            ))}
-          </motion.h2>
         </a>
       </Link>
     </li>

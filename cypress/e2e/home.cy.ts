@@ -43,6 +43,45 @@ describe("home page", () => {
     cy.get("body").should("contain.text", "My blog");
   });
 
+  it("keeps project cards balanced across desktop and mobile", () => {
+    const viewports = [
+      { width: 1440, height: 900 },
+      { width: 390, height: 844 },
+    ];
+
+    viewports.forEach((viewport) => {
+      cy.viewport(viewport.width, viewport.height);
+      cy.visit("/en/projects");
+
+      cy.document().then((doc) => {
+        expect(doc.documentElement.scrollWidth).to.be.at.most(viewport.width);
+      });
+
+      cy.get('[data-testid="project-card"]')
+        .should("have.length.at.least", 6)
+        .should(($cards) => {
+          const visibleCards = Array.from($cards).filter(
+            (card) => card.getBoundingClientRect().width > 0
+          );
+
+          expect(visibleCards.length).to.be.at.least(6);
+
+          visibleCards.forEach((card) => {
+            const cardRect = card.getBoundingClientRect();
+            const media = card.querySelector<HTMLElement>(
+              '[data-testid="project-card-media"]'
+            );
+            expect(media).to.exist;
+
+            const mediaRect = media!.getBoundingClientRect();
+            expect(cardRect.width).to.be.greaterThan(300);
+            expect(cardRect.height).to.be.greaterThan(220);
+            expect(mediaRect.width / mediaRect.height).to.be.within(1.45, 1.75);
+          });
+        });
+    });
+  });
+
   it("sends lead source metadata with quick contact submissions", () => {
     cy.intercept("POST", "/api/contact", (req) => {
       expect(req.body.email).to.equal("lead@example.com");

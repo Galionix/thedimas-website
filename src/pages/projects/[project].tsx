@@ -156,7 +156,10 @@ export default function Project({
   const index = projects[newLocale].findIndex(
     (project: any) => project.intro.project_name === query.project
   );
-  const isPortfolioScreenshot = project.intro.image.url.startsWith("/portfolio/");
+  const projectImage = project.intro.image;
+  const isPortfolioScreenshot = projectImage.url.startsWith("/portfolio/");
+  const isSvg = projectImage.url.endsWith(".svg");
+  const thumbnail = isSvg ? undefined : projectImage.formats.thumbnail.url;
 
   return (
     <div data-scroll-section>
@@ -172,18 +175,29 @@ export default function Project({
         <h1>{project.intro.project_name}</h1>
         {/* <h3>{project.intro.description}</h3> */}
         {/* <div className={` ${s.image} `}> */}
-        <Image
-          className={isPortfolioScreenshot ? s.introScreenshot : ""}
-          blurDataURL={project.intro.image.formats.thumbnail.url}
-          placeholder="blur"
-          width={project.intro.image.width}
-          height={500}
-          src={project.intro.image.url}
-          loading="lazy"
-          objectFit={isPortfolioScreenshot ? "contain" : "cover"}
-          objectPosition="center"
-          alt={project.intro.image.alternativeText}
-        />
+        {isSvg ? (
+          <img
+            className={isPortfolioScreenshot ? s.introScreenshot : ""}
+            width={projectImage.width}
+            height={projectImage.height}
+            src={projectImage.url}
+            loading="lazy"
+            alt={projectImage.alternativeText}
+          />
+        ) : (
+          <Image
+            className={isPortfolioScreenshot ? s.introScreenshot : ""}
+            blurDataURL={thumbnail}
+            placeholder={thumbnail ? "blur" : "empty"}
+            width={projectImage.width}
+            height={500}
+            src={projectImage.url}
+            loading="lazy"
+            objectFit={isPortfolioScreenshot ? "contain" : "cover"}
+            objectPosition="center"
+            alt={projectImage.alternativeText}
+          />
+        )}
         {/* </div> */}
         <h3>{project.intro.intro}</h3>
       </section>

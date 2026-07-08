@@ -506,15 +506,15 @@
         "types": null,
         "image": {
           "id": 47,
-          "name": "Frame 2.png",
-          "alternativeText": "",
+          "name": "dimas-music-website.svg",
+          "alternativeText": "Dimas Music Website pineapple artwork",
           "caption": "",
-          "width": 1620,
-          "height": 1620,
+          "width": 1600,
+          "height": 1000,
           "formats": {
             "large": {
               "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1704627713/522d6a26-b8b5-430b-95c2-f920d7174e17_fs4eer.webp",
+              "url": "/portfolio/dimas-music-website.svg",
               "hash": "large_Frame_2_537b391df0",
               "mime": "image/png",
               "name": "large_Frame 2.png",
@@ -574,10 +574,10 @@
             }
           },
           "hash": "Frame_2_537b391df0",
-          "ext": ".png",
-          "mime": "image/png",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
           "size": 687.13,
-          "url": "https://res.cloudinary.com/dimascf/image/upload/v1704627713/522d6a26-b8b5-430b-95c2-f920d7174e17_fs4eer.webp",
+          "url": "/portfolio/dimas-music-website.svg",
           "previewUrl": null,
           "provider": "cloudinary",
           "provider_metadata": {
@@ -590,9 +590,9 @@
       },
       "seo": {
         "id": 57,
-        "title": "DIMAS | Planner App",
-        "description": "Dimas - Planner app",
-        "keywords": "dimas planner app, todo"
+        "title": "DIMAS | Music Website",
+        "description": "Dimas - personal music website",
+        "keywords": "dimas music website, personal music site"
       },
       "localizations": [
         {
@@ -2001,15 +2001,15 @@
         "types": null,
         "image": {
           "id": 47,
-          "name": "Frame 2.png",
-          "alternativeText": "",
+          "name": "dimas-music-website.svg",
+          "alternativeText": "Dimas Music Website pineapple artwork",
           "caption": "",
-          "width": 1620,
-          "height": 1620,
+          "width": 1600,
+          "height": 1000,
           "formats": {
             "large": {
               "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1704627713/522d6a26-b8b5-430b-95c2-f920d7174e17_fs4eer.webp",
+              "url": "/portfolio/dimas-music-website.svg",
               "hash": "large_Frame_2_537b391df0",
               "mime": "image/png",
               "name": "large_Frame 2.png",
@@ -2069,10 +2069,10 @@
             }
           },
           "hash": "Frame_2_537b391df0",
-          "ext": ".png",
-          "mime": "image/png",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
           "size": 687.13,
-          "url": "https://res.cloudinary.com/dimascf/image/upload/v1704627713/522d6a26-b8b5-430b-95c2-f920d7174e17_fs4eer.webp",
+          "url": "/portfolio/dimas-music-website.svg",
           "previewUrl": null,
           "provider": "cloudinary",
           "provider_metadata": {
@@ -2085,9 +2085,9 @@
       },
       "seo": {
         "id": 57,
-        "title": "DIMAS | Planner App",
-        "description": "Dimas - Planner app",
-        "keywords": "dimas planner app, todo"
+        "title": "DIMAS | Music Website",
+        "description": "Dimas - personal music website",
+        "keywords": "dimas music website, personal music site"
       },
       "localizations": [
         {
