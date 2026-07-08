@@ -26,6 +26,8 @@ const contactCopy = {
     hint: "or email galionix2@gmail.com",
     emailLabel: "Your email",
     emailPlaceholder: "Email",
+    formTitle: "Quick contact",
+    formHint: "Leave your email. I will reply and ask for the missing context.",
     socialLabel: "Direct contacts",
     submit: "Contact me",
     sending: "Sending...",
@@ -40,6 +42,8 @@ const contactCopy = {
     hint: "або напиши на galionix2@gmail.com",
     emailLabel: "Твій email",
     emailPlaceholder: "Email",
+    formTitle: "Швидкий контакт",
+    formHint: "Залиши email. Я відповім і сам уточню потрібний контекст.",
     socialLabel: "Прямі контакти",
     submit: "Зв'язатися",
     sending: "Відправляю...",
@@ -260,6 +264,10 @@ export default function Home({
             </section>
           </div>
           <form className={s.contactForm} onSubmit={submitContactForm}>
+            <div className={s.contactLead}>
+              <strong>{copy.formTitle}</strong>
+              <span>{copy.formHint}</span>
+            </div>
             <input
               aria-label={copy.emailLabel}
               autoComplete="email"

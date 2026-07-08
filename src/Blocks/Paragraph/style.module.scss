@@ -11,6 +11,7 @@
   padding: 0 30px;
   grid-column: 3 / -3;
   position: relative;
+  text-align: center;
   // background: $white50;
 
   // @include text-regular;
@@ -38,6 +39,7 @@
     overflow: hidden;
     white-space: pre-line;
     line-height: 1.8;
+    margin: 0 auto;
     & > span {
       overflow: hidden;
     }

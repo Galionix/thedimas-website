@@ -45,7 +45,7 @@ const ListItem = ({
   const intersection = useIntersection(ref, {
     root: null,
     rootMargin: "0px",
-    threshold: 1,
+    threshold: 0.15,
   });
   return (
     <motion.li
@@ -53,7 +53,7 @@ const ListItem = ({
       key={id}
       initial={{
         opacity: 0,
-        x: index % 2 !== 0 ? "-200px" : "200px",
+        x: index % 2 !== 0 ? "-28px" : "28px",
       }}
       animate={
         intersection && intersection.intersectionRatio > 0.2

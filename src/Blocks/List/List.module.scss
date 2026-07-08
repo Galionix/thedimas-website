@@ -2,18 +2,31 @@
 @import "src/styles/vars";
 @import "src/styles/splitting";
 .list {
+  width: min(900px, 100%);
+  margin: 0 auto;
   grid-column: 4 / -4;
+
+  h2 {
+    text-align: center;
+    line-height: 1.15;
+  }
+
   @media screen and (max-width: 767px) {
     padding: 0 10px;
 
     grid-column: 1 / -1;
   }
   ul{
-    margin-top: 20px;
+    margin-top: clamp(18px, 3vh, 28px);
 
       li {
+          padding: clamp(14px, 2vw, 18px);
+          border: 1px solid currentColor;
+          background: rgba(127, 127, 127, 0.05);
+
           h3 {
               font-weight: 700;
+              font-size: clamp(19px, 2vw, 26px);
             }
             div {
                 display: flex;
@@ -24,12 +37,18 @@
             svg {
                 width: 20px;
                 height: 20px;
+                flex: 0 0 auto;
                 // margin-top: 10px;
+            }
+            p {
+              margin-top: 8px;
+              line-height: 1.55;
+              opacity: 0.82;
             }
         }
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 12px;
   }
   .showLines {
     opacity: 1;

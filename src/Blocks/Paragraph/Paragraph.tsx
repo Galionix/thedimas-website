@@ -28,7 +28,7 @@ export const Paragraph = ({
   const intersection = useIntersection(ref, {
     root: null,
     rootMargin: "0px",
-    threshold: 1,
+    threshold: 0.15,
   });
   // const [lines, setLines] = useState([])
 
@@ -60,7 +60,7 @@ export const Paragraph = ({
           show_style === "from_side"
             ? {
                 opacity: 0,
-                x: iterator % 2 !== 0 ? "-200px" : "200px",
+                x: iterator % 2 !== 0 ? "-28px" : "28px",
               }
             : {}
         }
