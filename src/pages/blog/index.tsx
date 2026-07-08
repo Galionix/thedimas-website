@@ -10,8 +10,6 @@ import s from '/src/styles/pages/BlogIndex.module.scss'
 import TimeAgo from 'javascript-time-ago'
 import en from 'javascript-time-ago/locale/en'
 import ru from 'javascript-time-ago/locale/ru'
-import { useEffect, useRef, useState } from 'react'
-import { useIntersection } from 'react-use';
 import { get_endpoint_data } from '../../../utils/content_fetching'
 import { Projects } from '../../../ts/responses'
 import { Header } from '../../Header/Header'
@@ -118,18 +116,6 @@ export default function Blog({
       updated_at,
     })
   );
-  const [limit, setLimit] = useState(2);
-
-  const limitRef = useRef(null);
-  const intersection = useIntersection(limitRef, {
-    root: null,
-    rootMargin: "0px",
-    threshold: 1,
-  });
-  useEffect(() => {
-    if (intersection && intersection.intersectionRatio > 0.3)
-      setLimit((prevLimit) => prevLimit + 2);
-  }, [intersection?.intersectionRatio]);
   return (
     <>
       <Head>
@@ -178,19 +164,16 @@ export default function Blog({
         {intros
           .splice(0)
           .reverse()
-          .map((intro: any, i: number) => {
-            if (i < limit)
-              return (
-                <ProjectCard
-                  key={intro.id}
-                  {...intro}
-                  locale={locale || "ua"}
-                />
-              );
-            else return null;
+          .map((intro: any) => {
+            return (
+              <ProjectCard
+                key={intro.id}
+                {...intro}
+                locale={locale || "ua"}
+              />
+            );
           })}
       </section>
-      <hr ref={limitRef} />
       <Footer data={footer_data} />
     </>
   );

@@ -12,7 +12,7 @@
     "start": "next start",
     "lint": "next lint",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --spec 'cypress/e2e/discovery-files.cy.ts,cypress/e2e/home.cy.ts,cypress/e2e/services.cy.ts,cypress/e2e/content-visibility.cy.ts,cypress/e2e/header-layout.cy.ts'",
+    "cypress:run": "cypress run --spec 'cypress/e2e/discovery-files.cy.ts,cypress/e2e/home.cy.ts,cypress/e2e/services.cy.ts,cypress/e2e/content-visibility.cy.ts,cypress/e2e/header-layout.cy.ts,cypress/e2e/blog.cy.ts'",
     "test:e2e": "start-server-and-test dev:e2e http://127.0.0.1:3001 cypress:run",
     "visual:baseline": "CYPRESS_VISUAL_TARGET=baseline cypress run --spec cypress/e2e/visual.cy.ts",
     "visual:current": "CYPRESS_VISUAL_TARGET=current cypress run --spec cypress/e2e/visual.cy.ts",

@@ -307,6 +307,264 @@
       "categories": [],
       "tags": [],
       "localizations": [{ "id": 10, "locale": "en" }]
+    },
+    {
+      "id": 125,
+      "locale": "ua",
+      "created_at": "2026-07-08T12:00:00.000Z",
+      "updated_at": "2026-07-08T12:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 128,
+          "text": "Не просити модель бути розумною, а давати їй систему",
+          "types": {
+            "id": 127,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 129,
+          "text": "AI-агент перестає бути іграшкою тоді, коли навколо нього зʼявляється стійка памʼять: рішення, обмеження, файли, чеклісти і правила роботи. Без цього кожна розмова починається з нуля, навіть якщо модель формально дуже сильна.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 130,
+          "text": "Найкращий ефект для мене не в тому, що агент просто швидше пише код. Цінність у тому, що він не дає втратити нитку: читає проєкт, памʼятає контекст задачі, звіряє фактичні зміни з планом і повертає увагу до наступного конкретного кроку.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 131,
+          "text": "Є і слабке місце: якщо все живе тільки в чаті, контекст зникає. Тому корисний агент має залишати після себе артефакти: нотатки, специфікації, журнали рішень, маленькі звіти. Тоді робота не розсипається між сесіями.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 132,
+          "text": "Мій практичний висновок",
+          "types": {
+            "id": 133,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 134,
+          "text": "Агент - це не заміна мислення, а зовнішня робоча памʼять із дисципліною. Він має ставити менше зайвих питань, перевіряти факти, оновлювати файли і тримати курс. Тоді в людини залишається більше сил на рішення, які справді потребують смаку і відповідальності.",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 126,
+        "project_name": "ai-agents-working-memory",
+        "description": "AI-агенти як робоча пам'ять",
+        "intro": "Не магія, а спосіб тримати контекст, рішення і наступні кроки в одному місці.",
+        "types": null,
+        "image": {
+          "id": 48,
+          "name": "title-image.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 512,
+          "height": 341,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/small_title_image_a6e142c273.png",
+              "hash": "small_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "small_title-image.png",
+              "path": null,
+              "size": 114.55,
+              "width": 500,
+              "height": 333,
+              "provider_metadata": {
+                "public_id": "small_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/thumbnail_title_image_a6e142c273.png",
+              "hash": "thumbnail_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "thumbnail_title-image.png",
+              "path": null,
+              "size": 35.82,
+              "width": 234,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "title_image_a6e142c273",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 44.5,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459533/title_image_a6e142c273.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "title_image_a6e142c273",
+            "resource_type": "image"
+          },
+          "created_at": "2021-11-21T01:52:14.979Z",
+          "updated_at": "2021-11-21T01:52:14.996Z"
+        }
+      },
+      "custom_data": null,
+      "seo": {
+        "id": 135,
+        "title": "AI-агенти як робоча пам'ять",
+        "description": "Практичний погляд на AI-агентів як спосіб зберігати контекст, рішення і робочу дисципліну.",
+        "keywords": "AI agents, working memory, automation, workflow, Codex"
+      },
+      "categories": [],
+      "tags": [],
+      "localizations": [
+        {
+          "id": 136,
+          "locale": "en"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "locale": "ua",
+      "created_at": "2026-07-08T12:10:00.000Z",
+      "updated_at": "2026-07-08T12:10:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 146,
+          "text": "Галерея - це не кейс",
+          "types": {
+            "id": 145,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 147,
+          "text": "Гарні скріншоти корисні, але самі по собі вони слабкі. Вони показують форму, проте майже нічого не кажуть про задачу, аудиторію, обмеження і причини конкретних рішень.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 148,
+          "text": "Сильний кейс відповідає на кілька простих питань: яку проблему треба було вирішити, що було складним, які компроміси довелося прийняти, що змінилося після роботи і що варто було б покращити наступним кроком.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 149,
+          "text": "Опис процесу - це не виправдання і не зайва вода. Це спосіб показати рівень відповідальності. Коли видно, як людина думає, їй значно легше довірити складну задачу.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 150,
+          "text": "Що я хочу бачити у власному блозі",
+          "types": {
+            "id": 151,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 152,
+          "text": "Мені хочеться, щоб блог був не набором випадкових постів, а журналом рішень. Кожна стаття має додавати доказ: за інтерфейсами, кодом і картинками є людина, яка вміє розібратися, пояснити і довести роботу до результату.",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 144,
+        "project_name": "portfolio-proof-of-thinking",
+        "description": "Портфоліо має доводити мислення",
+        "intro": "Скріншоти показують, що щось існує. Хороший кейс показує, як ти приймаєш рішення.",
+        "types": null,
+        "image": {
+          "id": 48,
+          "name": "title-image.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 512,
+          "height": 341,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/small_title_image_a6e142c273.png",
+              "hash": "small_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "small_title-image.png",
+              "path": null,
+              "size": 114.55,
+              "width": 500,
+              "height": 333,
+              "provider_metadata": {
+                "public_id": "small_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/thumbnail_title_image_a6e142c273.png",
+              "hash": "thumbnail_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "thumbnail_title-image.png",
+              "path": null,
+              "size": 35.82,
+              "width": 234,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "title_image_a6e142c273",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 44.5,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459533/title_image_a6e142c273.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "title_image_a6e142c273",
+            "resource_type": "image"
+          },
+          "created_at": "2021-11-21T01:52:14.979Z",
+          "updated_at": "2021-11-21T01:52:14.996Z"
+        }
+      },
+      "custom_data": null,
+      "seo": {
+        "id": 153,
+        "title": "Портфоліо має доводити мислення",
+        "description": "Чому портфоліо має показувати не лише картинки, а й процес, рішення, компроміси та результат.",
+        "keywords": "portfolio, case study, product design, frontend, process"
+      },
+      "categories": [],
+      "tags": [],
+      "localizations": [
+        {
+          "id": 154,
+          "locale": "en"
+        }
+      ]
     }
   ],
   "en": [
@@ -615,6 +873,264 @@
       "categories": [],
       "tags": [],
       "localizations": [{ "id": 9, "locale": "ua" }]
+    },
+    {
+      "id": 136,
+      "locale": "en",
+      "created_at": "2026-07-08T12:00:00.000Z",
+      "updated_at": "2026-07-08T12:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 139,
+          "text": "Do not ask the model to be smart. Give it a system.",
+          "types": {
+            "id": 138,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 140,
+          "text": "An AI agent stops being a toy when it has durable memory around it: decisions, constraints, files, checklists and operating rules. Without that, every conversation starts from zero, even when the model itself is capable.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 141,
+          "text": "For me, the strongest effect is not just faster code. The value is continuity: the agent reads the project, keeps the task context, compares actual changes with the plan and pulls attention back to the next concrete step.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 142,
+          "text": "The weak point is obvious: if everything lives only in chat, the context disappears. A useful agent should leave artifacts behind: notes, specs, decision logs and small reports. That is what keeps work from falling apart between sessions.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 155,
+          "text": "My practical conclusion",
+          "types": {
+            "id": 156,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 157,
+          "text": "An agent is not a replacement for thinking. It is external working memory with discipline. It should ask fewer unnecessary questions, verify facts, update files and keep direction. Then the human has more energy for judgment, taste and responsibility.",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 137,
+        "project_name": "ai-agents-working-memory",
+        "description": "AI agents as working memory",
+        "intro": "Not magic, but a practical way to keep context, decisions and next steps in one place.",
+        "types": null,
+        "image": {
+          "id": 48,
+          "name": "title-image.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 512,
+          "height": 341,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/small_title_image_a6e142c273.png",
+              "hash": "small_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "small_title-image.png",
+              "path": null,
+              "size": 114.55,
+              "width": 500,
+              "height": 333,
+              "provider_metadata": {
+                "public_id": "small_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/thumbnail_title_image_a6e142c273.png",
+              "hash": "thumbnail_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "thumbnail_title-image.png",
+              "path": null,
+              "size": 35.82,
+              "width": 234,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "title_image_a6e142c273",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 44.5,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459533/title_image_a6e142c273.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "title_image_a6e142c273",
+            "resource_type": "image"
+          },
+          "created_at": "2021-11-21T01:52:14.979Z",
+          "updated_at": "2021-11-21T01:52:14.996Z"
+        }
+      },
+      "custom_data": null,
+      "seo": {
+        "id": 158,
+        "title": "AI agents as working memory",
+        "description": "A practical note on using AI agents to preserve context, decisions and workflow discipline.",
+        "keywords": "AI agents, working memory, automation, workflow, Codex"
+      },
+      "categories": [],
+      "tags": [],
+      "localizations": [
+        {
+          "id": 125,
+          "locale": "ua"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "locale": "en",
+      "created_at": "2026-07-08T12:10:00.000Z",
+      "updated_at": "2026-07-08T12:10:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 161,
+          "text": "A gallery is not a case study",
+          "types": {
+            "id": 160,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 162,
+          "text": "Good-looking screenshots are useful, but weak on their own. They show the surface, yet say almost nothing about the task, audience, constraints or reasons behind specific decisions.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 163,
+          "text": "A strong case answers a few simple questions: what problem needed to be solved, what was difficult, which tradeoffs were made, what changed after the work and what should be improved next.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 164,
+          "text": "Process notes are not excuses or filler. They are a way to show responsibility. When people can see how you think, it is easier for them to trust you with complicated work.",
+          "types": null
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 165,
+          "text": "What I want from my own blog",
+          "types": {
+            "id": 166,
+            "mobile": "title",
+            "tablet": "title",
+            "desktop": "title"
+          }
+        },
+        {
+          "__component": "molecules.paragraph",
+          "id": 167,
+          "text": "I want this blog to become more than a set of random posts. It should be a decision journal. Every article should add evidence that behind the interfaces, code and visuals there is someone who can understand the problem, explain the work and finish it properly.",
+          "types": null
+        }
+      ],
+      "intro": {
+        "id": 159,
+        "project_name": "portfolio-proof-of-thinking",
+        "description": "A portfolio should prove thinking",
+        "intro": "Screenshots show that something exists. A good case study shows how you make decisions.",
+        "types": null,
+        "image": {
+          "id": 48,
+          "name": "title-image.png",
+          "alternativeText": "",
+          "caption": "",
+          "width": 512,
+          "height": 341,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/small_title_image_a6e142c273.png",
+              "hash": "small_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "small_title-image.png",
+              "path": null,
+              "size": 114.55,
+              "width": 500,
+              "height": 333,
+              "provider_metadata": {
+                "public_id": "small_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459534/thumbnail_title_image_a6e142c273.png",
+              "hash": "thumbnail_title_image_a6e142c273",
+              "mime": "image/png",
+              "name": "thumbnail_title-image.png",
+              "path": null,
+              "size": 35.82,
+              "width": 234,
+              "height": 156,
+              "provider_metadata": {
+                "public_id": "thumbnail_title_image_a6e142c273",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "title_image_a6e142c273",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 44.5,
+          "url": "https://res.cloudinary.com/dimascf/image/upload/v1637459533/title_image_a6e142c273.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "title_image_a6e142c273",
+            "resource_type": "image"
+          },
+          "created_at": "2021-11-21T01:52:14.979Z",
+          "updated_at": "2021-11-21T01:52:14.996Z"
+        }
+      },
+      "custom_data": null,
+      "seo": {
+        "id": 168,
+        "title": "A portfolio should prove thinking",
+        "description": "Why a portfolio should show not only visuals, but also process, decisions, tradeoffs and outcomes.",
+        "keywords": "portfolio, case study, product design, frontend, process"
+      },
+      "categories": [],
+      "tags": [],
+      "localizations": [
+        {
+          "id": 143,
+          "locale": "ua"
+        }
+      ]
     }
   ]
 }

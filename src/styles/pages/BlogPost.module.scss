@@ -9,7 +9,7 @@
 }
 
 .intro{
-    margin-top: calc(var(--site-header-height) + var(--site-header-gap));
+    margin-top: var(--site-header-height);
     display: grid;
     grid-template-rows: repeat(3,auto);
     text-transform: none;

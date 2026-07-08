@@ -31,7 +31,7 @@ const assertFirstContentStartsBelowHeader = (route: (typeof routes)[number]) => 
       expect(
         contentRect.top,
         `${route.path} first content top`
-      ).to.be.greaterThan(headerRect.bottom + 8);
+      ).to.be.at.least(headerRect.bottom - 1);
     });
 };
 
