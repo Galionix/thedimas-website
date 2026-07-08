@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import s from "./List.module.scss";
 import { getIcon } from "./getIcon";
 import { useIntersection } from "react-use";
@@ -47,6 +47,14 @@ const ListItem = ({
     rootMargin: "0px",
     threshold: 0.15,
   });
+  const [hasEnteredView, setHasEnteredView] = useState(false);
+
+  useEffect(() => {
+    if (intersection && intersection.intersectionRatio > 0.2) {
+      setHasEnteredView(true);
+    }
+  }, [intersection?.intersectionRatio]);
+
   return (
     <motion.li
       ref={ref}
@@ -56,7 +64,7 @@ const ListItem = ({
         x: index % 2 !== 0 ? "-28px" : "28px",
       }}
       animate={
-        intersection && intersection.intersectionRatio > 0.2
+        hasEnteredView
           ? {
               transition: {
                 duration: 0.6,

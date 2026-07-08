@@ -30,9 +30,16 @@ export const Paragraph = ({
     rootMargin: "0px",
     threshold: 0.15,
   });
+  const [hasEnteredView, setHasEnteredView] = useState(false);
   // const [lines, setLines] = useState([])
 
   const show_style = iterator % 3 === 0 ? "from_bottom" : "from_side";
+
+  useEffect(() => {
+    if (intersection && intersection.intersectionRatio > 0.2) {
+      setHasEnteredView(true);
+    }
+  }, [intersection?.intersectionRatio]);
 
   useEffect(() => {
     async function work() {
@@ -50,9 +57,7 @@ export const Paragraph = ({
       <motion.p
         data-splitting
         className={`${
-          intersection &&
-          intersection.intersectionRatio > 0.2 &&
-          show_style === "from_bottom"
+          hasEnteredView && show_style === "from_bottom"
             ? s.showLines
             : ""
         } `}
@@ -65,9 +70,7 @@ export const Paragraph = ({
             : {}
         }
         animate={
-          intersection &&
-          intersection.intersectionRatio > 0.2 &&
-          show_style === "from_side"
+          hasEnteredView && show_style === "from_side"
             ? {
                 transition: {
                   duration: 0.6,
