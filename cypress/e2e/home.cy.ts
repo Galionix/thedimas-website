@@ -28,6 +28,9 @@ describe("home page", () => {
       .should("be.visible")
       .invoke("attr", "href")
       .should("contain", "mailto:galionix2@gmail.com");
+    cy.get('a[aria-label="LinkedIn"]')
+      .should("have.attr", "href", "https://www.linkedin.com/in/galionix")
+      .and("have.attr", "target", "_blank");
   });
 
   it("keeps the main navigation routes available", () => {

@@ -12,7 +12,12 @@ import { GetStaticProps, InferGetServerSidePropsType } from 'next'
 import { useRouter } from 'next/dist/client/router'
 
 // import { ImTelegram } from "react-icons/im";
-import { RiWhatsappFill, RiTelegramFill, RiMailSendFill } from "react-icons/ri";
+import {
+  RiLinkedinBoxFill,
+  RiMailSendFill,
+  RiTelegramFill,
+  RiWhatsappFill,
+} from "react-icons/ri";
 import { FormEvent, useEffect, useState } from 'react'
 import { get_endpoint_data } from '../../utils/content_fetching'
 import { useStore } from '../../utils/state'
@@ -152,7 +157,11 @@ export default function Home({
         url: "https://thedimas.com",
         jobTitle: "Full-stack, Backend and Infrastructure Developer",
         email: "mailto:galionix2@gmail.com",
-        sameAs: ["https://github.com/Galionix", "https://t.me/galionix"],
+        sameAs: [
+          "https://github.com/Galionix",
+          "https://www.linkedin.com/in/galionix",
+          "https://t.me/galionix",
+        ],
         knowsAbout: [
           "Full-stack development",
           "Backend development",
@@ -328,6 +337,22 @@ export default function Home({
                 }}
               >
                 <RiTelegramFill />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/galionix"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => {
+                  track("social_contact_click", { channel: "linkedin", locale: currentLocale });
+                  gaEvent("contact_click", {
+                    contact_method: "linkedin",
+                    placement: "hero_social",
+                    locale: currentLocale,
+                  });
+                }}
+              >
+                <RiLinkedinBoxFill />
               </a>
               <a
                 href={contactHref}

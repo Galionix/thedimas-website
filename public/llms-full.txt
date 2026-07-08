@@ -83,6 +83,7 @@ Personal projects are included as technical samples rather than the main commerc
 
 - Website: https://thedimas.com
 - GitHub: https://github.com/Galionix
+- LinkedIn: https://www.linkedin.com/in/galionix
 - Email: galionix2@gmail.com
 - Telegram: https://t.me/galionix
 

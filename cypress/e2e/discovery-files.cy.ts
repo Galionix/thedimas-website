@@ -5,6 +5,7 @@ describe("discovery files and metadata", () => {
       .should("contain", "# Dmitry Galaktionov (Galionix)")
       .and("contain", "Дмитрий Галактионов")
       .and("contain", "Galionix")
+      .and("contain", "https://www.linkedin.com/in/galionix")
       .and("contain", "full-stack, backend and infrastructure developer")
       .and("contain", "Bella AI")
       .and("contain", "llms-full.txt")
@@ -17,6 +18,7 @@ describe("discovery files and metadata", () => {
       .should("contain", "# Dmitry Galaktionov (Galionix) - Full LLM Profile")
       .and("contain", "Identity Aliases")
       .and("contain", "Дмитрий Галактионов")
+      .and("contain", "https://www.linkedin.com/in/galionix")
       .and("contain", "Technical Rescue Sprint")
       .and("contain", "Bella AI");
   });
@@ -59,6 +61,7 @@ describe("discovery files and metadata", () => {
     cy.get('script[type="application/ld+json"]')
       .invoke("text")
       .should("contain", "Дмитрий Галактионов")
+      .and("contain", "https://www.linkedin.com/in/galionix")
       .and("contain", "Galionix");
   });
 });

@@ -53,6 +53,7 @@ Bella AI: production driving-school student management platform with attendance,
 - Email: galionix2@gmail.com
 - Telegram: https://t.me/galionix
 - GitHub: https://github.com/Galionix
+- LinkedIn: https://www.linkedin.com/in/galionix
 - Website: https://thedimas.com
 
 ## Preferred description
