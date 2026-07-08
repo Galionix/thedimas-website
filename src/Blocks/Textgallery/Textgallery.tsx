@@ -15,28 +15,23 @@ import Sparkles from "react-sparkle";
 
 const getfigcaptionAnimation = (
   type: string
-): {
-  initial: MotionProps["initial"];
-  animate: MotionProps["animate"];
-} => {
+): Pick<MotionProps, "initial" | "whileInView" | "viewport" | "transition"> => {
   // type = "banner"
 
   switch (type) {
     case "banner":
       return {
-        initial: false,
-        animate: {
-          opacity: 1,
-          scale: 1,
-          skewX: "-10deg",
-        },
+        initial: { scale: 1.08, skewX: "5deg" },
+        whileInView: { scale: 1, skewX: "-10deg" },
+        viewport: { once: true, amount: 0.3 },
+        transition: { duration: 1.2, ease: [0.57, 0.01, 0, 1.01] },
       };
     default:
       return {
-        initial: false,
-        animate: {
-          opacity: 1,
-        },
+        initial: { y: 14 },
+        whileInView: { y: 0 },
+        viewport: { once: true, amount: 0.3 },
+        transition: { duration: 0.6, ease: [0.6, 0, 0, 1] },
       };
   }
 };

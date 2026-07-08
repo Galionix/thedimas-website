@@ -1,5 +1,6 @@
 import s from "./List.module.scss";
 import { getIcon } from "./getIcon";
+import { motion } from "framer-motion";
 import "splitting/dist/splitting.css";
 import "splitting/dist/splitting-cells.css";
 export type List = {
@@ -40,7 +41,14 @@ const ListItem = ({
   index: number;
 }) => {
   return (
-    <li key={id} data-testid="content-list-item">
+    <motion.li
+      key={id}
+      data-testid="content-list-item"
+      initial={{ x: index % 2 !== 0 ? -28 : 28 }}
+      whileInView={{ x: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.6, ease: [0.6, 0, 0, 1] }}
+    >
       <div>
         {getIcon(icon as any, index)}
 
@@ -53,6 +61,6 @@ const ListItem = ({
         )}
       </div>
       <p>{description}</p>
-    </li>
+    </motion.li>
   );
 };

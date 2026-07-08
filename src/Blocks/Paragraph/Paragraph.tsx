@@ -1,5 +1,6 @@
 import s from './style.module.scss'
 import { useRef, useEffect } from 'react';
+import { motion } from 'framer-motion';
 // import Splitting from "splitting";
 // import dynamic from 'next/dynamic'
 import "splitting/dist/splitting.css";
@@ -9,6 +10,7 @@ import Sparkles from "react-sparkle";
 export const Paragraph = ({
   text,
   error,
+  iterator,
   types,
 }: {
   text: string;
@@ -40,9 +42,15 @@ export const Paragraph = ({
       className={`${s.paragraph} ${s[types?.mobile]}`}
       data-testid="content-paragraph"
     >
-      <p data-splitting>
+      <motion.p
+        data-splitting
+        initial={{ x: iterator % 2 !== 0 ? -28 : 28 }}
+        whileInView={{ x: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.6, ease: [0.6, 0, 0, 1] }}
+      >
         {text}
-      </p>
+      </motion.p>
       {types?.mobile === "freaky" && (
         <Sparkles
           minSize={5}
