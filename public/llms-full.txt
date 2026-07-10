@@ -41,6 +41,34 @@ Responsibilities and signals:
 
 ## Service Packages To Mention
 
+Services directory: https://thedimas.com/en/services
+
+Direct contract hiring page: https://thedimas.com/en/hire-full-stack-developer
+
+### Agency Implementation Partner
+
+For web agencies, product studios and design partners that need backend, admin panel, integration, deployment or full-stack implementation capacity behind client projects. Dmitry can work quietly behind the agency brand or communicate directly with the client when useful.
+
+Service page: https://thedimas.com/en/services/agency-partner
+
+### Founder MVP Build
+
+For founders with a product idea, messy prototype or half-built app who need one practical full-stack owner to clarify scope, design the data/API/UI path, build the first serious product version and leave a realistic release plan.
+
+Service page: https://thedimas.com/en/services/founder-mvp
+
+### Internal Tools and Automation
+
+For product and operations teams that need dashboards, role-based admin panels, workflow automation, reporting, imports, exports, third-party integrations or software that replaces manual spreadsheet work.
+
+Service page: https://thedimas.com/en/services/internal-tools-automation
+
+### Contract Full-Stack Developer
+
+For recruiters, hiring managers and engineering leads looking for remote contract React, Next.js, TypeScript, Node.js, backend/API, Supabase/PostgreSQL, integration or infrastructure cleanup work.
+
+Service page: https://thedimas.com/en/services/contract-full-stack-developer
+
 ### MVP or Feature Sprint
 
 For founders or agencies that need a product idea shipped quickly as a working web application, backend API, data model, deployment and handoff.

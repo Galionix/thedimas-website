@@ -157,6 +157,26 @@ export default function Project({
     (project: any) => project.intro.project_name === query.project
   );
   const isPortfolioScreenshot = project.intro.image.url.startsWith("/portfolio/");
+  const isEnglish = newLocale === "en";
+  const projectCta = {
+    title: isEnglish
+      ? "Need something in this direction?"
+      : "Потрібно щось у цьому напрямку?",
+    text: isEnglish
+      ? "I can help with MVPs, backend/API work, admin panels, internal tools, integrations or technical rescue. Start with one email and I will ask for the missing context."
+      : "Я можу допомогти з MVP, backend/API, адмінками, internal tools, integrations або technical rescue. Почнемо з одного email, а потрібний контекст я уточню сам.",
+    contact: isEnglish ? "Contact me" : "Зв'язатися",
+    services: isEnglish ? "See services" : "Подивитися послуги",
+    caseService: isEnglish ? "Relevant service" : "Релевантна послуга",
+  };
+  const projectName = String(project.intro.project_name || "").toLowerCase();
+  const relevantService = projectName.includes("bella")
+    ? "admin-panels"
+    : projectName.includes("usenotes")
+      ? "internal-tools-automation"
+      : projectName.includes("shop")
+        ? "founder-mvp"
+        : "technical-rescue";
 
   return (
     <div data-scroll-section>
@@ -192,6 +212,17 @@ export default function Project({
         preset={"project-page"}
         wrapperClass={s.blocks}
       />
+      <section className={s.projectCta} data-testid="content-section">
+        <h2>{projectCta.title}</h2>
+        <p>{projectCta.text}</p>
+        <div>
+          <Link href={`/${newLocale}#contact`}>{projectCta.contact}</Link>
+          <Link href={`/${newLocale}/services`}>{projectCta.services}</Link>
+          <Link href={`/${newLocale}/services/${relevantService}`}>
+            {projectCta.caseService}
+          </Link>
+        </div>
+      </section>
       {project.github ? (
         <Link target="_blank" href={project.github}>
           <div className={` ${s.github} `}>

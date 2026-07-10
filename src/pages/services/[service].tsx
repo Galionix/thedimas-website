@@ -151,6 +151,29 @@ export default function ServicePage({
             <h2>{currentLocale === "en" ? "When this helps" : "Коли це допомагає"}</h2>
             <p>{service!.intro}</p>
           </div>
+          {service!.audience?.length ? (
+            <section className={s.audience} data-testid="content-section">
+              <h2>{currentLocale === "en" ? "Built for" : "Для кого"}</h2>
+              <div>
+                {service!.audience.map((item) => (
+                  <p key={item}>{item}</p>
+                ))}
+              </div>
+            </section>
+          ) : null}
+          {service!.signals?.length ? (
+            <section className={s.signals} data-testid="content-section">
+              <h2>{currentLocale === "en" ? "Why this is credible" : "Чому це не порожні слова"}</h2>
+              <div>
+                {service!.signals.map((item) => (
+                  <article key={item.title}>
+                    <h3>{item.title}</h3>
+                    <p>{item.description}</p>
+                  </article>
+                ))}
+              </div>
+            </section>
+          ) : null}
           <div className={s.grid}>
             <section data-testid="content-section">
               <h2>{currentLocale === "en" ? "Outcomes" : "Результати"}</h2>

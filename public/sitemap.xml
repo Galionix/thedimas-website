@@ -44,6 +44,26 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/blog/blue-without-a-name" />
   </url>
   <url>
+    <loc>https://thedimas.com/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/en/hire-full-stack-developer</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/hire-full-stack-developer" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/hire-full-stack-developer" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/hire-full-stack-developer</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/hire-full-stack-developer" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/hire-full-stack-developer" />
+  </url>
+  <url>
     <loc>https://thedimas.com/en/services/mvp-development</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/mvp-development" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/mvp-development" />
@@ -82,6 +102,46 @@
     <loc>https://thedimas.com/ua/services/technical-rescue</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/technical-rescue" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/technical-rescue" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/en/services/agency-partner</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/agency-partner" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/agency-partner" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/services/agency-partner</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/agency-partner" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/agency-partner" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/en/services/founder-mvp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/founder-mvp" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/founder-mvp" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/services/founder-mvp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/founder-mvp" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/founder-mvp" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/en/services/internal-tools-automation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/internal-tools-automation" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/internal-tools-automation" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/services/internal-tools-automation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/internal-tools-automation" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/internal-tools-automation" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/en/services/contract-full-stack-developer</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/contract-full-stack-developer" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/contract-full-stack-developer" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/services/contract-full-stack-developer</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/services/contract-full-stack-developer" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/services/contract-full-stack-developer" />
   </url>
   <url>
     <loc>https://thedimas.com/en/projects/Bella%20AI</loc>

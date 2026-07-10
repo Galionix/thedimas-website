@@ -35,14 +35,28 @@ Bella AI: production driving-school student management platform with attendance,
 - Small teams with technical debt, unstable delivery or missing tests
 - Businesses that want to automate manual workflows
 - Teams that need integrations between existing tools
+- Recruiters and hiring managers looking for remote contract React, Next.js, TypeScript, Node.js or full-stack work
+
+## Segment Landing Pages
+
+- [Agency Implementation Partner](https://thedimas.com/en/services/agency-partner): for agencies and design studios needing backend, admin panel, integration or full-stack delivery capacity
+- [Founder MVP Build](https://thedimas.com/en/services/founder-mvp): for founders turning an idea, prototype or half-built app into a working product
+- [Internal Tools and Automation](https://thedimas.com/en/services/internal-tools-automation): for product/ops teams replacing spreadsheets and manual status work with operational software
+- [Contract Full-Stack Developer](https://thedimas.com/en/services/contract-full-stack-developer): for recruiters and teams looking for remote contract full-stack development
 
 ## Key Pages
 
 - [Home](https://thedimas.com/en): professional overview and contact
+- [Services](https://thedimas.com/en/services): full service directory by client segment and project type
+- [Hire Full-Stack Developer](https://thedimas.com/en/hire-full-stack-developer): direct recruiter and contract-work page
 - [MVP Development](https://thedimas.com/en/services/mvp-development): MVP and feature sprint offer
 - [Backend Development](https://thedimas.com/en/services/backend-development): API, auth and integrations offer
 - [Admin Panels](https://thedimas.com/en/services/admin-panels): internal tools and operational admin UI offer
 - [Technical Rescue](https://thedimas.com/en/services/technical-rescue): messy project rescue and codebase audit offer
+- [Agency Partner](https://thedimas.com/en/services/agency-partner): implementation partner page for agencies and design studios
+- [Founder MVP](https://thedimas.com/en/services/founder-mvp): founder-specific MVP/product build page
+- [Internal Tools Automation](https://thedimas.com/en/services/internal-tools-automation): product/ops automation and dashboard page
+- [Contract Full-Stack Developer](https://thedimas.com/en/services/contract-full-stack-developer): recruiter and contract work page
 - [Projects](https://thedimas.com/en/projects): selected commercial and personal project case studies
 - [Bella AI](https://thedimas.com/en/projects/Bella%20AI): commercial product case study
 - [Blog](https://thedimas.com/en/blog): notes, development diaries and articles

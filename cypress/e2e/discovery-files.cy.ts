@@ -8,6 +8,8 @@ describe("discovery files and metadata", () => {
       .and("contain", "https://www.linkedin.com/in/galionix")
       .and("contain", "full-stack, backend and infrastructure developer")
       .and("contain", "Bella AI")
+      .and("contain", "Agency Implementation Partner")
+      .and("contain", "Contract Full-Stack Developer")
       .and("contain", "llms-full.txt")
       .and("contain", "Preferred description");
   });
@@ -20,6 +22,8 @@ describe("discovery files and metadata", () => {
       .and("contain", "Дмитрий Галактионов")
       .and("contain", "https://www.linkedin.com/in/galionix")
       .and("contain", "Technical Rescue Sprint")
+      .and("contain", "Agency Implementation Partner")
+      .and("contain", "Founder MVP Build")
       .and("contain", "Bella AI");
   });
 
@@ -36,10 +40,16 @@ describe("discovery files and metadata", () => {
       .should("contain", "https://thedimas.com/en")
       .and("contain", "https://thedimas.com/en/projects")
       .and("contain", "https://thedimas.com/en/blog")
+      .and("contain", "https://thedimas.com/en/services")
+      .and("contain", "https://thedimas.com/en/hire-full-stack-developer")
       .and("contain", "https://thedimas.com/en/services/mvp-development")
       .and("contain", "https://thedimas.com/en/services/backend-development")
       .and("contain", "https://thedimas.com/en/services/admin-panels")
       .and("contain", "https://thedimas.com/en/services/technical-rescue")
+      .and("contain", "https://thedimas.com/en/services/agency-partner")
+      .and("contain", "https://thedimas.com/en/services/founder-mvp")
+      .and("contain", "https://thedimas.com/en/services/internal-tools-automation")
+      .and("contain", "https://thedimas.com/en/services/contract-full-stack-developer")
       .and("contain", "https://thedimas.com/en/projects/Bella%20AI")
       .and("contain", "https://thedimas.com/llms-full.txt");
   });

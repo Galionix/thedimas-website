@@ -59,6 +59,34 @@
             "name": "Technical rescue sprint",
             "href": "/ua/services/technical-rescue",
             "description": "Зайти у нестабільну кодову базу, розкласти moving parts, прибрати блокери, додати тести/monitoring і зробити наступний реліз реалістичним."
+          },
+          {
+            "id": 820305,
+            "icon": "FaCheck",
+            "name": "Партнер для агенцій",
+            "href": "/ua/services/agency-partner",
+            "description": "Підключитися до agency або design-studio delivery: Next.js, backend APIs, admin panels, integrations і deployment за брендом команди або напряму з клієнтом."
+          },
+          {
+            "id": 820306,
+            "icon": "FaCheck",
+            "name": "Founder MVP build",
+            "href": "/ua/services/founder-mvp",
+            "description": "Допомогти founder перетворити product idea, prototype або half-built app на working product з backend, auth, database і release path."
+          },
+          {
+            "id": 820307,
+            "icon": "FaCheck",
+            "name": "Internal tools та automation",
+            "href": "/ua/services/internal-tools-automation",
+            "description": "Зібрати dashboards, role-based workflows, integrations, reports і automations для команд, які втомилися від spreadsheets та manual status work."
+          },
+          {
+            "id": 820308,
+            "icon": "FaCheck",
+            "name": "Remote contract work",
+            "href": "/ua/services/contract-full-stack-developer",
+            "description": "React, Next.js, TypeScript, Node.js, APIs, Supabase/PostgreSQL, integrations і infrastructure cleanup для contract або remote teams."
           }
         ],
         "types": null
@@ -351,6 +379,34 @@
             "name": "Technical rescue sprint",
             "href": "/en/services/technical-rescue",
             "description": "Enter an unstable codebase, map the moving parts, fix blockers, add tests/monitoring and make the next release realistic."
+          },
+          {
+            "id": 810305,
+            "icon": "FaCheck",
+            "name": "Agency implementation partner",
+            "href": "/en/services/agency-partner",
+            "description": "Support agency or design-studio delivery with Next.js, backend APIs, admin panels, integrations and deployment behind your team or directly with the client."
+          },
+          {
+            "id": 810306,
+            "icon": "FaCheck",
+            "name": "Founder MVP build",
+            "href": "/en/services/founder-mvp",
+            "description": "Help a founder turn a product idea, prototype or half-built app into a working product with backend, auth, database and a release path."
+          },
+          {
+            "id": 810307,
+            "icon": "FaCheck",
+            "name": "Internal tools and automation",
+            "href": "/en/services/internal-tools-automation",
+            "description": "Build dashboards, role-based workflows, integrations, reports and automations for teams tired of spreadsheets and manual status work."
+          },
+          {
+            "id": 810308,
+            "icon": "FaCheck",
+            "name": "Remote contract work",
+            "href": "/en/services/contract-full-stack-developer",
+            "description": "React, Next.js, TypeScript, Node.js, APIs, Supabase/PostgreSQL, integrations and infrastructure cleanup for contract or remote teams."
           }
         ],
         "types": null
