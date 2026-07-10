@@ -63,6 +63,7 @@
   }
 
   h2,
+  strong,
   p {
     margin: 0;
   }
@@ -107,6 +108,14 @@
     max-width: 760px;
     font-size: clamp(16px, 1.6vw, 21px);
     line-height: 1.6;
+  }
+
+  strong {
+    max-width: 760px;
+    font-family: "Oswald", sans-serif;
+    font-size: clamp(17px, 1.8vw, 24px);
+    line-height: 1.35;
+    text-transform: uppercase;
   }
 
   a {

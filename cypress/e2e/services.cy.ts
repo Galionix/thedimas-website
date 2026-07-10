@@ -187,6 +187,8 @@ describe("service landing pages", () => {
         .should("be.visible")
         .and("have.attr", "href")
         .and("contain", "/en#contact");
+      cy.contains("15-20h/week").should("be.visible");
+      cy.contains("$750").should("be.visible");
       if (!service.indexPage && !service.hirePage) {
         cy.contains("Bella AI case")
           .should("be.visible")

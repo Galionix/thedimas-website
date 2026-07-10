@@ -163,8 +163,11 @@ export default function Project({
       ? "Need something in this direction?"
       : "Потрібно щось у цьому напрямку?",
     text: isEnglish
-      ? "I can help with MVPs, backend/API work, admin panels, internal tools, integrations or technical rescue. Start with one email and I will ask for the missing context."
-      : "Я можу допомогти з MVP, backend/API, адмінками, internal tools, integrations або technical rescue. Почнемо з одного email, а потрібний контекст я уточню сам.",
+      ? "I can help with MVPs, backend/API work, admin panels, internal tools, integrations or technical rescue. The first step can be a paid production audit, a 20-hour pilot or a scoped implementation sprint."
+      : "Я можу допомогти з MVP, backend/API, адмінками, internal tools, integrations або technical rescue. Першим кроком може бути paid production audit, 20-hour pilot або scoped implementation sprint.",
+    availability: isEnglish
+      ? "Available for one 15-20h/week remote contract. Paid audits start at $750."
+      : "Доступний для одного remote contract на 15-20 год/тиждень. Paid audit — від $750.",
     contact: isEnglish ? "Contact me" : "Зв'язатися",
     services: isEnglish ? "See services" : "Подивитися послуги",
     caseService: isEnglish ? "Relevant service" : "Релевантна послуга",
@@ -214,6 +217,7 @@ export default function Project({
       />
       <section className={s.projectCta} data-testid="content-section">
         <h2>{projectCta.title}</h2>
+        <strong>{projectCta.availability}</strong>
         <p>{projectCta.text}</p>
         <div>
           <Link href={`/${newLocale}#contact`}>{projectCta.contact}</Link>

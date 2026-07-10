@@ -73,6 +73,7 @@ describe("content visibility after scroll", () => {
       "Delivery context",
       "NDA-aware case",
       "Direct client work",
+      "Commercial ownership",
       "payment integration",
       "What I owned",
       "Type-safe app architecture",
@@ -83,6 +84,7 @@ describe("content visibility after scroll", () => {
       "Stack signals",
       "Next.js",
       "Supabase/PostgreSQL",
+      "Paid audits start at $750",
     ];
 
     cy.viewport(1440, 900);

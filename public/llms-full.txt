@@ -45,6 +45,12 @@ Services directory: https://thedimas.com/en/services
 
 Direct contract hiring page: https://thedimas.com/en/hire-full-stack-developer
 
+Current availability:
+
+- Open for one 15-20 hours/week remote contract.
+- Paid production audits start at $750.
+- Useful first steps include a production-readiness audit, 20-hour agency pilot, technical rescue sprint, scoped admin/internal-tool build, or backend/API/integration implementation.
+
 ### Agency Implementation Partner
 
 For web agencies, product studios and design partners that need backend, admin panel, integration, deployment or full-stack implementation capacity behind client projects. Dmitry can work quietly behind the agency brand or communicate directly with the client when useful.

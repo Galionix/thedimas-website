@@ -37,6 +37,12 @@ Bella AI: production driving-school student management platform with attendance,
 - Teams that need integrations between existing tools
 - Recruiters and hiring managers looking for remote contract React, Next.js, TypeScript, Node.js or full-stack work
 
+## Current Availability
+
+- Open for one 15-20 hours/week remote contract.
+- Paid production audits start at $750.
+- Useful first steps: production-readiness audit, 20-hour agency pilot, technical rescue sprint, scoped admin/internal-tool build, or backend/API/integration implementation.
+
 ## Segment Landing Pages
 
 - [Agency Implementation Partner](https://thedimas.com/en/services/agency-partner): for agencies and design studios needing backend, admin panel, integration or full-stack delivery capacity

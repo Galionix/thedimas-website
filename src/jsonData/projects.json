@@ -31,6 +31,12 @@
               "description": "Я працював напряму з англомовним замовником: уточнював requirements, сам декомпозував задачі, оцінював scope і тримав delivery rhythm без окремого менеджера."
             },
             {
+              "id": 50020504,
+              "icon": "FaCheck",
+              "name": "Commercial ownership",
+              "description": "Я не просто брав окремі tickets. Я закривав product slices end to end: requirements, database shape, API contracts, admin UI, tests, deployment і delivery tradeoffs."
+            },
+            {
               "id": 50020503,
               "icon": "FaCheck",
               "name": "Project status",
@@ -1550,6 +1556,12 @@
               "icon": "FaCheck",
               "name": "Direct client work",
               "description": "I worked directly with an English-speaking client: clarified requirements, broke work into tasks, estimated scope and kept the delivery rhythm without a separate project manager."
+            },
+            {
+              "id": 50010504,
+              "icon": "FaCheck",
+              "name": "Commercial ownership",
+              "description": "I was not only taking isolated tickets. I owned product slices end to end: requirements, database shape, API contracts, admin UI, testing, deployment and delivery tradeoffs."
             },
             {
               "id": 50010503,

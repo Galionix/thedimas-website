@@ -38,6 +38,10 @@ export default function HireFullStackDeveloper({
   const contactLabel = currentLocale === "en" ? "Contact me" : "Зв'язатися";
   const servicesLabel =
     currentLocale === "en" ? "See all services" : "Всі послуги";
+  const availabilityNote =
+    currentLocale === "en"
+      ? "Available for one 15-20h/week remote contract. Paid production audits start at $750."
+      : "Доступний для одного remote contract на 15-20 год/тиждень. Paid production audit — від $750.";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -91,6 +95,7 @@ export default function HireFullStackDeveloper({
           <p className={s.eyebrow}>{service.eyebrow}</p>
           <h1>{service.title}</h1>
           <p>{service.description}</p>
+          <strong className={s.availability}>{availabilityNote}</strong>
           <div className={s.actions}>
             <Link href={`/${currentLocale}#contact`}>{contactLabel}</Link>
             <Link href={`/${currentLocale}/services`}>{servicesLabel}</Link>
@@ -136,10 +141,11 @@ export default function HireFullStackDeveloper({
           </section>
           <section className={s.next} data-testid="content-section">
             <h2>{currentLocale === "en" ? "Send the role context" : "Надішліть контекст ролі"}</h2>
+            <strong>{availabilityNote}</strong>
             <p>
               {currentLocale === "en"
-                ? "Stack, contract length, timezone expectations and the first problem to solve are enough for a useful first conversation."
-                : "Stack, contract length, timezone expectations і перша problem to solve — достатньо для корисної першої розмови."}
+                ? "Stack, contract length, timezone expectations and the first problem to solve are enough for a useful first conversation. I can start with a paid audit, a 20-hour pilot or a scoped contract."
+                : "Stack, contract length, timezone expectations і перша problem to solve — достатньо для корисної першої розмови. Можу почати з paid audit, 20-hour pilot або scoped contract."}
             </p>
             <Link href={`/${currentLocale}#contact`}>{contactLabel}</Link>
           </section>

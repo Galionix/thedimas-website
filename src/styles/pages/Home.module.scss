@@ -165,7 +165,7 @@ $font-size: 30vw;
       border: 1px solid currentColor;
       position: relative;
       z-index: 2;
-      opacity: 0;
+      opacity: 1;
       animation: reveal 1s $nice-ease 1.1s forwards;
 
       @media screen and (max-width: 860px) {
@@ -192,7 +192,7 @@ $font-size: 30vw;
         color: currentColor;
         transition: transform 0.3s $nice-ease, opacity 0.3s $nice-ease,
           background 0.3s $nice-ease;
-        opacity: 0;
+        opacity: 1;
         animation: reveal 1s $nice-ease 1.45s forwards;
 
         &:hover,
@@ -252,6 +252,20 @@ $font-size: 30vw;
           font-size: clamp(15px, 1vw, 17px);
           line-height: 1.5;
         }
+      }
+
+      .availabilityNote {
+        width: fit-content;
+        max-width: min(620px, 100%);
+        margin: 0 auto 16px;
+        padding: 9px 12px;
+        border: 1px solid currentColor;
+        background: rgba(127, 127, 127, 0.08);
+        font-family: "Oswald", sans-serif;
+        font-size: clamp(14px, 1.1vw, 17px);
+        line-height: 1.35;
+        text-transform: uppercase;
+        opacity: 0.86;
       }
 
       .heroActions {

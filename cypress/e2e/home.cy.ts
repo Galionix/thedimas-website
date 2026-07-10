@@ -11,6 +11,8 @@ describe("home page", () => {
     cy.contains(
       "I build, repair and ship web products, admin panels"
     ).should("be.visible");
+    cy.contains("Available for one 15-20h/week contract").should("be.visible");
+    cy.contains("Paid production audits start at $750").should("be.visible");
     cy.get("body").should("contain.text", "What you can hire me for");
     cy.get("body").should("contain.text", "Dmitry Galaktionov");
     cy.get("body").should("contain.text", "Дмитрий Галактионов");
@@ -108,6 +110,7 @@ describe("home page", () => {
     const keyCopy = [
       "Full-stack developer for products",
       "I build, repair and ship web products",
+      "Available for one 15-20h/week contract",
       "Quick contact",
       "Dmitry Galaktionov (Galionix): full-stack",
       "Search aliases: Dmitry Galaktionov",

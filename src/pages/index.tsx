@@ -34,6 +34,8 @@ const contactCopy = {
     emailPlaceholder: "Email",
     formTitle: "Quick contact",
     formHint: "Leave your email. I will reply and ask for the missing context.",
+    availability:
+      "Available for one 15-20h/week contract. Paid production audits start at $750.",
     socialLabel: "Direct contacts",
     submit: "Contact me",
     sending: "Sending...",
@@ -50,6 +52,8 @@ const contactCopy = {
     emailPlaceholder: "Email",
     formTitle: "Швидкий контакт",
     formHint: "Залиши email. Я відповім і сам уточню потрібний контекст.",
+    availability:
+      "Доступний для одного контракту на 15-20 год/тиждень. Paid production audit — від $750.",
     socialLabel: "Прямі контакти",
     submit: "Зв'язатися",
     sending: "Відправляю...",
@@ -293,6 +297,7 @@ export default function Home({
           <div className={s.heroCopy}>
             <p>{content.intro.description}</p>
             <p>{content.intro.intro}</p>
+            <p className={s.availabilityNote}>{copy.availability}</p>
             <div className={s.heroActions}>
               <a
                 href={contactHref}

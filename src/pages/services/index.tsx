@@ -46,7 +46,9 @@ export default function ServicesIndex({
       open: "Open page",
       ctaTitle: "Not sure which page fits?",
       ctaText:
-        "Send one email. I will ask for the missing context and point you to the smallest useful first step.",
+        "Send one email. I will ask for the missing context and point you to the smallest useful first step: paid audit, 20-hour pilot, rescue sprint or scoped build.",
+      availability:
+        "Currently open for one 15-20h/week remote contract. Production audits start at $750.",
       cta: "Contact me",
       seoTitle: "Full-Stack, Backend and Internal Tool Services | Dimas",
       seoDescription:
@@ -60,7 +62,9 @@ export default function ServicesIndex({
       open: "Відкрити сторінку",
       ctaTitle: "Не впевнений, що саме підходить?",
       ctaText:
-        "Напиши один email. Я сам уточню потрібний контекст і запропоную найменший корисний перший крок.",
+        "Напиши один email. Я сам уточню потрібний контекст і запропоную найменший корисний перший крок: paid audit, 20-hour pilot, rescue sprint або scoped build.",
+      availability:
+        "Зараз відкритий для одного remote contract на 15-20 год/тиждень. Production audit — від $750.",
       cta: "Зв'язатися",
       seoTitle: "Full-stack, backend та internal tool services | Dimas",
       seoDescription:
@@ -120,6 +124,7 @@ export default function ServicesIndex({
         </section>
         <section className={s.cta} data-testid="content-section">
           <h2>{copy.ctaTitle}</h2>
+          <strong>{copy.availability}</strong>
           <p>{copy.ctaText}</p>
           <Link href={`/${currentLocale}#contact`}>{copy.cta}</Link>
         </section>

@@ -63,6 +63,10 @@ export default function ServicePage({
   const alternateLocale = currentLocale === "en" ? "ua" : "en";
   const contactLabel = currentLocale === "en" ? "Contact me" : "Зв'язатися";
   const bellaCaseLabel = currentLocale === "en" ? "Bella AI case" : "Кейс Bella AI";
+  const availabilityNote =
+    currentLocale === "en"
+      ? "Available for one 15-20h/week remote contract. Paid production audits start at $750."
+      : "Доступний для одного remote contract на 15-20 год/тиждень. Paid production audit — від $750.";
   const contactHref = `/${currentLocale}#contact`;
   const jsonLd = {
     "@context": "https://schema.org",
@@ -127,6 +131,7 @@ export default function ServicePage({
           <p className={s.eyebrow}>{service!.eyebrow}</p>
           <h1>{service!.title}</h1>
           <p>{service!.description}</p>
+          <strong className={s.availability}>{availabilityNote}</strong>
           <div className={s.actions}>
             <Link
               href={contactHref}
@@ -208,10 +213,11 @@ export default function ServicePage({
           </section>
           <section className={s.next} data-testid="content-section">
             <h2>{currentLocale === "en" ? "Start with one email" : "Почнемо з одного email"}</h2>
+            <strong>{availabilityNote}</strong>
             <p>
               {currentLocale === "en"
-                ? "Send your email and I will ask for the missing context instead of making you write a long brief."
-                : "Залиши email, і я сам уточню потрібний контекст замість того, щоб змушувати тебе писати довгий brief."}
+                ? "Send your email and I will ask for the missing context instead of making you write a long brief. The first step can be a paid audit, a 20-hour pilot or a scoped implementation sprint."
+                : "Залиши email, і я сам уточню потрібний контекст замість того, щоб змушувати тебе писати довгий brief. Першим кроком може бути paid audit, 20-hour pilot або scoped implementation sprint."}
             </p>
             <Link href={contactHref}>{contactLabel}</Link>
           </section>
