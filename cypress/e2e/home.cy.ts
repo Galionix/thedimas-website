@@ -37,12 +37,18 @@ describe("home page", () => {
     cy.visit("/en");
 
     cy.contains("a", "Projects").should("have.attr", "href", "/en/projects");
+    cy.contains("a", "Services").should("have.attr", "href", "/en/services");
     cy.contains("a", "Blog").should("have.attr", "href", "/en/blog");
 
     cy.visit("/en/projects");
     cy.location("pathname").should("eq", "/en/projects");
     cy.get("body").should("contain.text", "Bella AI");
     cy.get("body").should("contain.text", "Focus Blocker");
+
+    cy.visit("/en/services");
+    cy.location("pathname").should("eq", "/en/services");
+    cy.get("body").should("contain.text", "Choose the page that matches");
+    cy.contains("a", "Services").should("be.visible");
 
     cy.visit("/en/blog");
     cy.location("pathname").should("eq", "/en/blog");

@@ -21,6 +21,13 @@
       },
       {
         "__component": "atoms.link",
+        "id": 15,
+        "href": "/services",
+        "label": "Послуги",
+        "target": null
+      },
+      {
+        "__component": "atoms.link",
         "id": 13,
         "href": "/blog",
         "label": "Блог",
@@ -48,6 +55,13 @@
         "id": 8,
         "href": "/projects",
         "label": "Projects",
+        "target": null
+      },
+      {
+        "__component": "atoms.link",
+        "id": 16,
+        "href": "/services",
+        "label": "Services",
         "target": null
       },
       {

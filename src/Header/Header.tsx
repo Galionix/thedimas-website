@@ -40,7 +40,10 @@ export const Header = ({
     setIsMounted(true);
   }, []);
 
-  const routeRoot = `/${router.pathname.split("/")[1] || ""}`;
+  const routeRoot =
+    router.pathname === "/hire-full-stack-developer"
+      ? "/services"
+      : `/${router.pathname.split("/")[1] || ""}`;
   const selected = header_data[router.locale || 0].items.findIndex(
     (item: headerLink) => item.href === routeRoot
   );

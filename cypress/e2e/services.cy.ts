@@ -68,6 +68,97 @@ const servicePages = [
   },
 ];
 
+const ukrainianServicePages = [
+  {
+    path: "/ua/services",
+    h1: "Обери сторінку",
+    canonical: "https://thedimas.com/ua/services",
+    cta: "Зв'язатися",
+    nav: "Послуги",
+    forbiddenCta: "Contact me",
+  },
+  {
+    path: "/ua/hire-full-stack-developer",
+    h1: "Senior full-stack developer",
+    canonical: "https://thedimas.com/ua/hire-full-stack-developer",
+    cta: "Зв'язатися",
+    nav: "Послуги",
+    forbiddenCta: "Contact me",
+  },
+  {
+    path: "/ua/services/mvp-development",
+    h1: "MVP розробка",
+    canonical: "https://thedimas.com/ua/services/mvp-development",
+    cta: "Зв'язатися",
+    nav: "Послуги",
+    caseLink: "Кейс Bella AI",
+    forbiddenCta: "Contact me",
+  },
+  {
+    path: "/ua/services/backend-development",
+    h1: "Backend розробка",
+    canonical: "https://thedimas.com/ua/services/backend-development",
+    cta: "Зв'язатися",
+    nav: "Послуги",
+    caseLink: "Кейс Bella AI",
+    forbiddenCta: "Contact me",
+  },
+  {
+    path: "/ua/services/admin-panels",
+    h1: "Розробка адмінок",
+    canonical: "https://thedimas.com/ua/services/admin-panels",
+    cta: "Зв'язатися",
+    nav: "Послуги",
+    caseLink: "Кейс Bella AI",
+    forbiddenCta: "Contact me",
+  },
+  {
+    path: "/ua/services/technical-rescue",
+    h1: "Technical rescue",
+    canonical: "https://thedimas.com/ua/services/technical-rescue",
+    cta: "Зв'язатися",
+    nav: "Послуги",
+    caseLink: "Кейс Bella AI",
+    forbiddenCta: "Contact me",
+  },
+  {
+    path: "/ua/services/agency-partner",
+    h1: "Full-stack партнер",
+    canonical: "https://thedimas.com/ua/services/agency-partner",
+    cta: "Зв'язатися",
+    nav: "Послуги",
+    caseLink: "Кейс Bella AI",
+    forbiddenCta: "Contact me",
+  },
+  {
+    path: "/ua/services/founder-mvp",
+    h1: "Практичний full-stack",
+    canonical: "https://thedimas.com/ua/services/founder-mvp",
+    cta: "Зв'язатися",
+    nav: "Послуги",
+    caseLink: "Кейс Bella AI",
+    forbiddenCta: "Contact me",
+  },
+  {
+    path: "/ua/services/internal-tools-automation",
+    h1: "Internal tools",
+    canonical: "https://thedimas.com/ua/services/internal-tools-automation",
+    cta: "Зв'язатися",
+    nav: "Послуги",
+    caseLink: "Кейс Bella AI",
+    forbiddenCta: "Contact me",
+  },
+  {
+    path: "/ua/services/contract-full-stack-developer",
+    h1: "Senior full-stack developer",
+    canonical: "https://thedimas.com/ua/services/contract-full-stack-developer",
+    cta: "Зв'язатися",
+    nav: "Послуги",
+    caseLink: "Кейс Bella AI",
+    forbiddenCta: "Contact me",
+  },
+];
+
 describe("service landing pages", () => {
   servicePages.forEach((service) => {
     it(`serves ${service.path} with commercial SEO and CTA`, () => {
@@ -106,5 +197,45 @@ describe("service landing pages", () => {
         cy.contains(service.segmentText).should("be.visible");
       }
     });
+  });
+
+  ukrainianServicePages.forEach((service) => {
+    it(`serves ${service.path} with Ukrainian navigation and translated CTAs`, () => {
+      cy.visit(service.path);
+
+      cy.contains("h1", service.h1).should("be.visible");
+      cy.get('link[rel="canonical"]').should(
+        "have.attr",
+        "href",
+        service.canonical
+      );
+      cy.contains("a", service.nav).should("be.visible");
+      cy.contains(service.cta)
+        .should("be.visible")
+        .and("have.attr", "href")
+        .and("contain", "/ua#contact");
+      cy.get("body").should("not.contain.text", service.forbiddenCta);
+
+      if (service.caseLink) {
+        cy.contains(service.caseLink)
+          .should("be.visible")
+          .and("have.attr", "href")
+          .and("contain", "/ua/projects/Bella%20AI");
+      }
+    });
+  });
+
+  it("switches service detail pages between locales without losing the nested route", () => {
+    cy.visit("/en/services/agency-partner");
+    cy.contains("a", "Services").should("be.visible");
+    cy.contains("button", /^ua$/i).click();
+    cy.location("pathname").should("match", /^(\/ua)?\/services\/agency-partner$/);
+    cy.contains("a", "Послуги").should("be.visible");
+    cy.contains("Кейс Bella AI").should("be.visible");
+
+    cy.contains("button", /^en$/i).click();
+    cy.location("pathname").should("eq", "/en/services/agency-partner");
+    cy.contains("a", "Services").should("be.visible");
+    cy.contains("Bella AI case").should("be.visible");
   });
 });

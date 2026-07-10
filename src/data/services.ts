@@ -520,47 +520,47 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
   ua: {
     "mvp-development": {
       slug: "mvp-development",
-      eyebrow: "MVP та feature sprint",
+      eyebrow: "MVP та функціональні спринти",
       title: "MVP розробка для засновників, яким потрібен робочий продукт, а не презентація.",
       description:
         "Я перетворюю ідею на робочий Next.js/React застосунок з backend, базою даних, деплоєм і зрозумілим планом наступних кроків.",
       intro:
         "Це корисно, коли треба перевірити ідею, запустити першу платну версію, розблокувати команду або довести прототип до стану, де ним може користуватися реальна людина.",
       outcomes: [
-        "Product scope перетворений на практичний build plan.",
-        "Frontend, backend, database і deployment в одному workflow.",
+        "Обсяг продукту перетворений на практичний план розробки.",
+        "Frontend, backend, база даних і деплой в одному робочому процесі.",
         "Перша версія, яку можна показувати користувачам.",
-        "Handoff notes, ризики та наступні пріоритети розробки.",
+        "Нотатки для передачі, ризики та наступні пріоритети розробки.",
       ],
       process: [
-        "Розібрати goal, user flow, data model та інтеграції.",
-        "Зібрати найменшу корисну product surface з чистими межами.",
-        "Задеплоїти, протестувати core flows і підтягнути narrative.",
-        "Залишити реалістичний roadmap замість туманного backlog.",
+        "Розібрати ціль, користувацький сценарій, модель даних та інтеграції.",
+        "Зібрати найменшу корисну частину продукту з чистими технічними межами.",
+        "Задеплоїти, протестувати основні сценарії і привести подачу продукту до ладу.",
+        "Залишити реалістичну дорожню карту замість туманного списку задач.",
       ],
       proof:
-        "Релевантний досвід: production Next.js/Supabase платформа для Bella AI і менші MVP-style продукти, які я піднімав локально, тестував і документував.",
+        "Релевантний досвід: production Next.js/Supabase платформа для Bella AI і менші MVP-продукти, які я піднімав локально, тестував і документував.",
       faq: [
         {
           question: "Можна стартувати без повної специфікації?",
           answer:
-            "Так. Я можу почати з сирої ідеї, нотаток з дзвінка або існуючого прототипу й перетворити це на scoped implementation plan.",
+            "Так. Я можу почати з сирої ідеї, нотаток з дзвінка або існуючого прототипу й перетворити це на обмежений план реалізації.",
         },
         {
           question: "Який stack ти зазвичай використовуєш?",
           answer:
-            "Найчастіше Next.js, React, TypeScript, API routes або Node services, PostgreSQL/Supabase, auth, deployment і automated checks.",
+            "Найчастіше Next.js, React, TypeScript, API routes або Node-сервіси, PostgreSQL/Supabase, auth, deployment і автоматизовані перевірки.",
         },
         {
           question: "Можна почати маленько?",
           answer:
-            "Так. Короткий audit або one-week sprint часто найкращий перший крок перед більшим engagement.",
+            "Так. Короткий аудит або тижневий спринт часто є найкращим першим кроком перед більшою співпрацею.",
         },
       ],
       seo: {
         title: "MVP розробка з Next.js, backend і deployment | Dimas",
         description:
-          "Full-stack MVP розробка для founders: Next.js, React, backend APIs, database, deployment, tests і практичний launch plan.",
+          "Full-stack MVP розробка для засновників: Next.js, React, backend APIs, база даних, деплой, тести і практичний план запуску.",
         keywords:
           "MVP developer, Next.js MVP development, full-stack MVP, React developer, startup MVP developer",
       },
@@ -568,72 +568,72 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
     "backend-development": {
       slug: "backend-development",
       eyebrow: "Backend та інтеграції",
-      title: "Backend розробка для продуктів, яким потрібні надійні APIs, auth та інтеграції.",
+      title: "Backend розробка для продуктів, яким потрібні надійні API, auth та інтеграції.",
       description:
-        "Я проектую й будую API routes, data models, auth flows, webhooks, queues і third-party integrations, які можна підтримувати після першого релізу.",
+        "Я проектую й будую API routes, моделі даних, auth flows, webhooks, queues і сторонні інтеграції, які можна підтримувати після першого релізу.",
       intro:
-        "Це підходить командам, у яких вже є frontend, product surface або бізнес-процес, але backend став найкрихкішою частиною.",
+        "Це підходить командам, у яких вже є frontend, продуктова поверхня або бізнес-процес, але backend став найкрихкішою частиною.",
       outcomes: [
-        "API boundaries, які відповідають реальним product workflows.",
-        "Data models і validation, які зменшують випадкову складність.",
-        "Auth, permissions та integrations з явними правилами.",
-        "Tests і operational notes для важливих flows.",
+        "Межі API, які відповідають реальним продуктовим сценаріям.",
+        "Моделі даних і валідація, які зменшують випадкову складність.",
+        "Auth, permissions та інтеграції з явними правилами.",
+        "Тести й операційні нотатки для важливих сценаріїв.",
       ],
       process: [
-        "Прочитати існуючий code, data model і production constraints.",
-        "Визначити contracts, risks та migration path.",
-        "Реалізувати backend slice з validation, error handling і logs.",
-        "Перевірити critical paths і задокументувати extension points.",
+        "Прочитати існуючий код, модель даних і production-обмеження.",
+        "Визначити контракти, ризики та шлях міграції.",
+        "Реалізувати backend-частину з валідацією, error handling і логами.",
+        "Перевірити критичні сценарії і задокументувати точки розширення.",
       ],
       proof:
-        "У Bella AI я працював з API routes, Supabase/PostgreSQL, RLS, role-based access, realtime flows, monitoring і frontend integration.",
+        "У Bella AI я працював з API routes, Supabase/PostgreSQL, RLS, рольовим доступом, realtime flows, моніторингом і frontend-інтеграцією.",
       faq: [
         {
           question: "Можеш зайти в існуючий backend?",
           answer:
-            "Так. Я починаю з карти contracts, database shape, deployment path і failure points.",
+            "Так. Я починаю з карти контрактів, структури бази даних, deployment path і точок відмови.",
         },
         {
           question: "Ти працюєш тільки з Node.js?",
           answer:
-            "Node/TypeScript найсильніше підходить для цього сайту, але я можу працювати і з суміжними web backend stacks, якщо product context зрозумілий.",
+            "Node/TypeScript тут найсильніший варіант, але я можу працювати і з суміжними web backend stacks, якщо продуктовий контекст зрозумілий.",
         },
         {
           question: "Можеш робити third-party APIs?",
           answer:
-            "Так. Integrations, webhooks, auth providers, payment-style flows і external APIs це нормальна частина роботи.",
+            "Так. Інтеграції, webhooks, auth providers, payment-style flows і зовнішні API — це нормальна частина роботи.",
         },
       ],
       seo: {
         title: "Backend developer для APIs, auth та integrations | Dimas",
         description:
-          "Backend розробка для web products: APIs, auth, data models, third-party integrations, webhooks, tests і deployment support.",
+          "Backend розробка для web products: API, auth, моделі даних, сторонні інтеграції, webhooks, тести і deployment support.",
         keywords:
           "backend developer, API developer, Node.js backend, TypeScript backend, integrations developer",
       },
     },
     "admin-panels": {
       slug: "admin-panels",
-      eyebrow: "Internal tools та admin panels",
-      title: "Admin panel розробка для команд, які реально керують операціями в software.",
+      eyebrow: "Внутрішні інструменти та адмінки",
+      title: "Розробка адмінок для команд, які реально керують операціями в софті.",
       description:
-        "Я будую dashboards, role-based admin flows, tables, forms, reports і moderation interfaces, які допомагають маленьким командам рухатися швидше.",
+        "Я будую dashboards, рольові admin flows, таблиці, форми, звіти й moderation interfaces, які допомагають маленьким командам рухатися швидше.",
       intro:
-        "Internal tools швидко показують правду про продукт: permissions, edge cases, filtering, audit trails, exports, operational shortcuts і legacy data мають працювати разом.",
+        "Внутрішні інструменти швидко показують правду про продукт: permissions, edge cases, filtering, audit trails, exports, operational shortcuts і legacy data мають працювати разом.",
       outcomes: [
-        "Admin screens, які відповідають реальній роботі команди.",
-        "Role-based flows і permissions замість одного небезпечного panel.",
-        "Корисні tables, forms, filters і status views.",
-        "Maintainable frontend/backend path для майбутніх operations.",
+        "Адмін-екрани, які відповідають реальній роботі команди.",
+        "Рольові сценарії і permissions замість однієї небезпечної панелі.",
+        "Корисні таблиці, форми, фільтри й статусні екрани.",
+        "Підтримуваний frontend/backend шлях для майбутніх операцій.",
       ],
       process: [
-        "Розібрати roles, entities, daily workflows і risky actions.",
-        "Спроєктувати щільні screens для scanning, editing і resolving.",
-        "Зібрати UI, API і data validation разом.",
-        "Протестувати repeated workflows і задокументувати assumptions.",
+        "Розібрати ролі, сутності, щоденні сценарії і ризиковані дії.",
+        "Спроєктувати щільні екрани для перегляду, редагування і розвʼязання задач.",
+        "Зібрати UI, API і валідацію даних разом.",
+        "Протестувати повторювані сценарії і задокументувати припущення.",
       ],
       proof:
-        "Bella AI мала велику production admin surface для driving-school operations: students, attendance, assessments, tenant boundaries, role access і realtime kiosk flows.",
+        "Bella AI мала велику production адмінку для процесів driving school: студенти, відвідуваність, оцінювання, tenant boundaries, рольовий доступ і realtime kiosk flows.",
       faq: [
         {
           question: "Можеш зробити практично без дизайнера?",
@@ -643,59 +643,59 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         {
           question: "Можеш працювати з messy data?",
           answer:
-            "Так. Спочатку треба прояснити entities, ownership, permissions і flows, де помилки дорогі.",
+            "Так. Спочатку треба прояснити сутності, ownership, permissions і сценарії, де помилки дорогі.",
         },
         {
           question: "Ти робиш frontend і backend?",
           answer:
-            "Так. Admin panels найкраще працюють, коли UI, API, validation і data shape продумані разом.",
+            "Так. Адмінки найкраще працюють, коли UI, API, валідація і структура даних продумані разом.",
         },
       ],
       seo: {
         title: "Admin panel та internal tool developer | Dimas",
         description:
-          "Admin panel та internal tool development: dashboards, role-based flows, tables, forms, reports, moderation і backend APIs.",
+          "Розробка адмінок і internal tools: dashboards, рольові сценарії, таблиці, форми, звіти, moderation і backend APIs.",
         keywords:
           "admin panel developer, internal tools developer, dashboard developer, operational software developer",
       },
     },
     "technical-rescue": {
       slug: "technical-rescue",
-      eyebrow: "Technical rescue sprint",
-      title: "Technical rescue для messy web projects, які знову мають shipping.",
+      eyebrow: "Technical rescue спринт",
+      title: "Technical rescue для заплутаних web projects, які знову мають почати shipping.",
       description:
-        "Я заходжу в нестабільні codebases, маплю moving parts, фікшу blockers, додаю tests і роблю наступний release реалістичним.",
+        "Я заходжу в нестабільні codebases, розбираю moving parts, прибираю blockers, додаю tests і роблю наступний release реалістичним.",
       intro:
-        "Це для моменту, коли продукт все ще важливий, але code, deployment, integrations або team context стали занадто дорогими для руху вперед.",
+        "Це для моменту, коли продукт все ще важливий, але код, деплой, інтеграції або командний контекст стали занадто дорогими для руху вперед.",
       outcomes: [
-        "Чітка карта того, що broken, risky і worth saving.",
-        "Critical blockers fixed перед cosmetic refactors.",
-        "Tests або monitoring навколо flows, які постійно ламаються.",
-        "Practical release path і follow-up plan.",
+        "Чітка карта того, що зламано, ризиковано і варто зберігати.",
+        "Критичні blockers виправлені до косметичних refactors.",
+        "Тести або monitoring навколо сценаріїв, які постійно ламаються.",
+        "Практичний шлях до релізу і план наступних кроків.",
       ],
       process: [
-        "Audit repo, deployment, environment variables і user flows.",
-        "Reproduce main failures і відсортувати їх за business impact.",
-        "Fix smallest set of blockers, які unlock shipping.",
-        "Document system, щоб наступна зміна була менш болючою.",
+        "Аудит репозиторію, деплою, environment variables і користувацьких сценаріїв.",
+        "Відтворити головні збої і відсортувати їх за впливом на бізнес.",
+        "Виправити найменший набір blockers, який розблокує shipping.",
+        "Задокументувати систему, щоб наступна зміна була менш болючою.",
       ],
       proof:
-        "Мій strongest fit: ownership від product problem до shipped software: frontend, backend, infrastructure, debugging, tests і handoff.",
+        "Мій найсильніший формат: ownership від product problem до shipped software: frontend, backend, infrastructure, debugging, tests і handoff.",
       faq: [
         {
           question: "Ти переписуєш все з нуля?",
           answer:
-            "Зазвичай ні. Rescue work починається з того, що має ship, і найменшого valuable path.",
+            "Зазвичай ні. Rescue work починається з того, що має бути shipped, і з найменшого цінного шляху.",
         },
         {
           question: "Можеш працювати без документації?",
           answer:
-            "Так. Я відновлюю карту з code, logs, deployment settings, user flows і current failure modes.",
+            "Так. Я відновлюю карту з коду, логів, deployment settings, user flows і поточних failure modes.",
         },
         {
           question: "Що дає перший sprint?",
           answer:
-            "Short audit, fixed blockers where possible, release path і ranked list того, що ремонтувати далі.",
+            "Короткий аудит, виправлені blockers де це можливо, release path і пріоритетний список наступних ремонтів.",
         },
       ],
       seo: {
@@ -709,25 +709,25 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
     "agency-partner": {
       slug: "agency-partner",
       eyebrow: "Партнер для agency delivery",
-      title: "Full-stack партнер для агенцій, яким потрібен backend, admin та integration capacity.",
+      title: "Full-stack партнер для агенцій, яким потрібен backend, адмінки та інтеграції.",
       description:
-        "Я допомагаю product, design і web studios закривати технічну частину client work: Next.js apps, APIs, admin panels, integrations, deployments і fixes.",
+        "Я допомагаю product, design і web studios закривати технічну частину client work: Next.js apps, API, адмінки, інтеграції, деплої і fixes.",
       intro:
-        "Ця сторінка для agency founders і design partners, які вже продають product або web work, але іноді потребують senior developer, що спокійно візьме складну implementation частину без зайвого management overhead.",
+        "Ця сторінка для agency founders і design partners, які вже продають product або web work, але іноді потребують senior developer, що спокійно візьме складну implementation частину без зайвого менеджменту.",
       audience: [
-        "Web або product studios з overflow backend/frontend work.",
+        "Web або product studios з overflow backend/frontend роботою.",
         "Design partners, яким потрібна надійна реалізація після Figma.",
-        "Агенції, які продають MVPs, SaaS dashboards, portals або internal tools.",
+        "Агенції, які продають MVP, SaaS dashboards, portals або internal tools.",
         "Команди, яким потрібен developer, що може прямо обговорювати scope і ship без babysitting.",
       ],
       signals: [
         {
-          title: "Direct client ownership",
+          title: "Пряма робота з клієнтом",
           description:
             "У Bella AI я працював напряму з англомовним замовником, уточнював requirements, декомпозував scope і тримав delivery без окремого project manager.",
         },
         {
-          title: "Backend plus product UI",
+          title: "Backend плюс продуктовий UI",
           description:
             "Найсильніший fit — не просто landing pages: API routes, PostgreSQL/Supabase, RBAC, admin screens, realtime flows і практичні product states.",
         },
@@ -744,10 +744,10 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         "Реалістичний build scope, risks і next-step plan до того, як робота стане дорогою.",
       ],
       process: [
-        "Переглянути client goal, assets, deadline і risky parts.",
-        "Визначити smallest implementation slice, який доведе delivery.",
+        "Переглянути client goal, assets, deadline і ризикові частини.",
+        "Визначити найменший implementation slice, який доведе delivery.",
         "Зібрати UI/backend/data/integration path і тримати scope видимим.",
-        "Ship, documentation і підготовка next phase або handoff.",
+        "Ship, документація і підготовка next phase або handoff.",
       ],
       proof:
         "Bella AI — головний commercial proof: production Next.js/Supabase platform з multi-tenant admin, role-based access, realtime kiosk flows, API routes, migrations, tests і monitoring. Personal projects на сайті — supporting signals, не головна ставка.",
@@ -778,46 +778,46 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
     },
     "founder-mvp": {
       slug: "founder-mvp",
-      eyebrow: "Founder MVP build",
-      title: "Практичний full-stack developer для founders, яким потрібна перша серйозна версія продукту.",
+      eyebrow: "MVP для засновників",
+      title: "Практичний full-stack developer для засновників, яким потрібна перша серйозна версія продукту.",
       description:
-        "Я допомагаю founders перетворити product idea, messy prototype або half-built app на working web product з backend, database, auth, deployment і реалістичним release path.",
+        "Я допомагаю засновникам перетворити ідею, messy prototype або half-built app на working web product з backend, базою даних, auth, deployment і реалістичним release path.",
       intro:
-        "Це для founders, яким ще не потрібна велика команда, але потрібна одна людина, що зрозуміє product problem, прийме технічні рішення і доведе щось реальне до користувачів.",
+        "Це для засновників, яким ще не потрібна велика команда, але потрібна одна людина, що зрозуміє product problem, прийме технічні рішення і доведе щось реальне до користувачів.",
       audience: [
-        "Founders, які валідують SaaS, marketplace, portal або workflow product.",
-        "Команди з prototype, який занадто fragile для реальних users.",
+        "Засновники, які валідують SaaS, marketplace, portal або workflow product.",
+        "Команди з prototype, який занадто fragile для реальних користувачів.",
         "Products, яким потрібні auth, payments-ready architecture, admin views або integrations.",
         "Early teams, яким потрібен accountable full-stack owner перед наймом більшої команди.",
       ],
       signals: [
         {
-          title: "Product-to-code ownership",
+          title: "Ownership від продукту до коду",
           description:
             "Можу пройти шлях від нечітких requirements до database shape, API contracts, UI flows, deployment і ranked next-step plan.",
         },
         {
-          title: "Commercial product context",
+          title: "Комерційний продуктовий контекст",
           description:
             "Bella AI включала student management flows, assessments, attendance, multi-tenant admin і role-aware access, а не декоративний prototype.",
         },
         {
-          title: "Honest scope control",
+          title: "Чесний контроль scope",
           description:
             "Якщо project потребує documents, payment-provider setup або business decisions до implementation, я кажу це рано, а не вдаю, що код сам все вирішить.",
         },
       ],
       outcomes: [
-        "Scoped MVP або feature sprint, який можна показувати users.",
-        "Frontend, backend, database, auth і deployment в одному product path.",
-        "Important edge cases знайдені до того, як стануть дорогими.",
-        "Clear technical notes для наступного developer, investor demo або product phase.",
+        "Обмежений MVP або feature sprint, який можна показувати користувачам.",
+        "Frontend, backend, база даних, auth і deployment в одному product path.",
+        "Важливі edge cases знайдені до того, як стануть дорогими.",
+        "Зрозумілі технічні нотатки для наступного developer, investor demo або product phase.",
       ],
       process: [
-        "Уточнити user, painful workflow, must-have feature і deadline.",
+        "Уточнити користувача, болючий workflow, must-have feature і deadline.",
         "Замапити data model, auth, roles, integrations і deployment constraints.",
-        "Зібрати smallest useful version і протестувати critical flows.",
-        "Залишити practical roadmap для наступного release.",
+        "Зібрати найменшу корисну версію і протестувати critical flows.",
+        "Залишити практичну дорожню карту для наступного release.",
       ],
       proof:
         "Bella AI показує commercial pattern: Next.js, TypeScript, Supabase/PostgreSQL, RBAC, RLS migrations, realtime flows, Playwright tests, Sentry і PostHog в реальному operational product.",
@@ -825,7 +825,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         {
           question: "Можеш працювати з сирої ідеї?",
           answer:
-            "Так. Перший корисний deliverable може бути short product/technical map ще до великого коду.",
+            "Так. Першим корисним результатом може бути коротка продуктово-технічна карта ще до великого коду.",
         },
         {
           question: "Можеш допомогти з payments?",
@@ -841,7 +841,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
       seo: {
         title: "Full-stack MVP developer для founders | Dimas",
         description:
-          "Founder-focused MVP development з Next.js, React, TypeScript, backend APIs, Supabase/PostgreSQL, auth, admin views, deployment і tests.",
+          "MVP development для засновників з Next.js, React, TypeScript, backend APIs, Supabase/PostgreSQL, auth, admin views, deployment і tests.",
         keywords:
           "MVP developer for founders, startup full-stack developer, SaaS MVP developer, Next.js startup developer, product engineer",
       },
@@ -849,20 +849,20 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
     "internal-tools-automation": {
       slug: "internal-tools-automation",
       eyebrow: "Internal tools та automation",
-      title: "Internal tools, admin panels та integrations для команд з messy operations.",
+      title: "Internal tools, admin panels та integrations для команд із заплутаними операціями.",
       description:
         "Я будую operational software для small teams: dashboards, admin flows, role-based access, imports, reports, automations і third-party integrations.",
       intro:
-        "Ця сторінка для product і operations людей, які відчувають, що команда втрачає час у spreadsheets, manual status checks, fragile scripts або admin screens, які не відповідають реальному workflow.",
+        "Ця сторінка для product і operations людей, які відчувають, що команда втрачає час у spreadsheets, ручних status checks, fragile scripts або admin screens, які не відповідають реальному workflow.",
       audience: [
         "Product/ops teams, які замінюють spreadsheets реальними workflows.",
         "Small companies, яким потрібні dashboards, admin panels або role-based tools.",
-        "Команди з repeated manual work через email, forms, CRMs, APIs або databases.",
+        "Команди з повторюваною ручною роботою через email, forms, CRMs, APIs або databases.",
         "Businesses, яким потрібна practical automation з human approval там, де помилки дорогі.",
       ],
       signals: [
         {
-          title: "Operations-heavy product work",
+          title: "Product work навколо операцій",
           description:
             "Bella AI будувалась навколо real operational flows: students, attendance, assessments, tenant boundaries, role access і realtime kiosk check-in/out.",
         },
@@ -872,15 +872,15 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
             "Я працював з RBAC, Supabase Row-Level Security, invitation-based registration і role-aware UI/API paths.",
         },
         {
-          title: "Useful density",
+          title: "Корисна щільність",
           description:
-            "Для internal tools я обираю dense, predictable screens для scanning і repeated work замість decorative marketing UI.",
+            "Для internal tools я обираю щільні, передбачувані screens для scanning і repeated work замість decorative marketing UI.",
         },
       ],
       outcomes: [
         "Operational screens, які відповідають реальній роботі команди.",
         "Role-aware access і safer flows для risky actions.",
-        "Automations та integrations, які зменшують manual status work.",
+        "Automations та integrations, які зменшують ручну status work.",
         "Maintainable path для future reporting, imports, exports і admin changes.",
       ],
       process: [
@@ -895,7 +895,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         {
           question: "Можеш автоматизувати messy process без перебудови всієї компанії?",
           answer:
-            "Так. Найбезпечніший старт — one workflow, one source of truth і clear manual fallback.",
+            "Так. Найбезпечніший старт — один workflow, one source of truth і clear manual fallback.",
         },
         {
           question: "Можеш підключати існуючі tools?",
@@ -921,23 +921,23 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
       eyebrow: "Contract full-stack developer",
       title: "Senior full-stack developer для remote contract work.",
       description:
-        "Я працюю з React, Next.js, TypeScript, backend APIs, databases, integrations і infrastructure cleanup для команд, яким швидко потрібен experienced contributor.",
+        "Я працюю з React, Next.js, TypeScript, backend APIs, базами даних, integrations і infrastructure cleanup для команд, яким швидко потрібен experienced contributor.",
       intro:
         "Ця сторінка для recruiters, hiring managers і engineering leads, яким потрібен practical developer для contract, remote або hybrid product work без тижнів розшифровки vague profile.",
       audience: [
         "Recruiters, які шукають React, Next.js, TypeScript або Node.js engineers.",
-        "Teams, яким потрібен senior developer на focused contract period.",
+        "Команди, яким потрібен senior developer на focused contract period.",
         "Products, де frontend, backend і infrastructure work змішані разом.",
         "Engineering leads, яким потрібна людина, що нормально заходить у messy existing systems.",
       ],
       signals: [
         {
-          title: "Wide delivery range",
+          title: "Широкий delivery range",
           description:
             "Frontend, backend, infrastructure, tests, monitoring, deployments і integrations — все в одному working range.",
         },
         {
-          title: "Recent commercial stack",
+          title: "Актуальний commercial stack",
           description:
             "Bella AI використовувала Next.js, React, TypeScript, Supabase/PostgreSQL, Zod, RTK Query, Playwright, Sentry, PostHog і Vercel.",
         },
@@ -951,7 +951,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         "Developer, який може працювати через frontend/backend boundaries.",
         "Менше handoff friction на features, де API, UI, data і deployment повʼязані.",
         "Швидша стабілізація messy flows, tests і release blockers.",
-        "Clear written notes для async teams.",
+        "Зрозумілі письмові нотатки для async teams.",
       ],
       process: [
         "Переглянути role context, stack, team expectations і contract shape.",

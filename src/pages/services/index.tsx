@@ -56,7 +56,7 @@ export default function ServicesIndex({
       eyebrow: "Послуги",
       title: "Обери сторінку, яка найкраще відповідає задачі.",
       description:
-        "Я будую та рятую web products, backend systems, admin panels, internal tools, automations та integrations для founders, agencies і small teams.",
+        "Я будую та рятую web products, backend systems, адмінки, internal tools, автоматизації та інтеграції для засновників, агенцій і невеликих команд.",
       open: "Відкрити сторінку",
       ctaTitle: "Не впевнений, що саме підходить?",
       ctaText:
@@ -64,7 +64,7 @@ export default function ServicesIndex({
       cta: "Зв'язатися",
       seoTitle: "Full-stack, backend та internal tool services | Dimas",
       seoDescription:
-        "Сторінки послуг Дмитра Галактіонова: agency implementation partner, founder MVP build, backend development, admin panels, internal tools, automation та contract full-stack work.",
+        "Сторінки послуг Дмитра Галактіонова: партнер для агенцій, MVP для засновників, backend development, адмінки, internal tools, автоматизація та contract full-stack work.",
     },
   }[currentLocale];
   const jsonLd = {

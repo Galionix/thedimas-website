@@ -62,6 +62,7 @@ export default function ServicePage({
   const canonicalUrl = `https://thedimas.com/${currentLocale}/services/${service!.slug}`;
   const alternateLocale = currentLocale === "en" ? "ua" : "en";
   const contactLabel = currentLocale === "en" ? "Contact me" : "Зв'язатися";
+  const bellaCaseLabel = currentLocale === "en" ? "Bella AI case" : "Кейс Bella AI";
   const contactHref = `/${currentLocale}#contact`;
   const jsonLd = {
     "@context": "https://schema.org",
@@ -143,7 +144,7 @@ export default function ServicePage({
             >
               {contactLabel}
             </Link>
-            <Link href={`/${currentLocale}/projects/Bella%20AI`}>Bella AI case</Link>
+            <Link href={`/${currentLocale}/projects/Bella%20AI`}>{bellaCaseLabel}</Link>
           </div>
         </section>
         <section className={s.contentBand}>
