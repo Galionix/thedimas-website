@@ -78,6 +78,32 @@ describe("home page", () => {
     cy.contains("Sent. I will reply by email.").should("be.visible");
   });
 
+  it("does not show success when contact delivery is not configured", () => {
+    cy.intercept("POST", "/api/contact", {
+      statusCode: 503,
+      body: {
+        ok: false,
+        error: "Contact notifications are not configured yet.",
+      },
+    }).as("contactRequest");
+
+    cy.visit("/en");
+    cy.get('input[name="email"]').type("lead@example.com");
+    cy.contains("button", "Contact me").click();
+    cy.wait("@contactRequest");
+    cy.contains("Sent. I will reply by email.").should("not.exist");
+    cy.contains("Could not send the message. Please email me directly.").should(
+      "be.visible"
+    );
+  });
+
+  it("keeps the honeypot field out of browser autofill", () => {
+    cy.visit("/en");
+    cy.get('input[name="company"]')
+      .should("have.attr", "autocomplete", "off")
+      .and("have.attr", "tabindex", "-1");
+  });
+
   it("keeps homepage section copy visible after slow scrolling down and back up", () => {
     const keyCopy = [
       "Full-stack developer for products",

@@ -234,7 +234,7 @@ export default function Home({
       const result = await response.json();
 
       if (!response.ok || !result.ok) {
-        throw new Error(result.error || "Could not send the message.");
+        throw new Error(copy.fallbackError);
       }
 
       setContactStatus("sent");
@@ -392,6 +392,7 @@ export default function Home({
             />
             <input
               aria-hidden="true"
+              autoComplete="off"
               className={s.companyField}
               name="company"
               onChange={(event) =>
