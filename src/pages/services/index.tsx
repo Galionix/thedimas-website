@@ -50,7 +50,7 @@ export default function ServicesIndex({
       availability:
         "Currently open for one 15-20h/week remote contract. Production audits start at $750.",
       cta: "Contact me",
-      seoTitle: "Full-Stack, Backend and Internal Tool Services | Dimas",
+      seoTitle: "Full-Stack, Backend and Internal Tool Services | Dmitry Galaktionov",
       seoDescription:
         "Service pages for hiring Dmitry Galaktionov: agency implementation partner, founder MVP build, backend development, admin panels, internal tools, automation and contract full-stack work.",
     },
@@ -66,7 +66,7 @@ export default function ServicesIndex({
       availability:
         "Зараз відкритий для одного remote contract на 15-20 год/тиждень. Production audit — від $750.",
       cta: "Зв'язатися",
-      seoTitle: "Full-stack, backend та internal tool services | Dimas",
+      seoTitle: "Full-stack, backend та internal tool services | Dmitry Galaktionov",
       seoDescription:
         "Сторінки послуг Дмитра Галактіонова: партнер для агенцій, MVP для засновників, backend development, адмінки, internal tools, автоматизація та contract full-stack work.",
     },

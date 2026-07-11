@@ -88,7 +88,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "MVP Development with Next.js, Backend and Deployment | Dimas",
+        title: "MVP Development with Next.js, Backend and Deployment | Dmitry Galaktionov",
         description:
           "Full-stack MVP development for founders: Next.js, React, backend APIs, database, deployment, tests and a practical launch plan.",
         keywords:
@@ -135,7 +135,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Backend Developer for APIs, Auth and Integrations | Dimas",
+        title: "Backend Developer for APIs, Auth and Integrations | Dmitry Galaktionov",
         description:
           "Backend development for web products: APIs, auth, data models, third-party integrations, webhooks, tests and deployment support.",
         keywords:
@@ -182,7 +182,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Admin Panel and Internal Tool Developer | Dimas",
+        title: "Admin Panel and Internal Tool Developer | Dmitry Galaktionov",
         description:
           "Admin panel and internal tool development: dashboards, role-based flows, tables, forms, reports, moderation and backend APIs.",
         keywords:
@@ -229,7 +229,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Technical Rescue for Messy Web Projects | Dimas",
+        title: "Technical Rescue for Messy Web Projects | Dmitry Galaktionov",
         description:
           "Technical rescue for unstable web products: codebase audit, blockers, tests, deployment fixes, integrations and release planning.",
         keywords:
@@ -299,7 +299,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Full-Stack Development Partner for Agencies | Dimas",
+        title: "Full-Stack Development Partner for Agencies | Dmitry Galaktionov",
         description:
           "Full-stack implementation partner for agencies and design studios: Next.js, backend APIs, admin panels, integrations, deployment and technical rescue.",
         keywords:
@@ -369,7 +369,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Full-Stack MVP Developer for Founders | Dimas",
+        title: "Full-Stack MVP Developer for Founders | Dmitry Galaktionov",
         description:
           "Founder-focused MVP development with Next.js, React, TypeScript, backend APIs, Supabase/PostgreSQL, auth, admin views, deployment and tests.",
         keywords:
@@ -439,7 +439,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Internal Tools and Automation Developer | Dimas",
+        title: "Internal Tools and Automation Developer | Dmitry Galaktionov",
         description:
           "Internal tools, admin panels and automation development: dashboards, RBAC, integrations, reports, workflows, APIs and operational software.",
         keywords:
@@ -509,7 +509,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Contract Full-Stack Developer | React, Next.js, TypeScript | Dimas",
+        title: "Contract Full-Stack Developer | React, Next.js, TypeScript | Dmitry Galaktionov",
         description:
           "Senior full-stack developer available for remote contract work: React, Next.js, TypeScript, Node.js, APIs, Supabase/PostgreSQL, integrations and infrastructure.",
         keywords:
@@ -558,7 +558,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "MVP розробка з Next.js, backend і deployment | Dimas",
+        title: "MVP розробка з Next.js, backend і deployment | Dmitry Galaktionov",
         description:
           "Full-stack MVP розробка для засновників: Next.js, React, backend APIs, база даних, деплой, тести і практичний план запуску.",
         keywords:
@@ -605,7 +605,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Backend developer для APIs, auth та integrations | Dimas",
+        title: "Backend developer для APIs, auth та integrations | Dmitry Galaktionov",
         description:
           "Backend розробка для web products: API, auth, моделі даних, сторонні інтеграції, webhooks, тести і deployment support.",
         keywords:
@@ -652,7 +652,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Admin panel та internal tool developer | Dimas",
+        title: "Admin panel та internal tool developer | Dmitry Galaktionov",
         description:
           "Розробка адмінок і internal tools: dashboards, рольові сценарії, таблиці, форми, звіти, moderation і backend APIs.",
         keywords:
@@ -699,7 +699,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Technical rescue для messy web projects | Dimas",
+        title: "Technical rescue для messy web projects | Dmitry Galaktionov",
         description:
           "Technical rescue для нестабільних web products: codebase audit, blockers, tests, deployment fixes, integrations і release planning.",
         keywords:
@@ -769,7 +769,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Full-stack development partner для агенцій | Dimas",
+        title: "Full-stack development partner для агенцій | Dmitry Galaktionov",
         description:
           "Full-stack implementation partner для agencies і design studios: Next.js, backend APIs, admin panels, integrations, deployment і technical rescue.",
         keywords:
@@ -839,7 +839,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Full-stack MVP developer для founders | Dimas",
+        title: "Full-stack MVP developer для founders | Dmitry Galaktionov",
         description:
           "MVP development для засновників з Next.js, React, TypeScript, backend APIs, Supabase/PostgreSQL, auth, admin views, deployment і tests.",
         keywords:
@@ -909,7 +909,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Internal tools та automation developer | Dimas",
+        title: "Internal tools та automation developer | Dmitry Galaktionov",
         description:
           "Internal tools, admin panels та automation development: dashboards, RBAC, integrations, reports, workflows, APIs і operational software.",
         keywords:
@@ -979,7 +979,7 @@ export const services: Record<Locale, Record<ServiceSlug, Service>> = {
         },
       ],
       seo: {
-        title: "Contract full-stack developer | React, Next.js, TypeScript | Dimas",
+        title: "Contract full-stack developer | React, Next.js, TypeScript | Dmitry Galaktionov",
         description:
           "Senior full-stack developer для remote contract work: React, Next.js, TypeScript, Node.js, APIs, Supabase/PostgreSQL, integrations і infrastructure.",
         keywords:

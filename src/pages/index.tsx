@@ -275,7 +275,7 @@ export default function Home({
         <meta property="og:title" content={content.seo.title} />
         <meta property="og:description" content={content.seo.description} />
         <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:site_name" content="Dimas Galaktionov" />
+        <meta property="og:site_name" content="Dmitry Galaktionov" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={content.seo.title} />
         <meta name="twitter:description" content={content.seo.description} />
