@@ -13,6 +13,7 @@ import { Projects } from '../../../ts/responses';
 import { Header } from '../../Header/Header';
 import { ProduceBlocks } from '../../../utils/blocks';
 import { Footer } from '../../Footer/Footer';
+import { getContentLocale } from '../../i18n';
 
 export const getStaticProps: GetStaticProps = async ({ locales }) => {
   const newLocales = locales || ["ua"];
@@ -184,10 +185,11 @@ export default function ProjectsPage({
   page_content: any;
 }) {
   const { locale } = useRouter();
-  const intros = projects[locale || "ua"].map(
+  const currentLocale = getContentLocale(locale);
+  const intros = projects[currentLocale].map(
     (project: Projects.RootObject) => project.intro
   );
-  const content = page_content[locale || "ua"];
+  const content = page_content[currentLocale];
   return (
     <>
       <Head>

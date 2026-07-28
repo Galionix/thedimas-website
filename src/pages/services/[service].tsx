@@ -9,11 +9,12 @@ import { get_endpoint_data } from "../../../utils/content_fetching";
 import { getService, serviceSlugs } from "../../data/services";
 import { gaEvent } from "../../../utils/google_analytics";
 import { LocalizedAlternates } from "../../LocalizedAlternates";
+import { getContentLocale, getContentLocales } from "../../i18n";
 import s from "../../styles/pages/Service.module.scss";
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   const paths = serviceSlugs.flatMap((service) =>
-    (locales || ["ua", "en"]).map((locale) => ({
+    getContentLocales(locales).map((locale) => ({
       params: { service },
       locale,
     }))
@@ -59,7 +60,7 @@ export default function ServicePage({
   service: ReturnType<typeof getService>;
 }) {
   const { locale } = useRouter();
-  const currentLocale = locale === "en" ? "en" : "ua";
+  const currentLocale = getContentLocale(locale);
   const canonicalUrl = `https://thedimas.com/${currentLocale}/services/${service!.slug}`;
   const contactLabel = currentLocale === "en" ? "Contact me" : "Зв'язатися";
   const bellaCaseLabel = currentLocale === "en" ? "Bella AI case" : "Кейс Bella AI";

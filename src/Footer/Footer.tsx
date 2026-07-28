@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
 import { useStore } from '../../utils/state';
+import { getContentLocale } from "../i18n";
 
 const cx = classNames.bind(s);
 interface headerLink {
@@ -21,20 +22,21 @@ export const Footer = ({ data, preset }: {
 	preset?: string
 }) => {
 	const router = useRouter()
+	const currentLocale = getContentLocale(router.locale)
+	const alternateLocale = currentLocale === "en" ? "ua" : "en"
+	const localizedData = data[currentLocale]
 
 	const routeRoot = `/${router.pathname.split('/')[1] || ''}`
-	const selected = data[
-		router.locale || 0
-	].comps.findIndex(
+	const selected = localizedData.comps.findIndex(
 		(item: headerLink) =>
 			item.href === routeRoot
 	)
 
 	const currentHref = selected >= 0
-		? data[router.locale || 0].comps[selected].href
+		? localizedData.comps[selected].href
 		: ''
-	const lightLabel = router.locale === 'en' ? 'Light' : 'Світла'
-	const darkLabel = router.locale === 'en' ? 'Dark' : 'Темна'
+	const lightLabel = currentLocale === 'en' ? 'Light' : 'Світла'
+	const darkLabel = currentLocale === 'en' ? 'Dark' : 'Темна'
 
 	const {
 		theme,
@@ -80,7 +82,7 @@ export const Footer = ({ data, preset }: {
 	// })
 	return (
 		<ul className={` ${s.footer} cols  ${s[preset || '']} `}>
-			{data[router.locale || 0].comps.map(
+			{localizedData.comps.map(
 				(link: any, i: number) => (
 
 					<li
@@ -123,17 +125,13 @@ export const Footer = ({ data, preset }: {
 							router.asPath,
 							undefined,
 							{
-								locale: router.locales!.find(
-									item => item !== router.locale
-								),
+								locale: alternateLocale,
 								shallow: true,
 							}
 						)
 					}}
 				>
-					{router.locales!.find(
-						item => item !== router.locale
-					)?.split('-')[0]}
+					{alternateLocale}
 				</button>
 			</li>
 			<li>

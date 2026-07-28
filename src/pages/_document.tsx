@@ -13,7 +13,7 @@ type DocumentProps = DocumentInitialProps & {
 
 export default function SiteDocument({ locale }: DocumentProps) {
   return (
-    <Html lang={locale === "en" ? "en" : "uk"}>
+    <Html lang={locale === "ua" ? "uk" : "en"}>
       <Head />
       <body>
         <Main />

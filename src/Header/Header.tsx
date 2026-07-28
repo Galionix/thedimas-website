@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { scrollDirections, useScrolled } from "../../utils/hooks/useScrolled";
 import { useStore } from '../../utils/state';
+import { getContentLocale } from "../i18n";
 
 interface headerLink {
   __component: string;
@@ -26,6 +27,9 @@ export const Header = ({
   const [isMounted, setIsMounted] = useState(false);
 
   const router = useRouter();
+  const currentLocale = getContentLocale(router.locale);
+  const alternateLocale = currentLocale === "en" ? "ua" : "en";
+  const localizedHeader = header_data[currentLocale];
 
   const controls = useAnimation();
   // console.log("scrollDirection: ", scrollDirection);
@@ -44,11 +48,11 @@ export const Header = ({
     router.pathname === "/hire-full-stack-developer"
       ? "/services"
       : `/${router.pathname.split("/")[1] || ""}`;
-  const selected = header_data[router.locale || 0].items.findIndex(
+  const selected = localizedHeader.items.findIndex(
     (item: headerLink) => item.href === routeRoot
   );
-  const lightLabel = router.locale === "en" ? "Light" : "Світла";
-  const darkLabel = router.locale === "en" ? "Dark" : "Темна";
+  const lightLabel = currentLocale === "en" ? "Light" : "Світла";
+  const darkLabel = currentLocale === "en" ? "Dark" : "Темна";
 
   return (
     <motion.div
@@ -75,7 +79,7 @@ export const Header = ({
         // animate={controls}
       >
         <ul>
-          {header_data[router.locale || 0].items.map(
+          {localizedHeader.items.map(
             (item: headerLink, i: number) => (
               <li
                 key={item.id}
@@ -91,18 +95,12 @@ export const Header = ({
             <button
               onClick={() => {
                 router.replace(router.asPath, undefined, {
-                  locale: router.locales!.find(
-                    (item) => item !== router.locale
-                  ),
+                  locale: alternateLocale,
                   shallow: true,
                 });
               }}
             >
-              {
-                router
-                  .locales!.find((item) => item !== router.locale)
-                  ?.split("-")[0]
-              }
+              {alternateLocale}
             </button>
           </li>
           <li>

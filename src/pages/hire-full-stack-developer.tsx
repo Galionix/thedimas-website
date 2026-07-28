@@ -7,6 +7,7 @@ import { Footer } from "../Footer/Footer";
 import { get_endpoint_data } from "../../utils/content_fetching";
 import { getService } from "../data/services";
 import { LocalizedAlternates } from "../LocalizedAlternates";
+import { getContentLocale } from "../i18n";
 import s from "../styles/pages/Service.module.scss";
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -32,7 +33,7 @@ export default function HireFullStackDeveloper({
   footer_data: any;
 }) {
   const { locale } = useRouter();
-  const currentLocale = locale === "en" ? "en" : "ua";
+  const currentLocale = getContentLocale(locale);
   const service = getService(currentLocale, "contract-full-stack-developer")!;
   const canonicalUrl = `https://thedimas.com/${currentLocale}/hire-full-stack-developer`;
   const contactLabel = currentLocale === "en" ? "Contact me" : "Зв'язатися";

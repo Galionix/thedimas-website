@@ -26,6 +26,7 @@ import { Footer } from '../Footer/Footer'
 import { ProduceBlocks } from '../../utils/blocks'
 import { gaEvent } from '../../utils/google_analytics'
 import { LocalizedAlternates } from "../LocalizedAlternates";
+import { getContentLocale } from "../i18n";
 
 const contactCopy = {
   en: {
@@ -134,11 +135,11 @@ export default function Home({
   // const currentHeader = header_data[]
 
   const { locale } = useRouter();
-  const currentLocale = locale === "en" ? "en" : "ua";
+  const currentLocale = getContentLocale(locale);
   const copy = contactCopy[currentLocale];
   const content = page_content[currentLocale];
   const canonicalUrl =
-    locale === "en" ? "https://thedimas.com/en" : "https://thedimas.com/ua";
+    currentLocale === "en" ? "https://thedimas.com/en" : "https://thedimas.com/ua";
   const contactHref = `mailto:galionix2@gmail.com?subject=${encodeURIComponent(
     copy.mailSubject
   )}&body=${encodeURIComponent(copy.mailBody)}`;

@@ -1,11 +1,11 @@
 describe("discovery files and metadata", () => {
-  it("configures a permanent production redirect to the x-default locale", () => {
-    cy.readFile("vercel.json").then((config) => {
-      expect(config.redirects).to.deep.include({
-        source: "/",
-        destination: "/en",
-        permanent: true,
-      });
+  it("permanently redirects the unlocalized root to the x-default locale", () => {
+    cy.request({
+      url: "/",
+      followRedirect: false,
+    }).then((response) => {
+      expect(response.status).to.eq(308);
+      expect(new URL(String(response.headers.location)).pathname).to.eq("/en");
     });
   });
 

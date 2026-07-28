@@ -9,8 +9,9 @@ const nextConfig = {
 		],
   },
   i18n: {
-    locales: ["ua", "en"],
-    defaultLocale: "ua",
+    locales: ["default", "ua", "en"],
+    defaultLocale: "default",
+    localeDetection: false,
   },
 }
 

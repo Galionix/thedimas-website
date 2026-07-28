@@ -12,6 +12,7 @@ import { Header } from '../../Header/Header';
 import { ProduceBlocks } from '../../../utils/blocks';
 import { Footer } from '../../Footer/Footer';
 import { get_endpoint_data } from '../../../utils/content_fetching';
+import { getContentLocale, getContentLocales } from '../../i18n';
 
 type GetServerSideProps = {
   myprop: string;
@@ -62,13 +63,13 @@ export default function Post({
   // const y1 = useTransform(scrollY, [0, -200], [0, 200]);
 
   const { locale, query, asPath, ...rest } = useRouter();
-  const newLocale = locale || "ua";
+  const newLocale = getContentLocale(locale);
   const disqusShortname = "dimascf";
   const disqusConfig = {
     title: `${query.project} comments`,
-    language: locale,
+    language: newLocale,
   };
-  const intros = posts[locale || "ua"].map(
+  const intros = posts[newLocale].map(
     (post: Projects.RootObject) => post.intro
   );
   const post = posts[newLocale].filter(
@@ -161,7 +162,7 @@ export const getStaticProps: GetStaticProps = async ({ locales }) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
-  const newLocales = locales || ["ua"];
+  const newLocales = getContentLocales(locales);
 
   const posts:any = await get_endpoint_data({
     endpoint: "posts",

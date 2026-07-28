@@ -19,6 +19,7 @@ import { Header } from "../../Header/Header";
 import { ProduceBlocks } from "../../../utils/blocks";
 import { Footer } from "../../Footer/Footer";
 import Sparkles from "react-sparkle";
+import { getContentLocale, getContentLocales } from "../../i18n";
 
 type GetServerSideProps = {
   myprop: string;
@@ -26,7 +27,7 @@ type GetServerSideProps = {
   projects: any;
 };
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
-  const newLocales = locales || ["ua"];
+  const newLocales = getContentLocales(locales);
 
   const projects: any = await get_endpoint_data({
     endpoint: "projects",
@@ -137,17 +138,17 @@ export default function Project({
   projects: any;
 }) {
   const { locale, query, asPath, ...rest } = useRouter();
-  const newLocale = locale || "ua";
+  const newLocale = getContentLocale(locale);
   const disqusShortname = "dimascf";
   const disqusConfig = {
     // url: `https://dimascf.disqus.com` + asPath,
     // url: `http://localhost:5000`,
     // identifier: asPath + ' ' + locale,
     title: `${query.project} comments`,
-    language: locale,
+    language: newLocale,
     // categoryID: 'projects'
   };
-  const intros = projects[locale || "ua"].map(
+  const intros = projects[newLocale].map(
     (project: Projects.RootObject) => project.intro
   );
   const project = projects[newLocale].filter(

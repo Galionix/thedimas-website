@@ -15,6 +15,7 @@ import { Projects } from '../../../ts/responses'
 import { Header } from '../../Header/Header'
 import { ProduceBlocks } from '../../../utils/blocks'
 import { Footer } from '../../Footer/Footer'
+import { getContentLocale } from '../../i18n'
 
 
 
@@ -109,8 +110,9 @@ export default function Blog({
   page_content: any;
 }) {
   const { locale } = useRouter();
-  const content = page_content[locale || "ua"];
-  const intros = posts[locale || "ua"].map(
+  const currentLocale = getContentLocale(locale);
+  const content = page_content[currentLocale];
+  const intros = posts[currentLocale].map(
     ({ intro, updated_at }: { intro: Projects.Intro; updated_at: string }) => ({
       ...intro,
       updated_at,
@@ -169,7 +171,7 @@ export default function Blog({
               <ProjectCard
                 key={intro.id}
                 {...intro}
-                locale={locale || "ua"}
+                locale={currentLocale}
               />
             );
           })}
