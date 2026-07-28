@@ -25,6 +25,7 @@ import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
 import { ProduceBlocks } from '../../utils/blocks'
 import { gaEvent } from '../../utils/google_analytics'
+import { LocalizedAlternates } from "../LocalizedAlternates";
 
 const contactCopy = {
   en: {
@@ -138,8 +139,6 @@ export default function Home({
   const content = page_content[currentLocale];
   const canonicalUrl =
     locale === "en" ? "https://thedimas.com/en" : "https://thedimas.com/ua";
-  const alternateUrl =
-    locale === "en" ? "https://thedimas.com/ua" : "https://thedimas.com/en";
   const contactHref = `mailto:galionix2@gmail.com?subject=${encodeURIComponent(
     copy.mailSubject
   )}&body=${encodeURIComponent(copy.mailBody)}`;
@@ -269,8 +268,7 @@ export default function Home({
         <meta name="description" content={content.seo.description} />
         <meta name="keywords" content={content.seo.keywords} />
         <link rel="canonical" href={canonicalUrl} />
-        <link rel="alternate" hrefLang={locale === "en" ? "uk" : "en"} href={alternateUrl} />
-        <link rel="alternate" hrefLang="x-default" href="https://thedimas.com/en" />
+        <LocalizedAlternates />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={content.seo.title} />
         <meta property="og:description" content={content.seo.description} />

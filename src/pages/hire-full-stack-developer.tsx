@@ -6,6 +6,7 @@ import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import { get_endpoint_data } from "../../utils/content_fetching";
 import { getService } from "../data/services";
+import { LocalizedAlternates } from "../LocalizedAlternates";
 import s from "../styles/pages/Service.module.scss";
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -34,7 +35,6 @@ export default function HireFullStackDeveloper({
   const currentLocale = locale === "en" ? "en" : "ua";
   const service = getService(currentLocale, "contract-full-stack-developer")!;
   const canonicalUrl = `https://thedimas.com/${currentLocale}/hire-full-stack-developer`;
-  const alternateLocale = currentLocale === "en" ? "ua" : "en";
   const contactLabel = currentLocale === "en" ? "Contact me" : "Зв'язатися";
   const servicesLabel =
     currentLocale === "en" ? "See all services" : "Всі послуги";
@@ -74,16 +74,7 @@ export default function HireFullStackDeveloper({
         <meta name="description" content={service.seo.description} />
         <meta name="keywords" content={service.seo.keywords} />
         <link rel="canonical" href={canonicalUrl} />
-        <link
-          rel="alternate"
-          hrefLang={currentLocale === "en" ? "uk" : "en"}
-          href={`https://thedimas.com/${alternateLocale}/hire-full-stack-developer`}
-        />
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href="https://thedimas.com/en/hire-full-stack-developer"
-        />
+        <LocalizedAlternates path="hire-full-stack-developer" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

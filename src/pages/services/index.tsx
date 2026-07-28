@@ -6,6 +6,7 @@ import { Header } from "../../Header/Header";
 import { Footer } from "../../Footer/Footer";
 import { get_endpoint_data } from "../../../utils/content_fetching";
 import { getService, serviceSlugs } from "../../data/services";
+import { LocalizedAlternates } from "../../LocalizedAlternates";
 import s from "../../styles/pages/ServicesIndex.module.scss";
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -33,7 +34,6 @@ export default function ServicesIndex({
   const { locale } = useRouter();
   const currentLocale = locale === "en" ? "en" : "ua";
   const canonicalUrl = `https://thedimas.com/${currentLocale}/services`;
-  const alternateLocale = currentLocale === "en" ? "ua" : "en";
   const services = serviceSlugs
     .map((slug) => getService(currentLocale, slug))
     .filter(Boolean);
@@ -90,12 +90,7 @@ export default function ServicesIndex({
         <title>{copy.seoTitle}</title>
         <meta name="description" content={copy.seoDescription} />
         <link rel="canonical" href={canonicalUrl} />
-        <link
-          rel="alternate"
-          hrefLang={currentLocale === "en" ? "uk" : "en"}
-          href={`https://thedimas.com/${alternateLocale}/services`}
-        />
-        <link rel="alternate" hrefLang="x-default" href="https://thedimas.com/en/services" />
+        <LocalizedAlternates path="services" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

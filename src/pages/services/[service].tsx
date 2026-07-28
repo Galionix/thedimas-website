@@ -8,6 +8,7 @@ import { Footer } from "../../Footer/Footer";
 import { get_endpoint_data } from "../../../utils/content_fetching";
 import { getService, serviceSlugs } from "../../data/services";
 import { gaEvent } from "../../../utils/google_analytics";
+import { LocalizedAlternates } from "../../LocalizedAlternates";
 import s from "../../styles/pages/Service.module.scss";
 
 export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
@@ -60,7 +61,6 @@ export default function ServicePage({
   const { locale } = useRouter();
   const currentLocale = locale === "en" ? "en" : "ua";
   const canonicalUrl = `https://thedimas.com/${currentLocale}/services/${service!.slug}`;
-  const alternateLocale = currentLocale === "en" ? "ua" : "en";
   const contactLabel = currentLocale === "en" ? "Contact me" : "Зв'язатися";
   const bellaCaseLabel = currentLocale === "en" ? "Bella AI case" : "Кейс Bella AI";
   const availabilityNote =
@@ -106,16 +106,7 @@ export default function ServicePage({
         <meta name="description" content={service!.seo.description} />
         <meta name="keywords" content={service!.seo.keywords} />
         <link rel="canonical" href={canonicalUrl} />
-        <link
-          rel="alternate"
-          hrefLang={currentLocale === "en" ? "uk" : "en"}
-          href={`https://thedimas.com/${alternateLocale}/services/${service!.slug}`}
-        />
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href={`https://thedimas.com/en/services/${service!.slug}`}
-        />
+        <LocalizedAlternates path={`services/${service!.slug}`} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={service!.seo.title} />
         <meta property="og:description" content={service!.seo.description} />

@@ -1,4 +1,14 @@
 describe("discovery files and metadata", () => {
+  it("configures a permanent production redirect to the x-default locale", () => {
+    cy.readFile("vercel.json").then((config) => {
+      expect(config.redirects).to.deep.include({
+        source: "/",
+        destination: "/en",
+        permanent: true,
+      });
+    });
+  });
+
   it("serves llms.txt with the preferred professional summary", () => {
     cy.request("/llms.txt")
       .its("body")
@@ -73,5 +83,34 @@ describe("discovery files and metadata", () => {
       .should("contain", "Дмитрий Галактионов")
       .and("contain", "https://www.linkedin.com/in/galionix")
       .and("contain", "Galionix");
+  });
+
+  it("publishes consistent locale and hreflang signals", () => {
+    cy.visit("/ua");
+
+    cy.get("html").should("have.attr", "lang", "uk");
+    cy.get('link[rel="canonical"]').should(
+      "have.attr",
+      "href",
+      "https://thedimas.com/ua"
+    );
+    cy.get('link[rel="alternate"][hreflang="uk"]').should(
+      "have.attr",
+      "href",
+      "https://thedimas.com/ua"
+    );
+    cy.get('link[rel="alternate"][hreflang="en"]').should(
+      "have.attr",
+      "href",
+      "https://thedimas.com/en"
+    );
+    cy.get('link[rel="alternate"][hreflang="x-default"]').should(
+      "have.attr",
+      "href",
+      "https://thedimas.com/en"
+    );
+
+    cy.visit("/en");
+    cy.get("html").should("have.attr", "lang", "en");
   });
 });
