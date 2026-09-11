@@ -1,3 +1,4 @@
+import { UAForceFeature } from "../Editorial/UAForceFeature";
 import Head from 'next/head'
 import Image from 'next/image'
 import { track } from "@vercel/analytics";
@@ -432,6 +433,7 @@ export default function Home({
           null,
           2)
       }</pre> */}
+      <UAForceFeature locale={currentLocale} />
       <Footer data={footer_data} preset="main_page" />
     </div>
   );

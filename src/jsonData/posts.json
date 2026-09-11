@@ -1,6 +1,124 @@
 {
   "ua": [
     {
+      "id": 6022,
+      "locale": "ua",
+      "created_at": "2026-09-11T12:00:00+03:00",
+      "updated_at": "2026-09-11T12:00:00+03:00",
+      "comps": [],
+      "intro": {
+        "id": 6021,
+        "project_name": "ua-force-development",
+        "description": "Створення UA Force: прототип був лише початком",
+        "intro": "Як повернутися до командної ідеї, випустити браузерну гру та зрозуміти, чому робоча функція ще не означає хороший досвід гравця.",
+        "image": {
+          "id": 172510,
+          "name": "gameplay.png",
+          "alternativeText": "UA Force: піксельна блискавка під час бою",
+          "caption": "",
+          "width": 720,
+          "height": 540,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/uaforce/gameplay.png",
+              "hash": "bella_ai_cover_png",
+              "mime": "image/png",
+              "name": "bella-ai-cover.png",
+              "path": null,
+              "size": 0,
+              "width": 1600,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "bella-ai-cover.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "bella_ai_cover_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/uaforce/gameplay.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "bella-ai-cover.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
+        }
+      },
+      "custom_data": null,
+      "seo": {
+        "title": "Створення UA Force: AI, кооператив та ігрові перевірки | TheDimas",
+        "description": "Як командні нотатки стали браузерною грою UA Force: розробка з AI, проблеми кооперативу, піксельний стиль і досвід додавання сенсорного керування.",
+        "keywords": "UA Force, TypeScript, WebRTC, Canvas 2D, Dmytro Halaktionov"
+      },
+      "categories": [],
+      "tags": [],
+      "localizations": [],
+      "github": "",
+      "editorial": {
+        "eyebrow": "Щоденник розробки · 11 вересня 2026",
+        "title": "Створення UA Force: прототип був лише початком",
+        "lead": "Як повернутися до командної ідеї, випустити браузерну гру та зрозуміти, чому робоча функція ще не означає хороший досвід гравця.",
+        "sections": [
+          {
+            "title": "Ідея, до якої хотілося повернутися",
+            "paragraphs": [
+              "UA Force починалася як командна задумка: українські історичні та культурні постаті, абсурдні бойові здібності, руйнування та виразна українська атмосфера. Коли я повернувся до проєкту, вже були нотатки, обговорення й творчі матеріали. Потрібно було відновити задум і перетворити його на гру, в яку можна зіграти.",
+              "Браузер спростив перше знайомство. Друг міг відкрити посилання на комп’ютері без встановлення та реєстрації. Мобільне керування з’явилося пізніше як експеримент, а не обіцянка миттєвої підтримки кожного телефона."
+            ]
+          },
+          {
+            "title": "Перший корисний рубіж — публічне посилання",
+            "paragraphs": [
+              "Хотілося додавати нові системи ще до першого показу. Натомість робоча одиночна гра стала основою безкоштовного публічного прототипу. Відгуки одразу стали конкретними: люди говорили про драбину, зброю, звук або невдале з’єднання, які щойно перевірили.",
+              "AI-інструменти допомагали з реалізацією коду й творчими матеріалами протягом розробки. Це прискорило ітерації, але прийняти згенерований результат — не те саме, що перевірити його. Моє завдання полягало в тому, щоб утримувати напрям продукту, грати самому та повертати правки, доки поведінка не відповідатиме задуму."
+            ]
+          },
+          {
+            "title": "Зброя може працювати, але погано відчуватися",
+            "paragraphs": [
+              "Деякі ранні види зброї стріляли надто безперервно й далеко. Снайперський постріл, який зносив усе на одній лінії, формально був атакою, але прибирав вибір, що мав відрізняти персонажів. Наступна ітерація додала осмислені магазини, автоматичне перезаряджання, темп стрільби та дальність.",
+              "Те саме сталося з рухом. Танку потрібні окремі дії для стрибка та входу чи виходу. З драбини потрібно мати змогу стрибнути будь-якої миті. Такі деталі найкраще знаходилися з геймпадом у руках і змінювали відчуття від гри сильніше за ще один пункт у списку можливостей."
+            ]
+          },
+          {
+            "title": "Кооператив відкрив інший клас проблем",
+            "paragraphs": [
+              "Мета мультиплеєра була невеликою: двоє друзів в одному світі. Один браузер симулює світ, другий передає ввід. Одиночна гра має залишатися доступною, навіть коли онлайн-з’єднання не працює.",
+              "А потім друг міг створити кімнату, але не міг з’єднатися. Код на екрані не доводив, що сесія працює. Довелося розбиратися з проходженням через різні мережі та додати резервний TURN-маршрут. Інша непомітна проблема вимагала буферизації коротких натискань між мережевими оновленнями, щоб швидкий стрибок чи прийом не губився."
+            ]
+          },
+          {
+            "title": "Піксель-арту потрібна спільна візуальна мова",
+            "paragraphs": [
+              "Згенеровані матеріали не ставали узгодженими автоматично. Спрайт міг виглядати добре окремо й водночас не пасувати до гри. Відгуки про різнорідний стиль змусили переглядати ефекти здібностей і спрайти як одну візуальну систему.",
+              "Зі звуком було так само. Типові електронні ефекти погано замінювали характерні атаки, чутні реакції ворогів і збалансоване звучання. Музика, що пасувала головному меню, дратувала від частих повторень у грі. Напрям став чіткішим: розділити настрій меню та геймплея, допрацювати звукові сигнали й оцінювати матеріали в русі та контексті."
+            ]
+          },
+          {
+            "title": "Сенсорне керування розширило поле перевірок",
+            "paragraphs": [
+              "Віртуальний стік — лише початок. Рух, стрільба та стрибок мають працювати одночасно; скасований дотик не повинен залишати кнопку затиснутою; поворот пристрою не має кидати гравця посеред бою. Відмови API повного екрана й орієнтації теж потрібно обробляти.",
+              "Реалізація використовує спільні дії для клавіатури, геймпада й сенсорного екрана та ставить гру на паузу з підказкою повороту в портретному режимі. Браузерні й автоматизовані перевірки допомагають, але не замінюють гру на фізичних Android та iPhone. Це окремий наступний крок."
+            ]
+          },
+          {
+            "title": "Що беру в наступну ітерацію",
+            "paragraphs": [
+              "У проєкту вже є публічна демоверсія, кімнати кооперативу та початковий цикл збору відгуків і вимірювань. Це досі ранній прототип. Мені важливо зрозуміти, чи доходять люди до цікавого моменту, чи можуть з’єднатися з другом і де припиняють гру. Кілька відвідувань ще не є історією успіху.",
+              "Далі — цілеспрямовані ігрові перевірки, надійніше з’єднання й виразніші реакції персонажів, а потім тематичні місії, сюжетні сцени та нові герої. Спершу хочу зробити кращими наступні кілька хвилин гри, а вже тоді обіцяти значно більший проєкт.",
+              "Висновок, який я переношу у вебпродукти, практичний: публікація дає факти, а факти мають змінювати наступне рішення. Перелік функцій описує, що існує. Спостереження за користувачем показує, що насправді працює."
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": 7,
       "locale": "ua",
       "created_at": "2021-11-21T02:06:12.205Z",
@@ -1179,6 +1297,124 @@
     }
   ],
   "en": [
+    {
+      "id": 6021,
+      "locale": "en",
+      "created_at": "2026-09-11T12:00:00+03:00",
+      "updated_at": "2026-09-11T12:00:00+03:00",
+      "comps": [],
+      "intro": {
+        "id": 6021,
+        "project_name": "ua-force-development",
+        "description": "Building UA Force: the prototype was only the beginning",
+        "intro": "Recovering a team idea, shipping a browser game and learning why a working feature is not always a good player experience.",
+        "image": {
+          "id": 172510,
+          "name": "gameplay.png",
+          "alternativeText": "UA Force: pixel-art lightning ability during combat",
+          "caption": "",
+          "width": 720,
+          "height": 540,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/uaforce/gameplay.png",
+              "hash": "bella_ai_cover_png",
+              "mime": "image/png",
+              "name": "bella-ai-cover.png",
+              "path": null,
+              "size": 0,
+              "width": 1600,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "bella-ai-cover.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "bella_ai_cover_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/uaforce/gameplay.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "bella-ai-cover.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
+        }
+      },
+      "custom_data": null,
+      "seo": {
+        "title": "Building UA Force: AI, Co-op & Playtesting Lessons | TheDimas",
+        "description": "How UA Force grew from team notes into a public browser game: AI-assisted iteration, co-op connection failures, pixel-art consistency and mobile input lessons.",
+        "keywords": "UA Force, TypeScript, WebRTC, Canvas 2D, Dmytro Halaktionov"
+      },
+      "categories": [],
+      "tags": [],
+      "localizations": [],
+      "github": "",
+      "editorial": {
+        "eyebrow": "Development journal · 11 September 2026",
+        "title": "Building UA Force: the prototype was only the beginning",
+        "lead": "Recovering a team idea, shipping a browser game and learning why a working feature is not always a good player experience.",
+        "sections": [
+          {
+            "title": "An idea worth returning to",
+            "paragraphs": [
+              "UA Force started as a team idea: Ukrainian historical and cultural figures, absurd action abilities, destructive environments and a strong sense of place. When I returned to it, there were already notes, discussions and creative materials. The task was to recover that intent and turn it into something we could actually play.",
+              "The browser made the first release straightforward to share. A friend could open a link on a computer without installing a game or creating an account. Mobile support came later as an experiment, not as a promise that every phone would work immediately."
+            ]
+          },
+          {
+            "title": "The first useful milestone was a public link",
+            "paragraphs": [
+              "It was tempting to keep adding systems before showing anything. Instead, the working single-player build became the base for a free public prototype. That made feedback concrete: people could point to a ladder, a weapon, a sound or a connection failure they had just experienced.",
+              "AI tools helped implement code and generate creative material throughout development. They made iteration faster, but accepting a generated result was never the same as validating it. My work was to keep the product direction coherent, test it directly and keep requesting changes until the behaviour matched the intent."
+            ]
+          },
+          {
+            "title": "A weapon can work and still feel wrong",
+            "paragraphs": [
+              "Some early weapons fired too continuously and reached too far. A sniper weapon that cleared everything along a line was technically an attack, but it erased the decisions that should make different characters interesting. The iteration introduced meaningful magazine sizes, automatic reloads, firing cadence and range.",
+              "The same distinction appeared in movement. A tank needed separate jump and enter/exit actions. A player on a ladder needed to be able to jump away at any moment. These details were easiest to find with a gamepad in hand. They changed the experience more than another item on a feature list would have."
+            ]
+          },
+          {
+            "title": "Co-op exposed a different class of problems",
+            "paragraphs": [
+              "The multiplayer goal was deliberately small: two friends in one world. One browser simulates that world and the other sends inputs. Single-player should remain usable even when the online connection does not work.",
+              "Then a friend could create a room but could not connect. A code on screen was not proof of a usable session. The work expanded to network traversal and a TURN fallback. Another subtle problem required buffering short button presses between network updates, so a quick jump or ability tap would not disappear."
+            ]
+          },
+          {
+            "title": "Pixel art needs a consistent visual language",
+            "paragraphs": [
+              "Generated assets did not automatically belong together. A sprite could look good in isolation and still clash with the game. Feedback about mismatched styles led to reviewing ability effects and sprites as one visual system.",
+              "The same was true of audio. Generic electronic effects were poor substitutes for characterful attacks, audible enemy reactions and a balanced mix. Music that worked in the main menu became irritating when repeated during play. The direction became clearer: separate menu and gameplay moods, refine sound feedback and judge assets in motion, in context."
+            ]
+          },
+          {
+            "title": "Touch controls widened the testing problem",
+            "paragraphs": [
+              "Adding a virtual stick was only the start. Movement, shooting and jumping need to work together; cancelled touches must not leave a button held; rotating the device should not strand a player in a fight. Fullscreen and orientation APIs also have to fail gracefully.",
+              "The implementation shares gameplay actions across keyboard, gamepad and touch, and pauses with a rotation prompt in portrait mode. Browser and input tests help, but they do not replace physical Android and iPhone playtests. That remains an explicit next step."
+            ]
+          },
+          {
+            "title": "What I am taking into the next iteration",
+            "paragraphs": [
+              "The project now has a public demo, room-based co-op and an initial feedback and measurement loop. It is still an early prototype. I want to understand whether players reach a satisfying moment, whether they can connect with a friend and where they leave. It is too early to turn a few visits into a success story.",
+              "Next come focused playtests, better reliability and more consistent character feedback, followed by themed missions, story scenes and additional heroes. I would rather make the next few minutes of play stronger before promising a much larger game.",
+              "The lesson I want to carry into web product work is practical: shipping creates evidence, and evidence should change the next decision. A feature list describes what exists. Watching someone use the product reveals what actually works."
+            ]
+          }
+        ]
+      }
+    },
     {
       "id": 8,
       "locale": "en",

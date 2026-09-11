@@ -125,3 +125,7 @@ button{
     padding: 0;
   }
 }
+
+@media (max-width: 600px) {
+  :root { --site-header-height: 88px; }
+}

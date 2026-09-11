@@ -46,12 +46,14 @@ export const getStaticProps: GetStaticProps = async ({ locales }) => {
 
 const ProjectCard = ({
   project_name,
+  slug,
   description,
   intro,
   image,
   iterator,
 }: {
   project_name: string;
+  slug?: string;
   description: string;
   intro: string;
   iterator: number;
@@ -114,7 +116,7 @@ const ProjectCard = ({
         </motion.p>
       </motion.div>
       <p className={` ${s.intro} `}>{intro}</p>
-      <Link legacyBehavior href={`/projects/${project_name}`}>
+      <Link legacyBehavior href={`/projects/${slug || project_name}`}>
         <a>
           <div className={` ${s.image} `}>
             <motion.div

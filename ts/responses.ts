@@ -150,6 +150,7 @@ export module Projects {
 	export interface Intro {
 		id: number
 		project_name: string
+		slug?: string
 		description: string
 		intro: string
 		types?: any

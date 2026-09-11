@@ -10,6 +10,7 @@ import {
 } from "react-icons/io5";
 import { motion, useTransform, useViewportScroll } from "framer-motion";
 import Head from "next/head";
+import { Editorial } from "../../Editorial/Editorial";
 import { FaGithub } from "react-icons/fa";
 
 import Link from "next/link";
@@ -36,7 +37,7 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   const paths = newLocales.flatMap((loc) =>
     projects[loc].map((project: Projects.RootObject) => ({
       params: {
-        project: project.intro.project_name,
+        project: project.intro.slug || project.intro.project_name,
       },
       locale: loc,
     }))
@@ -91,7 +92,7 @@ const Pagination = ({ intros, current }: { intros: any; current: string }) => {
         ) : (
           <Link
             legacyBehavior
-            href={`/projects/${intros[currentIndex - 1].project_name}`}
+            href={`/projects/${intros[currentIndex - 1].slug || intros[currentIndex - 1].project_name}`}
           >
             <a>
               <IoReturnUpBackOutline />
@@ -114,7 +115,7 @@ const Pagination = ({ intros, current }: { intros: any; current: string }) => {
           <>
             <Link
               legacyBehavior
-              href={`/projects/${intros[currentIndex + 1].project_name}`}
+              href={`/projects/${intros[currentIndex + 1].slug || intros[currentIndex + 1].project_name}`}
             >
               <a>
                 <span>{intros[currentIndex + 1].project_name}</span>
@@ -152,11 +153,16 @@ export default function Project({
     (project: Projects.RootObject) => project.intro
   );
   const project = projects[newLocale].filter(
-    (project: any) => project.intro.project_name === query.project
+    (project: any) => (project.intro.slug || project.intro.project_name) === query.project
   )[0];
   const index = projects[newLocale].findIndex(
-    (project: any) => project.intro.project_name === query.project
+    (project: any) => (project.intro.slug || project.intro.project_name) === query.project
   );
+  if (project.editorial) return <>
+    <Header header_data={header_data} />
+    <Editorial record={project} locale={newLocale} kind="project" />
+    <Footer data={footer_data} />
+  </>;
   const isPortfolioScreenshot = project.intro.image.url.startsWith("/portfolio/");
   const isEnglish = newLocale === "en";
   const projectCta = {

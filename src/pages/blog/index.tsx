@@ -7,9 +7,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Head from 'next/head'
 import s from '/src/styles/pages/BlogIndex.module.scss'
-import TimeAgo from 'javascript-time-ago'
-import en from 'javascript-time-ago/locale/en'
-import ru from 'javascript-time-ago/locale/ru'
 import { get_endpoint_data } from '../../../utils/content_fetching'
 import { Projects } from '../../../ts/responses'
 import { Header } from '../../Header/Header'
@@ -66,10 +63,9 @@ const ProjectCard = ({
   image: Projects.Image2;
   updated_at: string;
 }) => {
-  TimeAgo.addLocale(ru);
-  TimeAgo.addLocale(en);
-
-  const timeAgo = new TimeAgo(locale);
+  const date = new Intl.DateTimeFormat(locale === "ua" ? "uk-UA" : "en-GB", {
+    day: "numeric", month: "long", year: "numeric", timeZone: "Europe/Kyiv",
+  }).format(new Date(updated_at));
 
   return (
     // <div
@@ -78,7 +74,7 @@ const ProjectCard = ({
     <Link legacyBehavior href={`/blog/${project_name}`}>
       <a className={s.post}>
         <h2 className={` ${s.title} `}>{description}</h2>
-        <p className={` ${s.date} `}>{timeAgo.format(new Date(updated_at))}</p>
+        <p className={` ${s.date} `}><time dateTime={updated_at}>{date}</time></p>
         <div className={` ${s.image} `}>
           <Image
             blurDataURL={image.formats.thumbnail.url}
@@ -112,7 +108,7 @@ export default function Blog({
   const { locale } = useRouter();
   const currentLocale = getContentLocale(locale);
   const content = page_content[currentLocale];
-  const intros = posts[currentLocale].map(
+  const intros: Array<Projects.Intro & { updated_at: string }> = posts[currentLocale].map(
     ({ intro, updated_at }: { intro: Projects.Intro; updated_at: string }) => ({
       ...intro,
       updated_at,
@@ -164,8 +160,8 @@ export default function Blog({
       <ProduceBlocks page_data={content.comps} wrapperClass={s.blocks} />
       <section className={` ${s.posts} `}>
         {intros
-          .splice(0)
-          .reverse()
+          .slice()
+          .sort((a, b) => Date.parse(b.updated_at) - Date.parse(a.updated_at))
           .map((intro: any) => {
             return (
               <ProjectCard

@@ -6,6 +6,7 @@ import Image from "next/image";
 import { motion, useTransform, useViewportScroll } from "framer-motion";
 import Link from "next/link";
 import Head from "next/head";
+import { Editorial } from "../../Editorial/Editorial";
 import s from "/src/styles/pages/BlogPost.module.scss";
 import { Projects } from '../../../ts/responses';
 import { Header } from '../../Header/Header';
@@ -75,6 +76,11 @@ export default function Post({
   const post = posts[newLocale].filter(
     (post: any) => post.intro.project_name === query.post
   )[0];
+  if (post.editorial) return <>
+    <Header header_data={header_data} />
+    <Editorial record={post} locale={newLocale} kind="post" />
+    <Footer data={footer_data} />
+  </>;
   return (
     <>
       <Head>

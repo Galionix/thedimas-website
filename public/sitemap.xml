@@ -163,4 +163,32 @@
   <url><loc>https://thedimas.com/en/projects/5-Hours%20Shop</loc></url>
   <url><loc>https://thedimas.com/llms.txt</loc></url>
   <url><loc>https://thedimas.com/llms-full.txt</loc></url>
+  <url>
+    <loc>https://thedimas.com/en/projects/ua-force</loc>
+    <lastmod>2026-09-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/projects/ua-force" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/projects/ua-force" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thedimas.com/en/projects/ua-force" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/projects/ua-force</loc>
+    <lastmod>2026-09-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/projects/ua-force" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/projects/ua-force" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thedimas.com/en/projects/ua-force" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/en/blog/ua-force-development</loc>
+    <lastmod>2026-09-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/blog/ua-force-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/blog/ua-force-development" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thedimas.com/en/blog/ua-force-development" />
+  </url>
+  <url>
+    <loc>https://thedimas.com/ua/blog/ua-force-development</loc>
+    <lastmod>2026-09-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thedimas.com/en/blog/ua-force-development" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://thedimas.com/ua/blog/ua-force-development" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thedimas.com/en/blog/ua-force-development" />
+  </url>
 </urlset>
