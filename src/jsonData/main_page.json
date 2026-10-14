@@ -104,7 +104,7 @@
       {
         "__component": "molecules.paragraph",
         "id": 8205,
-        "text": "У Bella AI я працював над production платформою для driving schools: multi-tenant administration, role-based access, student self-service, realtime kiosk check-in/check-out, attendance, photo capture та assessments.",
+        "text": "Розробляю високонавантажені бекенд-конвеєри, хмарні сервіси та складні інтерфейси: від автоматизованої OCR-обробки митних документів і CleanTech-порталів до систем комплаєнсу з multi-tenant RBAC.",
         "types": null
       },
       {
@@ -142,7 +142,7 @@
       {
         "__component": "molecules.paragraph",
         "id": 8207,
-        "text": "Особисті MVP та прототипи",
+        "text": "Флагманські інженерні кейси",
         "types": {
           "mobile": "title",
           "tablet": "title",
@@ -152,147 +152,147 @@
       {
         "__component": "molecules.paragraph",
         "id": 8208,
-        "text": "Це менші self-contained проекти. Вони показують product taste, UI states і технічний діапазон, але головний комерційний сигнал зараз вище.",
+        "text": "Реальні продакшн-системи: асинхронні черги обробки даних, CleanTech-сервіси з дизайн-системами та платформи суворого комплаєнсу.",
         "types": null
       },
       {
         "__component": "molecules.textgallery",
         "id": 8209,
-        "text": "UseNotes: захищений dashboard для нотаток зі створенням записів і UI для AI-резюме.",
+        "text": "Tring Declar: асинхронний конвеєр обробки митних декларацій, OCR-виділення полів, черги BullMQ, Elasticsearch та відповідність стандартам NCTS.",
         "type": "case-study",
         "types": null,
         "images": [
           {
-            "id": 640936,
-            "name": "usenotes-create-modal.png",
-            "alternativeText": "UseNotes create note modal",
+            "id": 710001,
+            "name": "tring-declar-platform.png",
+            "alternativeText": "Tring Declar Customs OCR Platform",
             "caption": "",
             "width": 2560,
             "height": 1440,
             "formats": {
               "thumbnail": {
                 "ext": ".png",
-                "url": "/portfolio/usenotes-create-modal.png",
-                "hash": "usenotes_create_modal_png",
+                "url": "/portfolio/tring-declar-platform.png",
+                "hash": "tring_declar_platform_png",
                 "mime": "image/png",
-                "name": "usenotes-create-modal.png",
+                "name": "tring-declar-platform.png",
                 "path": null,
                 "size": 0,
                 "width": 2560,
                 "height": 1440,
                 "provider_metadata": {
-                  "public_id": "usenotes-create-modal.png",
+                  "public_id": "tring-declar-platform.png",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "usenotes_create_modal_png",
+            "hash": "tring_declar_platform_png",
             "ext": ".png",
             "mime": "image/png",
             "size": 0,
-            "url": "/portfolio/usenotes-create-modal.png",
+            "url": "/portfolio/tring-declar-platform.png",
             "previewUrl": null,
             "provider": "local",
             "provider_metadata": {
-              "public_id": "usenotes-create-modal.png",
+              "public_id": "tring-declar-platform.png",
               "resource_type": "image"
             },
-            "created_at": "2026-07-08T00:00:00.000Z",
-            "updated_at": "2026-07-08T00:00:00.000Z"
+            "created_at": "2026-10-14T00:00:00.000Z",
+            "updated_at": "2026-10-14T00:00:00.000Z"
           }
         ]
       },
       {
         "__component": "molecules.textgallery",
         "id": 8210,
-        "text": "Arcane Origins: інтерактивний story state з інвентарем, діями та перевірками навичок.",
+        "text": "Altus Power: CleanTech B2C платформа онбордингу сонячної енергетики, пошагове підключення рахунків комунальних послуг, телеметрія генерації та дизайн-система @altus-power/amps-ui.",
         "type": "case-study",
         "types": null,
         "images": [
           {
-            "id": 606379,
-            "name": "arcane-origins-skill-check.png",
-            "alternativeText": "Arcane Origins game state",
+            "id": 710002,
+            "name": "altus-power-solar.png",
+            "alternativeText": "Altus Power Community Solar Customer Portal",
             "caption": "",
             "width": 2560,
             "height": 1440,
             "formats": {
               "thumbnail": {
                 "ext": ".png",
-                "url": "/portfolio/arcane-origins-skill-check.png",
-                "hash": "arcane_origins_skill_check_png",
+                "url": "/portfolio/altus-power-solar.png",
+                "hash": "altus_power_solar_png",
                 "mime": "image/png",
-                "name": "arcane-origins-skill-check.png",
+                "name": "altus-power-solar.png",
                 "path": null,
                 "size": 0,
                 "width": 2560,
                 "height": 1440,
                 "provider_metadata": {
-                  "public_id": "arcane-origins-skill-check.png",
+                  "public_id": "altus-power-solar.png",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "arcane_origins_skill_check_png",
+            "hash": "altus_power_solar_png",
             "ext": ".png",
             "mime": "image/png",
             "size": 0,
-            "url": "/portfolio/arcane-origins-skill-check.png",
+            "url": "/portfolio/altus-power-solar.png",
             "previewUrl": null,
             "provider": "local",
             "provider_metadata": {
-              "public_id": "arcane-origins-skill-check.png",
+              "public_id": "altus-power-solar.png",
               "resource_type": "image"
             },
-            "created_at": "2026-07-08T00:00:00.000Z",
-            "updated_at": "2026-07-08T00:00:00.000Z"
+            "created_at": "2026-10-14T00:00:00.000Z",
+            "updated_at": "2026-10-14T00:00:00.000Z"
           }
         ]
       },
       {
         "__component": "molecules.textgallery",
         "id": 8211,
-        "text": "5-Hours Shop: компактний ecommerce cart flow з кількістю товарів і підрахунком total.",
+        "text": "Bella AI: платформа керування автошколами, realtime кіоск обліку присутності з фотофіксацією, 30+ міграцій PostgreSQL RLS та Playwright E2E.",
         "type": "case-study",
         "types": null,
         "images": [
           {
-            "id": 539928,
-            "name": "shop-cart.png",
-            "alternativeText": "5-Hours Shop cart state",
+            "id": 710003,
+            "name": "bella-ai-cover.png",
+            "alternativeText": "Bella AI Kiosk & Compliance Management Platform",
             "caption": "",
             "width": 2560,
             "height": 1440,
             "formats": {
               "thumbnail": {
                 "ext": ".png",
-                "url": "/portfolio/shop-cart.png",
-                "hash": "shop_cart_png",
+                "url": "/portfolio/bella-ai-cover.png",
+                "hash": "bella_ai_cover_png",
                 "mime": "image/png",
-                "name": "shop-cart.png",
+                "name": "bella-ai-cover.png",
                 "path": null,
                 "size": 0,
                 "width": 2560,
                 "height": 1440,
                 "provider_metadata": {
-                  "public_id": "shop-cart.png",
+                  "public_id": "bella-ai-cover.png",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "shop_cart_png",
+            "hash": "bella_ai_cover_png",
             "ext": ".png",
             "mime": "image/png",
             "size": 0,
-            "url": "/portfolio/shop-cart.png",
+            "url": "/portfolio/bella-ai-cover.png",
             "previewUrl": null,
             "provider": "local",
             "provider_metadata": {
-              "public_id": "shop-cart.png",
+              "public_id": "bella-ai-cover.png",
               "resource_type": "image"
             },
-            "created_at": "2026-07-08T00:00:00.000Z",
-            "updated_at": "2026-07-08T00:00:00.000Z"
+            "created_at": "2026-10-14T00:00:00.000Z",
+            "updated_at": "2026-10-14T00:00:00.000Z"
           }
         ]
       }
@@ -424,7 +424,7 @@
       {
         "__component": "molecules.paragraph",
         "id": 8105,
-        "text": "At Bella AI I worked on a production driving-school management platform: multi-tenant administration, role-based access, student self-service, realtime kiosk check-in/check-out, attendance, photo capture and assessments.",
+        "text": "I engineer high-throughput data pipelines, cloud services, and production web applications: from automated customs declaration OCR and CleanTech servicing to multi-tenant compliance platforms.",
         "types": null
       },
       {
@@ -462,7 +462,7 @@
       {
         "__component": "molecules.paragraph",
         "id": 8107,
-        "text": "Personal MVPs and prototypes",
+        "text": "Featured Engineering & Production Cases",
         "types": {
           "mobile": "title",
           "tablet": "title",
@@ -472,147 +472,147 @@
       {
         "__component": "molecules.paragraph",
         "id": 8108,
-        "text": "These are smaller self-contained projects. They are here to show product taste, UI states and technical range, while the commercial work above is the stronger signal.",
+        "text": "Production platforms built with strict type safety, resilient asynchronous queues, and real-world compliance standards.",
         "types": null
       },
       {
         "__component": "molecules.textgallery",
         "id": 8109,
-        "text": "UseNotes: protected notes dashboard with create-note flow and AI summarization UI.",
+        "text": "Tring Declar: high-throughput customs document intelligence pipeline, OCR field extraction, BullMQ Redis queues, Elasticsearch fallback and EU NCTS compliance.",
         "type": "case-study",
         "types": null,
         "images": [
           {
-            "id": 640936,
-            "name": "usenotes-create-modal.png",
-            "alternativeText": "UseNotes create note modal",
+            "id": 710001,
+            "name": "tring-declar-platform.png",
+            "alternativeText": "Tring Declar Customs OCR Platform",
             "caption": "",
             "width": 2560,
             "height": 1440,
             "formats": {
               "thumbnail": {
                 "ext": ".png",
-                "url": "/portfolio/usenotes-create-modal.png",
-                "hash": "usenotes_create_modal_png",
+                "url": "/portfolio/tring-declar-platform.png",
+                "hash": "tring_declar_platform_png",
                 "mime": "image/png",
-                "name": "usenotes-create-modal.png",
+                "name": "tring-declar-platform.png",
                 "path": null,
                 "size": 0,
                 "width": 2560,
                 "height": 1440,
                 "provider_metadata": {
-                  "public_id": "usenotes-create-modal.png",
+                  "public_id": "tring-declar-platform.png",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "usenotes_create_modal_png",
+            "hash": "tring_declar_platform_png",
             "ext": ".png",
             "mime": "image/png",
             "size": 0,
-            "url": "/portfolio/usenotes-create-modal.png",
+            "url": "/portfolio/tring-declar-platform.png",
             "previewUrl": null,
             "provider": "local",
             "provider_metadata": {
-              "public_id": "usenotes-create-modal.png",
+              "public_id": "tring-declar-platform.png",
               "resource_type": "image"
             },
-            "created_at": "2026-07-08T00:00:00.000Z",
-            "updated_at": "2026-07-08T00:00:00.000Z"
+            "created_at": "2026-10-14T00:00:00.000Z",
+            "updated_at": "2026-10-14T00:00:00.000Z"
           }
         ]
       },
       {
         "__component": "molecules.textgallery",
         "id": 8110,
-        "text": "Arcane Origins: interactive story state with inventory, actions and skill checks.",
+        "text": "Altus Power: CleanTech community solar servicing portal, multi-step utility onboarding, telemetry visualizer, and @altus-power/amps-ui shared enterprise design system.",
         "type": "case-study",
         "types": null,
         "images": [
           {
-            "id": 606379,
-            "name": "arcane-origins-skill-check.png",
-            "alternativeText": "Arcane Origins game state",
+            "id": 710002,
+            "name": "altus-power-solar.png",
+            "alternativeText": "Altus Power Community Solar Customer Portal",
             "caption": "",
             "width": 2560,
             "height": 1440,
             "formats": {
               "thumbnail": {
                 "ext": ".png",
-                "url": "/portfolio/arcane-origins-skill-check.png",
-                "hash": "arcane_origins_skill_check_png",
+                "url": "/portfolio/altus-power-solar.png",
+                "hash": "altus_power_solar_png",
                 "mime": "image/png",
-                "name": "arcane-origins-skill-check.png",
+                "name": "altus-power-solar.png",
                 "path": null,
                 "size": 0,
                 "width": 2560,
                 "height": 1440,
                 "provider_metadata": {
-                  "public_id": "arcane-origins-skill-check.png",
+                  "public_id": "altus-power-solar.png",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "arcane_origins_skill_check_png",
+            "hash": "altus_power_solar_png",
             "ext": ".png",
             "mime": "image/png",
             "size": 0,
-            "url": "/portfolio/arcane-origins-skill-check.png",
+            "url": "/portfolio/altus-power-solar.png",
             "previewUrl": null,
             "provider": "local",
             "provider_metadata": {
-              "public_id": "arcane-origins-skill-check.png",
+              "public_id": "altus-power-solar.png",
               "resource_type": "image"
             },
-            "created_at": "2026-07-08T00:00:00.000Z",
-            "updated_at": "2026-07-08T00:00:00.000Z"
+            "created_at": "2026-10-14T00:00:00.000Z",
+            "updated_at": "2026-10-14T00:00:00.000Z"
           }
         ]
       },
       {
         "__component": "molecules.textgallery",
         "id": 8111,
-        "text": "5-Hours Shop: compact ecommerce cart flow with quantity and total state.",
+        "text": "Bella AI: vocational school operations platform, realtime student attendance kiosk, photo capture audit trails, 30+ Supabase PostgreSQL RLS migrations and Playwright E2E suite.",
         "type": "case-study",
         "types": null,
         "images": [
           {
-            "id": 539928,
-            "name": "shop-cart.png",
-            "alternativeText": "5-Hours Shop cart state",
+            "id": 710003,
+            "name": "bella-ai-cover.png",
+            "alternativeText": "Bella AI Kiosk & Compliance Management Platform",
             "caption": "",
             "width": 2560,
             "height": 1440,
             "formats": {
               "thumbnail": {
                 "ext": ".png",
-                "url": "/portfolio/shop-cart.png",
-                "hash": "shop_cart_png",
+                "url": "/portfolio/bella-ai-cover.png",
+                "hash": "bella_ai_cover_png",
                 "mime": "image/png",
-                "name": "shop-cart.png",
+                "name": "bella-ai-cover.png",
                 "path": null,
                 "size": 0,
                 "width": 2560,
                 "height": 1440,
                 "provider_metadata": {
-                  "public_id": "shop-cart.png",
+                  "public_id": "bella-ai-cover.png",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "shop_cart_png",
+            "hash": "bella_ai_cover_png",
             "ext": ".png",
             "mime": "image/png",
             "size": 0,
-            "url": "/portfolio/shop-cart.png",
+            "url": "/portfolio/bella-ai-cover.png",
             "previewUrl": null,
             "provider": "local",
             "provider_metadata": {
-              "public_id": "shop-cart.png",
+              "public_id": "bella-ai-cover.png",
               "resource_type": "image"
             },
-            "created_at": "2026-07-08T00:00:00.000Z",
-            "updated_at": "2026-07-08T00:00:00.000Z"
+            "created_at": "2026-10-14T00:00:00.000Z",
+            "updated_at": "2026-10-14T00:00:00.000Z"
           }
         ]
       }

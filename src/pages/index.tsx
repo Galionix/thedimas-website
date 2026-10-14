@@ -275,10 +275,14 @@ export default function Home({
         <meta property="og:title" content={content.seo.title} />
         <meta property="og:description" content={content.seo.description} />
         <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:site_name" content="Dmitry Galaktionov" />
-        <meta name="twitter:card" content="summary" />
+        <meta property="og:image" content="https://thedimas.com/portfolio/og-cover.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Dmitry Galaktionov | Senior Full-Stack TypeScript Engineer" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={content.seo.title} />
         <meta name="twitter:description" content={content.seo.description} />
+        <meta name="twitter:image" content="https://thedimas.com/portfolio/og-cover.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

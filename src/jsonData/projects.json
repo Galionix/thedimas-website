@@ -2,6 +2,364 @@
   "ua": [
     {
       "github": "",
+      "id": 7002,
+      "locale": "ua",
+      "created_at": "2026-10-14T00:00:00.000Z",
+      "updated_at": "2026-10-14T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 700201,
+          "text": "Tring Declar — корпоративна платформа інтелектуальної обробки митних і логістичних документів: асинхронний парсинг PDF, OCR-виділення даних інвойсів, валідація за нормами EU NCTS Phase 5 та автоматизація операцій митного брокера.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 700202,
+          "name": "Архітектура та інженерні рішення",
+          "items": [
+            {
+              "id": 70020201,
+              "icon": "FaCheck",
+              "name": "Високонавантажений конвеєр черг",
+              "description": "Побудував розподілені пули воркерів BullMQ на базі Redis для паралельної обробки багатосторінкових інвойсів, нарізки PDF і вилучення табличних даних із затримкою до 400 мс."
+            },
+            {
+              "id": 70020202,
+              "icon": "FaCheck",
+              "name": "Відмовостійкий пошук та аудит",
+              "description": "Спроєктував роботу основної бази даних із автоматичним fallback на кластер Elasticsearch для забезпечення доступності 99.9% під час пікових навантажень подання декларацій."
+            },
+            {
+              "id": 70020203,
+              "icon": "FaCheck",
+              "name": "Подвійна нормативна відповідність",
+              "description": "Реалізував автоматичну перевірку правил транзиту EU NCTS, валідацію кодів УКТЗЕД/HS, розрахунок мита і ПДВ та перевірку ризикових індикаторів."
+            },
+            {
+              "id": 70020204,
+              "icon": "FaCheck",
+              "name": "Наскрізна типізація",
+              "description": "Повна типізація API-контрактів і моделей даних на базі NestJS, TypeScript та робочого інтерфейсу оператора на React."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 700203,
+          "text": "Платформа Declar: OCR-оверлей митного інвойсу, нормалізована таблиця товарів і граф виконання черги BullMQ",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 710001,
+              "name": "tring-declar-platform.png",
+              "alternativeText": "Інтерфейс платформи Tring Declar Customs OCR",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/tring-declar-platform.png",
+                  "hash": "tring_declar_platform_png",
+                  "mime": "image/png",
+                  "name": "tring-declar-platform.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "tring-declar-platform.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "tring_declar_platform_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/tring-declar-platform.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "tring-declar-platform.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-10-14T00:00:00.000Z",
+              "updated_at": "2026-10-14T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.list",
+          "id": 700204,
+          "name": "Технологічний стек",
+          "items": [
+            {
+              "id": 70020401,
+              "icon": "FaCheck",
+              "name": "Бекенд та черги",
+              "description": "NestJS, TypeScript, Node.js, BullMQ, Redis, PostgreSQL, Elasticsearch"
+            },
+            {
+              "id": 70020402,
+              "icon": "FaCheck",
+              "name": "Фронтенд та робоче місце",
+              "description": "React, Vite, TypeScript, Tailwind CSS, Canvas OCR Viewer"
+            },
+            {
+              "id": 70020403,
+              "icon": "FaCheck",
+              "name": "Стандарти та інфраструктура",
+              "description": "EU NCTS Phase 5, Docker, Redis Sentinel, Asynchronous Worker Clusters"
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 7020,
+        "project_name": "Tring Declar",
+        "description": "Високонавантажений конвеєр OCR-обробки митних декларацій з оркестрацією черг BullMQ, Elasticsearch та валідацією EU NCTS.",
+        "intro": "Корпоративна платформа інтелектуальної обробки логістичних документів на NestJS, TypeScript, Redis, BullMQ та валідації ризиків.",
+        "slug": "declar",
+        "types": null,
+        "image": {
+          "id": 710001,
+          "name": "tring-declar-platform.png",
+          "alternativeText": "Tring Declar Customs OCR Platform",
+          "caption": "",
+          "width": 2560,
+          "height": 1440,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/tring-declar-platform.png",
+              "hash": "tring_declar_platform_png",
+              "mime": "image/png",
+              "name": "tring-declar-platform.png",
+              "path": null,
+              "size": 0,
+              "width": 2560,
+              "height": 1440,
+              "provider_metadata": {
+                "public_id": "tring-declar-platform.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "tring_declar_platform_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/tring-declar-platform.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "tring-declar-platform.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-10-14T00:00:00.000Z",
+          "updated_at": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 7092,
+        "title": "Tring Declar — Конвеєр OCR-обробки митних документів | Дмитро Галактіонов",
+        "description": "Кейс розробки митної платформи на NestJS, BullMQ, Redis, Elasticsearch та відповідності стандартам EU NCTS.",
+        "keywords": "Tring, Declar, Customs OCR, BullMQ, NestJS, TypeScript, Elasticsearch, NCTS, Дмитро Галактіонов"
+      },
+      "localizations": [
+        {
+          "id": 7001,
+          "locale": "en"
+        }
+      ]
+    },
+    {
+      "github": "",
+      "id": 7012,
+      "locale": "ua",
+      "created_at": "2026-10-14T00:00:00.000Z",
+      "updated_at": "2026-10-14T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 701201,
+          "text": "Altus Power — провідний оператор комерційної та комʼюніті сонячної енергетики у США. Я розробляв та масштабував B2C-застосунок онбордингу та самообслуговування клієнтів, який забезпечує автоматичне підключення комунальних рахунків і нарахування знижок на електроенергію.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 701202,
+          "name": "Інженерний внесок та фронтенд-архітектура",
+          "items": [
+            {
+              "id": 70120201,
+              "icon": "FaCheck",
+              "name": "Оптимізований онбординг B2C",
+              "description": "Розробив 4-етапний flow онбордингу (геолокаційна перевірка адреси, лінкінг акаунтів ConEdison/Eversource, розподіл сонячної потужності та цифрові договори) з конверсією 94.8%."
+            },
+            {
+              "id": 70120202,
+              "icon": "FaCheck",
+              "name": "Спільна дизайн-система (@altus-power/amps-ui)",
+              "description": "Створював і розширював переикористовувані компоненти, форми та дизайн-токени в монорепозиторії enterprise-рівня для всіх клієнтських застосунків бренду."
+            },
+            {
+              "id": 70120203,
+              "icon": "FaCheck",
+              "name": "Безпечна авторизація OAuth 2.0 PKCE",
+              "description": "Інтегрував вхід через соціальні провайдери (Apple, Google, Facebook) за стандартом OAuth 2.0 PKCE з надійним керуванням життєвим циклом токенів."
+            },
+            {
+              "id": 70120204,
+              "icon": "FaCheck",
+              "name": "GraphQL хаб даних",
+              "description": "Інтегрував клієнт Apollo та схеми GraphQL для відображення реальної генерації сонячних ферм, історії нарахувань і стану розрахунків."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 701203,
+          "text": "Altus Power: CleanTech-онбординг сонячної енергії, компоненти AMPS UI та графік генерації",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 710002,
+              "name": "altus-power-solar.png",
+              "alternativeText": "Інтерфейс платформи Altus Power Community Solar",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/altus-power-solar.png",
+                  "hash": "altus_power_solar_png",
+                  "mime": "image/png",
+                  "name": "altus-power-solar.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "altus-power-solar.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "altus_power_solar_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/altus-power-solar.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "altus-power-solar.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-10-14T00:00:00.000Z",
+              "updated_at": "2026-10-14T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.list",
+          "id": 701204,
+          "name": "Технологічний стек",
+          "items": [
+            {
+              "id": 70120401,
+              "icon": "FaCheck",
+              "name": "Фронтенд та UI",
+              "description": "React, TypeScript, Next.js, @altus-power/amps-ui, SCSS Modules"
+            },
+            {
+              "id": 70120402,
+              "icon": "FaCheck",
+              "name": "Робота з даними",
+              "description": "GraphQL, Apollo Client, OAuth 2.0 PKCE, REST APIs"
+            },
+            {
+              "id": 70120403,
+              "icon": "FaCheck",
+              "name": "Тести та пайплайни",
+              "description": "Jest, React Testing Library, Webpack, Vercel CI/CD"
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 7040,
+        "project_name": "Altus Power",
+        "description": "CleanTech B2C портал сонячної енергетики з автоматичним підключенням комунальних послуг та спільною дизайн-системою.",
+        "intro": "Застосунок онбордингу та обслуговування клієнтів чистої енергії на React, TypeScript, GraphQL та дизайн-системі @altus-power/amps-ui.",
+        "slug": "altus-power",
+        "types": null,
+        "image": {
+          "id": 710002,
+          "name": "altus-power-solar.png",
+          "alternativeText": "Altus Power Community Solar Customer Portal",
+          "caption": "",
+          "width": 2560,
+          "height": 1440,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/altus-power-solar.png",
+              "hash": "altus_power_solar_png",
+              "mime": "image/png",
+              "name": "altus-power-solar.png",
+              "path": null,
+              "size": 0,
+              "width": 2560,
+              "height": 1440,
+              "provider_metadata": {
+                "public_id": "altus-power-solar.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "altus_power_solar_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/altus-power-solar.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "altus-power-solar.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-10-14T00:00:00.000Z",
+          "updated_at": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 7094,
+        "title": "Altus Power — Портал CleanTech сонячної енергетики | Дмитро Галактіонов",
+        "description": "Кейс розробки B2C-порталу чистої енергії: React, TypeScript, GraphQL, OAuth 2.0 PKCE та дизайн-система @altus-power/amps-ui.",
+        "keywords": "Altus Power, CleanTech, Community Solar, React, TypeScript, GraphQL, Design System, AMPS, Дмитро Галактіонов"
+      },
+      "localizations": [
+        {
+          "id": 7011,
+          "locale": "en"
+        }
+      ]
+    },
+    {
+      "github": "",
       "id": 6012,
       "locale": "ua",
       "created_at": "2026-09-11T12:00:00+03:00",
@@ -597,356 +955,6 @@
       "localizations": [
         {
           "id": 100,
-          "locale": "en"
-        }
-      ]
-    },
-    {
-      "id": 50,
-      "github": "https://github.com/Galionix/music-site",
-      "locale": "en",
-      "created_at": "2021-11-15T09:32:16.091Z",
-      "updated_at": "2022-08-21T02:21:26.837Z",
-      "comps": [
-        {
-          "__component": "molecules.paragraph",
-          "id": 82,
-          "text": "Мені набридло, що музика з YouTube знищує мої священні альбоми, тому я вирішив створити власний музичний веб-сайт, куди я можу завантажувати свою музику та ділитися нею з друзями та родиною.",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 83,
-          "text": "Веб-сайт створено за допомогою Next.js і Google Firebase і розміщено на Vercel.",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 84,
-          "text": "Планувалося, що це буде простий веб-сайт, але я вирішив додати деякі функції, як-от попередній перегляд зображень, які я зібрав під час компонування доріжок, щоб завершити враження. Зверніть увагу на букву A поруч із доріжкою, щоб переглянути галерею ",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 85,
-          "text": "Веб-сайт ще в розробці, але ви можете перевірити його тут:",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 89,
-          "text": "Я збирав усі треки за весь час, коли створював музику, тому деякі з них досить старі, а деякі нові. Сподіваюся, вам сподобається! Хоча я не професійний музикант, тому не суди мене занадто суворо :D",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 89,
-          "text": "Якщо ви не шанувальник моєї музики, ви можете перевірити розділ \"Останні альбоми\", як правило, треки там кращої якості та новіші.",
-          "types": null
-        },
-        {
-          "__component": "atoms.link",
-          "id": 16,
-          "href": "https://music.thedimas.com/collections/7",
-          "label": "Слухайте останнi",
-          "target": "_blank"
-        }
-      ],
-      "custom_data": null,
-      "intro": {
-        "id": 73,
-        "project_name": "Thedimas-Music",
-        "description": "Мій особистий музичний сайт",
-        "intro": "Це мій особистий музичний сайт, де ви можете знайти мою музику",
-        "types": null,
-        "image": {
-          "id": 47,
-          "name": "Frame 2.png",
-          "alternativeText": "",
-          "caption": "",
-          "width": 1620,
-          "height": 1620,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1704627713/522d6a26-b8b5-430b-95c2-f920d7174e17_fs4eer.webp",
-              "hash": "large_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "large_Frame 2.png",
-              "path": null,
-              "size": 467.89,
-              "width": 1000,
-              "height": 1000,
-              "provider_metadata": {
-                "public_id": "large_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968309/small_Frame_2_537b391df0.png",
-              "hash": "small_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "small_Frame 2.png",
-              "path": null,
-              "size": 114.46,
-              "width": 500,
-              "height": 500,
-              "provider_metadata": {
-                "public_id": "small_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968309/medium_Frame_2_537b391df0.png",
-              "hash": "medium_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "medium_Frame 2.png",
-              "path": null,
-              "size": 252.9,
-              "width": 750,
-              "height": 750,
-              "provider_metadata": {
-                "public_id": "medium_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968307/thumbnail_Frame_2_537b391df0.png",
-              "hash": "thumbnail_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "thumbnail_Frame 2.png",
-              "path": null,
-              "size": 18.94,
-              "width": 156,
-              "height": 156,
-              "provider_metadata": {
-                "public_id": "thumbnail_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Frame_2_537b391df0",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 687.13,
-          "url": "https://res.cloudinary.com/dimascf/image/upload/v1704627713/522d6a26-b8b5-430b-95c2-f920d7174e17_fs4eer.webp",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Frame_2_537b391df0",
-            "resource_type": "image"
-          },
-          "created_at": "2021-11-15T09:25:10.087Z",
-          "updated_at": "2021-11-15T09:25:10.106Z"
-        }
-      },
-      "seo": {
-        "id": 57,
-        "title": "DIMAS | Planner App",
-        "description": "Dimas - Planner app",
-        "keywords": "dimas planner app, todo"
-      },
-      "localizations": [
-        {
-          "id": 53,
-          "locale": "ua"
-        }
-      ]
-    },
-    {
-      "github": "https://github.com/Galionix/next-pwa",
-      "id": 53,
-      "locale": "ua",
-      "created_at": "2021-11-15T09:30:36.801Z",
-      "updated_at": "2021-11-15T09:33:57.542Z",
-      "comps": [
-        {
-          "__component": "molecules.paragraph",
-          "id": 82,
-          "text": "\nСпочатку він був задуманий як простий додаток для швидкого та зручного впорядкування списку завдань.",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 83,
-          "text": "З часом я додав деякі функції, і це стало трохи складніше. ",
-          "types": null
-        },
-        {
-          "__component": "molecules.list",
-          "id": 83,
-          "name": "Функції Dimas Planner",
-          "items": [
-            {
-              "name": "Параметри оформлення",
-              "id": 2,
-              "description": "Вибір між світлою та темною темами для особистих уподобань"
-            },
-            {
-              "name": "Переглянути виконані завдання",
-              "id": 3,
-              "description": "Дозволяє переглядати завершені завдання для відстеження та довідки"
-            },
-            {
-              "name": "Установити важливість завдання",
-              "id": 4,
-              "description": "Позначити завдання як регулярні, термінові або попередження про пріоритет"
-            },
-            {
-              "name": "Виділити термінові завдання",
-              "id": 5,
-              "description": "Невиконані термінові завдання позначаються в основному списку окремим кольором для видимості"
-            },
-            {
-              "name": "Відстежувати час завдання",
-              "id": 6,
-              "description": "Створення монітора та оновлені дати завдань"
-            },
-            {
-              "name": "Завантаження та масштабування зображення",
-              "id": 7,
-              "description": "Завантажувати зображення до завдань із функцією збільшення попереднього перегляду"
-            },
-            {
-              "name": "Швидке створення/перегляд сьогоднішнього списку",
-              "id": 8,
-              "description": "Легко створюйте або переглядайте список на сьогодні за допомогою однієї кнопки вгорі списку"
-            },
-            {
-              "name": "PWA, готовий до мобільних пристроїв",
-              "id": 9,
-              "description": "Підтримка прогресивної веб-програми, оптимізованої для мобільного використання. Ви можете додати її на головний екран"
-            },
-            {
-              "name": "Адаптивні мобільні перегляди",
-              "id": 10,
-              "description": "На мобільному пристрої можна легко приховати, показати або обернути перегляди за допомогою жесту гортання"
-            },
-            {
-              "name": "Спільні списки з друзями",
-              "id": 11,
-              "description": "Створюйте та керуйте списками, якими можна ділитися з друзями, дозволяючи їм бачити та додавати завдання. Додавати друзів електронною поштою"
-            }
-          ],
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 84,
-          "text": "Цей додаток готовий до використання",
-          "types": null
-        },
-        {
-          "__component": "atoms.link",
-          "id": 85,
-          "href": "https://planner.thedimas.com/",
-          "label": "Planner",
-          "target": "_blank"
-        }
-      ],
-      "custom_data": null,
-      "intro": {
-        "id": 72,
-        "project_name": "Планувальник",
-        "description": "ваш новий щоденний планувальник",
-        "intro": "Додаток для простого відстеження завдань",
-        "types": null,
-        "image": {
-          "id": 47,
-          "name": "Frame 2.png",
-          "alternativeText": "",
-          "caption": "",
-          "width": 1620,
-          "height": 1620,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968308/large_Frame_2_537b391df0.png",
-              "hash": "large_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "large_Frame 2.png",
-              "path": null,
-              "size": 467.89,
-              "width": 1000,
-              "height": 1000,
-              "provider_metadata": {
-                "public_id": "large_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968309/small_Frame_2_537b391df0.png",
-              "hash": "small_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "small_Frame 2.png",
-              "path": null,
-              "size": 114.46,
-              "width": 500,
-              "height": 500,
-              "provider_metadata": {
-                "public_id": "small_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968309/medium_Frame_2_537b391df0.png",
-              "hash": "medium_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "medium_Frame 2.png",
-              "path": null,
-              "size": 252.9,
-              "width": 750,
-              "height": 750,
-              "provider_metadata": {
-                "public_id": "medium_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968307/thumbnail_Frame_2_537b391df0.png",
-              "hash": "thumbnail_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "thumbnail_Frame 2.png",
-              "path": null,
-              "size": 18.94,
-              "width": 156,
-              "height": 156,
-              "provider_metadata": {
-                "public_id": "thumbnail_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Frame_2_537b391df0",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 687.13,
-          "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968306/Frame_2_537b391df0.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Frame_2_537b391df0",
-            "resource_type": "image"
-          },
-          "created_at": "2021-11-15T09:25:10.087Z",
-          "updated_at": "2021-11-15T09:25:10.106Z"
-        }
-      },
-      "seo": {
-        "id": 56,
-        "title": "DIMAS | Додаток Планувальник",
-        "description": "Dimas - Додаток Планувальник, додаток для планування завдань",
-        "keywords": "dimas планувальник, todo"
-      },
-      "localizations": [
-        {
-          "id": 54,
           "locale": "en"
         }
       ]
@@ -1652,6 +1660,364 @@
   "en": [
     {
       "github": "",
+      "id": 7001,
+      "locale": "en",
+      "created_at": "2026-10-14T00:00:00.000Z",
+      "updated_at": "2026-10-14T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 700101,
+          "text": "Tring Declar is an enterprise customs logistics and document intelligence platform: high-throughput asynchronous PDF parsing, OCR vision extraction, regulatory validation against EU NCTS Phase 5 standards, and automated customs broker workflows.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 700102,
+          "name": "Architecture & Engineering Delivery",
+          "items": [
+            {
+              "id": 70010201,
+              "icon": "FaCheck",
+              "name": "High-Throughput Queue Pipeline",
+              "description": "Orchestrated distributed BullMQ worker pools backed by Redis for multi-page invoice ingestion, PDF splitting, and parallel OCR extraction with sub-400ms job turnaround."
+            },
+            {
+              "id": 70010202,
+              "icon": "FaCheck",
+              "name": "Resilient Search & Storage Fallback",
+              "description": "Architected primary relational persistence with automated Elasticsearch cluster fallback to guarantee 99.9% search and filing availability during high-volume customs declaration windows."
+            },
+            {
+              "id": 70010203,
+              "icon": "FaCheck",
+              "name": "Dual-Engine Regulatory Compliance",
+              "description": "Implemented automated validation for EU NCTS transit rules, HS tariff code verification, customs duty and VAT calculators, and real-time risk rule evaluation."
+            },
+            {
+              "id": 70010204,
+              "icon": "FaCheck",
+              "name": "Full-Stack Type Safety",
+              "description": "Engineered type-safe API boundaries and worker contracts using NestJS, TypeScript, and a responsive operator inspection workspace in React."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 700103,
+          "text": "Declar Platform: Customs Document OCR Overlay, Extracted Goods Table and BullMQ Execution Graph",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 710001,
+              "name": "tring-declar-platform.png",
+              "alternativeText": "Tring Declar Customs OCR Platform Interface",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/tring-declar-platform.png",
+                  "hash": "tring_declar_platform_png",
+                  "mime": "image/png",
+                  "name": "tring-declar-platform.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "tring-declar-platform.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "tring_declar_platform_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/tring-declar-platform.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "tring-declar-platform.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-10-14T00:00:00.000Z",
+              "updated_at": "2026-10-14T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.list",
+          "id": 700104,
+          "name": "Technology Stack",
+          "items": [
+            {
+              "id": 70010401,
+              "icon": "FaCheck",
+              "name": "Backend & Queues",
+              "description": "NestJS, TypeScript, Node.js, BullMQ, Redis, PostgreSQL, Elasticsearch"
+            },
+            {
+              "id": 70010402,
+              "icon": "FaCheck",
+              "name": "Frontend & Terminal",
+              "description": "React, Vite, TypeScript, Tailwind CSS, Document Canvas OCR Viewer"
+            },
+            {
+              "id": 70010403,
+              "icon": "FaCheck",
+              "name": "Standards & Infrastructure",
+              "description": "EU NCTS Phase 5, Docker, Redis Sentinel, Asynchronous Worker Clusters"
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 7010,
+        "project_name": "Tring Declar",
+        "description": "High-throughput customs declaration OCR pipeline with BullMQ queue orchestration, Elasticsearch fallback and EU NCTS validation.",
+        "intro": "Enterprise logistics document intelligence platform built with NestJS, TypeScript, Redis, BullMQ, and dual-engine risk analysis.",
+        "slug": "declar",
+        "types": null,
+        "image": {
+          "id": 710001,
+          "name": "tring-declar-platform.png",
+          "alternativeText": "Tring Declar Customs OCR Platform",
+          "caption": "",
+          "width": 2560,
+          "height": 1440,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/tring-declar-platform.png",
+              "hash": "tring_declar_platform_png",
+              "mime": "image/png",
+              "name": "tring-declar-platform.png",
+              "path": null,
+              "size": 0,
+              "width": 2560,
+              "height": 1440,
+              "provider_metadata": {
+                "public_id": "tring-declar-platform.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "tring_declar_platform_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/tring-declar-platform.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "tring-declar-platform.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-10-14T00:00:00.000Z",
+          "updated_at": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 7091,
+        "title": "Tring Declar — High-Throughput Customs OCR Pipeline | Dmitry Galaktionov",
+        "description": "Customs logistics document intelligence platform: NestJS, BullMQ, Redis, Elasticsearch, and EU NCTS regulatory compliance.",
+        "keywords": "Tring, Declar, Customs OCR, BullMQ, NestJS, TypeScript, Elasticsearch, NCTS, Dmitry Galaktionov"
+      },
+      "localizations": [
+        {
+          "id": 7002,
+          "locale": "ua"
+        }
+      ]
+    },
+    {
+      "github": "",
+      "id": 7011,
+      "locale": "en",
+      "created_at": "2026-10-14T00:00:00.000Z",
+      "updated_at": "2026-10-14T00:00:00.000Z",
+      "comps": [
+        {
+          "__component": "molecules.paragraph",
+          "id": 701101,
+          "text": "Altus Power is a market-leading commercial and community clean energy provider. I developed and enhanced the B2C customer onboarding and self-service servicing app, enabling thousands of subscribers to link utility accounts and receive guaranteed clean solar energy credits.",
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 701102,
+          "name": "Engineering Delivery & Frontend Architecture",
+          "items": [
+            {
+              "id": 70110201,
+              "icon": "FaCheck",
+              "name": "Streamlined B2C Onboarding Funnel",
+              "description": "Engineered a responsive 4-step onboarding flow (address eligibility, ConEdison/Eversource account linking, solar farm allocation, and digital agreements) that drove a 94.8% completion rate."
+            },
+            {
+              "id": 70110202,
+              "icon": "FaCheck",
+              "name": "Shared Design System (@altus-power/amps-ui)",
+              "description": "Contributed reusable, accessible UI component primitives, form controls, and theme tokens across the enterprise monorepo ecosystem."
+            },
+            {
+              "id": 70110203,
+              "icon": "FaCheck",
+              "name": "Enterprise OAuth 2.0 PKCE Flow",
+              "description": "Implemented secure customer authentication with social providers (Apple, Google, Facebook) following strict PKCE standards and token lifecycle management."
+            },
+            {
+              "id": 70110204,
+              "icon": "FaCheck",
+              "name": "GraphQL Servicing Hub",
+              "description": "Integrated Apollo Client and GraphQL schemas for real-time solar generation telemetry, utility billing offsets, and customer account servicing."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 701103,
+          "text": "Altus Power: CleanTech Community Solar Onboarding Flow, AMPS Design System Components and Generation Telemetry",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 710002,
+              "name": "altus-power-solar.png",
+              "alternativeText": "Altus Power CleanTech Solar Platform Interface",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/altus-power-solar.png",
+                  "hash": "altus_power_solar_png",
+                  "mime": "image/png",
+                  "name": "altus-power-solar.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "altus-power-solar.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "altus_power_solar_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/altus-power-solar.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "altus-power-solar.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-10-14T00:00:00.000Z",
+              "updated_at": "2026-10-14T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "__component": "molecules.list",
+          "id": 701104,
+          "name": "Technology Stack",
+          "items": [
+            {
+              "id": 70110401,
+              "icon": "FaCheck",
+              "name": "Frontend & UI System",
+              "description": "React, TypeScript, Next.js, @altus-power/amps-ui, SCSS Modules"
+            },
+            {
+              "id": 70110402,
+              "icon": "FaCheck",
+              "name": "State & API Layers",
+              "description": "GraphQL, Apollo Client, OAuth 2.0 PKCE, REST APIs"
+            },
+            {
+              "id": 70110403,
+              "icon": "FaCheck",
+              "name": "Testing & Build",
+              "description": "Jest, React Testing Library, Webpack, Vercel CI/CD"
+            }
+          ],
+          "types": null
+        }
+      ],
+      "custom_data": null,
+      "intro": {
+        "id": 7030,
+        "project_name": "Altus Power",
+        "description": "CleanTech commercial and community solar B2C customer portal with automated utility linking and enterprise design system.",
+        "intro": "Clean energy customer onboarding and self-service servicing app built with React, TypeScript, GraphQL, and the @altus-power/amps-ui design system.",
+        "slug": "altus-power",
+        "types": null,
+        "image": {
+          "id": 710002,
+          "name": "altus-power-solar.png",
+          "alternativeText": "Altus Power Community Solar Customer Portal",
+          "caption": "",
+          "width": 2560,
+          "height": 1440,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/altus-power-solar.png",
+              "hash": "altus_power_solar_png",
+              "mime": "image/png",
+              "name": "altus-power-solar.png",
+              "path": null,
+              "size": 0,
+              "width": 2560,
+              "height": 1440,
+              "provider_metadata": {
+                "public_id": "altus-power-solar.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "altus_power_solar_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/altus-power-solar.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "altus-power-solar.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-10-14T00:00:00.000Z",
+          "updated_at": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      "seo": {
+        "id": 7093,
+        "title": "Altus Power — Community Solar B2C Portal & Design System | Dmitry Galaktionov",
+        "description": "CleanTech customer servicing application: React, TypeScript, GraphQL, OAuth 2.0 PKCE, and the @altus-power/amps-ui design system.",
+        "keywords": "Altus Power, CleanTech, Community Solar, React, TypeScript, GraphQL, Design System, AMPS, Dmitry Galaktionov"
+      },
+      "localizations": [
+        {
+          "id": 7012,
+          "locale": "ua"
+        }
+      ]
+    },
+    {
+      "github": "",
       "id": 6011,
       "locale": "en",
       "created_at": "2026-09-11T12:00:00+03:00",
@@ -2247,356 +2613,6 @@
       "localizations": [
         {
           "id": 100,
-          "locale": "ua"
-        }
-      ]
-    },
-    {
-      "id": 50,
-      "github": "https://github.com/Galionix/music-site",
-      "locale": "en",
-      "created_at": "2021-11-15T09:32:16.091Z",
-      "updated_at": "2022-08-21T02:21:26.837Z",
-      "comps": [
-        {
-          "__component": "molecules.paragraph",
-          "id": 82,
-          "text": "I've been seek of yotube music dumping my sacred albums into void, so I decided to create my own music website, where I can upload my music and share it with my friends and family.",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 83,
-          "text": "The website is built with Next.js and Google Firebase, and it's hosted on Vercel.",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 84,
-          "text": "It was planned to be a simple website, but I decided to add some features, like preview of images I gathered during compositon of tracks, to complete the experience. Pay attention to A letter next to track to view the gallery",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 85,
-          "text": "The website is still in development, but you can check it out here:",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 89,
-          "text": "I collected all tracks during whole time I was making music, so some of them are pretty old, and some of them are new. I hope you will enjoy it! Though, I'm not a professional musician, so don't judge me too hard :D",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 89,
-          "text": "If you not a fan of my music, you can check the Latest albums section, generally tracks there are better qualtiy, and more recent.",
-          "types": null
-        },
-        {
-          "__component": "atoms.link",
-          "id": 16,
-          "href": "https://music.thedimas.com/collections/7",
-          "label": "Listen latest",
-          "target": "_blank"
-        }
-      ],
-      "custom_data": null,
-      "intro": {
-        "id": 73,
-        "project_name": "Thedimas-Music",
-        "description": "My personal music website",
-        "intro": "This is my personal music website, where you can find my music, my social media and my contacts",
-        "types": null,
-        "image": {
-          "id": 47,
-          "name": "Frame 2.png",
-          "alternativeText": "",
-          "caption": "",
-          "width": 1620,
-          "height": 1620,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1704627713/522d6a26-b8b5-430b-95c2-f920d7174e17_fs4eer.webp",
-              "hash": "large_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "large_Frame 2.png",
-              "path": null,
-              "size": 467.89,
-              "width": 1000,
-              "height": 1000,
-              "provider_metadata": {
-                "public_id": "large_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968309/small_Frame_2_537b391df0.png",
-              "hash": "small_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "small_Frame 2.png",
-              "path": null,
-              "size": 114.46,
-              "width": 500,
-              "height": 500,
-              "provider_metadata": {
-                "public_id": "small_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968309/medium_Frame_2_537b391df0.png",
-              "hash": "medium_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "medium_Frame 2.png",
-              "path": null,
-              "size": 252.9,
-              "width": 750,
-              "height": 750,
-              "provider_metadata": {
-                "public_id": "medium_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968307/thumbnail_Frame_2_537b391df0.png",
-              "hash": "thumbnail_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "thumbnail_Frame 2.png",
-              "path": null,
-              "size": 18.94,
-              "width": 156,
-              "height": 156,
-              "provider_metadata": {
-                "public_id": "thumbnail_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Frame_2_537b391df0",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 687.13,
-          "url": "https://res.cloudinary.com/dimascf/image/upload/v1704627713/522d6a26-b8b5-430b-95c2-f920d7174e17_fs4eer.webp",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Frame_2_537b391df0",
-            "resource_type": "image"
-          },
-          "created_at": "2021-11-15T09:25:10.087Z",
-          "updated_at": "2021-11-15T09:25:10.106Z"
-        }
-      },
-      "seo": {
-        "id": 57,
-        "title": "DIMAS | Planner App",
-        "description": "Dimas - Planner app",
-        "keywords": "dimas planner app, todo"
-      },
-      "localizations": [
-        {
-          "id": 53,
-          "locale": "ua"
-        }
-      ]
-    },
-    {
-      "github": "https://github.com/Galionix/next-pwa",
-      "id": 54,
-      "locale": "en",
-      "created_at": "2021-11-15T09:32:16.091Z",
-      "updated_at": "2022-08-21T02:21:26.837Z",
-      "comps": [
-        {
-          "__component": "molecules.paragraph",
-          "id": 82,
-          "text": "\nIt was originally conceived as a simple application for quickly and conveniently organizing a list of tasks.",
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 83,
-          "text": "With time I added some features, and it became a little bit more complicated. ",
-          "types": null
-        },
-        {
-          "__component": "molecules.list",
-          "id": 83,
-          "name": "Dimas Planner features",
-          "items": [
-            {
-              "name": "Theming options",
-              "id": 2,
-              "description": "Choose between light and dark themes for personal preference"
-            },
-            {
-              "name": "View completed tasks",
-              "id": 3,
-              "description": "Allows viewing of completed todos for tracking and reference"
-            },
-            {
-              "name": "Set task importance",
-              "id": 4,
-              "description": "Mark tasks as regular, urgent, or warning to prioritize"
-            },
-            {
-              "name": "Highlight urgent tasks",
-              "id": 5,
-              "description": "Not completed urgent tasks are indicated in the main list with a distinct color for visibility"
-            },
-            {
-              "name": "Track task time",
-              "id": 6,
-              "description": "Monitor creation and updated dates of tasks"
-            },
-            {
-              "name": "Image upload and zoom",
-              "id": 7,
-              "description": "Upload images to tasks with a feature to zoom in on previews"
-            },
-            {
-              "name": "Quick create/view today's list",
-              "id": 8,
-              "description": "Easily create or view a list for today with a single button at the top of the list"
-            },
-            {
-              "name": "Mobile-ready PWA",
-              "id": 9,
-              "description": "Support for Progressive Web App, optimized for mobile use. You can add it to your home screen"
-            },
-            {
-              "name": "Responsive mobile views",
-              "id": 10,
-              "description": "On mobile, easily hide, show, or wrap views with a swipe gesture"
-            },
-            {
-              "name": "Shared lists with friends",
-              "id": 11,
-              "description": "Create and manage lists that can be shared with friends, allowing them to see and add tasks. Add friends by email"
-            }
-          ],
-          "types": null
-        },
-        {
-          "__component": "molecules.paragraph",
-          "id": 84,
-          "text": "This app ready to use",
-          "types": null
-        },
-        {
-          "__component": "atoms.link",
-          "id": 85,
-          "href": "https://planner.thedimas.com/",
-          "label": "Planner",
-          "target": "_blank"
-        }
-      ],
-      "custom_data": null,
-      "intro": {
-        "id": 73,
-        "project_name": "Planner",
-        "description": "your new everyday planner",
-        "intro": "Application for simple task tracking",
-        "types": null,
-        "image": {
-          "id": 47,
-          "name": "Frame 2.png",
-          "alternativeText": "",
-          "caption": "",
-          "width": 1620,
-          "height": 1620,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968308/large_Frame_2_537b391df0.png",
-              "hash": "large_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "large_Frame 2.png",
-              "path": null,
-              "size": 467.89,
-              "width": 1000,
-              "height": 1000,
-              "provider_metadata": {
-                "public_id": "large_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968309/small_Frame_2_537b391df0.png",
-              "hash": "small_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "small_Frame 2.png",
-              "path": null,
-              "size": 114.46,
-              "width": 500,
-              "height": 500,
-              "provider_metadata": {
-                "public_id": "small_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968309/medium_Frame_2_537b391df0.png",
-              "hash": "medium_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "medium_Frame 2.png",
-              "path": null,
-              "size": 252.9,
-              "width": 750,
-              "height": 750,
-              "provider_metadata": {
-                "public_id": "medium_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968307/thumbnail_Frame_2_537b391df0.png",
-              "hash": "thumbnail_Frame_2_537b391df0",
-              "mime": "image/png",
-              "name": "thumbnail_Frame 2.png",
-              "path": null,
-              "size": 18.94,
-              "width": 156,
-              "height": 156,
-              "provider_metadata": {
-                "public_id": "thumbnail_Frame_2_537b391df0",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Frame_2_537b391df0",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 687.13,
-          "url": "https://res.cloudinary.com/dimascf/image/upload/v1636968306/Frame_2_537b391df0.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Frame_2_537b391df0",
-            "resource_type": "image"
-          },
-          "created_at": "2021-11-15T09:25:10.087Z",
-          "updated_at": "2021-11-15T09:25:10.106Z"
-        }
-      },
-      "seo": {
-        "id": 57,
-        "title": "DIMAS | Planner App",
-        "description": "Dimas - Planner app, приложение для планирования задач",
-        "keywords": "dimas planner app, todo"
-      },
-      "localizations": [
-        {
-          "id": 53,
           "locale": "ua"
         }
       ]
