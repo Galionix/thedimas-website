@@ -198,6 +198,18 @@ export default function ProjectsPage({
         <title>{content.seo.title}</title>
         <meta name="description" content={content.seo.description} />
         <meta name="keywords" content={content.seo.keywords} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={content.seo.title} />
+        <meta property="og:description" content={content.seo.description} />
+        <meta property="og:url" content={`https://thedimas.com/${currentLocale}/projects`} />
+        <meta property="og:image" content="https://thedimas.com/portfolio/og-cover.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Dmitry Galaktionov | Commercial Projects & Engineering Cases" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={content.seo.title} />
+        <meta name="twitter:description" content={content.seo.description} />
+        <meta name="twitter:image" content="https://thedimas.com/portfolio/og-cover.png" />
       </Head>
       <Header header_data={header_data} />
       <ul className={` ${s.cards} `}>

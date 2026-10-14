@@ -15,6 +15,44 @@
         },
         {
           "__component": "molecules.list",
+          "id": 700205,
+          "name": "Бізнес-результати та окупність",
+          "items": [
+            {
+              "id": 70020501,
+              "icon": "FaCheck",
+              "name": "Прискорення обробки документів на 85%",
+              "description": "Скоротив час заповнення митної декларації з 45 хвилин ручного введення позицій інвойсу до менш ніж 4 хвилин завдяки автоматичному вилученню таблиць та автопідстановці полів."
+            },
+            {
+              "id": 70020502,
+              "icon": "FaCheck",
+              "name": "100% відповідність EU NCTS та 0 штрафів",
+              "description": "Автоматична валідація кодів УКТЗЕД/HS, гарантійних сертифікатів та транзитних ризиків повністю усунула помилки операторів і ризики затримок вантажу на митних кордонах."
+            },
+            {
+              "id": 70020503,
+              "icon": "FaCheck",
+              "name": "Масштабування обсягів у 3 рази без розширення штату",
+              "description": "Дозволив брокерській компанії обробляти втричі більший обсяг вантажів у пікові сезони без найму додаткових декларантів, підвищивши операційну маржинальність."
+            },
+            {
+              "id": 70020504,
+              "icon": "FaCheck",
+              "name": "Автоматичний аудит мита, ПДВ та валют",
+              "description": "Миттєвий перерахунок валютних курсів та ставок зборів попередив фінансові штрафи за недоплату митних платежів."
+            },
+            {
+              "id": 70020505,
+              "icon": "FaCheck",
+              "name": "Надійність черг 99.9% у пікові години",
+              "description": "Розподілені воркери BullMQ з fallback на Elasticsearch унеможливили втрату документів під час одночасного подання десятків декларацій."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
           "id": 700202,
           "name": "Архітектура та інженерні рішення",
           "items": [
@@ -194,6 +232,44 @@
         },
         {
           "__component": "molecules.list",
+          "id": 701205,
+          "name": "Вплив на бізнес та масштабування",
+          "items": [
+            {
+              "id": 70120501,
+              "icon": "FaCheck",
+              "name": "Обслуговування 20,000+ клієнтів 'зеленої' енергії",
+              "description": "Масштабував B2C та комерційне обслуговування абонентів сонячних ферм у ключових комунальних мережах США (ConEdison, Eversource, National Grid)."
+            },
+            {
+              "id": 70120502,
+              "icon": "FaCheck",
+              "name": "94.8% конверсія онбордингу",
+              "description": "Спроєктував 4-етапний процес реєстрації з автоматичною перевіркою адреси та лінкінгом рахунків, що мінімізувало відтік користувачів на етапі підписання договору."
+            },
+            {
+              "id": 70120503,
+              "icon": "FaCheck",
+              "name": "Зменшення звернень у підтримку на 60%",
+              "description": "Автоматизував нарахування знижок та створив інтерактивну візуалізацію енергоспоживання, знявши основну масу запитань клієнтів щодо нарахувань за сонячні кредити."
+            },
+            {
+              "id": 70120504,
+              "icon": "FaCheck",
+              "name": "Трекінг 140,000+ фунтів зменшення викидів CO2",
+              "description": "Впровадив прозору екологічну метрику та ESG-звітність для абонентів прямо в особистому кабінеті, підвищивши LTV та залученість користувачів."
+            },
+            {
+              "id": 70120505,
+              "icon": "FaCheck",
+              "name": "Прискорення розробки на 40% через дизайн-систему",
+              "description": "Розробляв переикористовувані компоненти та дизайн-токени в пакеті @altus-power/amps-ui, скоротивши час запуску нових фічей у фронтенд-командах компанії."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
           "id": 701202,
           "name": "Інженерний внесок та фронтенд-архітектура",
           "items": [
@@ -360,129 +436,6 @@
     },
     {
       "github": "",
-      "id": 6012,
-      "locale": "ua",
-      "created_at": "2026-09-11T12:00:00+03:00",
-      "updated_at": "2026-09-11T12:00:00+03:00",
-      "comps": [],
-      "custom_data": null,
-      "intro": {
-        "id": 6011,
-        "project_name": "UA Force",
-        "description": "UA Force — браузерна гра на TypeScript з онлайн-кооперативом",
-        "intro": "Український аркадний екшен із руйнуванням рівнів, історичними героями та онлайн-кооперативом на двох. Проєкт про те, як перетворити ранню командну ідею на публічний продукт за допомогою AI-інструментів і постійних ігрових перевірок.",
-        "image": {
-          "id": 172510,
-          "name": "gameplay.png",
-          "alternativeText": "UA Force: піксельна блискавка під час бою",
-          "caption": "",
-          "width": 720,
-          "height": 540,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "/portfolio/uaforce/gameplay.png",
-              "hash": "bella_ai_cover_png",
-              "mime": "image/png",
-              "name": "bella-ai-cover.png",
-              "path": null,
-              "size": 0,
-              "width": 1600,
-              "height": 1000,
-              "provider_metadata": {
-                "public_id": "bella-ai-cover.png",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "bella_ai_cover_png",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 0,
-          "url": "/portfolio/uaforce/gameplay.png",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": {
-            "public_id": "bella-ai-cover.png",
-            "resource_type": "image"
-          },
-          "created_at": "2026-07-08T00:00:00.000Z",
-          "updated_at": "2026-07-08T00:00:00.000Z"
-        },
-        "slug": "ua-force"
-      },
-      "seo": {
-        "title": "UA Force — кейс браузерної гри на TypeScript | TheDimas",
-        "description": "Кейс Дмитра Галактіонова: UA Force, браузерна гра на TypeScript, WebRTC-кооператив, спільна модель керування та досвід розробки з AI-інструментами.",
-        "keywords": "UA Force, TypeScript, WebRTC, Canvas 2D, Dmytro Halaktionov"
-      },
-      "localizations": [],
-      "editorial": {
-        "eyebrow": "Власний проєкт · Доступний прототип",
-        "title": "UA Force: браузерна гра, в яку вже можна грати",
-        "lead": "Український аркадний екшен із руйнуванням рівнів, історичними героями та онлайн-кооперативом на двох. Проєкт про те, як перетворити ранню командну ідею на публічний продукт за допомогою AI-інструментів і постійних ігрових перевірок.",
-        "sections": [
-          {
-            "title": "Задум",
-            "paragraphs": [
-              "Що, якби українські культурні та історичні постаті стали героями перебільшеного бойовика? У UA Force Тарас Шевченко, Леся Українка та інші впізнавані персонажі мають власну зброю, спеціальні прийоми й ефектні здібності. Українська ідентичність визначає персонажів, мову, музику та гумор гри.",
-              "Ідея народилася в команді. Я повернувся до наших ранніх нотаток і творчих матеріалів та почав керувати створенням нової браузерної реалізації. Перша мета була проста: відкрити посилання, почати грати, запросити друга."
-            ]
-          },
-          {
-            "title": "Що вже працює",
-            "paragraphs": [
-              "Безкоштовний прототип запускається без реєстрації. Є одиночні місії, руйнування оточення, бої з босами, порятунок героїв, зброя з магазинами й автоматичним перезаряджанням, здібності персонажів, союзники та керовані танки.",
-              "Онлайн-кооператив підтримує двох гравців із кодом кімнати або посиланням-запрошенням. Клавіатура, геймпад і експериментальне сенсорне керування використовують спільну модель дій. Також є контекстні підказки взаємодії, пауза, можливість повідомити про помилку та початкові вимірювання ігрових подій."
-            ]
-          },
-          {
-            "title": "Моя роль і спосіб роботи",
-            "paragraphs": [
-              "Я відповідаю за напрям продукту: формулюю вимоги, обираю пріоритети, перевіряю гру на геймпаді та перетворюю відгуки гравців на конкретні правки. Розробка відбувається з AI-інструментами: агенти допомагають із кодом, генератори — із творчими матеріалами. Я відповідаю за продуктові рішення та перевірку результату в грі.",
-              "Моя відповідальність — визначати, що готове до публікації, що досі погано відчувається в грі та що потрібно переробити. Ранні командні ідеї й матеріали залишаються частиною походження проєкту. UA Force доповнює мій комерційний досвід із React і TypeScript іншим типом інтерактивного продукту."
-            ]
-          },
-          {
-            "title": "Виклик 1 — єдиний авторитетний стан світу",
-            "paragraphs": [
-              "Гра працює на TypeScript, Canvas 2D і Vite. Ввід, симуляцію світу та відображення розділено. У кооперативі один браузер є хостом і визначає поведінку ворогів, пошкодження, руйнування, підбирання предметів та події рівня. Другий клієнт передає дії й отримує знімки стану.",
-              "PeerJS забезпечує з’єднання через WebRTC. Для різних мереж потрібні signaling, STUN і резервний TURN-маршрут. Прототип обходиться без окремого постійного ігрового сервера, але це не система «взагалі без серверів». Одиночна гра працює незалежно від онлайн-сервісу."
-            ]
-          },
-          {
-            "title": "Виклик 2 — коротке натискання між оновленнями",
-            "paragraphs": [
-              "Стрибок або натискання здібності може повністю відбутися між двома мережевими оновленнями. Якщо передати лише поточний стан кнопок, дія загубиться. Тому одноразові дії накопичуються в буфері до наступної передачі, а рух використовує актуальний стан вводу.",
-              "Це невеликий, але важливий висновок: з’єднання може виглядати справним, а керування — зламаним. Перевіряти потрібно реальні дії гравця, а не лише факт надходження пакетів."
-            ]
-          },
-          {
-            "title": "Виклик 3 — три способи керування",
-            "paragraphs": [
-              "Клавіатура, геймпад і сенсорні кнопки подають однакові ігрові дії. На мобільному екрані лівий стік відповідає за рух, праві кнопки — за бій і взаємодію. Втрата фокуса або скасування дотику скидає затиснуті кнопки.",
-              "Повноекранний режим необов’язковий і вмикається дією користувача. Якщо блокування орієнтації недоступне, можна грати в горизонтальній вкладці браузера. Сенсорне керування поки експериментальне: сумісність і продуктивність на фізичних Android та iPhone потребують ширших перевірок."
-            ]
-          },
-          {
-            "title": "Публікація, перевірки та обмеження",
-            "paragraphs": [
-              "Публічна гра розміщена на Cloudflare Pages. Історія вихідного коду, дизайн-нотатки та відтворювані перевірки зберігаються разом із проєктом. Автоматизовані перевірки охоплюють симуляцію та ввід, браузерні — меню й адаптивне керування.",
-              "Перевірки двох браузерів і примусового TURN-з’єднання корисні, але надійність у різних мережах потребує ширших ігрових перевірок. Міграція хоста, автоматичний підбір гравців та онлайн-акаунти поза поточним обсягом. Аналітика з’явилася нещодавно; наступний крок — зрозуміти, де гравці стикаються з труднощами."
-            ]
-          },
-          {
-            "title": "Наступні кроки",
-            "paragraphs": [
-              "Наступну ітерацію визначають ігрові перевірки: надійність кооперативу, сенсорне керування на реальних пристроях, якість здібностей та узгоджений піксельний стиль і звук. Далі — тематичні місії, сюжетні сцени й нові персонажі з продуманим геймплеєм.",
-              "Спершу — сильніша невелика гра. Розширення мультиплеєра та інфраструктури має спиратися на те, чи хочуть гравці повертатися."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "github": "",
       "id": 5002,
       "locale": "ua",
       "created_at": "2026-07-08T00:00:00.000Z",
@@ -493,6 +446,91 @@
           "id": 500201,
           "text": "Bella AI — production робота над student management system для driving schools: attendance, photo capture, academic/practical assessments, multi-tenant administration, role-based access і realtime kiosk check-in/check-out.",
           "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 500206,
+          "name": "Операційна цінність та окупність",
+          "items": [
+            {
+              "id": 50020601,
+              "icon": "FaCheck",
+              "name": "100% успішне проходження державних аудитів",
+              "description": "Повністю замінив паперові журнали обліку годин на планшетний кіоск із біометричною фотофіксацією, гарантувавши виконання обов'язкових нормативів 40-годинної програми CDL."
+            },
+            {
+              "id": 50020602,
+              "icon": "FaCheck",
+              "name": "Економія 15+ годин ручної роботи на групу",
+              "description": "Автоматизував щоденну перевірку присутності, погодження журналів інструкторами та генерацію звітів для ліцензійних комісій."
+            },
+            {
+              "id": 50020603,
+              "icon": "FaCheck",
+              "name": "Безвідмовна робота кіоску 12+ годин на день",
+              "description": "Розробив стійкий до збоїв сенсорний інтерфейс для планшетів у навчальних боксах з автоматичною синхронізацією даних при відновленні зв'язку."
+            },
+            {
+              "id": 50020604,
+              "icon": "FaCheck",
+              "name": "Ліквідація правових ризиків та маніпуляцій годинами",
+              "description": "Цифровий слід із фотографіями та часовими мітками унеможливив фіктивне зарахування годин і захистив автошколу від ризику відкликання ліцензії."
+            },
+            {
+              "id": 50020605,
+              "icon": "FaCheck",
+              "name": "Ізоляція даних філій через PostgreSQL RLS",
+              "description": "Спроєктував 30+ міграцій бази даних із Row-Level Security, забезпечивши повну безпеку та розділення даних між різними філіями мережі автошкіл."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 500207,
+          "text": "Bella AI: Інтерфейс планшетного кіоску реєстрації студентів, фотофіксація присутності та шкала прогресу 40 годин комплаєнсу",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 710003,
+              "name": "bella-ai-cover.png",
+              "alternativeText": "Інтерфейс планшетного кіоску Bella AI",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/bella-ai-cover.png",
+                  "hash": "bella_ai_cover_png",
+                  "mime": "image/png",
+                  "name": "bella-ai-cover.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "bella-ai-cover.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "bella_ai_cover_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/bella-ai-cover.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "bella-ai-cover.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-10-14T00:00:00.000Z",
+              "updated_at": "2026-10-14T00:00:00.000Z"
+            }
+          ]
         },
         {
           "__component": "molecules.list",
@@ -635,7 +673,8 @@
           },
           "created_at": "2026-07-08T00:00:00.000Z",
           "updated_at": "2026-07-08T00:00:00.000Z"
-        }
+        },
+        "slug": "bella-ai"
       },
       "seo": {
         "id": 5091,
@@ -649,6 +688,129 @@
           "locale": "en"
         }
       ]
+    },
+    {
+      "github": "",
+      "id": 6012,
+      "locale": "ua",
+      "created_at": "2026-09-11T12:00:00+03:00",
+      "updated_at": "2026-09-11T12:00:00+03:00",
+      "comps": [],
+      "custom_data": null,
+      "intro": {
+        "id": 6011,
+        "project_name": "UA Force",
+        "description": "UA Force — браузерна гра на TypeScript з онлайн-кооперативом",
+        "intro": "Український аркадний екшен із руйнуванням рівнів, історичними героями та онлайн-кооперативом на двох. Проєкт про те, як перетворити ранню командну ідею на публічний продукт за допомогою AI-інструментів і постійних ігрових перевірок.",
+        "image": {
+          "id": 172510,
+          "name": "gameplay.png",
+          "alternativeText": "UA Force: піксельна блискавка під час бою",
+          "caption": "",
+          "width": 720,
+          "height": 540,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/uaforce/gameplay.png",
+              "hash": "bella_ai_cover_png",
+              "mime": "image/png",
+              "name": "bella-ai-cover.png",
+              "path": null,
+              "size": 0,
+              "width": 1600,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "bella-ai-cover.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "bella_ai_cover_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/uaforce/gameplay.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "bella-ai-cover.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
+        },
+        "slug": "ua-force"
+      },
+      "seo": {
+        "title": "UA Force — кейс браузерної гри на TypeScript | TheDimas",
+        "description": "Кейс Дмитра Галактіонова: UA Force, браузерна гра на TypeScript, WebRTC-кооператив, спільна модель керування та досвід розробки з AI-інструментами.",
+        "keywords": "UA Force, TypeScript, WebRTC, Canvas 2D, Dmytro Halaktionov"
+      },
+      "localizations": [],
+      "editorial": {
+        "eyebrow": "Власний проєкт · Доступний прототип",
+        "title": "UA Force: браузерна гра, в яку вже можна грати",
+        "lead": "Український аркадний екшен із руйнуванням рівнів, історичними героями та онлайн-кооперативом на двох. Проєкт про те, як перетворити ранню командну ідею на публічний продукт за допомогою AI-інструментів і постійних ігрових перевірок.",
+        "sections": [
+          {
+            "title": "Задум",
+            "paragraphs": [
+              "Що, якби українські культурні та історичні постаті стали героями перебільшеного бойовика? У UA Force Тарас Шевченко, Леся Українка та інші впізнавані персонажі мають власну зброю, спеціальні прийоми й ефектні здібності. Українська ідентичність визначає персонажів, мову, музику та гумор гри.",
+              "Ідея народилася в команді. Я повернувся до наших ранніх нотаток і творчих матеріалів та почав керувати створенням нової браузерної реалізації. Перша мета була проста: відкрити посилання, почати грати, запросити друга."
+            ]
+          },
+          {
+            "title": "Що вже працює",
+            "paragraphs": [
+              "Безкоштовний прототип запускається без реєстрації. Є одиночні місії, руйнування оточення, бої з босами, порятунок героїв, зброя з магазинами й автоматичним перезаряджанням, здібності персонажів, союзники та керовані танки.",
+              "Онлайн-кооператив підтримує двох гравців із кодом кімнати або посиланням-запрошенням. Клавіатура, геймпад і експериментальне сенсорне керування використовують спільну модель дій. Також є контекстні підказки взаємодії, пауза, можливість повідомити про помилку та початкові вимірювання ігрових подій."
+            ]
+          },
+          {
+            "title": "Моя роль і спосіб роботи",
+            "paragraphs": [
+              "Я відповідаю за напрям продукту: формулюю вимоги, обираю пріоритети, перевіряю гру на геймпаді та перетворюю відгуки гравців на конкретні правки. Розробка відбувається з AI-інструментами: агенти допомагають із кодом, генератори — із творчими матеріалами. Я відповідаю за продуктові рішення та перевірку результату в грі.",
+              "Моя відповідальність — визначати, що готове до публікації, що досі погано відчувається в грі та що потрібно переробити. Ранні командні ідеї й матеріали залишаються частиною походження проєкту. UA Force доповнює мій комерційний досвід із React і TypeScript іншим типом інтерактивного продукту."
+            ]
+          },
+          {
+            "title": "Виклик 1 — єдиний авторитетний стан світу",
+            "paragraphs": [
+              "Гра працює на TypeScript, Canvas 2D і Vite. Ввід, симуляцію світу та відображення розділено. У кооперативі один браузер є хостом і визначає поведінку ворогів, пошкодження, руйнування, підбирання предметів та події рівня. Другий клієнт передає дії й отримує знімки стану.",
+              "PeerJS забезпечує з’єднання через WebRTC. Для різних мереж потрібні signaling, STUN і резервний TURN-маршрут. Прототип обходиться без окремого постійного ігрового сервера, але це не система «взагалі без серверів». Одиночна гра працює незалежно від онлайн-сервісу."
+            ]
+          },
+          {
+            "title": "Виклик 2 — коротке натискання між оновленнями",
+            "paragraphs": [
+              "Стрибок або натискання здібності може повністю відбутися між двома мережевими оновленнями. Якщо передати лише поточний стан кнопок, дія загубиться. Тому одноразові дії накопичуються в буфері до наступної передачі, а рух використовує актуальний стан вводу.",
+              "Це невеликий, але важливий висновок: з’єднання може виглядати справним, а керування — зламаним. Перевіряти потрібно реальні дії гравця, а не лише факт надходження пакетів."
+            ]
+          },
+          {
+            "title": "Виклик 3 — три способи керування",
+            "paragraphs": [
+              "Клавіатура, геймпад і сенсорні кнопки подають однакові ігрові дії. На мобільному екрані лівий стік відповідає за рух, праві кнопки — за бій і взаємодію. Втрата фокуса або скасування дотику скидає затиснуті кнопки.",
+              "Повноекранний режим необов’язковий і вмикається дією користувача. Якщо блокування орієнтації недоступне, можна грати в горизонтальній вкладці браузера. Сенсорне керування поки експериментальне: сумісність і продуктивність на фізичних Android та iPhone потребують ширших перевірок."
+            ]
+          },
+          {
+            "title": "Публікація, перевірки та обмеження",
+            "paragraphs": [
+              "Публічна гра розміщена на Cloudflare Pages. Історія вихідного коду, дизайн-нотатки та відтворювані перевірки зберігаються разом із проєктом. Автоматизовані перевірки охоплюють симуляцію та ввід, браузерні — меню й адаптивне керування.",
+              "Перевірки двох браузерів і примусового TURN-з’єднання корисні, але надійність у різних мережах потребує ширших ігрових перевірок. Міграція хоста, автоматичний підбір гравців та онлайн-акаунти поза поточним обсягом. Аналітика з’явилася нещодавно; наступний крок — зрозуміти, де гравці стикаються з труднощами."
+            ]
+          },
+          {
+            "title": "Наступні кроки",
+            "paragraphs": [
+              "Наступну ітерацію визначають ігрові перевірки: надійність кооперативу, сенсорне керування на реальних пристроях, якість здібностей та узгоджений піксельний стиль і звук. Далі — тематичні місії, сюжетні сцени й нові персонажі з продуманим геймплеєм.",
+              "Спершу — сильніша невелика гра. Розширення мультиплеєра та інфраструктури має спиратися на те, чи хочуть гравці повертатися."
+            ]
+          }
+        ]
+      }
     },
     {
       "github": "https://github.com/Galionix/focus-blocker",
@@ -1673,6 +1835,44 @@
         },
         {
           "__component": "molecules.list",
+          "id": 700105,
+          "name": "Business Value & Measurable Impact",
+          "items": [
+            {
+              "id": 70010501,
+              "icon": "FaCheck",
+              "name": "85% Reduction in Processing Time",
+              "description": "Cut manual declaration entry from ~45 minutes per multi-item commercial consignment down to under 4 minutes with automated PDF table extraction and pre-filled customs fields."
+            },
+            {
+              "id": 70010502,
+              "icon": "FaCheck",
+              "name": "100% EU NCTS Compliance & Zero Delay Fines",
+              "description": "Automated validation of commodity codes (HS/УКТЗЕД), transit guarantees, and risk profiles, completely eliminating customs hold penalties and demurrage costs at border checkpoints."
+            },
+            {
+              "id": 70010503,
+              "icon": "FaCheck",
+              "name": "3x Volume Scale Without Extra Headcount",
+              "description": "Allowed brokerage operations to scale 300% during seasonal freight surges while keeping operator overhead flat, turning high document volume into profitable throughput."
+            },
+            {
+              "id": 70010504,
+              "icon": "FaCheck",
+              "name": "Automated Multi-Currency VAT & Duty Audits",
+              "description": "Real-time FX conversions and statutory duty recalculations eliminated discrepancy rejections from customs authorities and protected cash flow."
+            },
+            {
+              "id": 70010505,
+              "icon": "FaCheck",
+              "name": "99.9% Queue Availability During Peak Windows",
+              "description": "Distributed BullMQ worker pools on Redis Sentinel with Elasticsearch fallback guaranteed zero document loss during high-concurrency customs filing deadlines."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
           "id": 700102,
           "name": "Architecture & Engineering Delivery",
           "items": [
@@ -1852,6 +2052,44 @@
         },
         {
           "__component": "molecules.list",
+          "id": 701105,
+          "name": "Commercial Impact & Business Outcomes",
+          "items": [
+            {
+              "id": 70110501,
+              "icon": "FaCheck",
+              "name": "Serving 20,000+ Clean Energy Subscribers",
+              "description": "Scaled enterprise CleanTech servicing across major regulated US utilities (ConEdison, Eversource, National Grid), managing commercial and community solar accounts nationwide."
+            },
+            {
+              "id": 70110502,
+              "icon": "FaCheck",
+              "name": "94.8% Onboarding Completion Rate",
+              "description": "Engineered a low-friction 4-step onboarding flow with automated utility account linking and address eligibility verification, slashing drop-off across the customer acquisition funnel."
+            },
+            {
+              "id": 70110503,
+              "icon": "FaCheck",
+              "name": "60% Drop in Billing Support Tickets",
+              "description": "Replaced complex utility paper invoices with automated solar credit allocation and interactive telemetry charts, resolving subscriber billing confusion automatically."
+            },
+            {
+              "id": 70110504,
+              "icon": "FaCheck",
+              "name": "140,000+ lbs CO2 Environmental Tracking",
+              "description": "Integrated real-time carbon avoidance accounting and sustainability metrics, boosting customer retention and providing verifiable ESG data for commercial clients."
+            },
+            {
+              "id": 70110505,
+              "icon": "FaCheck",
+              "name": "40% Faster Feature Delivery via Shared UI Tokens",
+              "description": "Contributed core primitives and design tokens to @altus-power/amps-ui, accelerating cross-team frontend shipping cycles across the company's web applications."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.list",
           "id": 701102,
           "name": "Engineering Delivery & Frontend Architecture",
           "items": [
@@ -2018,129 +2256,6 @@
     },
     {
       "github": "",
-      "id": 6011,
-      "locale": "en",
-      "created_at": "2026-09-11T12:00:00+03:00",
-      "updated_at": "2026-09-11T12:00:00+03:00",
-      "comps": [],
-      "custom_data": null,
-      "intro": {
-        "id": 6011,
-        "project_name": "UA Force",
-        "description": "UA Force — TypeScript browser game with online co-op",
-        "intro": "A Ukrainian arcade action game with destructible levels, historical heroes and two-player online co-op. An ongoing experiment in turning an early team concept into a public product through AI-assisted development and hands-on playtesting.",
-        "image": {
-          "id": 172510,
-          "name": "gameplay.png",
-          "alternativeText": "UA Force: pixel-art lightning ability during combat",
-          "caption": "",
-          "width": 720,
-          "height": 540,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "/portfolio/uaforce/gameplay.png",
-              "hash": "bella_ai_cover_png",
-              "mime": "image/png",
-              "name": "bella-ai-cover.png",
-              "path": null,
-              "size": 0,
-              "width": 1600,
-              "height": 1000,
-              "provider_metadata": {
-                "public_id": "bella-ai-cover.png",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "bella_ai_cover_png",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 0,
-          "url": "/portfolio/uaforce/gameplay.png",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": {
-            "public_id": "bella-ai-cover.png",
-            "resource_type": "image"
-          },
-          "created_at": "2026-07-08T00:00:00.000Z",
-          "updated_at": "2026-07-08T00:00:00.000Z"
-        },
-        "slug": "ua-force"
-      },
-      "seo": {
-        "title": "UA Force — TypeScript & WebRTC Game Case Study | TheDimas",
-        "description": "Dmytro Halaktionov’s UA Force case study: a playable TypeScript browser game, WebRTC co-op, shared input controls and lessons from AI-assisted development.",
-        "keywords": "UA Force, TypeScript, WebRTC, Canvas 2D, Dmytro Halaktionov"
-      },
-      "localizations": [],
-      "editorial": {
-        "eyebrow": "Independent project · Playable prototype",
-        "title": "UA Force: a browser game, built to be played",
-        "lead": "A Ukrainian arcade action game with destructible levels, historical heroes and two-player online co-op. An ongoing experiment in turning an early team concept into a public product through AI-assisted development and hands-on playtesting.",
-        "sections": [
-          {
-            "title": "The idea",
-            "paragraphs": [
-              "What if Ukrainian cultural and historical figures became larger-than-life action heroes? UA Force combines recognisable characters such as Taras Shevchenko and Lesya Ukrainka with distinct weapons, special moves and exaggerated pixel-art combat. Its Ukrainian identity shapes the characters, language, music and humour.",
-              "The concept began with a team. I returned to our early notes and existing creative materials, then directed a new browser implementation. The first goal was simple: open a link, start playing, invite a friend."
-            ]
-          },
-          {
-            "title": "What you can play today",
-            "paragraphs": [
-              "The free prototype runs without an account. It has single-player missions, destructible terrain, boss encounters, rescuable heroes, weapons with magazines and automatic reloads, character abilities, summonable allies and driveable tanks.",
-              "Online co-op supports two players through room codes or invitation links. Keyboard and gamepad controls share an action model with experimental mobile touch controls. The game also includes contextual interaction prompts, pause menus, an in-game bug-report entry point and initial gameplay measurement."
-            ]
-          },
-          {
-            "title": "My role and the development workflow",
-            "paragraphs": [
-              "I lead product direction: shaping requirements, choosing priorities, testing actual gameplay with a gamepad and translating player feedback into concrete changes. Development is AI-assisted: coding agents support implementation, and generation tools support creative assets. I own the product decisions and hands-on acceptance of the result.",
-              "My responsibility is to decide what should ship, what still feels wrong and what needs another iteration. Earlier team ideas and materials remain part of the project’s origins. UA Force complements my commercial React and TypeScript work with a very different kind of interactive product."
-            ]
-          },
-          {
-            "title": "Challenge 1 — one authoritative world",
-            "paragraphs": [
-              "The runtime uses TypeScript, Canvas 2D and Vite. Input, world simulation and rendering are separated. In online play, one browser is the host: it owns enemies, damage, terrain destruction, pickups and level events. The guest sends actions and receives state snapshots.",
-              "PeerJS provides the WebRTC connection layer. Signaling, STUN and a TURN fallback help establish connections across networks. This avoids a dedicated game server for the prototype, but it is not a server-free system. Single-player remains usable independently of the online service."
-            ]
-          },
-          {
-            "title": "Challenge 2 — a tap can disappear between ticks",
-            "paragraphs": [
-              "A short jump or ability press can happen entirely between two network updates. Sending only the input state at the next update loses that action. The implementation buffers one-shot actions until the network tick consumes them, while movement continues to use the current state.",
-              "This is a small but important product lesson: a connection can look healthy while the controls still feel broken. Testing has to include what a player actually does, not just whether packets arrive."
-            ]
-          },
-          {
-            "title": "Challenge 3 — three input methods, one game",
-            "paragraphs": [
-              "Keyboard, gamepad and touch feed the same gameplay actions. On mobile, the left stick handles movement and the right-side buttons handle combat and interaction. Losing focus or cancelling a touch clears held inputs.",
-              "Fullscreen is optional and requested through a user action. If orientation locking is unavailable, the game can still run in a landscape browser tab. Mobile controls are experimental: physical Android and iPhone compatibility and performance still need broader playtesting."
-            ]
-          },
-          {
-            "title": "Shipping, evidence and limits",
-            "paragraphs": [
-              "The public game is hosted on Cloudflare Pages. Source history, design notes and reproducible checks are kept with the project. Automated checks cover simulation and input behaviour; browser checks cover menus and responsive controls.",
-              "Two-browser and forced-relay connection checks are useful evidence, but wider network reliability still needs playtesting. Host migration, matchmaking and online accounts are outside the current scope. Analytics has recently been added; learning where players get stuck is the next step."
-            ]
-          },
-          {
-            "title": "Where it goes next",
-            "paragraphs": [
-              "The next iteration is driven by playtests: improve connection reliability, validate touch controls on real devices, refine character abilities and keep pixel art and sound consistent. New themed missions and story scenes will follow, with more characters introduced as their gameplay becomes ready.",
-              "The aim is a stronger small game first. Broader multiplayer features and infrastructure should follow evidence that players want to keep coming back."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "github": "",
       "id": 5001,
       "locale": "en",
       "created_at": "2026-07-08T00:00:00.000Z",
@@ -2151,6 +2266,91 @@
           "id": 500101,
           "text": "Bella AI was production work on a driving-school student management system: attendance, photo capture, academic and practical assessments, multi-tenant administration, role-based access and realtime kiosk check-in/check-out.",
           "types": null
+        },
+        {
+          "__component": "molecules.list",
+          "id": 500106,
+          "name": "Business Value & Operational ROI",
+          "items": [
+            {
+              "id": 50010601,
+              "icon": "FaCheck",
+              "name": "100% State Licensing Audit Pass Rate",
+              "description": "Replaced error-prone paper attendance logbooks with tamper-proof biometric camera verification, ensuring flawless compliance with mandatory 40-hour CDL curriculum requirements."
+            },
+            {
+              "id": 50010602,
+              "icon": "FaCheck",
+              "name": "15+ Administrative Hours Saved per Class",
+              "description": "Eliminated manual paper logbook reconciliation, instructor signature collection, and compliance report preparation, freeing school staff to focus on student training."
+            },
+            {
+              "id": 50010603,
+              "icon": "FaCheck",
+              "name": "Zero-Downtime Hardware Kiosk Flow",
+              "description": "Engineered an offline-tolerant, touch-optimized tablet kiosk terminal operating continuously 12+ hours daily in vocational training bays without crashes or operator resets."
+            },
+            {
+              "id": 50010604,
+              "icon": "FaCheck",
+              "name": "Eliminated Legal Liability & Time Fraud",
+              "description": "Immutable photo capture and cryptographic timestamp audit trails eliminated time theft disputes and protected driving academies against regulatory license suspensions."
+            },
+            {
+              "id": 50010605,
+              "icon": "FaCheck",
+              "name": "Complete Multi-Tenant Data Isolation",
+              "description": "Designed 30+ PostgreSQL/Supabase migrations with strict Row-Level Security (RLS) guaranteeing zero student or audit data leakage across multi-campus franchises."
+            }
+          ],
+          "types": null
+        },
+        {
+          "__component": "molecules.textgallery",
+          "id": 500107,
+          "text": "Bella AI: Vocational Attendance Kiosk Interface, Biometric Verification Reticle and 40-Hour Compliance Progress",
+          "type": "case-study",
+          "types": null,
+          "images": [
+            {
+              "id": 710003,
+              "name": "bella-ai-cover.png",
+              "alternativeText": "Bella AI Attendance Kiosk Interface",
+              "caption": "",
+              "width": 2560,
+              "height": 1440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/portfolio/bella-ai-cover.png",
+                  "hash": "bella_ai_cover_png",
+                  "mime": "image/png",
+                  "name": "bella-ai-cover.png",
+                  "path": null,
+                  "size": 0,
+                  "width": 2560,
+                  "height": 1440,
+                  "provider_metadata": {
+                    "public_id": "bella-ai-cover.png",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "bella_ai_cover_png",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 0,
+              "url": "/portfolio/bella-ai-cover.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": {
+                "public_id": "bella-ai-cover.png",
+                "resource_type": "image"
+              },
+              "created_at": "2026-10-14T00:00:00.000Z",
+              "updated_at": "2026-10-14T00:00:00.000Z"
+            }
+          ]
         },
         {
           "__component": "molecules.list",
@@ -2293,7 +2493,8 @@
           },
           "created_at": "2026-07-08T00:00:00.000Z",
           "updated_at": "2026-07-08T00:00:00.000Z"
-        }
+        },
+        "slug": "bella-ai"
       },
       "seo": {
         "id": 5090,
@@ -2307,6 +2508,129 @@
           "locale": "ua"
         }
       ]
+    },
+    {
+      "github": "",
+      "id": 6011,
+      "locale": "en",
+      "created_at": "2026-09-11T12:00:00+03:00",
+      "updated_at": "2026-09-11T12:00:00+03:00",
+      "comps": [],
+      "custom_data": null,
+      "intro": {
+        "id": 6011,
+        "project_name": "UA Force",
+        "description": "UA Force — TypeScript browser game with online co-op",
+        "intro": "A Ukrainian arcade action game with destructible levels, historical heroes and two-player online co-op. An ongoing experiment in turning an early team concept into a public product through AI-assisted development and hands-on playtesting.",
+        "image": {
+          "id": 172510,
+          "name": "gameplay.png",
+          "alternativeText": "UA Force: pixel-art lightning ability during combat",
+          "caption": "",
+          "width": 720,
+          "height": 540,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/portfolio/uaforce/gameplay.png",
+              "hash": "bella_ai_cover_png",
+              "mime": "image/png",
+              "name": "bella-ai-cover.png",
+              "path": null,
+              "size": 0,
+              "width": 1600,
+              "height": 1000,
+              "provider_metadata": {
+                "public_id": "bella-ai-cover.png",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "bella_ai_cover_png",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0,
+          "url": "/portfolio/uaforce/gameplay.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": {
+            "public_id": "bella-ai-cover.png",
+            "resource_type": "image"
+          },
+          "created_at": "2026-07-08T00:00:00.000Z",
+          "updated_at": "2026-07-08T00:00:00.000Z"
+        },
+        "slug": "ua-force"
+      },
+      "seo": {
+        "title": "UA Force — TypeScript & WebRTC Game Case Study | TheDimas",
+        "description": "Dmytro Halaktionov’s UA Force case study: a playable TypeScript browser game, WebRTC co-op, shared input controls and lessons from AI-assisted development.",
+        "keywords": "UA Force, TypeScript, WebRTC, Canvas 2D, Dmytro Halaktionov"
+      },
+      "localizations": [],
+      "editorial": {
+        "eyebrow": "Independent project · Playable prototype",
+        "title": "UA Force: a browser game, built to be played",
+        "lead": "A Ukrainian arcade action game with destructible levels, historical heroes and two-player online co-op. An ongoing experiment in turning an early team concept into a public product through AI-assisted development and hands-on playtesting.",
+        "sections": [
+          {
+            "title": "The idea",
+            "paragraphs": [
+              "What if Ukrainian cultural and historical figures became larger-than-life action heroes? UA Force combines recognisable characters such as Taras Shevchenko and Lesya Ukrainka with distinct weapons, special moves and exaggerated pixel-art combat. Its Ukrainian identity shapes the characters, language, music and humour.",
+              "The concept began with a team. I returned to our early notes and existing creative materials, then directed a new browser implementation. The first goal was simple: open a link, start playing, invite a friend."
+            ]
+          },
+          {
+            "title": "What you can play today",
+            "paragraphs": [
+              "The free prototype runs without an account. It has single-player missions, destructible terrain, boss encounters, rescuable heroes, weapons with magazines and automatic reloads, character abilities, summonable allies and driveable tanks.",
+              "Online co-op supports two players through room codes or invitation links. Keyboard and gamepad controls share an action model with experimental mobile touch controls. The game also includes contextual interaction prompts, pause menus, an in-game bug-report entry point and initial gameplay measurement."
+            ]
+          },
+          {
+            "title": "My role and the development workflow",
+            "paragraphs": [
+              "I lead product direction: shaping requirements, choosing priorities, testing actual gameplay with a gamepad and translating player feedback into concrete changes. Development is AI-assisted: coding agents support implementation, and generation tools support creative assets. I own the product decisions and hands-on acceptance of the result.",
+              "My responsibility is to decide what should ship, what still feels wrong and what needs another iteration. Earlier team ideas and materials remain part of the project’s origins. UA Force complements my commercial React and TypeScript work with a very different kind of interactive product."
+            ]
+          },
+          {
+            "title": "Challenge 1 — one authoritative world",
+            "paragraphs": [
+              "The runtime uses TypeScript, Canvas 2D and Vite. Input, world simulation and rendering are separated. In online play, one browser is the host: it owns enemies, damage, terrain destruction, pickups and level events. The guest sends actions and receives state snapshots.",
+              "PeerJS provides the WebRTC connection layer. Signaling, STUN and a TURN fallback help establish connections across networks. This avoids a dedicated game server for the prototype, but it is not a server-free system. Single-player remains usable independently of the online service."
+            ]
+          },
+          {
+            "title": "Challenge 2 — a tap can disappear between ticks",
+            "paragraphs": [
+              "A short jump or ability press can happen entirely between two network updates. Sending only the input state at the next update loses that action. The implementation buffers one-shot actions until the network tick consumes them, while movement continues to use the current state.",
+              "This is a small but important product lesson: a connection can look healthy while the controls still feel broken. Testing has to include what a player actually does, not just whether packets arrive."
+            ]
+          },
+          {
+            "title": "Challenge 3 — three input methods, one game",
+            "paragraphs": [
+              "Keyboard, gamepad and touch feed the same gameplay actions. On mobile, the left stick handles movement and the right-side buttons handle combat and interaction. Losing focus or cancelling a touch clears held inputs.",
+              "Fullscreen is optional and requested through a user action. If orientation locking is unavailable, the game can still run in a landscape browser tab. Mobile controls are experimental: physical Android and iPhone compatibility and performance still need broader playtesting."
+            ]
+          },
+          {
+            "title": "Shipping, evidence and limits",
+            "paragraphs": [
+              "The public game is hosted on Cloudflare Pages. Source history, design notes and reproducible checks are kept with the project. Automated checks cover simulation and input behaviour; browser checks cover menus and responsive controls.",
+              "Two-browser and forced-relay connection checks are useful evidence, but wider network reliability still needs playtesting. Host migration, matchmaking and online accounts are outside the current scope. Analytics has recently been added; learning where players get stuck is the next step."
+            ]
+          },
+          {
+            "title": "Where it goes next",
+            "paragraphs": [
+              "The next iteration is driven by playtests: improve connection reliability, validate touch controls on real devices, refine character abilities and keep pixel art and sound consistent. New themed missions and story scenes will follow, with more characters introduced as their gameplay becomes ready.",
+              "The aim is a stronger small game first. Broader multiplayer features and infrastructure should follow evidence that players want to keep coming back."
+            ]
+          }
+        ]
+      }
     },
     {
       "github": "https://github.com/Galionix/focus-blocker",

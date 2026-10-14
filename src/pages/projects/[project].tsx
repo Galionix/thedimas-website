@@ -195,6 +195,32 @@ export default function Project({
         <title>{project.seo.title}</title>
         <meta name="description" content={project.seo.description} />
         <meta name="keywords" content={project.seo.keywords} />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={project.seo.title} />
+        <meta property="og:description" content={project.seo.description} />
+        <meta property="og:url" content={`https://thedimas.com/${newLocale}/projects/${project.intro.slug || project.intro.project_name}`} />
+        <meta
+          property="og:image"
+          content={
+            project.intro.image.url.startsWith("http")
+              ? project.intro.image.url
+              : `https://thedimas.com${project.intro.image.url}`
+          }
+        />
+        <meta property="og:image:width" content={String(project.intro.image.width || 1200)} />
+        <meta property="og:image:height" content={String(project.intro.image.height || 630)} />
+        <meta property="og:image:alt" content={project.intro.image.alternativeText || project.intro.project_name} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={project.seo.title} />
+        <meta name="twitter:description" content={project.seo.description} />
+        <meta
+          name="twitter:image"
+          content={
+            project.intro.image.url.startsWith("http")
+              ? project.intro.image.url
+              : `https://thedimas.com${project.intro.image.url}`
+          }
+        />
       </Head>
       <Header header_data={header_data} />
       {/* <pre>{JSON.stringify(, null, 2)}</pre> */}

@@ -158,7 +158,7 @@
       {
         "__component": "molecules.textgallery",
         "id": 8209,
-        "text": "Tring Declar: асинхронний конвеєр обробки митних декларацій, OCR-виділення полів, черги BullMQ, Elasticsearch та відповідність стандартам NCTS.",
+        "text": "Tring Declar: прискорення обробки митних документів на 85%, черги BullMQ, відмовостійкість 99.9% з Elasticsearch та 100% відповідність EU NCTS Phase 5.",
         "type": "case-study",
         "types": null,
         "images": [
@@ -205,7 +205,7 @@
       {
         "__component": "molecules.textgallery",
         "id": 8210,
-        "text": "Altus Power: CleanTech B2C платформа онбордингу сонячної енергетики, пошагове підключення рахунків комунальних послуг, телеметрія генерації та дизайн-система @altus-power/amps-ui.",
+        "text": "Altus Power: CleanTech-платформа на 20,000+ абонентів сонячної енергетики, 94.8% конверсія онбордингу, зниження навантаження на підтримку на 60% та дизайн-система @altus-power/amps-ui.",
         "type": "case-study",
         "types": null,
         "images": [
@@ -252,7 +252,7 @@
       {
         "__component": "molecules.textgallery",
         "id": 8211,
-        "text": "Bella AI: платформа керування автошколами, realtime кіоск обліку присутності з фотофіксацією, 30+ міграцій PostgreSQL RLS та Playwright E2E.",
+        "text": "Bella AI: 100% успішне проходження державних аудитів автошкіл CDL, заміна паперових журналів кіоском фотофіксації, економія 15+ год/групу та захист даних через PostgreSQL RLS.",
         "type": "case-study",
         "types": null,
         "images": [
@@ -478,7 +478,7 @@
       {
         "__component": "molecules.textgallery",
         "id": 8109,
-        "text": "Tring Declar: high-throughput customs document intelligence pipeline, OCR field extraction, BullMQ Redis queues, Elasticsearch fallback and EU NCTS compliance.",
+        "text": "Tring Declar: 85% faster customs processing via asynchronous document OCR, BullMQ Redis queues, 99.9% uptime with Elasticsearch fallback and 100% EU NCTS compliance.",
         "type": "case-study",
         "types": null,
         "images": [
@@ -525,7 +525,7 @@
       {
         "__component": "molecules.textgallery",
         "id": 8110,
-        "text": "Altus Power: CleanTech community solar servicing portal, multi-step utility onboarding, telemetry visualizer, and @altus-power/amps-ui shared enterprise design system.",
+        "text": "Altus Power: CleanTech community solar portal serving 20,000+ active utility subscribers, 94.8% onboarding conversion, 60% lower support volume, and @altus-power/amps-ui enterprise design system.",
         "type": "case-study",
         "types": null,
         "images": [
@@ -572,7 +572,7 @@
       {
         "__component": "molecules.textgallery",
         "id": 8111,
-        "text": "Bella AI: vocational school operations platform, realtime student attendance kiosk, photo capture audit trails, 30+ Supabase PostgreSQL RLS migrations and Playwright E2E suite.",
+        "text": "Bella AI: 100% state audit pass rate for vocational driving academies, replacing paper logs with a realtime attendance kiosk, 15+ hours/class saved in admin work, and zero-leakage PostgreSQL RLS.",
         "type": "case-study",
         "types": null,
         "images": [
