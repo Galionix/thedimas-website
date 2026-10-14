@@ -7,7 +7,9 @@ $nice-ease: cubic-bezier(0.57, 0.01, 0, 1.01);
   min-height: var(--site-header-height);
   isolation: isolate;
   z-index: 1000;
-  background-color: var(--main-color);
+  background-color: var(--main-bg-color);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .main_pageWrapper {
@@ -24,11 +26,14 @@ $nice-ease: cubic-bezier(0.57, 0.01, 0, 1.01);
   z-index: 1000;
   width: 100%;
 
+  height: 65px;
   min-height: var(--site-header-height);
-  padding: 20px 0;
-  background-color: var(--main-color);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
 
-  a,button{color: var(--main-bg-color);}
+  a,button{color: var(--main-color);}
   // &::after {
   //   content: "";
   //   position: absolute;
@@ -38,6 +43,7 @@ $nice-ease: cubic-bezier(0.57, 0.01, 0, 1.01);
   //   animation: reveal-bg 1s 5s $nice-ease forwards;
   // }
   ul {
+    width: 100%;
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -88,7 +94,7 @@ $nice-ease: cubic-bezier(0.57, 0.01, 0, 1.01);
   &.main_page {
     // mix-blend-mode: difference;
     // background-clip: text;
-    background-color: var(--main-bg-color);
+    background-color: transparent;
     // background-color: transparent;
     animation: reveal-text 1s 3s $nice-ease forwards;
     opacity: 0;
